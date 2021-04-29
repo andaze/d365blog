@@ -4,7 +4,7 @@ date:   2020-08-05T15:53:27+06:00
 draft: false
 datetitle: "2017.08.23 | Understanding Dynamics 365 /"
 pageHeading: "Understand CRM systems."
-image: "images/artical1.jpg"
+image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
 intro: ""

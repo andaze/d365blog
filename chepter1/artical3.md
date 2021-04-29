@@ -4,7 +4,7 @@ date:   2020-08-05T15:53:27+06:00
 draft: false
 datetitle: "2017.08.26 | Understanding Dynamics 365 /"
 pageHeading: "Features of the Dynamics 365 application"
-image: "images/artical3.jpg"
+image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
 intro: ""

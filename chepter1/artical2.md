@@ -4,7 +4,7 @@ date:   2020-08-05T15:53:27+06:00
 draft: false
 datetitle: "2017.08.25 | Understanding Dynamics 365 /"
 pageHeading: "Why should you choose Dynamics 365?"
-image: "images/artical2.jpg"
+image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
 intro: ""
