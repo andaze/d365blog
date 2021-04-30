@@ -4,7 +4,7 @@ date:   2020-08-05T15:53:27+06:00
 draft: false
 datetitle: "2017.08.23 | Implementing Dynamics 365 /"
 pageHeading: "Purchasing a Dynamics 365 license"
-image: "images/artical2/artical2.jpg"
+image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
 intro: ""
