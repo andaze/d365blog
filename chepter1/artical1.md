@@ -7,7 +7,7 @@ pageHeading: "Understand CRM systems."
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Have you ever heard of Dynamics 365 provided by Microsoft? Microsoft Dynamics 365 is a business application that integrates and utilizes data from various departments such as sales, marketing, accounting, general affairs, and human resources into a single application.

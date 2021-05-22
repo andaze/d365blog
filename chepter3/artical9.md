@@ -7,7 +7,7 @@ pageHeading: "Data import in Dynamics 365 Excel Online"
 image: "images/artical9/artical9.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the previous article, we introduced the process of importing data using an import template. This method can be very useful when importing initial data. In this article, I will describe how to import data dynamically in Excel Online based on the view you have created instead of using a template.

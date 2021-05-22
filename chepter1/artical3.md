@@ -7,7 +7,7 @@ pageHeading: "Features of the Dynamics 365 application"
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro -->
 In the previous article, I have explained why I recommend Dynamics 365 as a CRM system. In that article, I mentioned some of the applications available in Dynamics 365. In this section, I will introduce each application, starting from the sales support system to marketing, support services, project management, and human resources.

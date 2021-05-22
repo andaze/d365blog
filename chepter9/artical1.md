@@ -7,7 +7,7 @@ pageHeading: "Setting up Dynamics 365 for Marketing"
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Have you ever heard of a marketing support application called Dynamics 365 for Marketing?

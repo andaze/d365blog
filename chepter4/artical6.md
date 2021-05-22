@@ -7,7 +7,7 @@ pageHeading: "Leverage Dynamics 365 trading partners and trading counterparts"
 image: "images/artical6/artical6.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now that I have told you about the sales projects and related activities, I will mention the parent entity, the client company and the client representative.

@@ -7,7 +7,7 @@ pageHeading: "Manage everything from estimates to invoices with Dynamics 365"
 image: "images/artical13/artical13.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 So far, we have discussed sales projects and products in detail. If the business meeting goes well, we will prepare a quotation for the customer. If the quotation is accepted, the sales case is put in the "order" status, and an invoice is prepared and submitted to the customer.

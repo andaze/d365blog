@@ -7,7 +7,7 @@ pageHeading: "Let's learn about the basics of Dynamics 365."
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the last issue, we wrote an article about accessing Dynamics 365 from the admin center.

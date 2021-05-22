@@ -7,7 +7,7 @@ pageHeading: "Create a quote with Word template"
 image: "images/artical20/artical20.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Here is a summary of the steps to create your own quote using the Word template.

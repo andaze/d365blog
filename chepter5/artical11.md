@@ -7,7 +7,7 @@ pageHeading: "Customize Dynamics 365 web resources and processes"
 image: "image/artical11/artical11.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the previous article, we talked about "entities" and "option sets" rather than system customization. What other customizations can be done?

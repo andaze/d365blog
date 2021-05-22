@@ -7,7 +7,7 @@ pageHeading: "Troubleshoot PSA Schedule Board"
 image: "images/artical7/artical7.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 As I mentioned when I planned a project in Dynamics 365 for Project Service Automation (PSA), Project Service seems to behave differently depending on the interface and version differences.

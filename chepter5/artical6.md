@@ -7,7 +7,7 @@ pageHeading: "Using Dynamics 365 business rules"
 image: "image/artical6/artical6.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 has a feature called Business Rules. Normally, Javascript implementation is required to hide fields or perform operations according to conditions on a form. However, this feature eliminates the need for script implementation and allows users to easily set up the rules required for their business.

@@ -7,7 +7,7 @@ pageHeading: "Managing Dynamics 365 Entities"
 image: "image/artical7/artical7.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Learn how to manage Dynamics 365 entities, including creating, editing, and deleting them.

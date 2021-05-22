@@ -7,7 +7,7 @@ pageHeading: "Basic operation of Dynamics 365 processes"
 image: "image/artical5/artical5.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the previous article, "Creating a Process in Dynamics 365", we have discussed the steps to create a workflow for a process.

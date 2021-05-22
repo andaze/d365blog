@@ -7,7 +7,7 @@ pageHeading: "Purchasing a Dynamics 365 license"
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 So far, we have been preparing for the implementation of Dynamics 365.

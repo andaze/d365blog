@@ -7,7 +7,7 @@ pageHeading: "Create a project in the Project Service"
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 This is a continuation of the previous article, where we created a sales case from a lead in Dynamics 365 for Project Service Automation (Project Service), and now we are going to create a project.

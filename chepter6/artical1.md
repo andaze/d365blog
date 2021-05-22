@@ -7,7 +7,7 @@ pageHeading: "Save the Dynamics 365 document to SharePoint"
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 provides storage space based on the number of licenses. If you use the trial version of Dynamics 365, you will only have about 5GB of storage space, so if you upload attachments to your business partners' records, you will quickly run out of storage space.

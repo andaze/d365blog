@@ -7,7 +7,7 @@ pageHeading: "Managing a Dynamics 365 Instance"
 image: "image/artical9/artical9.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Let's take a look at what you can do in the Dynamics 365 admin center.

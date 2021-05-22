@@ -7,7 +7,7 @@ pageHeading: "Scenarios for using Dynamics 365 in sales"
 image: "images/artical7/artical7.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 The purpose of implementing Dynamics 365 has become clearer, and with the cooperation of each department, we are now able to visualize to some extent the follow-up system after implementation.

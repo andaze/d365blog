@@ -7,7 +7,7 @@ pageHeading: "Ribbon Workbench: Show and Hide Buttons by Field Value"
 image: "images/artical6/artical6.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 You can use Ribbon Workbench to show or hide the buttons.

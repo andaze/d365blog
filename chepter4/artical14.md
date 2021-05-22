@@ -7,7 +7,7 @@ pageHeading: "Using Graphs in Dynamics 365"
 image: "images/artical14/artical14.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 By using Dynamics 365 and continuing to effectively manage your sales activities, you will accumulate enough data in Dynamics 365 to consider your sales strategy.

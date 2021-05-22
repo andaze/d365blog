@@ -7,7 +7,7 @@ pageHeading: "Scenarios for using Dynamics 365 in marketing"
 image: "images/artical8/artical8.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the scenario of using Dynamics 365 in sales, we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing? Nowadays, more than sales activities, how to effectively conduct marketing activities to increase the number of potential customers is becoming an indispensable part of a company's survival strategy.

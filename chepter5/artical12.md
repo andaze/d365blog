@@ -7,7 +7,7 @@ pageHeading: "Recommended third-party solutions"
 image: "image/artical12/artical12.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 The beauty of Dynamics 365 is that there are many solutions available to assist and augment its functionality, but what solutions can further extend the capabilities of Dynamics 365?

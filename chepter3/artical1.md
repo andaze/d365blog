@@ -7,7 +7,7 @@ pageHeading: "About Dynamics 365 licensing costs"
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Once you have created a tenant instance of Dynamics 365, here are the steps to add users to Dynamics 365.

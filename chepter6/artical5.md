@@ -7,7 +7,7 @@ pageHeading: "Using Dynamics 365 for Outlook"
 image: "images/artical5/artical5.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 One of the most useful features of Dynamics 365 is its integration with Outlook.

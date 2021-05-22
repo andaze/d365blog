@@ -7,7 +7,7 @@ pageHeading: "Dynamics 365 Instance NORMALITY"
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 We have been managing instances of Dynamics 365 by operating the Management Center. Now we will introduce how to manage the instances to make sure they are working properly.

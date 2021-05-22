@@ -7,7 +7,7 @@ pageHeading: "Dynamics 365 Extensions - Workflow Tools"
 image: "images/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously recommended in What is the best third party solution?

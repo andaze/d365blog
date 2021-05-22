@@ -7,7 +7,7 @@ pageHeading: "Configure Dynamics 365 Field Security"
 image: "images/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 We have talked about security in terms of roles, departments, and teams. I think it's safe to say that this knowledge is enough to set up security in your company.

@@ -7,7 +7,7 @@ pageHeading: "Update the Project Service working template"
 image: "images/artical9/artical9.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 This section describes how to update a work template in Dynamics 365 for Project Service Automation. In this tutorial, you will learn how to create a work template in Project Service.

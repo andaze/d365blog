@@ -7,7 +7,7 @@ pageHeading: "Exporting Dynamics 365 data to Azure SQL"
 image: "images/artical5/artical5.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 We will show you how to export Dynamics 365 data to Azure SQL Server using an add-on service called Data Export Service.

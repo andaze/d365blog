@@ -7,7 +7,7 @@ pageHeading: "Dealing with inability to send and receive Marketing emails (free 
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 I have found a problem in sending and receiving marketing emails using Dynamics 365 for Marketing free version.

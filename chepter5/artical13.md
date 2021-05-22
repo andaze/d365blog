@@ -7,7 +7,7 @@ pageHeading: "Countermeasures against infinite loops in workflow processes"
 image: "image/artical13/artical13.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 The workflow process in Dynamics 365 is a useful feature that allows you to do many things without coding, from updating, creating and deleting data to assigning and sending emails. In addition to the default workflow processes, you can import third-party workflow solutions such as those found in Workflow Heroes, which allow you to create workflow processes for many of your users' needs, such as record sharing, date and decimal arithmetic, and more. You can import third-party workflow solutions such as those found in

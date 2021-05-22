@@ -7,7 +7,7 @@ pageHeading: "Linking Dynamics 365 and Yammer for interactive information exchan
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 One of the features of Dynamics 365 for external system integration is the integration with Yammer; if you are using Yammer internally, you can use it with Dynamics 365 to actively exchange information about customers and business meetings internally.

@@ -7,7 +7,7 @@ pageHeading: "Create Dynamics 365 product families and bundles"
 image: "images/artical9/artical9.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the previous article, we created a single product and even a discount table. In this article, we will configure a product family and associate a product to the family. We will now discuss how to use product families.

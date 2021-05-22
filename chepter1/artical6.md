@@ -7,7 +7,7 @@ pageHeading: "Instructions for using the Dynamics 365 free trial version [as of 
 image: "images/artical6/artical6.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 If you are still considering to introduce Dynamics 365, I recommend you to try the free trial version to get a better understanding of the usability and operation. In particular, the Dynamics 365 blog provides detailed information about the functions, uses, and setup procedures of each Dynamics 365 application, so it is an important step to deepen your understanding by actually touching it with your own hands.

@@ -7,7 +7,7 @@ pageHeading: "Five important decisions to make before implementing Dynamics 365"
 image: "images/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now that you understand the various applications provided by Dynamics 365, you can use Dynamics 365 not only for SFA but also for HR, accounting, marketing and project management. Dynamics 365 can be used not only for SFA but also for HR, accounting, marketing and project management.

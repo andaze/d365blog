@@ -7,7 +7,7 @@ pageHeading: "About Dynamics 365 Hierarchical Security Settings"
 image: "images/artical5/artical5.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In addition to security roles that control security on a per-entity basis, field security on a per-field basis, and department and team security for managing user affiliations, Dynamics 365 has an evolving security concept called hierarchical security.

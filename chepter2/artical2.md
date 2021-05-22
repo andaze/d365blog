@@ -7,7 +7,7 @@ pageHeading: "Let's think about the implementation schedule and procedures for D
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Once the purpose of implementing CRM and Dynamics 365 is clarified, it will be easier to consider the next step, which is how soon to implement them.

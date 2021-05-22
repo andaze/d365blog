@@ -7,7 +7,7 @@ pageHeading: "Dynamics 365 for Marketing Free Edition Setup [2019.04]"
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 We have already explained how to use the free version of Dynamics 365. In the past, Marketing was listed in this list of free versions, but now it is not. I contacted Microsoft, and they seem to be offering the free version of Marketing at a different URL, so here is the procedure.

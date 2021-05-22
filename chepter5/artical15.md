@@ -7,7 +7,7 @@ pageHeading: "Adjust the sitemap in the settings"
 image: "image/artical14/artical15.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 When you create a Dynamics 365 app, it will be created as a unified interface (mobile-driven app) due to the current integration with Power Apps. This is where the advanced settings can be opened to the general public, but I found out that the settings can be fine-tuned, so I will describe them here.

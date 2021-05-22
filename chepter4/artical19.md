@@ -7,7 +7,7 @@ pageHeading: "Track the latest activity on your Dynamics 365 wall"
 image: "images/artical19/artical19.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 When I introduced the Dynamics 365 dashboard, I mentioned the wall.

@@ -7,7 +7,7 @@ pageHeading: "Set XRM ToolBox to hide the sitemap."
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this article, I will show you how to use a third party customization tool called XRM ToolBox to make the "Settings" sitemap visible only to users with administrative privileges.

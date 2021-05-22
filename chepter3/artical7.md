@@ -7,7 +7,7 @@ pageHeading: "Configuring Dynamics 365 Apps"
 image: "images/artical7/artical7.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this section, we will talk a little bit about Dynamics 365 applications.

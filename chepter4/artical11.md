@@ -7,7 +7,7 @@ pageHeading: "Use the Dynamics 365 discount table to get a better deal."
 image: "images/artical11/artical11.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 With the product families we have created previously, we can now manage our sales case records more efficiently. Now, there will come a time when you need to adjust the final price of the deal. This is where the discount table comes into play.

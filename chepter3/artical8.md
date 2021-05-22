@@ -7,7 +7,7 @@ pageHeading: "How to deal with Dynamics 365 import errors"
 image: "images/artical8/artical8.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In the previous article, we have shown you how to import data using Excel template, but if an error occurs during data import, what should you do?

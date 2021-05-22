@@ -7,7 +7,7 @@ pageHeading: "Try to embed Javascript code in Dynamics 365"
 image: "images/artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Forms in Dynamics 365 allow you to insert web resources, which allow you to add HTML, Javascript, image files and Silverlight applications, giving you relative flexibility in customizing your forms.

@@ -7,7 +7,7 @@ pageHeading: "Creating a Dynamics 365 Process"
 image: "image/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 has a feature called Processes that allows you to model your business methods and automate specific processes. There are four main types of processes. (The following is taken from the technical information)

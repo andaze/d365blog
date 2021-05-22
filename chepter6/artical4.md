@@ -7,7 +7,7 @@ pageHeading: "Retrieve data from on-premises SQL Server"
 image: "images/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 can be integrated with PowerApps, Flow, and Power BI, called Power Platform, to further enhance its value. If you have a Dynamics 365 Customer Engagement Plan license, you should definitely take advantage of this application.

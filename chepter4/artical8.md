@@ -7,7 +7,7 @@ pageHeading: "Boost your sales force with Dynamics 365 product catalogs"
 image: "images/artical8/artical8.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 So far, we have discussed how to manage sales deals that have been rated as "promising" by the lead.

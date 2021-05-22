@@ -7,7 +7,7 @@ pageHeading: "Let's try to use Dynamics 365 leads."
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now, we will use the Dynamics 365 sales entity while weaving in the previous scenario.

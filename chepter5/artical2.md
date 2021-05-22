@@ -7,7 +7,7 @@ pageHeading: "Backup and Restore of Dynamics 365 Instances"
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 This article is the last one about Dynamics instances. In this article, we will show you how to backup and restore an instance.

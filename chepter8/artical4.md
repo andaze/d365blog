@@ -7,7 +7,7 @@ pageHeading: "Plan your project with Project Service"
 image: "images/artical4/artical4.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now that we have completed the creation of the previous project, let's fill in the contents of the project.

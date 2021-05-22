@@ -7,7 +7,7 @@ pageHeading: "Integrate Dynamics 365 and Power Bi to enhance dashboards"
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 has an existing dashboard function, but if you integrate Power BI, you will be able to check information more graphically.

@@ -7,7 +7,7 @@ pageHeading: "Dynamics 365 Security Basic Settings"
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now that we have added a user in Dynamics 365, let's understand the basic security structure and settings.

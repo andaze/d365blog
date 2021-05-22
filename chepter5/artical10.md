@@ -7,7 +7,7 @@ pageHeading: "Customization of Dynamics 365 entities and option sets"
 image: "image/artical10/artical10.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 From the Dynamics 365 menu, click on Settings - Customize System to open the Solution Explorer as shown below.

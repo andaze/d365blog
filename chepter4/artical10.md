@@ -7,7 +7,7 @@ pageHeading: "Manage properties of Dynamics products"
 image: "images/artical10/artical10.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 The following is a continuation of the previous article on product properties.

@@ -7,7 +7,7 @@ pageHeading: "Using Dynamics 365 Calculated Fields"
 image: "image/artical8/artical8.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this article, I will give a brief introduction to calculated fields in Dynamics 365.

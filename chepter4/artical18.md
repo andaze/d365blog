@@ -7,7 +7,7 @@ pageHeading: "Analyze data with Dynamics 365 reporting functions"
 image: "images/artical18/artical18.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Dynamics 365 allows users to generate fetch-based reports using the Report Wizard. This feature can be used by users to collect and analyze data in a simplified manner.

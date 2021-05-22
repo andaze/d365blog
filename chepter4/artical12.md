@@ -7,7 +7,7 @@ pageHeading: "Leveraging cross-selling and up-selling of Dynamics 365 products"
 image: "images/artical12/artical12.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In sales activities, up-selling and cross-selling are necessary activities to increase customer profitability.

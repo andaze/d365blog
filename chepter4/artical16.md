@@ -7,7 +7,7 @@ pageHeading: "Managing Goals in Dynamics 365"
 image: "images/artical16/artical16.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this article, we will talk about goals in Dynamics 365. In Dynamics 365, you can define goal indicators to manage your goals.

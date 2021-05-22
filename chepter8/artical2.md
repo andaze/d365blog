@@ -7,7 +7,7 @@ pageHeading: "Create sales proposals from leads in Project Service"
 image: "images/artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 Now that we have completed the structure and configuration of Dynamics 365 for Project Service Automation (PSA), let's create a project and start managing it.

@@ -7,7 +7,7 @@ pageHeading: "Visualize information in the Dynamics 365 dashboard"
 image: "images/artical17/artical17.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 I have been informing you about the sales features of Dynamics 365. Now that you understand graphs, funnels, and goal management, let's touch on dashboards. 

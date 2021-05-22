@@ -7,7 +7,7 @@ pageHeading: "Changes to the method of applying major updates [2019.08]"
 image: "image/artical14/artical14.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 To be honest, I think the major update of Dynamics 365 is an update that makes the operation and maintenance department cry.

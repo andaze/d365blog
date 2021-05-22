@@ -7,7 +7,7 @@ pageHeading: "Launching a Process in a Dynamics 365 Batch"
 image: "images/artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this case, we're using a solution from Microsoft Labs.

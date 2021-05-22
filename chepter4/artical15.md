@@ -7,7 +7,7 @@ pageHeading: "Managing Leads with Sales Funnels in Dynamics 365"
 image: "images/artical15/artical15.png"
 Author: "Takafumi Noguchi"
 authorimage: "images/authorimage.jpg"
-intro: ""
+linkdin: ""
 ---
 <!-- Intro  -->
 In this article, I would like to talk about the "Sales Funnel", which I mentioned in the section "Using Graphs in Dynamics 365".
