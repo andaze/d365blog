@@ -1,0 +1,9 @@
+baseURL = "http://localhost/dynamic365Build"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

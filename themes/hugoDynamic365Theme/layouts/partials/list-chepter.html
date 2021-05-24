@@ -1,0 +1,103 @@
+<!-- Olda COde  -->
+<!-- <div class="row">
+    <div class="col-3">
+        <ul style="list-style-type: none;">         -->
+            <!-- Show Artical Code in SideBar-->
+            <!-- {{ range .Pages }}
+                <li class="p-2" style="font-weight: 500;">{{ .Title }}</li>
+            {{ end }}     -->
+            <!-- show Chepter Code in SideBar -->
+            <!-- {{ with .Site.GetPage "/" }}
+            {{ range .Sections }}
+                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .URL | absURL }}">{{ .Params.Heading }}</a></li>
+            {{ end }}
+            {{ end }}
+        </ul>                
+    </div>
+    <div class="col-9">
+        <div class="row">
+            <div class="col">
+                {{ $folder:= .Permalink }}
+                {{ $getpage:= path.Base $folder}}
+                {{ with .Site.GetPage $getpage }}
+                    <h3>{{ .Params.Title  }}</h3>
+                    <p style="color: black; padding-top: 10px; font-size: 20px;">{{ .Params.Intro }}</p>
+                {{ end }}
+               
+                {{ $folder:= .Permalink }}
+                {{ $getpage:= path.Base $folder}}
+                    <p class="card-text">{{ $section := site.GetPage $getpage }}
+                        <div class="row">
+                            {{ range $section.Pages.ByWeight }} 
+                            <div class="col-6 p-2">
+                                <div class="card">
+                                    <div class="card-body"><a style="list-style-type: none;" href="{{ .URL | absURL }}">{{ .Title }}</a></a></div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </p>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- <div class="row">
+    
+    <div class="col" style="text-align: center;">
+        {{with .Site.Pages.Prev . }}
+            <button class="btn btn-success btn-lg"><a style="color: white;" href="{{.Permalink}}"> {{.Title}} </a> </button>
+        {{end}}
+    </div>
+    
+</div> -->
+
+
+
+<!-- New Code -->
+<main>
+    <section>
+        <div class="full-container">
+            <div class="page-wrapper">
+                <div class="left-page-wrapper">
+                    <div class="navigation">
+                        <ul class="navigation-list">
+                            {{ with .Site.GetPage "/" }}
+                            {{ range .Sections }}
+                            <li>
+                                <a href= "{{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{ .Params.Heading }}</a>
+                                <!-- <ul class="sub-navigation-list" id="aboutMenu" hidden>
+                                    <li><a href="#">Overview</a></li>
+                                </ul> -->
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+                <div class="list-page-wrapper">
+                    <div class="inner-wrapper-page">
+                        <h1>{{.Params.Heading}}</h1>
+                        <p>{{ .Content }}</p>
+                        <div class="listing-container mb-5">
+                            {{ $folder:= .Permalink }}
+                            {{ $getpage:= path.Base $folder}}
+                            {{ $section := site.GetPage $getpage }}
+                            {{ range $section.Pages.ByWeight }} 
+                            <div class="listing-card">
+                                <div class="inner-card">
+                                    <h3 class="header-text"><a href="{{ .URL | absURL }}" class="text-primary">{{ .Title }}</a></h3>
+                                    <p class="desc">Hugo uses Go’s html/template and text/template libraries as the
+                                        basis for
+                                        the templating.
+                                    </p>
+                                    <a href="{{ .URL | absURL }}" class="link-btn text-primary">Read More</a>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

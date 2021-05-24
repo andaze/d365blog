@@ -1,0 +1,26 @@
+# baseURL = "http://localhost/dynamic365Build/en/dynamic/"
+# baseURL = "https://amptest.ameio.in/"
+baseURL = "https://hugoDynamic365/"
+
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugoDynamic365Theme"
+[Languages]
+############ 1 - Site en Japanese
+[Languages.jp]
+languageName = "JP"
+weight = 1
+languageCode = "jp-jp"
+
+############ 1 - Site en Japanese
+[Languages.en]
+languageName = "EN"
+weight = 2
+languageCode = "en-en"
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

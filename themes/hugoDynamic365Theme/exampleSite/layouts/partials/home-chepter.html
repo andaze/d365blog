@@ -1,0 +1,200 @@
+<!-- Old COde -->
+
+<!-- {{ with .Site.GetPage "/" }}
+{{ range .Sections }}
+<div class="row pt-2">
+    <div class="col">
+        <div class="card" >
+            <div class="card-body">
+                <a href="{{.URL}}" style="color: black; text-decoration: none;">
+                    <h5 class="card-title bg-secondary p-3" style="text-align: center;">{{ .Params.Heading }}</h5>
+                    <p class="card-text" style="font-size: 20px;">{{ .Params.Intro }}</p>
+                </a>
+                
+                {{ $folder:= .Permalink }}
+                {{ $getpage:= path.Base $folder}}
+                <p class="card-text">{{ $section := site.GetPage $getpage }}
+                    <div class="row">
+                        {{ range $section.Pages}}
+                        {{ if and  (.Params.Showinhome) (not (.Params.Showinaccordian)) }} 
+                        <div class="col-6 p-2"><a class="bg-secondary p-2" style="color: white;" href="{{.URL | absURL }}">{{ .Title }}</a></div>
+                        {{ end }}
+                        {{ end }}
+
+                    </div>
+                    <div class="row">
+                        <div class="col p-2">
+                            <h6 style="background-color: lightgray; padding: 10px;"> Learn more about Dynamics </h6>
+                            {{ range $section.Pages}}
+                            {{ if and  (.Params.Showinhome) (.Params.Showinaccordian) }} 
+                            <div class="col-6 p-2"><a class="bg-secondary p-2" style="color: white;" href="{{.URL | absURL }}">{{ .Title }}</a></div>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>  
+</div>
+{{ end }}
+{{ end }} -->
+
+
+<!-- New Code -->
+
+<main>
+    <section>
+        <div class="container">
+            <h2 class="text-primary df jcc main-heading">Dynamics 365 blog</h2>
+            <div class="banner">
+                <h1>{{ .Params.Heading }}</h1>
+                <div class="banner-section df">
+                    <div class="banner-left f-50">
+                        <amp-img layout="fill"
+                            src="https://dynamics365.andaze.com/wp-content/uploads/2018/12/520229161-e1545899884689.jpg"
+                            alt="Welcome"></amp-img>
+                    </div>
+                    <div class="banner-right f-50">
+                        <p>{{ .Content }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider mt-5 mb-5"></div>
+        </div>
+
+    </section>
+    {{ with .Site.GetPage "/" }}
+    {{ range .Sections }}
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="card-media">
+                    <amp-img layout="fill"
+                        src="https://dynamics365.andaze.com/wp-content/uploads/2018/12/1093424588-e1545883122695.jpg">
+                    </amp-img>
+                    <span class="step-box df aic jcc text-primary">{{.Params.Step}}</span>
+                </div>
+                <div class="card-content">
+                    <h2>{{ .Params.Heading }}</h2>
+                    {{ .Content }}
+
+                    {{ $folder:= .Permalink }}
+                    {{ $getpage:= path.Base $folder}}
+                    {{ $section := site.GetPage $getpage }}
+                    <div class="btn-group row df fw">
+                        {{ range $section.Pages}}
+                        {{ if and  (.Params.Showinhome) (not (.Params.Showinaccordian)) }} 
+                        <div class="col">
+                            <a href="{{.URL | absURL }}" class="btn df aic">
+                                {{ .Title }}
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95" height="15.546"
+                                        viewBox="0 0 15.95 15.546">
+                                        <path id="arrow-right-solid"
+                                            d="M6.782,38.691l.79-.79a.851.851,0,0,1,1.207,0l6.92,6.917a.851.851,0,0,1,0,1.207l-6.92,6.92a.851.851,0,0,1-1.207,0l-.79-.79A.855.855,0,0,1,6.8,50.934l4.29-4.087H.854A.852.852,0,0,1,0,45.993V44.853A.852.852,0,0,1,.854,44H11.085L6.8,39.912A.849.849,0,0,1,6.782,38.691Z"
+                                            transform="translate(0 -37.65)" fill="#000" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+
+                    <amp-accordion animate expand-single-section>
+                        <section class="accordian">
+                            <h4 class="accordian-header">Learn more about Dynamics
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10.667"
+                                        viewBox="0 0 12 10.667">
+                                        <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,10.667H0Z"
+                                            transform="translate(12 10.667) rotate(180)" fill="#fff" />
+                                    </svg>
+                                </span>
+                            </h4>
+                            <div class="accordian-body">
+                                <div class="btn-group row df fw">
+                                    {{ range $section.Pages}}
+                                    {{ if and  (.Params.Showinhome) (.Params.Showinaccordian) }} 
+                                    <div class="col">
+                                        <a href="{{.URL | absURL }}" class="btn df aic">
+                                            {{ .Title }}
+                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95"
+                                                    height="15.546" viewBox="0 0 15.95 15.546">
+                                                    <path id="arrow-right-solid"
+                                                        d="M6.782,38.691l.79-.79a.851.851,0,0,1,1.207,0l6.92,6.917a.851.851,0,0,1,0,1.207l-6.92,6.92a.851.851,0,0,1-1.207,0l-.79-.79A.855.855,0,0,1,6.8,50.934l4.29-4.087H.854A.852.852,0,0,1,0,45.993V44.853A.852.852,0,0,1,.854,44H11.085L6.8,39.912A.849.849,0,0,1,6.782,38.691Z"
+                                                        transform="translate(0 -37.65)" fill="#000" />
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </section>
+                    </amp-accordion>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
+    
+    <section class="mb-5">
+        <div class="container">
+            <div class="contact-container">
+                <h2 class="text-center text-primary mt-0">Contact Us</h2>
+                <h4 class="text-center">Do you have any questions or concerns?</h4>
+                <p class="text-center">Please contact us if you have any opinions that are difficult to understand
+                    or that you would
+                    like to know more deeply.
+                    We will provide you with more detailed and easy-to-understand information.</p>
+                <div class="inner-contact-container df">
+                    <div class="contact-left">
+                        <div class="contact-image">
+                            <amp-img layout="fill" src="images/contactus.svg" alt="Welcome"></amp-img>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form class="sample-form" method="post"
+                            action-xhr="/documentation/examples/api/submit-form-input-text-xhr" target="_top">
+                            <div class="form-field">
+                                <label class="field-label">
+                                    <amp-img layout="fixed" src="images/user-solid.svg" width="16" height="16"
+                                        alt="Welcome"></amp-img> Name
+                                </label>
+                                <input type="text" id="show-all-on-submit-name" name="name"
+                                    placeholder="Enter your name" />
+                            </div>
+                            <div class="form-field">
+                                <label class="field-label">
+                                    <amp-img layout="fixed" src="images/envelope-solid.svg" width="16" height="16"
+                                        alt="Welcome"></amp-img> Email address
+
+                                </label>
+                                <input type="text" id="show-all-on-submit-name" name="name"
+                                    placeholder="Enter your email" />
+                            </div>
+                            <div class="form-field">
+                                <label class="field-label">
+                                    <amp-img layout="fixed" src="images/comment-solid.svg" width="16" height="16"
+                                        alt="Welcome"></amp-img> Message body
+                                </label>
+                                <textarea autoexpand rows="8"></textarea>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="policy" name="policy" value="policy">
+                                <label for="policy">Please check your privacy policy and check it before
+                                    sending.</label>
+
+                            </div>
+                            <input class="submit-btn" type="submit" value="Send with this content">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
