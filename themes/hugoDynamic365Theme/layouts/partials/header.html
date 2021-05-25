@@ -67,7 +67,7 @@
                 </ul>
               </li>
               <li>
-                <!-- {{ $Scratch := newScratch}}
+                {{ $Scratch := newScratch}}
                 {{ $Scratch.Set "newUrl" "" }} 
                   
                   <select class="border-0 langselector" onchange="location = this.value;">
@@ -95,23 +95,6 @@
                       {{ end }}
                       {{ end }}
                     {{ end }}
-                  </select> -->
-                  <select class="border-0 langselector" onchange="location = this.value;">
-                    {{ $siteLanguages := site.Languages}}
-                    {{ $pageLang := .Page.Lang}}
-                        {{ range .Page.AllTranslations }}
-                        {{ $translation := .}}
-                        {{ range $siteLanguages }}
-                            {{ if eq $translation.Lang .Lang }}
-                            {{ $selected := false }}
-                            {{ if eq $pageLang .Lang}}
-                              <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
-                            {{ else }}
-                              <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                            {{ end }}
-                            {{ end }}
-                        {{ end }}
-                        {{ end }}
                   </select>
               </li>
             </ul>
@@ -209,3 +192,25 @@
       </form>
     </div>
   </div>
+
+
+
+
+  <!-- FOr Local  -->
+  <!-- <select class="border-0 langselector" onchange="location = this.value;">
+                    {{ $siteLanguages := site.Languages}}
+                    {{ $pageLang := .Page.Lang}}
+                        {{ range .Page.AllTranslations }}
+                        {{ $translation := .}}
+                        {{ range $siteLanguages }}
+                            {{ if eq $translation.Lang .Lang }}
+                            {{ $selected := false }}
+                            {{ if eq $pageLang .Lang}}
+                              <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                            {{ else }}
+                              <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                            {{ end }}
+                            {{ end }}
+                        {{ end }}
+                        {{ end }}
+                  </select> -->

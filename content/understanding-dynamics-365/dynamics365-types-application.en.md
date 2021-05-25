@@ -1,9 +1,7 @@
 ---
 title:  "Features of the Dynamics 365 application"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 3
-heading: "Features of the Dynamics 365 application"
 datetitle: "2017.08.23 | "
 image: "artical3/artical3.jpg"
 Author: "Takafumi Noguchi"

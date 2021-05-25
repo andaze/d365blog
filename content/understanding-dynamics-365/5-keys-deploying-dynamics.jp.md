@@ -1,9 +1,7 @@
 ---
 title:  "Dynamics 365 を導入する前に重要な５つの決め事"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 4
-heading: "Dynamics 365 を導入する前に重要な５つの決め事"
 datetitle: "2017.08.23 | "
 image: "artical4/artical4.jpg"
 Author: "Takafumi Noguchi"

@@ -1,82 +1,3 @@
-<!-- Old Code -->
-<!-- <div class="row">
-    <div class="col-3">
-        <ul style="list-style-type: none;">
-            {{ $getpage:= .File.Dir }}
-            {{ $section := site.GetPage (trim $getpage "\\") }}
-            {{ range $section.Pages.ByWeight }} 
-                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .URL | absURL }}">{{ .Title }}</a></li>
-        {{ end }}
-        </ul>   
-    </div>
-    <div class="col-6">
-        <div class="row">
-            <div class="col">                
-                <h5 style="color: darkgray;">{{.Params.Datetitle}} {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/</h5>
-                {{ if .Params.Heading }}
-                <h3 style=" font-size:30px;font-weight: 900;">{{.Params.Heading}}</h3>
-                {{ end }}
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                {{ if .Params.Image }}
-                <img src="../../{{.Params.Image}}" alt="Image Not Available" srcset="" width="100%">
-                {{ end }}
-            </div>
-        </div>
-        <div class="row" style="text-align: -webkit-right;">
-            <div class="col">
-                {{ if .Params.Author}}
-                <table>
-                    <tr>
-                        <td>
-                            <img src="../../{{.Params.Authorimage}}" class="rounded-circle" alt="" width="80px" height="80px">
-                        </td>
-                        <td>
-                            <h6 style="color: darkgray; font-weight: 700; font-size: 20px;">Author:{{.Params.Author}}</h6>
-                            <h6 style="font-size: 20px;"><a href=""> linkedIn</a></h6>
-                        </td>
-                    </tr>
-                </table> 
-                {{ end }} 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col" style="color: darkgray; font-size: 22px; font-weight: 600;">
-                {{ if .Content }}<p>{{ .Content }}</p>{{ end }}
-            </div>
-
-        </div>
-        
-    </div>
-    <div class="col-3" style="color:darkgray !important;">
-        <h6 style="font-weight: bold;">{{ .TableOfContents }}</h6>
-    </div>
-</div>
-<div class="row">
-    
-    <div class="col" style="text-align: center;">
-        {{if .NextInSection}}
-        <button class="btn btn-success "><a style="color: white;" href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} </a> </button>
-        {{end}}
-    </div>
-    <div class="col" style="text-align: center;">
-        {{if .PrevInSection}}
-        <button class="btn btn-success "><a style="color: white;" href="{{.PrevInSection.Permalink}}"> {{.PrevInSection.Title}} </a> </button>
-        {{end}}
-    </div>
-</div>
-<hr>
-<div class="row">
-    <div class="col">
-            {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-            {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
-
-    </div>
-</div> -->
-
-<!-- New Code -->
 <main>
     <section>
       <div class="full-container">
@@ -106,9 +27,9 @@
           <div class="middle-page-wrapper">
             <div class="inner-wrapper">
               <div class="top-header">
-                {{.Params.Datetitle}}  {{ with .Site.GetPage (trim $getpage "\\") }}<a href="{{ .URL | absURL }}" class="title">{{.Title}}</a>{{ end }}/ 
-                {{ if .Params.Heading }}
-                <h1 class="main-title">{{.Params.Heading}}</h1>
+                {{.Params.Datetitle}}   {{ with .Site.GetPage (trim $getpage "\\") }} <a href="{{ .URL | absURL }}" class="title">{{trim $getpage "\\"}}</a>/ {{ end }}
+                {{ if .Title }}
+                <h1 class="main-title">{{ .Title }}</h1>
                 {{ end }}
               </div>
               <aside class="">
@@ -144,9 +65,8 @@
                   <button class="btn btn-success "><a href="{{.PrevInSection.Permalink}}"> {{.PrevInSection.Title}} </a> </button>
                   {{end}}
                       {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-                      {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
-          </div>
-          
+                      {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ path.Base .Page.Permalink }}</a>
+          </div>         
           <div class="right-page-wrapper">
             <aside>
               <h6>What's on this Page</h6>

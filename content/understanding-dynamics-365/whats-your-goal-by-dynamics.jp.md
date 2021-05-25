@@ -1,9 +1,7 @@
 ---
 title:  "Dynamics 365 導入の目的・達成したい目標は何か？"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 5
-heading: "Dynamics 365 導入の目的・達成したい目標は何か？"
 datetitle: "2017.08.23 | "
 image: "artical5/artical5.jpg"
 Author: "Takafumi Noguchi"

@@ -1,9 +1,7 @@
 ---
 title:  "Dynamics 365 をマーケティングで活用するシナリオ"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 8
-heading: "Dynamics 365 をマーケティングで活用するシナリオ"
 datetitle: "2017.08.23 | "
 image: "artical8/artical8.jpg"
 Author: "Takafumi Noguchi"

@@ -1,9 +1,7 @@
 ---
 title:  "Dynamics 365 無料試用版利用手順【2018年時点】"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 6
-heading: "Dynamics 365 無料試用版利用手順【2018年時点】"
 datetitle: "2017.08.23 | "
 image: "artical6/artical6.jpg"
 Author: "Takafumi Noguchi"

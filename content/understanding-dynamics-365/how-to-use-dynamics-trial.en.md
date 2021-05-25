@@ -1,9 +1,7 @@
 ---
 title:  "Instructions for using the Dynamics 365 free trial version [as of 2018]."
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 6
-heading: "Instructions for using the Dynamics 365 free trial version [as of 2018]."
 datetitle: "2017.08.23 | "
 image: "artical6/artical6.jpg"
 Author: "Takafumi Noguchi"

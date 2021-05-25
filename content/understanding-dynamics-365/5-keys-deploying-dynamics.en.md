@@ -1,9 +1,7 @@
 ---
 title:  "Five important decisions to make before implementing Dynamics 365"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 4
-heading: "Five important decisions to make before implementing Dynamics 365"
 datetitle: "2017.08.23 | "
 image: "artical4/artical4.jpg"
 Author: "Takafumi Noguchi"

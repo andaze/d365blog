@@ -1,9 +1,7 @@
 ---
 title:  "Dynamics 365 を営業で活用するシナリオ"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 7
-heading: "Dynamics 365 を営業で活用するシナリオ"
 datetitle: "2017.08.23 | "
 image: "artical7/artical7.jpg"
 Author: "Takafumi Noguchi"

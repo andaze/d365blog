@@ -1,9 +1,7 @@
 ---
 title:  "Scenarios for using Dynamics 365 in sales"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 7
-heading: "Scenarios for using Dynamics 365 in sales"
 datetitle: "2017.08.23 | "
 image: "artical7/artical7.jpg"
 Author: "Takafumi Noguchi"

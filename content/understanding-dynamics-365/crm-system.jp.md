@@ -1,9 +1,7 @@
 ---
 title:  "CRM システムについて理解する"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
-heading: "CRM システムについて理解する"
 datetitle: "2017.08.23 | "
 image: "artical1/artical1.jpg"
 Author: "Takafumi Noguchi"

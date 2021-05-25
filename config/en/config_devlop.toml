@@ -1,7 +1,8 @@
 # baseURL = "http://localhost/dynamic365Build/en/dynamic/"
-baseURL = "https://amptest.ameio.in/en/dynamic/"
+# baseURL = "https://amptest.ameio.in/en/dynamic/"
+baseURL = "http://localhost/dynamiclive/en/dynamic/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-    oppositeUrl = "https://amptest.ameio.in/jp/dynamic/"
+    oppositeUrl = "http://localhost/dynamiclive/jp/dynamic/"

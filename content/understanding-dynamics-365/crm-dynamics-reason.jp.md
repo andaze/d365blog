@@ -1,9 +1,7 @@
 ---
 title:  "なぜ Dynamics 365 を選ぶべきか？"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 2
-heading: "なぜ Dynamics 365 を選ぶべきか？"
 datetitle: "2017.08.23 | "
 image: "artical2/artical2.jpg"
 Author: "Takafumi Noguchi"

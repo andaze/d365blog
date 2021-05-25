@@ -1,9 +1,7 @@
 ---
 title:  "Understand the CRM system"
-date:   2020-08-05T15:53:27+06:00
 draft: false
 weight: 1
-heading: "Understand the CRM system"
 datetitle: "2017.08.23 | "
 image: "artical1/artical1.jpg"
 Author: "Takafumi Noguchi"
