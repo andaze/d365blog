@@ -8,7 +8,7 @@ Author: "Takafumi Noguchi"
 authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
-rightMenu: true
+rightMenu: "artical"
 linkdin: ""
 --- 
 <!-- Intro  -->

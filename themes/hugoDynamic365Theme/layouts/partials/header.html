@@ -30,7 +30,7 @@
             </svg>
 
           </a>
-          {{ if eq .Params.RightMenu true }}
+          {{ if or (eq .Params.RightMenu "chepter") (eq .Params.RightMenu "artical")  }}
           <a class="right-mobile-menu" on="tap:mobileDocMenu.toggleClass(class='open')">
             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21">
               <rect id="Rectangle_21" data-name="Rectangle 21" width="5" height="5" rx="1" fill="#1da1f2" />
@@ -161,9 +161,19 @@
             stroke="#fff" stroke-width="2" />
         </svg>
       </span>
+      {{ if eq .Params.RightMenu "chepter" }}
       {{ with .Site.GetPage "/" }}
       {{ range .Sections }}
       <a href="{{ .URL | absURL }}">{{ .Params.Heading }}</a>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      
+      {{ if eq .Params.RightMenu "artical" }}
+      {{ $getpage:= .File.Dir }}
+      {{ $section := site.GetPage (trim $getpage "\\") }}
+      {{ range $section.Pages.ByWeight }}  
+      <a href="{{ .URL | absURL }}">{{.Title}}</a>
       {{ end }}
       {{ end }}
     </div>

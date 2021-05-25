@@ -6,7 +6,7 @@ weight: 1
 heading: "Understanding Dynamics 365"
 intro: ""
 step: "STEP.01"
-rightMenu: true
+rightMenu: "chepter"
 ---
 
 <!-- Intro -->
