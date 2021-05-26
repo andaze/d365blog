@@ -1,12 +1,11 @@
 ---
-title:  "Chepter2"
-date:   2020-08-05T15:53:27+06:00
+title:  "implementing-dynamics-365"
 draft: false
 weight: 2
 heading: "Implementing Dynamics 365"
 intro: ""
 step: "STEP.02"
-rightMenu: true
+rightMenu: "chepter"
 ---
 
 <!-- Intro -->

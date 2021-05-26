@@ -1,6 +1,5 @@
 ---
-title:  "understandingdynamics365"
-date:   2020-08-05T15:53:27+06:00
+title:  "understanding-dynamics-365"
 draft: false
 weight: 1
 heading: "Understanding Dynamics 365"

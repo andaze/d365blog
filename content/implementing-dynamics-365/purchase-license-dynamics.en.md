@@ -1,32 +1,34 @@
 ---
-title:  "purchase-license-dynamics"
-date:   2020-08-05T15:53:27+06:00
+title:  "Purchasing a Dynamics 365 license"
 draft: false
-datetitle: "2017.08.23 | Implementing Dynamics 365 /"
-pageHeading: "Purchasing a Dynamics 365 license"
-image: "images/artical3/artical3.jpg"
+weight: 3
+datetitle: "2017.08.23 | "
+image: "artical3/artical3.jpg"
 Author: "Takafumi Noguchi"
-authorimage: "images/authorimage.jpg"
+authorimage: "authorimage.jpg"
+showinhome: true
+showinaccordian: false
+rightMenu: "artical"
 linkdin: ""
 ---
+
 <!-- Intro  -->
 So far, we have been preparing for the implementation of Dynamics 365.
 
 Now that we have a schedule and a rough estimate of the cost, we would like to start using Dynamics 365. The first thing you need to do is to purchase a license. This is very basic, but if you don't purchase a license, you can't proceed.
 
-* Purchase a license for Dynamics 365
-* Access the Office 365 Management Center
 
 ## Purchase a license for Dynamics 365
 First, proceed to purchase a license from the following website.
 
-Dynamics 365 Pricing
-(https://www.microsoft.com/ja-jp/dynamics365/pricing)[https://www.microsoft.com/ja-jp/dynamics365/pricing]
+Dynamics 365 Pricing     
+[https://www.microsoft.com/ja-jp/dynamics365/pricing](https://dynamics.microsoft.com/ja-jp/pricing/)
 
 When you access the site, you will be taken to the following screen.
 
 <!-- Image= accessSite.png -->
 
+This time, I'm going to go through the process of purchasing Dynamics 365 Plan 1.
 Click the "Purchase" button for Dynamics 365 Plan 1.
 <!-- Image= Purchase.png -->
 This will take you to the user registration screen, where you can register.
@@ -48,8 +50,8 @@ Once your purchase is complete, go to the next step.
 ## Access the Office 365 Management Center
 After purchase, go to the Office 365 administrator site.
 
-Office 365 Admin center
-(https://portal.office.com/adminportal/home#/homepage)[https://portal.office.com/adminportal/home#/homepage]
+Office 365 Admin center    
+[https://portal.office.com/adminportal/home#/homepage](https://portal.office.com/adminportal/home#/homepage)
 
 You can check the information of the purchased license from "License" in Billing Information.
 <!-- Image= Billing.png -->

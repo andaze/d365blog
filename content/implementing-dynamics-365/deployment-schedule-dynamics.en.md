@@ -1,12 +1,14 @@
 ---
-title:  "deployment-schedule-dynamics"
-date:   2020-08-05T15:53:27+06:00
+title:  "Let's think about the implementation schedule and procedures for Dynamics 365"
 draft: false
-datetitle: "2017.08.23 | Implementing Dynamics 365 /"
-pageHeading: "Let's think about the implementation schedule and procedures for Dynamics 365."
-image: "images/artical2/artical2.jpg"
+weight: 2
+datetitle: "2017.08.23 | "
+image: "artical2/artical2.jpg"
 Author: "Takafumi Noguchi"
-authorimage: "images/authorimage.jpg"
+authorimage: "authorimage.jpg"
+showinhome: true
+showinaccordian: false
+rightMenu: "artical"
 linkdin: ""
 ---
 <!-- Intro  -->
@@ -32,14 +34,14 @@ However, depending on the project, there are some irregular cases such as the si
 
 In such a case, it will be difficult to implement Dynamics 365 in time with the normal development method, so we can consider using agile development or Kanban instead of the normal waterfall development.
 
-See also: Agile Software Development
-(https://ja.wikipedia.org/wiki/agile software development)[https://ja.wikipedia.org/wiki/アジャイルソフトウェア開発]
+See also: Agile Software Development     
+[https://ja.wikipedia.org/wiki/agile software development](https://ja.wikipedia.org/wiki/アジャイルソフトウェア開発)
 
 <!-- Quate Box -->
 Agile software development is a general term for a set of lightweight development methods for rapid and adaptive software development in software engineering. In recent years, a number of agile software development methods have been devised. In recent years, a number of agile software development methods have been devised, and the number of actual cases of their adoption in software development is gradually increasing.
 
-Kanban (Software Development)
-(https://ja.wikipedia.org/wiki/Kanban_(software development)) [https://ja.wikipedia.org/wiki/Kanban_(software development)]
+Kanban (Software Development)      
+[https://ja.wikipedia.org/wiki/Kanban_(software development)](https://ja.wikipedia.org/wiki/かんばん_(ソフトウェア開発))
 
 <!-- Quate Box -->
 Kanban is a method for developing software products. Furthermore, Kanban is a process that emphasizes just-in-time software release without overburdening the software developers. In this approach, the tasks required for delivery to the customer are defined and the process is visualized so that the tasks are understood by the people involved in the software development project. The workers of the task then pull (pull) the work from the queue.
@@ -53,6 +55,7 @@ Nowadays, the free version of Visual Studio Community (*) is available, so we ca
 
 (*) Visual Studio Community
 
-()[https://www.visualstudio.com/ja/vs/community/?rr=https://www.microsoft.com/ja-jp/dev/products/team-foundation-server.aspx]
+[https://www.visualstudio.com/ja/vs/community/?rr=https://www.microsoft.com/ja-jp/dev/products/team-foundation-server.aspx](https://visualstudio.microsoft.com/ja/vs/community/?rr=https://www.microsoft.com/ja-jp/dev/products/team-foundation-server)
 
-However, the most important thing is to choose the appropriate development method depending on the number of people, scale, and schedule of the development to lead the project to success. Whether to choose waterfall development or agile or DevOps development, it is important to look at the entire project and make a selection.
+However, the most important thing is to choose the appropriate development method depending on the number of people, scale, and schedule of the development to lead the project to success. Whether to choose waterfall development or agile or DevOps development, it is important to look at the entire project and make a selection.     
+&nbsp;
