@@ -1,12 +1,11 @@
 ---
-title:  "Chepter3"
-date:   2020-08-05T15:53:27+06:00
+title:  "initial-setup-of-dynamics-365"
 draft: false
 weight: 3
 heading: "Dynamics 365 の初期設定を行う"
 intro: ""
 step: "STEP.03"
-rightMenu: true
+rightMenu: "chepter"
 ---
 
 <!-- Intro -->

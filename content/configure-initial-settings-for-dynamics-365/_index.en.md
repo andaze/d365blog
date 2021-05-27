@@ -1,12 +1,11 @@
 ---
-title:  "Chepter3"
-date:   2020-08-05T15:53:27+06:00
+title:  "initial-setup-of-dynamics-365"
 draft: false
 weight: 3
-heading: "Configure initial settings for Dynamics 365."
+heading: "Configure initial settings for Dynamics 365"
 intro: ""
 step: "STEP.03"
-rightMenu: true
+rightMenu: "chepter"
 ---
 
 <!-- Intro -->
