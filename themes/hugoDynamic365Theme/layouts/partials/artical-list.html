@@ -6,7 +6,9 @@
             <div class="navigation">
               <ul class="navigation-list">
                 {{ $getpage:= .File.Dir }}
-                {{ $section := site.GetPage (trim $getpage "\\") }}
+                {{ $type_arr := split $getpage "\\" }}
+                {{ $basedir := index $type_arr 0 }}
+                {{ $section := site.GetPage $basedir }}
                 {{ range $section.Pages.ByWeight }}         
                 <li>
                   <a href=" {{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{.Title }}</a>
@@ -27,7 +29,7 @@
           <div class="middle-page-wrapper">
             <div class="inner-wrapper">
               <div class="top-header">
-                {{.Params.Datetitle}}   {{ with .Site.GetPage (trim $getpage "\\") }} <a href="{{ .URL | absURL }}" class="title">{{trim $getpage "\\"}}</a>/ {{ end }}
+                {{.Params.Datetitle}}   {{ with site.GetPage $basedir }} <a href="{{ .URL | absURL }}" class="title">{{$basedir}}</a>/ {{ end }}
                 {{ if .Title }}
                 <h1 class="main-title">{{ .Title }}</h1>
                 {{ end }}
@@ -37,7 +39,7 @@
               </aside>
               <div class="prose">
                 {{ if .Params.Image }}
-                <amp-img layout="responsive" width="900" height="500" src="../images/{{.Params.Image}}"> </amp-img>
+                <amp-img layout="responsive" width="900" height="500" src="{{.Params.Image}}"> </amp-img>
                 {{ end }}
                 {{ if .Params.Author}}
                 <div class="col" style="text-align: -webkit-right;">
@@ -65,7 +67,7 @@
                   <button class="btn btn-success "><a href="{{.PrevInSection.Permalink}}"> {{.PrevInSection.Title}} </a> </button>
                   {{end}}
                       {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-                      {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ path.Base .Page.Permalink }}</a>
+                      {{ with site.GetPage $basedir }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{$basedir}}{{ end }}  </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ path.Base .Page.Permalink }}</a>
           </div>         
           <div class="right-page-wrapper">
             <aside>

@@ -171,7 +171,9 @@
       
       {{ if eq .Params.RightMenu "artical" }}
       {{ $getpage:= .File.Dir }}
-      {{ $section := site.GetPage (trim $getpage "\\") }}
+      {{ $type_arr := split $getpage "\\" }}
+      {{ $basedir := index $type_arr 0 }}
+      {{ $section := site.GetPage $basedir }}
       {{ range $section.Pages.ByWeight }}  
       <a href="{{ .URL | absURL }}">{{.Title}}</a>
       {{ end }}

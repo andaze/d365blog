@@ -1,0 +1,30 @@
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $size1 := .Get 1 }}
+{{ $size2 := .Get 2 }}
+{{ $size3 := .Get 3}}
+
+{{ $smallw := printf "%s%s" $size1 "x" }}
+{{ $mediumw := printf "%s%s" $size2 "x" }}
+{{ $largew := printf "%s%s" $size3 "x" }}
+
+<figure>
+  <picture>
+    {{ $small := $src.Resize $smallw }}
+    {{ $medium := $src.Resize $mediumw }}
+    {{ $large := $src.Resize $largew }}
+  
+    <amp-img alt="Image Not Available" src="" width="1.33"  height="1" layout="responsive" srcset=" {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
+      {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
+      {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}" sizes="(max-width: 375px) $size1,
+      (max-width: 768px) $size2,
+      $size3">
+    </amp-img>
+  </picture>
+</figure>
+
+    <!-- <br>large={{ $large}}
+    
+    {{ $type_arr := split $large "." }}
+    {{ $srcbase := index $type_arr 0 }}
+    {{ $webp := print $srcbase ".webp" }}
+    <br>$webp={{ $webp}} -->
