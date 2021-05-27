@@ -6,3 +6,4 @@ defaultContentLanguageInSubdir = false
 
 [params]
     oppositeUrl = "http://localhost/dynamiclive/jp/dynamic/"
+    env = "devlop"  

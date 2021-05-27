@@ -1,4 +1,4 @@
-baseURL = "http://localhost/dynamic365Build"
+baseURL = "http://localhost/dynamic365Imagetesting/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -7,3 +7,6 @@ title = "My New Hugo Site"
     endLevel = 3
     ordered = false
     startLevel = 2
+
+[params]
+    env = "devlop"  
