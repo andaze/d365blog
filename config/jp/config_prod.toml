@@ -1,7 +1,7 @@
-baseURL = "https://amptest.ameio.in/jp/dynamic/"
+baseURL = "https://d356.ameio.in/jp/dynamic/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-    oppositeUrl = "https://amptest.ameio.in/en/dynamic/"
+    oppositeUrl = "https://d356.ameio.in/en/dynamic/"
     env = "prod"  

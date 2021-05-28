@@ -1,2 +1,15 @@
+baseURL = "https://d356.ameio.in/jp/dynamic/"
+languageCode = "en-us"
+
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
 [params]
+    oppositeUrl = "https://d356.ameio.in/en/dynamic/"
     env = "prod"  
