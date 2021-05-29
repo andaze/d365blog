@@ -1,5 +1,5 @@
 baseURL = "https://d356.ameio.in/jp/dynamic/"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "jp"
 defaultContentLanguageInSubdir = false
 
 [params]
