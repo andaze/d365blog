@@ -1,12 +1,11 @@
 ---
-title:  "Chepter8"
-date:   2020-08-05T15:53:27+06:00
+title:  "dynamics-365-project-management"
 draft: false
 weight: 8
 heading: "Dynamics 365 でプロジェクトを管理する"
 intro: ""
 step: "STEP.08"
-rightMenu: true
+rightMenu: "chepter"
 ---
 
 <!-- Intro -->
