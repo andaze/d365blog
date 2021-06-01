@@ -9,8 +9,11 @@
             <div class="footer-item">
                 <h2>Discover</h2>
                 <ul>
-                    <li><a href="/">CRM</a></li>
-                    <li><a href="/">CRM systematization</a></li>
+                    {{ with .Site.GetPage "/"}}
+                    {{ range .Sections }}
+                    <li><a href="{{.URL | absURL }}">{{ .Title }}</a></li>
+                    {{ end }}
+                    {{ end }}
                 </ul>
             </div>
             <div class="footer-item">

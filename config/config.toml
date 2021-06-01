@@ -27,4 +27,5 @@ languageCode = "en-en"
     startLevel = 2
 
 [params]
+headerTitle = "Dynamics 365 blog"
 env = "devlop"
