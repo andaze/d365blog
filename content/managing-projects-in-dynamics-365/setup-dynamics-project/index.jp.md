@@ -25,11 +25,11 @@ Dynamics 365 for Project Service Automation は プロジェクト発足に必�
 ## Project Service Automation の構造
 インストールを行う前に、Project Service Automation を構成する主なエンティティについて理解をします。Dynamics 365 for Sales では、リードがあり、そこから取引先企業と担当者、営業案件とつながっていました。Project Service Automation は、営業案件から見積もりが作成され、その見積もりが採用されると、プロジェクト契約が作られます。そのプロジェクト契約にプロジェクトを追加することでプロジェクト管理が開始されます。
 <!-- Image= psa-001.png -->
-{{< imagedisplay psa-001 "290" "596" "796" >}}
+{{< imagedisplay src="psa-001.png" >}}
 
 プロジェクトは、以下のように様々なエンティティと関係しています。
 <!-- Image= psa-02.png -->
-{{< imagedisplay psa-02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-02.png" >}}
 
 上述の図の各エンティティについて、簡単な説明は以下の通りです。
 
@@ -51,15 +51,15 @@ Dynamics 365 for Project Service Automation は プロジェクト発足に必�
 ## Project Service Automation をインストール
 構築しているインスタンスに Dynamics 365 for Project Service Automation がインストールされていない場合は、この手順が必要になります。 [ Dynamics 365 管理センター](https://port.crm7.dynamics.com/) を開き、インストールしたいインスタンスの「ソリューション」をクリックします。
 <!-- Image= psa-03.png -->
-{{< imagedisplay psa-03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-03.png" >}}
 
 「プロジェクト サービス自動化」を選択して「インストール」をクリックします。 インストールが完了するまで、しばらく時間が必要ですのでお待ちください。
 <!-- Image= psa-04.png -->
-{{< imagedisplay psa-04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-04.png" >}}
 
 インストールが正常に完了すると、[Dynamics 365 のホーム画面](https://home.dynamics.com/) を表示して、Project Service Automation (バージョン 3 だと、Project Service）がアプリ一覧に表示されているのでクリックしてみます。
 <!-- Image= psa-05.png -->
-{{< imagedisplay psa-05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-05.png" >}}
 
 ## Project Service Automation の設定
 Project Service Automation を利用するための事前設定を行います。この作業はすべて管理者向けの作業です。
@@ -77,37 +77,37 @@ Project Service Automation を利用するための事前設定を行います�
 能力モデルとはスキルの熟達度を表します。3段階評価や経験年数などを設定します。
 メニューから「能力モデル」をクリックします。
 <!-- Image= psa-06.png -->
-{{< imagedisplay psa-06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-06.png" >}}
 
 既定のモデルがあるので、それを「熟達度」に名前を変えて保存します。
 <!-- Image= psa-07.png -->
-{{< imagedisplay psa-07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-07.png" >}}
 
 #### リソースのスキルを設定する
 リソースの持つスキルや資格を定義しましょう。メニューから「リソースのスキル」をクリックします。
 <!-- Image= psa-08.png -->
-{{< imagedisplay psa-08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-08.png" >}}
 
 C# と プロジェクトマネジメントスキルをそれぞれ新規作成します。
 <!-- Image= psa-09.png -->
-{{< imagedisplay psa-09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-09.png" >}}
 
 #### リソースのロールを作成する
 リソースのロールを定義しましょう。メニューから「リソースのロール」をクリックします。
 <!-- Image= psa-10.png -->
-{{< imagedisplay psa-10 "290" "596" "796" >}}
+{{< imagedisplay src="psa-10.png" >}}
 
 既定では、「プロジェクト管理者」と「チームメンバー」が用意されていますので、これらを「PM」と「プログラマー」に変更します。
 <!-- Image= psa-11.png -->
-{{< imagedisplay psa-11 "290" "596" "796" >}}
+{{< imagedisplay src="psa-11.png" >}}
 
 ロール名を開いて、名前を変更します。すでに作成した**スキルと能力モデル** をここで追加します。
 <!-- Image= psa-12.png -->
-{{< imagedisplay psa-12 "290" "596" "796" >}}
+{{< imagedisplay src="psa-12.png" >}}
 
 プログラマーも同じように設定します。
 <!-- Image= psa-13.png -->
-{{< imagedisplay psa-13 "290" "596" "796" >}}
+{{< imagedisplay src="psa-13.png" >}}
 
 ### 組織単位を作成する
 ロールを作成したら、次は組織単位を設定します。組織単位とは、会社や部署をあらわすことになるのですが、国や地域によって異なる場合や、外部の協力会社メンバーがプロジェクトに参画する場合など**作業の単価が変わる境目**で作成します。
@@ -118,15 +118,15 @@ C# と プロジェクトマネジメントスキルをそれぞれ新規作成�
   
 メニューを開いて、「組織単位」をクリックします。
 <!-- Image= psa-14.png -->
-{{< imagedisplay psa-14 "290" "596" "796" >}}
+{{< imagedisplay src="psa-14.png" >}}
 
 既存で１つ組織単位（自社）があるので名前を編集しましょう。ここでは原価の設定は行いません。
 <!-- Image= psa-15.png -->
-{{< imagedisplay psa-15 "290" "596" "796" >}}
+{{< imagedisplay src="psa-15.png" >}}
 
 同様に新規作成で外部協力会社を1社作成します。
 <!-- Image= psa-16.png -->
-{{< imagedisplay psa-16 "290" "596" "796" >}}
+{{< imagedisplay src="psa-16.png" >}}
 
 これで組織単位はOKです。価格表を作成する際に、この組織単位やロールを設定することになります。
 
@@ -150,72 +150,72 @@ C# と プロジェクトマネジメントスキルをそれぞれ新規作成�
 
 「設定」メニューの「製品カタログ」から「出荷単位一覧」を開き、「Time」をクリックします。
 <!-- Image= psa-17.png -->
-{{< imagedisplay psa-17 "290" "596" "796" >}}
+{{< imagedisplay src="psa-17.png" >}}
 
 Time の上部メニューから「出荷単位」をクリックします。
 <!-- Image= psa-18.png -->
-{{< imagedisplay psa-18 "290" "596" "796" >}}
+{{< imagedisplay src="psa-18.png" >}}
 
 ここで Month を追加します。Month は 160 Hour (これは各社で異なると思いますが）として設定しました。
 <!-- Image= psa-19.png -->
-{{< imagedisplay psa-19 "290" "596" "796" >}}
+{{< imagedisplay src="psa-19.png" >}}
 
 #### コストの価格表を作成する      
 メニューから「価格表」をクリックします。
 <!-- Image= psa-20.png -->
-{{< imagedisplay psa-20 "290" "596" "796" >}}
+{{< imagedisplay src="psa-20.png" >}}
 
 新規作成をします。名前を自社の価格表として、コストの価格表を作成します。「開始日」と「終了日」については有効期限になるので、例えば単価が変動するようなことがあれば、きちんと設定します。先ほど作成した出荷単位として、Month を設定して保存しています。これで、1人月単位での価格設定ができるようになりました。
 <!-- Image= psa-21.png -->
-{{< imagedisplay psa-21 "290" "596" "796" >}}
+{{< imagedisplay src="psa-21.png" >}}
 
 #### ロール価格を追加する       
 上記で作成した価格表に、ロール単位の価格を設定します。「ロール価格」の「＋」ボタンをクリックします。ここで、PM の原価を設定します。
 <!-- Image= psa-22.png -->
-{{< imagedisplay psa-22 "290" "596" "796" >}}
+{{< imagedisplay src="psa-22.png" >}}
 
 さらにプログラマーのロール価格も設定しました。これで自社の原価の価格表が作成されました。
 <!-- Image= psa-23.png -->
-{{< imagedisplay psa-23 "290" "596" "796" >}}
+{{< imagedisplay src="psa-23.png" >}}
 
 同じように外部協力会社の原価も作成しておきましょう。
 <!-- Image= psa-24.png -->
-{{< imagedisplay psa-24 "290" "596" "796" >}}
+{{< imagedisplay src="psa-24.png" >}}
 
 #### 営業の価格表を作成する       
 上記で作成したのはコスト（原価）の価格表なので、営業用の価格表も作成します。簡単に作成するために、価格表を開き、「コピー」をクリックします。
 <!-- Image= psa-25.png -->
-{{< imagedisplay psa-25 "290" "596" "796" >}}
+{{< imagedisplay src="psa-25.png" >}}
 
 価格表をコピーできるので、「コンテキスト」の箇所を「営業」に切り替え、名前を更新したら保存します。
 <!-- Image= psa-26.png -->
-{{< imagedisplay psa-26 "290" "596" "796" >}}
+{{< imagedisplay src="psa-26.png" >}}
 
 あとは、ロール価格を設定しましょう。ここでは、原価より高い価格を設定すると思いますので各々設定してください。
 <!-- Image= psa-27.png -->
-{{< imagedisplay psa-27 "290" "596" "796" >}}
+{{< imagedisplay src="psa-27.png" >}}
 
 外部協力会社も同じように作成しておきましょう。これで価格表の設定は完了です。作成した価格表を組織単位と取引先企業にそれぞれ関連付けておきます。
 <!-- Image= psa-28.png -->
-{{< imagedisplay psa-28 "290" "596" "796" >}}
+{{< imagedisplay src="psa-28.png" >}}
 
 ### コスト価格表と組織単位を関連付ける
 コスト価格表と組織単位を関連付けます。これで組織単位の価格（原価）を設定できるようになります。メニューから「組織単位」をクリックして、先ほど作成した組織単位を開きます。
 <!-- Image= psa-29.png -->
-{{< imagedisplay psa-29 "290" "596" "796" >}}
+{{< imagedisplay src="psa-29.png" >}}
 
 外部協力会社の組織単位も同じように設定します。
 <!-- Image= psa-30.png -->
-{{< imagedisplay psa-30 "290" "596" "796" >}}
+{{< imagedisplay src="psa-30.png" >}}
 
 ### 営業価格表と取引先企業を関連付ける
 次は、営業用の価格表と取引先企業を関連付けます。企業に関連付けることで、そこから発生した商談（営業案件）にその価格表が引き継がれます。メニューの「顧客」をクリックして、既存の取引先企業を開きます。
 <!-- Image= psa-31.png -->
-{{< imagedisplay psa-31 "290" "596" "796" >}}
+{{< imagedisplay src="psa-31.png" >}}
 
 「プロジェクト価格表」があるのでそこで作成した価格表（営業）を追加します。
 <!-- Image= psa-32.png -->
-{{< imagedisplay psa-32 "290" "596" "796" >}}
+{{< imagedisplay src="psa-32.png" >}}
 
 これで関連付けは完了です。
 
@@ -240,22 +240,22 @@ Time の上部メニューから「出荷単位」をクリックします。
 #### ユーザーでリソースを作成     
 まずは Dynamics 365 ユーザーでリソースを作成します。メニューから「リソース」をクリックします。
 <!-- Image= psa-33.png -->
-{{< imagedisplay psa-33 "290" "596" "796" >}}
+{{< imagedisplay src="psa-33.png" >}}
 
 新規追加で、以下のように「リソースの種類」をユーザーとして、ユーザーを追加します。タイムゾーンも忘れずに設定したら保存します。
 <!-- Image= psa-34.png -->
-{{< imagedisplay psa-34 "290" "596" "796" >}}
+{{< imagedisplay src="psa-34.png" >}}
 
 次にリソースのロールとリソースのスキルをそれぞれ設定しましょう。
 <!-- Image= psa-35.png -->
-{{< imagedisplay psa-35 "290" "596" "796" >}}
+{{< imagedisplay src="psa-35.png" >}}
 
 これで社内のPMのリソースは作成できました。
 
 #### スタッフでリソースを作成
 外部協力会社のスタッフも追加しましょう。上記と同様に新規作成画面を開きます。「リソースの種類」をスタッフとしてタイムゾーンを設定します。ここで重要なのが、画面下の「組織単位」を外部協力会社に設定することです。
 <!-- Image= psa-36.png -->
-{{< imagedisplay psa-36 "290" "596" "796" >}}
+{{< imagedisplay src="psa-36.png" >}}
 
 これで外部協力会社のリソースも作成できました。
 

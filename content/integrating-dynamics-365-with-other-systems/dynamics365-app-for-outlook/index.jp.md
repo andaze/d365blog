@@ -47,11 +47,11 @@ Dynamics 365 for Outlook を使用したいユーザーにセキュリティロ�
 まずは、Dynamics 365 の [ホーム画面](https://home.dynamics.com/)を開きます。
 表示されている Dynamics 365 の適当なアプリを開きます。
 <!-- Image= d365outlook-01.png -->
-{{< imagedisplay d365outlook-01 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-01.png" >}}
 
 右上歯車ボタンから、「詳細設定」をクリックします。
 <!-- Image= d365outlook-02.png -->
-{{< imagedisplay d365outlook-02 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-02.png" >}}
 
 
 「設定」から「セキュリティ」を開きます。
@@ -60,27 +60,27 @@ Dynamics 365 for Outlook を使用したいユーザーにセキュリティロ�
 
 今回は、**Account Manager** という既定のロールを少し変更します。
 <!-- Image= d365outlook-03.png -->
-{{< imagedisplay d365outlook-03 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-03.png" >}}
 
 「コアレコード」タブで、取引先担当者、営業案件、活動などに権限があることを確認します。
 <!-- Image= d365outlook-04.png -->
-{{< imagedisplay d365outlook-04 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-04.png" >}}
 
 「経営管理」タブの、Outlook の特権も付与しておきます。 
 <!-- Image= d365outlook-05.png -->
-{{< imagedisplay d365outlook-05 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-05.png" >}}
 
 
 これで、セキュリティロールの設定は完了です。保存して閉じましょう。
 
 あとは、このロールをユーザーに割り当てます。「ユーザー」をクリックします。
 <!-- Image= d365outlook-06.png -->
-{{< imagedisplay d365outlook-06 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-06.png" >}}
 
 
 利用するユーザーに先ほどの **Account Manager**  ロールを割り当てます。
 <!-- Image= d365outlook-07.png -->
-{{< imagedisplay d365outlook-07 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-07.png" >}}
 
 
 ### Dynamics 365 for Outlook のアプリにロールを割り当てる
@@ -91,7 +91,7 @@ Outlook から表示される Dynamics 365 の画面はこのアプリになる�
 そして、**Dynamics 365 App for Outlook**の … をクリックして、「ロールの管理」をクリックします。
  **Account Manager**  にチェックをいれて、「無視して保存」をクリックします。
 <!-- Image= d365outlook-08.png -->
-{{< imagedisplay d365outlook-08 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-08.png" >}}
 
 
 これで事前準備はOKです。
@@ -102,60 +102,60 @@ Dynamics 365 と Exchange の連携を行います。
 
 「設定」より「電子メール アクセ…」 をクリックします。
 <!-- Image= d365outlook-09.png -->
-{{< imagedisplay d365outlook-09 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-09.png" >}}
 
 
 「メールボックス」をクリックします。
 <!-- Image= d365outlook-10.png -->
-{{< imagedisplay d365outlook-10 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-10.png" >}}
 
 
 １つの電子メールを選択して「編集」ボタンをクリックします。
 <!-- Image= d365outlook-11.png -->
-{{< imagedisplay d365outlook-11 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-11.png" >}}
 
 サーバープロファイルを下図のように、     
 **受信メール・送信メール・予定、取引先担当者、タスク** を 「サーバー同期」に設定して保存します。
 <!-- Image= d365outlook-12.png -->
-{{< imagedisplay d365outlook-12 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-12.png" >}}
 
 
 「電子メールの承認」をクリックします。
 <!-- Image= d365outlook-13.png -->
-{{< imagedisplay d365outlook-13 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-13.png" >}}
 
 
 「メールボックスのテストと有効化」をクリックし、☑をいれて、「OK」 とします。
 <!-- Image= d365outlook-14.png -->
-{{< imagedisplay d365outlook-14 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-14.png" >}}
 
 
 しばらく待つと、左パネルの「通知」を開いて正常に完了したと確認できます。
 <!-- Image= d365outlook-15.png -->
-{{< imagedisplay d365outlook-15 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-15.png" >}}
 
 
 先ほどの一覧画面でも、すべて成功になれば完了です。
 <!-- Image= d365outlook-16.png -->
-{{< imagedisplay d365outlook-16 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-16.png" >}}
 
 
 ## Dynamics 365 App for Outlook の構成
 最後に、Dynamics 365 App for Outlook を構成します。
 「設定」に戻り、「Dynamics 365 App for Outlook」を開きます。
 <!-- Image= d365outlook-17.png -->
-{{< imagedisplay d365outlook-17 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-17.png" >}}
 
 
 資格があるすべてのユーザーに設定したユーザーが表示されるので、☑をいれて
 「OUTLOOK へのアプリの追加」ボタンをクリックします。
 <!-- Image= d365outlook-18.png -->
-{{< imagedisplay d365outlook-18 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-18.png" >}}
 
 
 しばらくは保留中（15分ほど）ですが、完了すれば以下の通りになります。
 <!-- Image= d365outlook-19.png -->
-{{< imagedisplay d365outlook-19 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-19.png" >}}
 
 これで Dynamics 365 側の設定は完了しました。
 
@@ -165,28 +165,28 @@ Outlook を開き、予定表を１つ追加しましょう。
 件名や時間を追加します。
 右上の … から「Dynamics 365」 が表示されると連携は完了してます。クリックしてみます。
 <!-- Image- d365outlook-23.png -->
-{{< imagedisplay d365outlook-23 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-23.png" >}}
 
 
 Dynamics 365 の取引先担当者で、事前に テスト 太郎 と作成していたので、検索してみます。
 クリックして予定を作成します。Dynamics 365 に登録されている情報が確認できました。
 <!-- Image= d365outlook-24.png -->
-{{< imagedisplay d365outlook-24 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-24.png" >}}
 
 
 担当者名右の … をクリックして、「活動の追加」から「予定の追加」をクリックします。
 <!-- Image= d365outlook-25.png -->
-{{< imagedisplay d365outlook-25 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-25.png" >}}
 
 
 必要な個所を入力したら、保存して閉じる をクリックします。
 <!-- Image= d365outlook-26.png -->
-{{< imagedisplay d365outlook-26 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-26.png" >}}
 
 
 Dynamics 365 側でも確認すると、担当者に予定の活動が追加されていることがわかります。
 <!-- Image= d365outlook-27.png -->
-{{< imagedisplay d365outlook-27 "290" "596" "796" >}}
+{{< imagedisplay src="d365outlook-27.png" >}}
 
 以上、Dynamics 365 App for Outlook のセットアップ手順まとめでした。    
 &nbsp;

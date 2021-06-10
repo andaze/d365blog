@@ -24,16 +24,16 @@ Power BI は、マイクロソフトが提供するビジネスインテリジ�
 ## ダッシュボードに Power BI を組み込む設定をする
 まずは、「設定」の「管理」をクリックします。
 <!-- Image= Power1.png -->
-{{< imagedisplay Power1 "290" "596" "796" >}}
+{{< imagedisplay src="Power1.png" >}}
 
 そして、「システムの管理」をクリックしましょう。
 <!-- Image= Power2.png -->
-{{< imagedisplay Power2 "290" "596" "796" >}}
+{{< imagedisplay src="Power2.png" >}}
 
 
 「レポート」タブを開き、「Power BI のビジュアル化の埋め込みを許可する」にて “はい” にチェックをいれたら、「OK」をクリックします。
 <!-- Image= Power3.png -->
-{{< imagedisplay Power3 "290" "596" "796" >}}
+{{< imagedisplay src="Power3.png" >}}
 
 
 これで設定は完了です。
@@ -41,48 +41,48 @@ Power BI は、マイクロソフトが提供するビジネスインテリジ�
 ## ダッシュボードに Power BI のグラフを組み込む
 それでは、ダッシュボードを新規に作成してみます。ダッシュボードから「新規」ボタンをクリックします。任意のダッシュボードレイアウトを選択して「作成」ボタンをクリックすればOKです。
 <!-- Image= Power4.png -->
-{{< imagedisplay Power4 "290" "596" "796" >}}
+{{< imagedisplay src="Power4.png" >}}
 
 
 ダッシュボードのメニューを開くと、図のように「Power BI タイル」が表示されているので、早速クリックして利用してみます。
 <!-- Image= Power5.png -->
-{{< imagedisplay Power5 "290" "596" "796" >}}
+{{< imagedisplay src="Power5.png" >}}
 
 
 すると Power BI のワークスペースを選択する必要がでてきます。
 <!-- Image= Power6.png -->
-{{< imagedisplay Power6 "290" "596" "796" >}}
+{{< imagedisplay src="Power6.png" >}}
 
 
 ここで、Power BI 側の設定をしていないと表示されないので注意です。もしすでに、Power BI のライセンスを有効にしているのであれば、Office 365 のメニューから、Power BI へアクセスします。
 <!-- Image= Power7.png -->
-{{< imagedisplay Power7 "290" "596" "796" >}}
+{{< imagedisplay src="Power7.png" >}}
 
 
 今回はすでに作成しているワークスペースを利用します。もしまだ作成していない場合は、「アプリのワークスペースの作成」ボタンをクリックして、ワークスペースを作成してみてください。
 <!-- Image= Power8.png -->
-{{< imagedisplay Power8 "290" "596" "796" >}}
+{{< imagedisplay src="Power8.png" >}}
 
 
 それでは、Dynamics 365 のダッシュボードに戻ります。Power BI のワークスペース名を指定して、どのグラフを表示するかを設定します。設定をしたら「OK」をクリックします。
 <!-- Image= Power9.png -->
-{{< imagedisplay Power9 "290" "596" "796" >}}
+{{< imagedisplay src="Power9.png" >}}
 
 
 するとダッシュボードに Power BI のグラフが一部追加されました。この要領でいくつかのグラフを追加してみましょう。
 <!-- Image= Power10.png -->
-{{< imagedisplay Power10 "290" "596" "796" >}}
+{{< imagedisplay src="Power10.png" >}}
 
 
 最後に、ダッシュボード名を入力したら、「上書き保存」をしましょう。
 <!-- Image= Power11.png -->
-{{< imagedisplay Power11 "290" "596" "796" >}}
+{{< imagedisplay src="Power11.png" >}}
 
 
 
 ダッシュボードは以下のように表示されます。
 <!-- Image= Power12.png -->
-{{< imagedisplay Power12 "290" "596" "796" >}}
+{{< imagedisplay src="Power12.png" >}}
 
 
 Power BI のグラフはこのように、ダッシュボードに表示できるようになります。

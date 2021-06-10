@@ -29,50 +29,50 @@ Dynamics 365 インストール直後だと、既定のアプリケーション�
 
 Dynamics 365 のメニューを開くと、下記のように利用できるアプリケーションが表示されます。
 <!-- Image= menu.png -->
-{{< imagedisplay menu "290" "596" "796" >}}
+{{< imagedisplay src="menu.png" >}}
 
 
 アプリケーションの表示名を変更する場合は、「設定」の「管理」より、「システムの管理」で変更することが可能です。
 <!-- Image= menu1.png -->
-{{< imagedisplay menu1 "290" "596" "796" >}}
+{{< imagedisplay src="menu1.png" >}}
 
 「システム管理」 を開きます。
 <!-- Image= menu2.png -->
-{{< imagedisplay menu2 "290" "596" "796" >}}
+{{< imagedisplay src="menu2.png" >}}
 
 
 「全般」 タブの 「既定のアプリ名」 で変更します。
 <!-- Image= menu3.png -->
-{{< imagedisplay menu3 "290" "596" "796" >}}
+{{< imagedisplay src="menu3.png" >}}
 
 各アプリケーションは、「システムのカスタマイズ」 にて設定が可能です。
 <!-- Image= menu4.png -->
-{{< imagedisplay menu4 "290" "596" "796" >}}
+{{< imagedisplay src="menu4.png" >}}
 
 「アプリ」 というコンポーネントがあるため、そこで既存のアプリケーションを変更することや、新規で作成することも可能になります。
 <!-- Image= menu5.png -->
-{{< imagedisplay menu5 "290" "596" "796" >}}
+{{< imagedisplay src="menu5.png" >}}
 
 
 「営業」 というアプリケーションを確認してみましょう。
 <!-- Image= menu6.png -->
-{{< imagedisplay menu6 "290" "596" "796" >}}
+{{< imagedisplay src="menu6.png" >}}
 
 
 ダブルクリックをすると、アプリ デザイナー が開きます。ここで、サイトマップやダッシュボード、エンティティの設定を行っていきます。
 
 アプリケーションのサイトマップについては、下記の箇所から構成できます。サイトマップについては前回記載していますので、割愛します。
 <!-- Image= menu7.png -->
-{{< imagedisplay menu7 "290" "596" "796" >}}
+{{< imagedisplay src="menu7.png" >}}
 
 
 左下の ダッシュボード の「詳細」をドリルダウンすると、利用するダッシュボードが一覧化されています。営業のアプリケーションで利用するかどうかについては、右側のペインの 「コンポーネント」 にて設定が可能です。
 <!-- Image= menu8.png -->
-{{< imagedisplay menu8 "290" "596" "796" >}}
+{{< imagedisplay src="menu8.png" >}}
 
 業務プロセスにおいても同様です。
 <!-- Image= menu9.png -->
-{{< imagedisplay menu9 "290" "596" "796" >}}
+{{< imagedisplay src="menu9.png" >}}
 
 ここで少し話しを戻します。
 
@@ -86,11 +86,11 @@ Dynamics 365 のメニューを開くと、下記のように利用できるア�
 
 エンティティ では、現在のアプリケーションで利用されるエンティティが表示されています。新しくエンティティを追加する場合は、左上の ＋（追加）ボタン、もしくは、右ペインの 「コンポーネント」 から 「エンティティ」 をクリックすると、エンティティ追加画面になります。
 <!-- Image= menu10.png -->
-{{< imagedisplay menu10 "290" "596" "796" >}}
+{{< imagedisplay src="menu10.png" >}}
 
 基本はすでに作成されているエンティティを、新たに営業アプリケーションに追加するか、もしくは新しいエンティティを作成する、という作業になります。
 <!-- Image= menu11.png -->
-{{< imagedisplay menu11 "290" "596" "796" >}}
+{{< imagedisplay src="menu11.png" >}}
 
 ビューやグラフについても同様な作業になります。
 

@@ -22,7 +22,7 @@ Dynamics 365 の機能により何が実現可能であるかは、これまで�
 
 ## 営業ではどのような場面でDynamics 365を使うのか？
 <!-- Image- money.jpg -->
-{{< imagedisplay money "290" "596" "796" >}}
+{{< imagedisplay src="money.jpg" >}}
 
 
 今回は、営業活動で Dynamics 365 を活用したシナリオについて記載します。導入するアプリケーションを、Dynamics 365 for Sales　として、そのアプリケーションで Dynamics 365 の機能を活用したらどのような営業活動になるのかをイメージしていただければと思います。

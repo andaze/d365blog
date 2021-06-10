@@ -23,7 +23,7 @@ Dynamics 365 は単なるツールです。そのツール自身に価値があ�
 
 ## 【検討事項１】システム導入目的と業務での目的を明確にする
 <!-- Image= Consideration1.jpg -->
-{{< imagedisplay Consideration1 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration1.jpg" >}}
 
 Dynamics 365というシステム自体を導入する目的か、それとも業務の目的なのかを分けて考える必要があります。
 
@@ -58,7 +58,7 @@ Dynamics 365 を導入する目的としては以下のような例がありま�
 
 ## 【検討事項２】システム導入の目的と業務の目的は異なることを知る
 <!-- Image= Consideration2.jpg -->
-{{< imagedisplay Consideration2 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration2.jpg" >}}
 
 
 検討事項１で業務の目的にて挙げた、
@@ -78,7 +78,7 @@ Dynamics 365 を導入する目的としては以下のような例がありま�
 
 ## 【検討事項３】導入効果について考える
 <!-- Image= Consideration3.jpg-->
-{{< imagedisplay Consideration3 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration3.jpg" >}}
 
 
 最後になりますが、Dynamics 365導入でどんな効果を得たいかについて、具体的に明確にしておく必要があります。

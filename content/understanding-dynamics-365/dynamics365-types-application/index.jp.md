@@ -34,7 +34,7 @@ Dynamics 365 for Sales では以下のような機能が提供されています
 また、最近では、AI for Sales という人工知能を活用した営業支援ツールもリリースされています。
 
 <!-- Image= aiSales.png -->
-{{< imagedisplay aiSales "290" "596" "796" >}}
+{{< imagedisplay src="aiSales.png" >}}
 
 
 引用元： [AI for Sales](https://dynamics.microsoft.com/ja-jp/sales/overview/)
@@ -43,7 +43,7 @@ Dynamics 365 for Sales では以下のような機能が提供されています
 マイクロソフトの公式ページには、4社が事例として紹介されています。
 
 <!-- image=dynamicsales.png -->
-{{< imagedisplay dynamicsales "290" "596" "796" >}}
+{{< imagedisplay src="dynamicsales.png" >}}
 
 
 引用元： [Dynamics 365 for Sales の概要](https://dynamics.microsoft.com/ja-jp/sales/overview/)
@@ -65,7 +65,7 @@ Dynamics 365 for Sales では以下のような機能が提供されています
 Customer Service のアプリケーションの活用事例が公式ページに紹介されています。HP社の事例では、顧客へのレスポンスの向上や、AIを使った自動応対からサポート部隊へのスムーズな情報共有、ダッシュボードで顧客のフィードバックや問題解決されていないお問い合わせの分析などを行っています。
 
 <!-- image=customer.jpg -->
-{{< imagedisplay customer "290" "596" "796" >}}
+{{< imagedisplay src="customer.jpg" >}}
 
 
 引用元： [Dynamics 365 for Customer Service の概要](https://dynamics.microsoft.com/ja-jp/customer-service/overview/)
@@ -88,7 +88,7 @@ IoT と連携すれば、顧客へ提供した商品がいつメンテナンス�
 Field Service の活用事例は以下の通りです。Sodexo 社は、天然ガスや石油・発掘などの資源、ヘルスケアや教育において Dynamics 365 を活用しています。広大なフィールドで作業をする技術者は、日々の業務指示に沿って作業を進め、Dynamics 365 for Field Service に日々記録し、作業効率を高める努力をしています。
 
 <!-- Image= fieldService.png -->
-{{< imagedisplay fieldService "290" "596" "796" >}}
+{{< imagedisplay src="fieldService.png" >}}
 
 引用元: [Dynamics 365 for Field Service の概要](https://dynamics.microsoft.com/ja-jp/field-service/overview/)
 
@@ -110,7 +110,7 @@ Dynamics 365 for Project Service Automation では、Sales と同じようにリ
 Project Service Automation は以下のような企業で利用されています。
 
 <!-- Image= ServiceAutomation.png -->
-{{< imagedisplay ServiceAutomation "290" "596" "796" >}}
+{{< imagedisplay src="ServiceAutomation.png" >}}
 
 引用元: [Dynamics 365 for Project Service Automation の概要](https://dynamics.microsoft.com/ja-jp/project-service-automation/overview/)
 

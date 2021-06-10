@@ -17,7 +17,7 @@ linkdin: ""
 
 Dynamics 365 は以下のようなセキュリティの構造になっています。
 <!-- Image= sec-setting01.png -->
-{{< imagedisplay sec-setting01 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting01.png" >}}
 
 **部署・チーム** は組織のグループで、その中でユーザーを追加することで組織グループを細かく管理できます。 **セキュリティロールとフィールドセキュリティ** はアクセス権の制御で使用します。ここでは、それらついてご紹介していきます。※ フィールドセキュリティは別の記事でご紹介します。
 
@@ -29,47 +29,47 @@ Dynamics 365 は既定で部署を１つ作成しています。これはイン�
 
 部署は１つの上位部署を持ち、複数の下位部署を持つことができます。例えば以下のような部署を構成することができます。
 <!-- Image= sec-setting02.png -->
-{{< imagedisplay sec-setting02 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting02.png" >}}
 
 
 ### 部署を作成する
 それでは、部署を作成してみます。Dynamics 365 にアクセスして「設定」の「セキュリティ」 をクリックします。
 <!-- Image= create.png -->
-{{< imagedisplay create "290" "596" "796" >}}
+{{< imagedisplay src="create.png" >}}
 
 
 「新規」ボタンをクリックします。
 
 <!-- Image= new.png -->
-{{< imagedisplay new "290" "596" "796" >}}
+{{< imagedisplay src="new.png" >}}
 
 
 「名前」を入力して、「上位の部署」にルートの部署を入力したら「保存して閉じる」をクリックします。
 <!-- Image= sec-setting03.png -->
-{{< imagedisplay sec-setting03 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting03.png" >}}
 
 上記で作成した部署の下に２つ別の部署を追加します。同じように部署を作成します。
 
 「上位の部署」で先ほど作成した部署を追加します。これで部署が階層化されます。
 <!-- Image= sec-setting04.png -->
-{{< imagedisplay sec-setting04 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting04.png" >}}
 
 
 ### 部署の削除
 部署を削除する場合は、一度部署を無効にする必要があります。削除する部署を選択します。
 <!-- Image= sec-setting05.png -->
-{{< imagedisplay sec-setting05 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting05.png" >}}
 
 
 「操作」を開き「無効にする」をクリックします。
 ダイアログが表示されるので「非アクティブ化」をクリックします。
 <!-- Image= sec-setting06.png -->
-{{< imagedisplay sec-setting06 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting06.png" >}}
 
 
 無効にしたら、「操作」を開いて「部署の削除」をクリックして部署を削除します。
 <!-- Image= sec-setting07.png -->
-{{< imagedisplay sec-setting07 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting07.png" >}}
 
 
 これで削除は完了です。一度無効にして非アクティブにすることで削除できるようになります。
@@ -88,7 +88,7 @@ Dynamics 365 は既定で部署を１つ作成しています。これはイン�
 例えば、営業1課に所属している A さんが、その営業経験を生かして、社内で発足したマーケティングの新プロジェクト参画のオファーがあるとします。この場合、Aさんはマーケティング部の所有するリードやマーケティング戦略情報にアクセスできる新しくマーケティングプロジェクトチームを作成して、そのチームにAさんを所属させることで、Aさんは営業１課に所属しながらも、マーケティング部門とプロジェクトを進めることができるようになるわけです。
 
 <!-- Image= team.png -->
-{{< imagedisplay team "290" "596" "796" >}}
+{{< imagedisplay src="team.png" >}}
 
 
 また、退職などを理由にレコードの所有者が一時的に不明になった場合は、その退職者が所属していた部署のチームに、レコードの所有者を割り当てることで、同じ部署のメンバーが誰でもアクセスできるようになります。そうすれば、担当者が決まった段階で所有者を自身で変更できるため便利です。
@@ -101,12 +101,12 @@ Dynamics 365 のチームは2種類存在します。
 
 (※1) 所有者チームは、下図のようにレコードの**割り当て**で、ユーザーと同様に選択できます。チームをレコードの所有者にすることで、同じ部署に所属するユーザー全体にレコードのアクセス権を付与できるようになるため、担当者が部署移動・退職した際に便利です。また、アクセスチームのように共有設定でアクセス権を付与することも可能です。
 <!-- Image= team1.png -->
-{{< imagedisplay team1 "290" "596" "796" >}}
+{{< imagedisplay src="team1.png" >}}
 
 
 (※2) アクセス チームはレコードの**共有設定でアクセス権限を付与**することができます。所有者チームのように、レコードの所有権を付与することはできません。
 <!-- Image= team2.png -->
-{{< imagedisplay team2 "290" "596" "796" >}}
+{{< imagedisplay src="team2.png" >}}
 
 
 ### 部署と所有者チームの関係
@@ -114,7 +114,7 @@ Dynamics 365 のチームは2種類存在します。
 
 例えば、営業部という部署に所属して、既定のチームが「営業部」の場合、さらに「1課」という既定のチームを追加できません。もし追加しようとすると以下のようなエラーが表示されます。
 <!-- Image= team3.png -->
-{{< imagedisplay team3 "290" "596" "796" >}}
+{{< imagedisplay src="team3.png" >}}
 
 
 ### アクセスチームの特徴
@@ -138,12 +138,12 @@ Dynamics 365 のチームは2種類存在します。
 
 下図は、取引先企業 というエンティティに対して、それぞれのアクセス権を付与しているロールです。
 <!-- Image= sec-setting08.png -->
-{{< imagedisplay sec-setting08 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting08.png" >}}
 
 
 また、アクセス権の強さは、自分の所有するレコードのみからエンティティのすべてのレコード（組織全体）まで設定することができます。
 <!-- Image= sec-setting09.png -->
-{{< imagedisplay sec-setting09 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting09.png" >}}
 
 
 上図のキーはそれぞれ以下のような意味になります。
@@ -158,7 +158,7 @@ Dynamics 365 のチームは2種類存在します。
  例えば、下記の図のように、部署A – 部署B – 部署C という階層があり、社長はすべての取引先のデータを、マネージャーは自分の部署以下のデータ、社員は自分の所有するデータのみを読み取り可能にしたい場合、取引先のセキュリティ ロールの設定は下記のようになります。
 
 <!-- Image= role.png -->
-{{< imagedisplay role "290" "596" "796" >}}
+{{< imagedisplay src="role.png" >}}
 
 上図のようなセキュリティ ロールの設定を、部署に紐づくチームもしくはユーザー自身に設定することで実現ができます。
 
@@ -167,7 +167,7 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 
 例えば、ユーザーAに対して、以下のようなロールAとロールBが設定されている場合
 <!-- Image= srole1.png -->
-{{< imagedisplay srole1 "290" "596" "796" >}}
+{{< imagedisplay src="srole1.png" >}}
 
 
 ユーザーAは、取引先と担当者のすべてのレコードの読み取りと書き込みが可能になり、作成と削除は自身のレコードに行うことができます。
@@ -190,27 +190,27 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 
 まず「セキュリティ」で「セキュリティ ロール」をクリックします。
 <!-- Image= srole2.png -->
-{{< imagedisplay srole2 "290" "596" "796" >}}
+{{< imagedisplay src="srole2.png" >}}
 
 
 コピー元となるロールにチェックをいれます。「その他の操作」 から「ロールのコピー」 をクリックします。
 <!-- Image= sec-setting10.png -->
-{{< imagedisplay sec-setting10 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting10.png" >}}
 
 
 
 「新しいロール名」に任意の名前を入力して「OK」をクリックします。
 <!-- Image= sec-setting11.png -->
-{{< imagedisplay sec-setting11 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting11.png" >}}
 
 セキュリティロールのダイアログが開きますので、設定をしましょう。例えば「取引先企業」と「取引先担当者」の「削除」が “部署” となっています。
 <!-- Image= sec-setting14.png -->
-{{< imagedisplay sec-setting14 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting14.png" >}}
 
 
 ここを “組織全体” に変更して、「保存して閉じる」で完了しました。これでこのロールを設定したユーザーやチームは、すべての企業と担当者レコードを削除できるようになります。
 <!-- Image= sec-setting15.png -->
-{{< imagedisplay sec-setting15 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting15.png" >}}
 
 
 このようにセキュリティロールを作成していきましょう。
@@ -219,28 +219,28 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 ### 部署専用のセキュリティロール
 セキュリティロールの「詳細」タブを開くと、部署を変更するフィールドがあります。
 <!-- Image= sec-setting28.png -->
-{{< imagedisplay sec-setting28 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting28.png" >}}
 
 
 基本的に上位の部署で作成されたロールは、下位すべての部署にも複製されます。セキュリティロールの内部IDも異なります。
 そのため、特定の部署のみ利用するロールを作成する場合は、まず下図のように部署を選択します。
 <!-- image= sec-setting29.png -->
-{{< imagedisplay sec-setting29 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting29.png" >}}
 
 
 そして、作成手順と同様にコピーしたいロールを選択して「ロールのコピー」で新しいセキュリティロールを作成します。
 <!-- Image= sec-setting30.png -->
-{{< imagedisplay sec-setting30 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting30.png" >}}
 
 
 任意の名前を入力して作成して、「詳細」タブの部署を確認すると、このように指定した部署でロールを作成しています。
 <!-- Image= sec-setting31.png -->
-{{< imagedisplay sec-setting31 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting31.png" >}}
 
 
 ルート部署を確認すると、先ほど作成したセキュリティロールはありません。
 <!-- Image= sec-setting32.png -->
-{{< imagedisplay sec-setting32 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting32.png" >}}
 
 
 このように組織共通で利用するセキュリティロールはルート部署で作成して、部署単位でのセキュリティロールは部署で作成することで
@@ -249,7 +249,7 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 
 作成したロールを削除することは可能です。「X」（削除）ボタンをクリックして削除します。ただ、削除したいロールがその他のコンポーネントに設定されていると削除できません。依存するコンポーネント (フォームやアプリなど) が存在する場合は、下記のようなエラーが出ます。
 <!-- Image= deletesrole.png -->
-{{< imagedisplay deletesrole "290" "596" "796" >}}
+{{< imagedisplay src="deletesrole.png" >}}
 
 上図の「詳細」のリンクをクリックすると、セキュリティロールがどのコンポーネントで設定されているかを確認できますので、すべての依存関係を解除してから削除してください。
 
@@ -257,12 +257,12 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 セキュリティ ロールでは、レコードへのアクセス権制御のほかに、一部の**ボタンの表示・非表示の権限も変更できます**。例えば「Excel にエクスポート」 というボタンを非表示にしたいとします。
 
 <!-- image= hidebtn1.png -->
-{{< imagedisplay hidebtn1 "290" "596" "796" >}}
+{{< imagedisplay src="hidebtn1.png" >}}
 
 「経営管理」タブの 「Excel にエクスポート」 を “選択なし” にして保存します。
 これで「Excel にエクスポート」というボタンは非表示になり使えなくなります。データをエクスポートさせたくない場合に有効な設定です。
 <!-- Image= hidebtn2.png -->
-{{< imagedisplay hidebtn2 "290" "596" "796" >}}
+{{< imagedisplay src="hidebtn2.png" >}}
 
 
 
@@ -272,22 +272,22 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 ### 部署を設定する
 まず「セキュリティ」で「ユーザー」をクリックします。
 <!-- Image= sec-setting21.png -->
-{{< imagedisplay sec-setting21 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting21.png" >}}
 
 
 設定したいユーザーをクリックします。
 <!-- Image= sec-setting22.png -->
-{{< imagedisplay sec-setting22 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting22.png" >}}
 
 
 まずは部署を設定します。「・・・」をクリックして「部署の変更」をクリックします。
 <!-- Image= sec-setting23.png -->
-{{< imagedisplay sec-setting23 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting23.png" >}}
 
 
 作成した部署を選択したら「OK」をクリックして部署を変更しましょう。
 <!-- Image= sec-setting24.png -->
-{{< imagedisplay sec-setting24 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting24.png" >}}
 
 
 ユーザーの部署が新しく設定されました。
@@ -297,15 +297,15 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 
 上部のユーザー名横のからメニューを開きます。「セキュリティ ロール」があるのでクリックします。
 <!-- Image= sec-setting25.png -->
-{{< imagedisplay sec-setting25 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting25.png" >}}
 
 「ロールの管理」をクリックします。
 <!-- Image= sec-setting26.png -->
-{{< imagedisplay sec-setting26 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting26.png" >}}
 
 セキュリティロールを選択して「OK」をクリックします。
 <!-- Image= sec-setting27.png -->
-{{< imagedisplay sec-setting27 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting27.png" >}}
 
 これでユーザーにセキュリティロールを割り当てました。複数のロールを割り当てることも可能です。
 
@@ -314,7 +314,7 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 
 ＋ボタンをクリックします。検索ボックスでチームを検索します。
 <!-- Images= sec-setting34.png -->
-{{< imagedisplay sec-setting34 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting34.png" >}}
 
 
 まずは所有者チームを追加しました。同じようにアクセスチームも追加します。
@@ -323,34 +323,34 @@ Dynamics 365 のセキュリティ ロールをユーザーやチームに複数
 「他のレコードの検索」をクリックして検索ダイアログを開き、「検索場所」を “すべてのユーザー アクセスチーム” とします。
 すると作成しているアクセスチームが表示されるので選択したら「追加」をクリックします。
 <!-- Image= sec-setting35.png -->
-{{< imagedisplay sec-setting35 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting35.png" >}}
 
 
 追加後もアクセスチームが表示されないので、ユーザーのフォームエディターを開き、この「チーム」のサブグリッドのプロパティを開き、ビューを「すべてのチーム」に変更して「編集」ボタンをクリックします。
 <!-- Image= sec-setting36.png -->
-{{< imagedisplay sec-setting36 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting36.png" >}}
 
 
 右端の「タスク」より「フィルター条件の編集」をクリックして、「チームの種類」に “アクセス” を追加したら「OK」をクリックします。
 <!-- Image= sec-setting37.png -->
-{{< imagedisplay sec-setting37 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting37.png" >}}
 
 
 これで「保存して閉じる」をクリックしておきます。
 このままでは変更は反映されないので、「設定」の「ソリューション」を開きます。
 
 <!-- Image= sec-setting38.png -->
-{{< imagedisplay sec-setting38 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting38.png" >}}
 
 
 そして「すべてのカスタマイズの公開」で公開処理を行います。
 <!-- Image= sec-setting39.png -->
-{{< imagedisplay sec-setting39 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting39.png" >}}
 
 
 公開処理が終わると先ほどのユーザー情報を確認してください。アクセスチームも表示されています。
 <!-- Image= sec-setting40.png -->
-{{< imagedisplay sec-setting40 "290" "596" "796" >}}
+{{< imagedisplay src="sec-setting40.png" >}}
 
 
 

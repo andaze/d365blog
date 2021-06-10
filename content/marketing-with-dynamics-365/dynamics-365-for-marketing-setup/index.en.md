@@ -45,14 +45,14 @@ Quote from: [What's included in Dynamics 365 for Marketing](https://docs.microso
 ## About Licensing
 The licensing for Dynamics 365 for Marketing is as shown in the reference information.
 <!-- Image= ma_1.png  -->
-{{< imagedisplay ma_1 "290" "596" "796" >}}
+{{< imagedisplay src="ma_1.png" >}}
 
 
 Quotes: [about price](https://dynamics.microsoft.com/ja-jp/marketing/overview/#pricing)
 
 If you are currently using **10 or more licenses of Dynamics 365 Customer Engagement Plan**, you can start using Dynamics 365 for Marketing right away.  
 <!-- Image= ma_2.png -->
-{{< imagedisplay ma_2 "290" "596" "796" >}}
+{{< imagedisplay src="ma_2.png" >}}
 
 
 Therefore, this article will introduce the setup of for Marketing, assuming that you are already using at least 10 licenses of Dynamics 365 Customer Engagement Plan.
@@ -82,51 +82,51 @@ There are many requirements, but I think the most important ones are that the **
 ## Enable Dynamics 365 for Marketing features
 First, access the Dynamics 365 Management Center. Select your instance and click on the "Solution" button.
 <!-- Image= ma_3.png -->
-{{< imagedisplay ma_3 "290" "596" "796" >}}
+{{< imagedisplay src="ma_3.png" >}}
 
 
 Select Dynamics 365 for Marketing and click Install.
 <!-- Image= ma_4.png -->
-{{< imagedisplay ma_4 "290" "596" "796" >}}
+{{< imagedisplay src="ma_4.png" >}}
 
 
 Click "Accept" under "Requested permissions.
 <!-- Image= ma_5.png -->
-{{< imagedisplay ma_5 "290" "596" "796" >}}
+{{< imagedisplay src="ma_5.png" >}}
 
 
 Add the name of the organization you want to connect to and the URL of the web portal you want to use for Dynamics 365 for Marketing.
 
 The URL of the Web portal can be set freely.
 <!-- Image= ma_6.png -->
-{{< imagedisplay ma_6 "290" "596" "796" >}}
+{{< imagedisplay src="ma_6.png" >}}
 
 
 After checking the checkboxes and entering the address where you want to use Dynamics 365 for Marketing, click "Setup". This will start the setup of the application. The setup will take about 70 minutes, so please be patient.
 <!-- Image= ma_7.png -->
-{{< imagedisplay ma_7 "290" "596" "796" >}}
+{{< imagedisplay src="ma_7.png" >}}
 
 
 Make sure the installation is complete.
 <!-- Image= ma_8.png -->
-{{< imagedisplay ma_8 "290" "596" "796" >}}
+{{< imagedisplay src="ma_8.png" >}}
 
 
 ## Accessing Dynamics 365 for Marketing
 Access your Dynamics 365 instance as usual. Open the application list.
 Click on "Marketing" when it appears.
 <!-- Image= ma_9.png -->
-{{< imagedisplay ma_9 "290" "596" "796" >}}
+{{< imagedisplay src="ma_9.png" >}}
 
 
 This is the top screen of Dynamics for Marketing.
 <!-- Image= ma_10.png -->
-{{< imagedisplay ma_10 "290" "596" "796" >}}
+{{< imagedisplay src="ma_10.png" >}}
 
 
 Open the left panel to see the Dynamics for Marketing features.
 <!-- Image= ma_11.png -->
-{{< imagedisplay ma_11 "290" "596" "796" >}}
+{{< imagedisplay src="ma_11.png" >}}
 
 
 I'll touch on each of these one at a time.

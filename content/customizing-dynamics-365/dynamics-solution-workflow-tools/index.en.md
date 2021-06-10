@@ -69,40 +69,40 @@ The above page is in English, but you can check the description of each function
 ## Importing Dynamics 365 Workflow Tools
 Import the Dynamics 365 Workflow Tools, which can be found by searching the App Store, but clicking "Get it now" from here will not import it successfully.
 <!-- Image= wftool01.png -->
-{{< imagedisplay wftool01 "290" "596" "796" >}}
+{{< imagedisplay src="wftool01.png" >}}
 
 To do so, go to GitHub where you can find the Dynamics 365 Workflow Tools .zip file.
 <!-- Image= wftool02.png -->
-{{< imagedisplay wftool02 "290" "596" "796" >}}
+{{< imagedisplay src="wftool02.png" >}}
 
 URL is here: https://github.com/demianrasko/Dynamics-365-Workflow-Tools
 
 For the version, expand "Branch:master" on the left side, and check 1.0.54.1 in "Tags".
 <!-- Image= wftool03.png -->
-{{< imagedisplay wftool03 "290" "596" "796" >}}
+{{< imagedisplay src="wftool03.png" >}}
 
 Then, under "Clone or download" on the right side, click "Download ZIP".
 <!-- Image= wftool04.png -->
-{{< imagedisplay wftool04 "290" "596" "796" >}}
+{{< imagedisplay src="wftool04.png" >}}
 
 Upload the .zip file that you downloaded from "Import" in the Dynamics 365 solution.
 <!-- Image= wftool06.png -->
-{{< imagedisplay wftool06 "290" "596" "796" >}}
+{{< imagedisplay src="wftool06.png" >}}
 
 If the file is correct, the screen will look like the following, and click "Import".
 <!-- Image= wftool07.png -->
-{{< imagedisplay wftool07 "290" "596" "796" >}}
+{{< imagedisplay src="wftool07.png" >}}
 
 After successful completion, you should see Dynamics 365 Workflow Tools in the solution list.
 <!-- Image= wftool08.png -->
-{{< imagedisplay wftool08 "290" "596" "796" >}}
+{{< imagedisplay src="wftool08.png" >}}
 
 The solution has now been imported.
 
 ## Using Workflow Tools
 Now, let's create a workflow and try to use the Dynamics 365 Workflow Tools. Go to "Settings", "Process" and create a new workflow. When you open "Add Step", you will see that Workflow Tools has been imported and is ready to be used as shown below.
 <!-- Image= wftool09.png -->
-{{< imagedisplay wftool09 "290" "596" "796" >}}
+{{< imagedisplay src="wftool09.png" >}}
 
 Now let's create the following workflow.
 
@@ -113,25 +113,25 @@ I remember how happy I was when I found out that I could use Dynamics 365 Workfl
 
 First, go to "Add Step" and set the condition that the department of the owning user is "Sales Department", and then add "Share Record With Team" in "msdyncrm Workflow Tools". Now you can set up to share the record with a team.
 <!-- Image= wftool10.png -->
-{{< imagedisplay wftool10 "290" "596" "796" >}}
+{{< imagedisplay src="wftool10.png" >}}
 
 Click on "Property Settings".
 <!-- Image= wftool11.png -->
-{{< imagedisplay wftool11 "290" "596" "796" >}}
+{{< imagedisplay src="wftool11.png" >}}
 
 The "Sharing Record URL" is the target record, which is set to "Record URL (dynamic). The "Sharing Record URL" is the target record. In "Team", select the team you want to share with, and configure the necessary sharing settings in Permission. When you are done, save and close the settings.
 <!-- Image= wftool12.png -->
-{{< imagedisplay wftool12 "290" "596" "796" >}}
+{{< imagedisplay src="wftool12.png" >}}
 
 **Unsharing**
 
 If you want to unshare, use "Unshare Record With Team". (For users, use "Unshare Record With User.")
 <!-- Image= wftool13.png -->
-{{< imagedisplay wftool13 "290" "596" "796" >}}
+{{< imagedisplay src="wftool13.png" >}}
 
 For unsharing, set only "Sharing Record URL" and "Team". This will allow you to unshare from the target record.
 <!-- Image= wftool05.png -->
-{{< imagedisplay wftool05 "290" "596" "796" >}}
+{{< imagedisplay src="wftool05.png" >}}
 
 Since setting and unsharing is one team or one user per step, if you want to unsharpen all the teams shared in a record and then set the sharing, you need to define steps for the number of teams you want to unsharpen.
 
@@ -142,50 +142,50 @@ We also had a hard time getting the ID of the record. we could get the ID and st
 
 In 1.0.54.1, you can use "Get Record ID" to get the ID of a record, which was not available in older versions of Dynamics 365 Workflow Tools.
 <!-- Image= wftool14.png -->
-{{< imagedisplay wftool14 "290" "596" "796" >}}
+{{< imagedisplay src="wftool14.png" >}}
 
 Click "Set Properties" and set "Record URL" to "Record URL (Dynamic)".
 <!-- Image= wftool15.png -->
-{{< imagedisplay wftool15 "290" "596" "796" >}}
+{{< imagedisplay src="wftool15.png" >}}
 
 If you want to use "Get Record ID" to get the ID from the record's URL and set it to a different field, add "Update Record" to a later step. Expand "Search" in the right panel, and you will see the step name of "Get Record ID" in "Local Values".
 <!-- Image= wftool16.png -->
-{{< imagedisplay wftool16 "290" "596" "796" >}}
+{{< imagedisplay src="wftool16.png" >}}
 
 Click "Add" as "Record ID" and then "OK" to set the field.
 <!-- Image= wftool17.png -->
-{{< imagedisplay wftool17 "290" "596" "796" >}}
+{{< imagedisplay src="wftool17.png" >}}
 
 Now we can get the ID of the record as a field and the ID of the record as a workflow. When we run the workflow, the ID is set as text, as shown in the figure below.
 <!-- Image= wftool18.png -->
-{{< imagedisplay wftool18 "290" "596" "796" >}}
+{{< imagedisplay src="wftool18.png" >}}
 
 I think it would be good to create and use it as a workflow that works when a record is created.
 
 ### Four operations on numeric fields
 Add a "Numeric Functions" step to calculate the decimal fields A and B.
 <!-- Image= wftool19.png -->
-{{< imagedisplay wftool19 "290" "596" "796" >}}
+{{< imagedisplay src="wftool19.png" >}}
 
 Click on "Property Settings" to set the "Number 1" and "Number 2" numeric fields as shown below. In this example, we set the stock price and the number of shares outstanding to calculate the market capitalization.
 <!-- Image= wftool20.png -->
-{{< imagedisplay wftool20 "290" "596" "796" >}}
+{{< imagedisplay src="wftool20.png" >}}
 
 As before, we will multiply "Number 1" and "Number 2" and enter the result in the field "Market Capitalization", so we will add "Update Record" to the step. If you expand "Search" in the right panel, you will see the step name "Set Stock Price and Number of Outstanding Shares" in "Local Values".
 <!-- Image= wftool21.png -->
-{{< imagedisplay wftool21 "290" "596" "796" >}}
+{{< imagedisplay src="wftool21.png" >}}
 
 Select "Multiply" when you have a choice of four arithmetic operations.
 <!-- Image= wftool22.png -->
-{{< imagedisplay wftool22 "290" "596" "796" >}}
+{{< imagedisplay src="wftool22.png" >}}
 
 Add it to the "Market capitalization" field.
 <!-- Image= wftool23.png -->
-{{< imagedisplay wftool23 "290" "596" "796" >}}
+{{< imagedisplay src="wftool23.png" >}}
 
 This is OK. After activating and running the workflow, the "Market Capitalization" has been calculated as shown below.
 <!-- Image= wftool24.png -->
-{{< imagedisplay wftool24 "290" "596" "796" >}}
+{{< imagedisplay src="wftool24.png" >}}
 
 ## Other features.
 We have introduced only some of the features of Dynamics 365 Workflow Tools. There are quite a few other features available, so please try them out when you have time.

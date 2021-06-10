@@ -76,7 +76,7 @@ CRM システムは大きくわけると 「高機能」か「安価」の2種�
 
 [Dynamics 365 の価格 ](https://dynamics.microsoft.com/ja-jp/pricing/ )というページをみると価格が記載されています。
 <!-- Image= d-price-1.png  -->
-{{< imagedisplay d-price-1 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-1.png" >}}
 
 
 引用元：[Dynamics 365 の価格](https://dynamics.microsoft.com/ja-jp/pricing/) 
@@ -130,12 +130,12 @@ Marketing に関しては、月額 81,570円からになっています。
 
 その他、人事やリテール、AX機能の3種類を含めた Unified Operations Plan 、すべて含めた Dynamics 365 Plan についての価格は記載されておらず、こちらはマイクロソフト担当者へお問い合わせが必要になります。
 <!-- Image= d-price-2.png -->
-{{< imagedisplay d-price-2 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-2.png" >}}
 
 
 比較表は以下です。
 <!-- Image d-price-3.png -->
-{{< imagedisplay d-price-3 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-3.png" >}}
 
 
 引用元: [Dynamics 365 の価格 ](https://dynamics.microsoft.com/ja-jp/pricing/) 

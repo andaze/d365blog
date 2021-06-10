@@ -27,15 +27,15 @@ linkdin: "aa"
 
 「設定」から「カスタマイズ」を開きましょう。
 <!-- Image= customize.png -->
-{{< imagedisplay customize "290" "596" "796" >}}
+{{< imagedisplay src="customize.png" >}}
 
 「システムのカスタマイズ」をクリックして、「エンティティ」を展開して、設定したいエンティティの「フィールド」を開きます。そこで、セキュリティ設定を行うフィールドを選択したらダブルクリックでプロパティ設定を開きます。
 <!-- Image= customize1.png -->
-{{< imagedisplay customize1 "290" "596" "796" >}}
+{{< imagedisplay src="customize1.png" >}}
 
 「フィールド セキュリティ」を “有効にする” にチェックをいれたら、保存して閉じてください。あとは、システムのカスタマイズの画面で、「すべてのカスタマイズの公開」をクリックして公開をします。
 <!-- Image= customize2.png -->
-{{< imagedisplay customize2 "290" "596" "796" >}}
+{{< imagedisplay src="customize2.png" >}}
 
 これで、フィールドのセキュリティを有効にする準備は完了です。この時点では、システム管理者以外のユーザーに、上記でセキュリティを有効にしたフィールドは 非表示 となっています。
 
@@ -43,37 +43,37 @@ linkdin: "aa"
 ## フィールドセキュリティプロファイルを設定する
 それでは、フィールドセキュリティの設定を行います。「設定」の「セキュリティ」をクリックしたら、「フィールド セキュリティ プロファイル」をクリックします。
 <!-- Image= customize3.png -->
-{{< imagedisplay customize3 "290" "596" "796" >}}
+{{< imagedisplay src="customize3.png" >}}
 
 ここでは「新規」ボタンをクリックして新しくプロファイルを作成しましょう。
 
 プロファイル名は “営業用” としてください。一度「保存」をクリックしたら、「フィールドのアクセス許可」をクリックします。
 <!-- Image= customize4.png -->
-{{< imagedisplay customize4 "290" "596" "796" >}}
+{{< imagedisplay src="customize4.png" >}}
 
 先ほどセキュリティを有効にしたフィールドが表示されているので、選択して「編集」ボタンをクリックします。
 <!-- Image= customize5.png -->
-{{< imagedisplay customize5 "290" "596" "796" >}}
+{{< imagedisplay src="customize5.png" >}}
 
 以下のような画面になります。ここでは、読み取り権限のみを与える設定にします。「OK」をクリックして設定を完了します。
 
 <!-- Image= customize6.png -->
-{{< imagedisplay customize6 "290" "596" "796" >}}
+{{< imagedisplay src="customize6.png" >}}
 
 これで設定は完了です。「保存」をクリックしましょう。
 
 ## ユーザーにフィールドセキュリティを割り当てる
 フィールドセキュリティ プロファイルを作成したので、早速ユーザーに割り当てましょう。「ユーザー」をクリックします。
 <!-- Image= customize7.png -->
-{{< imagedisplay customize7 "290" "596" "796" >}}
+{{< imagedisplay src="customize7.png" >}}
 
 「追加」をクリックしてユーザーを追加します。適用したいユーザーを選択したら「追加」ボタンでユーザーを追加しましょう。
 <!-- Image= customize8.png -->
-{{< imagedisplay customize8 "290" "596" "796" >}}
+{{< imagedisplay src="customize8.png" >}}
 
 これで、ユーザーへの割り当ては完了です。チームに対しても同じように割り当てることは可能です。
 <!-- Image= customize9.png -->
-{{< imagedisplay customize9 "290" "596" "796" >}}
+{{< imagedisplay src="customize9.png" >}}
 
 
 このようにフィールド単位でのセキュリティ設定を行うことは可能ですが、多くのフィールドに対して行い、さらに複数のプロファイルを部署ごとなどで管理すると、設定はとても複雑になってしまいます。
