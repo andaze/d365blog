@@ -29,5 +29,5 @@ languageCode = "en-en"
 [params]
 headerTitle = "Dynamics 365 blog"
 env = "devlop"
-imageratio = "1 1.5 2 3"
+imageratio = "1 2"
 imagewidth = "700"
