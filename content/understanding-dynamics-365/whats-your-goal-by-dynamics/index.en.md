@@ -23,7 +23,7 @@ Now, think about the "real purpose" of Dynamics 365, specifically from the examp
 
 ## 【Consideration １】 Clarify the purpose of implementing the system and the purpose of the business.
 <!-- Image= Consideration1.jpg -->
-{{< imagedisplay Consideration1 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration1.jpg" >}}
 
 You need to distinguish between the purpose of implementing the Dynamics 365 system itself or the purpose of your business.
 
@@ -59,7 +59,7 @@ If Dynamics 365 is the system that can realize these objectives, then let's cons
 
 ## 【Consideration ２】 Know that the purpose of system implementation is different from the purpose of business.
 <!-- Image= Consideration2.jpg -->
-{{< imagedisplay Consideration2 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration2.jpg" >}}
 
 
 The following is a list of the objectives of the work listed in Discussion Item 1.
@@ -78,7 +78,7 @@ Are the goals to be achieved as easy-to-understand "numbers" for business operat
 
 ## 【Consideration ３】 Think about the effects of implementation
 <!-- Image= Consideration3.jpg-->
-{{< imagedisplay Consideration3 "290" "596" "796" >}}
+{{< imagedisplay src="Consideration3.jpg" >}}
 
 
 Last but not least, you need to be clear about what kind of effects you want to achieve by implementing Dynamics 365.

@@ -1,49 +1,59 @@
-{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
-{{ $size1 := .Get 1 }}
-{{ $size2 := .Get 2 }}
-{{ $size3 := .Get 3}}
-
-{{ $smallw := printf "%s%s" $size1 "x" }}
-{{ $mediumw := printf "%s%s" $size2 "x" }}
-{{ $largew := printf "%s%s" $size3 "x" }}
-
-<figure>
-  <picture>
-    {{ $small := $src.Resize $smallw }}
-    {{ $medium := $src.Resize $mediumw }}
-    {{ $large := $src.Resize $largew }}
+{{/* 
+    < imagedisplay  src="" width="" ratio="" layout="" >
+  
+    Attribute:
+    ----------
+    src (Require) => need to pass image name with extenstion
+    width (optional) => need to pass image width if you not pass then it will take default using Image.Width function
+    ratio (optional) => need to pass image ration if you not pass then it will take default using width and height multiplication  
+    layout (optional) => need to pass image layout 
     
-    {{ $type_arr := split $small.RelPermalink "." }}
-    {{ $srcbase := index $type_arr 0 }}
-    {{ $smallwebp := print $srcbase ".webp" }}
-
-    {{ $type_arr := split $medium.RelPermalink "." }}
-    {{ $srcbase := index $type_arr 0 }}
-    {{ $mediumwebp := print $srcbase ".webp" }}
-
-    {{ $type_arr := split $large.RelPermalink "." }}
-    {{ $srcbase := index $type_arr 0 }}
-    {{ $largewebp := print $srcbase ".webp" }}
+    Example: 
+    --------
+    {{< imagedisplay  src="sample.jpg" width="" ratio="" layout="" >}} 
     
-    {{if eq .Site.Params.Env "prod" }}
-    <amp-img alt="Image Not Available" src="" width="1.33"  height="1" layout="responsive" srcset="{{ $largewebp }} 1024w, {{ $mediumwebp }} 640w, {{ $smallwebp  }} 320w" sizes="(max-width: 375px) $size1,
-      (max-width: 768px) $size2,
-      $size3">
-    </amp-img>
-    {{ end }}
-    {{ if eq .Site.Params.Env "devlop" }}
-    <amp-img alt="Image Not Available" src="{{$src.RelPermalink}}" width="1.33"  height="1" layout="responsive" srcset=" {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
-      {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
-      {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}" sizes="(max-width: 375px) {{$size1}},
-      (max-width: 768px) {{$size2}},
-      {{$size3}}">
-    </amp-img>
-     <!-- <amp-img alt="Image Not Available" src="{{$src.RelPermalink}}" class="contain" layout="fill" srcset=" {{ with $large.RelPermalink }}{{.}} 1024w{{ end }}
-      {{ with $medium.RelPermalink }}, {{.}} 640w{{ end }}
-      {{ with $small.RelPermalink }}, {{.}} 320w{{ end }}" sizes="(max-width: 375px) {{$size1}},
-      (max-width: 768px) {{$size2}},
-      {{$size3}}">
-    </amp-img> -->
-    {{ end }}
-  </picture>
-</figure>
+    */}}
+    
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "width" "" }}
+    
+{{ $src := (.Get "src") }}
+{{ $srcimg := $.Page.Resources.GetMatch $src }}
+{{ $srcimg_width := $srcimg.Width }}
+{{ $srcimg_height := $srcimg.Height }}
+{{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+{{ if gt $srcimg.Width .Site.Params.Imagewidth }}
+    {{ $getwidth := int (default .Site.Params.Imagewidth (.Get "width")) }}
+    {{ $Scratch.Set "width" $getwidth }}
+{{ else }}
+    {{ $getwidth := int (default $srcimg_width (.Get "width")) }}
+    {{ $Scratch.Set "width" $getwidth }}
+{{ end }}
+{{ $width := $Scratch.Get "width" }}
+
+{{ $ratio := float (default $srcimg_ratio (.Get "ratio")) }}
+{{ $layout := .Get "layout" }}
+
+{{ $height := int (mul $width $ratio) }}
+
+{{ $wmax := mul $width 2 }}
+{{ $wmin := int (div $width 4) }}
+
+{{ $getdata:= split .Site.Params.Imageratio " " }}
+
+{{ $array := $getdata }}
+{{ $dict := dict }}
+{{ range $array }}
+{{$imgratio:= float .}}
+    {{ $crop_prm := printf "%dx%d" (int (mul $width $imgratio)) (int (mul $height $imgratio)) }}
+    {{ $cropsize:= print $crop_prm " webp"}}
+    {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
+    {{ $crop_img := $srcimg.Resize $cropsize }}
+    {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+{{ end }}
+<br>
+<br>
+<amp-img alt="Image Not Available" src="" width="{{ $width }}"  height="{{$height}}"  srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
+</amp-img>
+<br>
+<br>

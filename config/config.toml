@@ -5,7 +5,7 @@ baseURL = "http://localhost/dynamic365Imagetesting/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"
-
+timeout = 300000
 [Languages]
 ############ 1 - Site en Japanese
 [Languages.jp]

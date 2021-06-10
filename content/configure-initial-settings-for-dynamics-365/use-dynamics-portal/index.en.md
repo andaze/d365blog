@@ -28,7 +28,7 @@ In this article, I will show you the steps to configure a contact form using the
 The Dynamics 365 portal feature is described in detail in the Microsoft blog mentioned above, so I won't go into it here.
 Note that we have set up a customer self-service portal as shown in the figure below.
 <!-- Image= portaldemo01.png -->
-{{< imagedisplay portaldemo01 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo01.png" >}}
 
 
 ### Page Views and Licenses
@@ -46,12 +46,12 @@ If the above portal setup procedure is performed in an environment where Dynamic
 ## Access the portal management screen
 First, go to the portal management screen. Click "Portal Details" in the left panel to see the detailed information of the portal.
 <!-- Image= portaldemo02.png -->
-{{< imagedisplay portaldemo02 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo02.png" >}}
 
 
 Clicking on "Portal Actions" will allow you to restart the portal, change the URL, or reset it.
 <!-- Image= portaldemo03.png -->
-{{< imagedisplay portaldemo03 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo03.png" >}}
 
 
 You can enable diagnostic logging, but this requires Azure Blob separately, so I won't mention it here.
@@ -59,11 +59,11 @@ You can enable diagnostic logging, but this requires Azure Blob separately, so I
 ## Portal account
 When you access the portal you have created, you will see "Sign In" in the upper right corner, click on it.
 <!-- Image= portaldemo04.png -->
-{{< imagedisplay portaldemo04 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo04.png" >}}
 
 Here, there are two types of sign-in: "Local Account" and "External Account".
 <!-- Image= portaldemo05.png -->
-{{< imagedisplay portaldemo05 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo05.png" >}}
 
 * Local accounts are accounts that are managed in the portal, and once registered, the ID and password are managed in the portal.
 * An external account is a sign-in with an account that is managed by Azure AD or another external system.
@@ -82,27 +82,27 @@ The account here will be managed as a "**Trading Partner**" record in Dynamics 3
 ## Disable open registration.
 The **Open Registration** feature, which allows users to freely register their accounts on the portal, is turned on by default, and allows users to freely register their email address, ID, and password from the Registration tab of Sign In. This is useful for sites such as My Page, which are freely available to users who access them.
 <!-- Image= portaldemo06.png -->
-{{< imagedisplay portaldemo06 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo06.png" >}}
 
 If you want to deactivate this open enrollment, open the Dynamics 365 "Portal".
 <!-- Image= portaldemo07.png -->
-{{< imagedisplay portaldemo07 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo07.png" >}}
 
 Click "Site Settings".
 <!-- Image= portaldemo11.png -->
-{{< imagedisplay portaldemo11 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo11.png" >}}
 
 Find and click on the setting **"Authentication/Registration/OpenRegistrationEnabled."**
 <!-- Image= portaldemo08.png -->
-{{< imagedisplay portaldemo08 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo08.png" >}}
 
 Set the value to "false" and save it.
 <!-- Image= portaldemo09.png -->
-{{< imagedisplay portaldemo09 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo09.png" >}}
 
 Go back to the portal and click "Sign In". You will then see that the "Registration" tab has disappeared.
 <!-- Image= portaldemo10.png -->
-{{< imagedisplay portaldemo10 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemo10.png" >}}
 
 For technical information on other authentication methods, please refer to the following\
 Technical Information: [Configuring Authentication ID for Portal](https://docs.microsoft.com/ja-jp/powerapps/maker/portals/configure/set-authentication-identity)     
@@ -117,17 +117,17 @@ The procedure is described in [Checking your Dynamics 365 email settings.](https
 ### Preliminary work: Update Send Invitation process
 In order to add the URL with the code for redemption to the invitation, edit the process called "Send Invitation". Open the "Send Invitation" process. Click "Deactivate" to deactivate it, and then click "Set properties" under "Create an email to act as an email template".
 <!-- Image= portal1.png -->
-{{< imagedisplay portal1 "290" "596" "796" >}}
+{{< imagedisplay src="portal1.png" >}}
 
 Rewrite the URL for the portal login in the body of the email here, as this is a sample, and replace the first part of the URL with the URL of the portal you created, leaving only /register/?returnurl=%2f&invitation=, and then add "The first part of the URL is rewritten to the URL of the portal you created, leaving only /register/?returnurl=%2f&invitation=, and then add the value of the (dynamic) invitation code you got in the previous step of the process, "Encode Invitation Code.
 <!-- Image= portal3.png -->
-{{< imagedisplay portal3 "290" "596" "796" >}}
+{{< imagedisplay src="portal3.png" >}}
 
 The URL is as follows.    
 **<portal URL here>/register/?returnurl=%2f&invitation=<Encode invitation code here>.**
 
 <!-- Image= portal004.png -->
-{{< imagedisplay portal004 "290" "596" "796" >}}
+{{< imagedisplay src="portal004.png" >}}
 
 Now you are ready to run the process.
 
@@ -135,29 +135,29 @@ Now you are ready to run the process.
 Open one of your business contacts in Dynamics 365. Make sure that the email to which the invitation will be sent has a value in it, and click
 Click on Send Invitation from the menu.
 <!-- Image= portaldemon01.png -->
-{{< imagedisplay portaldemon01 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemon01.png" >}}
 
 
 When the Create New Invitation screen appears, enter a name and other information, and overwrite the file. Then expand "Flow" from the ... menu, and click "Send Invitation" from "Run Workflow.
 <!-- Image= portaldemon02.png -->
-{{< imagedisplay portaldemon02 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemon02.png" >}}
 
 
 Click "OK" in the dialog to finish.
 <!-- Image= portaldemon03.png -->
-{{< imagedisplay portaldemon03 "290" "596" "796" >}}
+{{< imagedisplay src="portaldemon03.png" >}}
 
 Once it is executed, you will receive an email. Copy the URL below.
 <!-- Image= portal005.png -->
-{{< imagedisplay portal005 "290" "596" "796" >}}
+{{< imagedisplay src="portal005.png" >}}
 
 When the portal brings you to the invitation code redemption screen, click "Register.
 <!-- Image= portal006.png -->
-{{< imagedisplay portal006 "290" "596" "796" >}}
+{{< imagedisplay src="portal006.png" >}}
 
 Enter your User Name and Password, and click "Register.
 <!-- Image= portal007.png -->
-{{< imagedisplay portal007 "290" "596" "796" >}}
+{{< imagedisplay src="portal007.png" >}}
 
 
 Now, users who have been sent invitations will be able to use the portal with their own page.
@@ -165,11 +165,11 @@ Now, users who have been sent invitations will be able to use the portal with th
 ### Check your portal account.
 The settings of the portal account registered in the invitation can be viewed in a separate form for the business partner representative. Click "Portal Contacts" from the form selector.
 <!-- Image= portal008.png -->
-{{< imagedisplay portal008 "290" "596" "796" >}}
+{{< imagedisplay src="portal008.png" >}}
 
 Open the "Web Authentication" tab and you will see the settings you have just made.
 <!-- Image= portal009.png -->
-{{< imagedisplay portal009 "290" "596" "796" >}}
+{{< imagedisplay src="portal009.png" >}}
 
 
 * User name" is the login name of the portal.
@@ -182,30 +182,30 @@ and other settings can be checked.
 ## Contact us through the portal
 Now we will make an inquiry on the portal while signed in with an invitation. Click on "Create a support case" at the bottom of the page.
 <!-- Image= port1.png -->
-{{< imagedisplay port1 "290" "596" "796" >}}
+{{< imagedisplay src="port1.png" >}}
 
 This will open a new contact form where you can fill in the title and description.
 <!-- Image= portal11.png -->
-{{< imagedisplay portal11 "290" "596" "796" >}}
+{{< imagedisplay src="portal11.png" >}}
 
 
 There are no attachments, so just click "Send".
 <!-- Image= portal12.png -->
-{{< imagedisplay portal12 "290" "596" "796" >}}
+{{< imagedisplay src="portal12.png" >}}
 
 
 Verify that your inquiry has been received: In Dynamics 365, go to Services.
 <!-- Image= portal13.png -->
-{{< imagedisplay portal13 "290" "596" "796" >}}
+{{< imagedisplay src="portal13.png" >}}
 
 
 When you open the "Support case", the inquiry you have just made will be created.
 <!-- Image= portal14.png -->
-{{< imagedisplay portal14 "290" "596" "796" >}}
+{{< imagedisplay src="portal14.png" >}}
 
 You can now create a support case from the portal. If you want to cancel or close the inquiry, you can also set that from the portal.
 <!-- Image= portal15.png -->
-{{< imagedisplay portal15 "290" "596" "796" >}}
+{{< imagedisplay src="portal15.png" >}}
 
 So much for a simple setup of the portal.     
 &nbsp;

@@ -20,17 +20,17 @@ Dynamics 365 は **Office 365 のユーザー情報を同期**しているため
 左パネルより「ユーザー」を開き「アクティブなユーザー」をクリックして、「＋」をクリックします。
 
 <!-- Image= adduser-01.png -->
-{{< imagedisplay adduser-01 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-01.png" >}}
 
 
 任意の名前やメールアドレスを設定します。
 <!-- Image= adduser-02.png -->
-{{< imagedisplay adduser-02 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-02.png" >}}
 
 
 「製品ライセンス」において、Dynamics 365 のライセンスにチェックをいれたら、「追加」をクリックします。
 <!-- Image= adduser-03.png -->
-{{< imagedisplay adduser-03 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-03.png" >}}
 
 これでユーザーが作成されました。このユーザーはある程度の時間待つと Dynamics 365 でも反映されます。
 以下公式ドキュメントでは、数分程度との記載があります。
@@ -46,35 +46,35 @@ Office 365 管理センター でユーザーを作成し、ライセンスを�
 それでも反映されない場合は、同期がうまくいっていない可能性があるので、Office 365 管理センターの「サポート」より「新規のお問い合わせ」でカスタマーサポートへお問い合わせをしてください。同期の不整合をリセットする処理を行ってくれるはずです。
 
 <!-- Image= adduser-04.png -->
-{{< imagedisplay adduser-04 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-04.png" >}}
 
 
 ## Dynamics 365 でユーザーを確認する
 Dynamics 365 にユーザーが追加されたかどうかを確認します。「設定」を開き、「セキュリティ」をクリックします。
 <!-- Image= Settings-1.png -->
-{{< imagedisplay Settings-1 "290" "596" "796" >}}
+{{< imagedisplay src="Settings-1.png" >}}
 
 
 「ユーザー」 にアクセスします。
 <!-- Image= Users.png -->
-{{< imagedisplay Settings-1 "290" "596" "796" >}}
+{{< imagedisplay src="Settings-1.png" >}}
 
 
 ライセンスを付与されたアカウントが 「有効なユーザー」の一覧に自動で反映されます。
 先ほど追加したユーザーが反映されていることがわかります。
 <!-- Image= adduser-05.png -->
-{{< imagedisplay adduser-05 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-05.png" >}}
 
 
 ユーザー名をクリックしてみます。すると先ほど Office 365 管理センターで設定した氏名やユーザー名、メールアドレスが設定されています。これらの項目は、Dynamics 365 では変更はできませんので、ユーザー名の変更などがある場合は、Office 365 管理センターで変更をしてください。
 <!-- Image= adduser-06.png -->
-{{< imagedisplay adduser-06 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-06.png" >}}
 
 
 ## CAL情報について
 「クライアント アクセス ライセンス情報」のセクションを確認すると、「アクセスモード」が既定では **“読み取り/書き込み”** となっていると思います。
 <!-- Image= adduser-07.png -->
-{{< imagedisplay adduser-07 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-07.png" >}}
 
 
 このアクセスモードに設定されているユーザーはライセンスが必要な Dynamics 365 の一般ユーザーを意味します。多くのユーザーはこの設定が規定のため、”読み取り/書き込み” を利用して Dynamics 365 にアクセスすることになりますが、アクセスモードには２種類の特殊なモードが存在します。
@@ -84,7 +84,7 @@ Dynamics 365 にユーザーが追加されたかどうかを確認します。�
 これは Office 365 管理センターでユーザーを追加する際に、「役割」で「カスタム管理者」を選択して、
 「Dynamics 365 サービス管理者」にチェックを入れることで利用できるようになります。
 <!-- Image= adduser-08.png -->
-{{< imagedisplay adduser-08 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-08.png" >}}
 
 
 管理モードで追加されたユーザーは、Dynamics 365 の管理者として利用できます。
@@ -103,7 +103,7 @@ Dynamics 365 にユーザーが追加されたかどうかを確認します。�
 なお、上述の公式ドキュメントの **“グローバル管理者”** とは、「役割」で「全体管理者」にチェックが入ったユーザーを意味します。
 
 <!-- Image= adduser-09.png -->
-{{< imagedisplay adduser-09 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-09.png" >}}
 
 なお、管理ユーザーは Dynamics 365 の**設定のみアクセスすることができます。**営業やマーケティング、サービスなどのデータへのアクセスは制御されているので、システムを管理するだけのアカウントに割り当てることで営業データへの不要なアクセスを防ぐことができます。
 
@@ -121,19 +121,19 @@ Dynamics 365 にユーザーが追加されたかどうかを確認します。�
 ユーザー情報の「クライアント アクセス ライセンス情報」にて “非対話型” を選択して保存します。
 
 <!-- Image= adduser-10.png -->
-{{< imagedisplay adduser-10 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-10.png" >}}
 
 
 **Office 365 管理センター**に戻り、先ほどのユーザーの Dynamics 365 のライセンスを無効にして「保存」をクリックします。
 <!-- Image= adduser-11.png -->
-{{< imagedisplay adduser-11 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-11.png" >}}
 
 
 これでOKです。先ほどの Dynamics 365 の「アクティブなユーザー」一覧を確認しても、
 ライセンスを無効化したユーザーは表示されたままです。
 
 <!-- Image= adduser-12.png -->
-{{< imagedisplay adduser-12 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-12.png" >}}
 
 
 なお、非対話型モードを利用できる**最大数は５ユーザー**です。

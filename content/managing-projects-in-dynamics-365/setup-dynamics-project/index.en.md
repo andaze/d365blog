@@ -25,11 +25,11 @@ In addition, if you install the [Project Service Automation add-in](https://www.
 ## Structure of Project Service Automation
 Before we install it, let's understand the main entities that make up Project Service Automation: In Dynamics 365 for Sales, we had leads, and from there we had business partners and representatives, and sales deals. In Service Automation, a quote is created from a sales case, and once that quote is accepted, a project contract is created. When a quote is accepted, a project contract is created, and project management is initiated by adding the project to the project contract.
 <!-- Image= psa-001.png -->
-{{< imagedisplay psa-001 "290" "596" "796" >}}
+{{< imagedisplay src="psa-001.png" >}}
 
 A project is related to various entities, such as
 <!-- Image= psa-02.png -->
-{{< imagedisplay psa-02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-02.png" >}}
 
 A project is related to various entities, such as
 
@@ -51,15 +51,15 @@ The entities mentioned above will be explained in detail when you install and co
 ## Install Project Service Automation.
 If the instance you are building does not have Dynamics 365 for Project Service Automation installed, you will need to do this step. Open the [Dynamics 365 Management Center](https://port.crm7.dynamics.com/) and click on "Solutions" for the instance you want to install.
 <!-- Image= psa-03.png -->
-{{< imagedisplay psa-03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-03.png" >}}
 
 Select "Project Service Automation" and click "Install". It will take a few moments for the installation to complete, so please be patient.
 <!-- Image= psa-04.png -->
-{{< imagedisplay psa-04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-04.png" >}}
 
 After the installation is successfully completed, go to the [Dynamics 365 home screen](https://home.dynamics.com/) and click on Project Service Automation (Project Service in version 3) in the list of apps.
 <!-- Image= psa-05.png -->
-{{< imagedisplay psa-05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-05.png" >}}
 
 ## Configuring Project Service Automation
 Preconfigure your system to use Project Service Automation. All of this work is for administrators.
@@ -77,37 +77,37 @@ The first step is to create roles, skills, and ability levels. Roles are the rol
 The competence model represents the level of proficiency in a skill, with three levels of evaluation and years of experience.
 Click "Capability Model" from the menu.
 <!-- Image= psa-06.png -->
-{{< imagedisplay psa-06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-06.png" >}}
 
 Since we have a default model, we will rename it to "Proficiency" and save it.
 <!-- Image= psa-07.png -->
-{{< imagedisplay psa-07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-07.png" >}}
 
 #### Configure the skills of the resource.       
 Let's define the skills and qualifications that the resource has. Click on "Resource Skills" from the menu.
 <!-- Image= psa-08.png -->
-{{< imagedisplay psa-08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-08.png" >}}
 
 Create a new C# and Project Management skill, respectively.
 <!-- Image= psa-09.png -->
-{{< imagedisplay psa-09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-09.png" >}}
 
 #### Create a role for the resource    
 Let's define the role of the resource. Click "Resource Roles" from the menu.
 <!-- Image= psa-10.png -->
-{{< imagedisplay psa-10 "290" "596" "796" >}}
+{{< imagedisplay src="psa-10.png" >}}
 
 By default, "Project Manager" and "Team Member" are provided, so change these to "PM" and "Programmer".
 <!-- Image= psa-11.png -->
-{{< imagedisplay psa-11 "290" "596" "796" >}}
+{{< imagedisplay src="psa-11.png" >}}
 
 Open the role name and rename it. Add the **skills and ability models** you have already created here.
 <!-- Image= psa-12.png -->
-{{< imagedisplay psa-12 "290" "596" "796" >}}
+{{< imagedisplay src="psa-12.png" >}}
 
 Programmers are set up in the same way.
 <!-- Image= psa-13.png -->
-{{< imagedisplay psa-13 "290" "596" "796" >}}
+{{< imagedisplay src="psa-13.png" >}}
 
 ### Create an organizational unit.
 Once the roles are created, the next step is to set the organizational unit. The organizational unit represents the company or department, but it should be created at **the boundary where the unit price of the work changes**, such as when it varies by country or region, or when external subcontractors participate in the project.
@@ -118,15 +118,15 @@ This time, we will create the following two organizational units.
   
 Open the menu and click Organizational Unit.
 <!-- Image= psa-14.png -->
-{{< imagedisplay psa-14 "290" "596" "796" >}}
+{{< imagedisplay src="psa-14.png" >}}
 
 There is one existing organizational unit (your company), so let's edit the name. No cost setting will be done here.
 <!-- Image= psa-15.png -->
-{{< imagedisplay psa-15 "290" "596" "796" >}}
+{{< imagedisplay src="psa-15.png" >}}
 
 Similarly, create a new external partner company.
 <!-- Image= psa-16.png -->
-{{< imagedisplay psa-16 "290" "596" "796" >}}
+{{< imagedisplay src="psa-16.png" >}}
 
 The organizational unit is now ready. When you create a price list, you will set up this organizational unit or role.
 
@@ -150,72 +150,72 @@ The price list can be created in organizational units, but if resources = people
 
 Open the "Shipping Unit List" from the "Product Catalog" in the "Settings" menu, and click "Time".
 <!-- Image= psa-17.png -->
-{{< imagedisplay psa-17 "290" "596" "796" >}}
+{{< imagedisplay src="psa-17.png" >}}
 
 Click "Shipping Units" from the top menu of Time.
 <!-- Image= psa-18.png -->
-{{< imagedisplay psa-18 "290" "596" "796" >}}
+{{< imagedisplay src="psa-18.png" >}}
 
 Here we add Month, and we set Month as 160 Hour (which may be different for each company).
 <!-- Image= psa-19.png -->
-{{< imagedisplay psa-19 "290" "596" "796" >}}
+{{< imagedisplay src="psa-19.png" >}}
 
 #### Create a price list of costs.      
 Click "Price List" from the menu.
 <!-- Image= psa-20.png -->
-{{< imagedisplay psa-20 "290" "596" "796" >}}
+{{< imagedisplay src="psa-20.png" >}}
 
 Create a new one. Create a cost price list with the name as your price list. As for the "Start Date" and "End Date", they will be expiration dates, so if, for example, the unit price changes, set them properly. We set Month as the shipping unit we just created and saved it. Now you can set the price per person-month.
 <!-- Image= psa-21.png -->
-{{< imagedisplay psa-21 "290" "596" "796" >}}
+{{< imagedisplay src="psa-21.png" >}}
 
 #### Add a roll price       
 Set the price for each roll in the price list created above. Click the "+" button for "Roll Price. Set the cost of PM here.
 <!-- Image= psa-22.png -->
-{{< imagedisplay psa-22 "290" "596" "796" >}}
+{{< imagedisplay src="psa-22.png" >}}
 
 We also set the roll price for the programmer. We now have a price list of our own costs.
 <!-- Image= psa-23.png -->
-{{< imagedisplay psa-23 "290" "596" "796" >}}
+{{< imagedisplay src="psa-23.png" >}}
 
 Similarly, prepare the cost of external subcontractors.
 <!-- Image= psa-24.png -->
-{{< imagedisplay psa-24 "290" "596" "796" >}}
+{{< imagedisplay src="psa-24.png" >}}
 
 #### Create a sales price list.       
 Since what we have created above is a price list for costs (cost of goods), we will also create a price list for sales. To make it easy, open the price list and click "Copy".
 <!-- Image= psa-25.png -->
-{{< imagedisplay psa-25 "290" "596" "796" >}}
+{{< imagedisplay src="psa-25.png" >}}
 
 You can copy the price list, so switch the "Context" section to "Sales", update the name, and save it.
 <!-- Image= psa-26.png -->
-{{< imagedisplay psa-26 "290" "596" "796" >}}
+{{< imagedisplay src="psa-26.png" >}}
 
 Now it's time to set the roll price. You will probably want to set a price higher than the cost price here, so set each one accordingly.
 <!-- Image= psa-27.png -->
-{{< imagedisplay psa-27 "290" "596" "796" >}}
+{{< imagedisplay src="psa-27.png" >}}
 
 Make sure to create the same for your external subcontractors. This completes the setup of the price list. Associate the created price list with the organization unit and the client company respectively.
 <!-- Image= psa-28.png -->
-{{< imagedisplay psa-28 "290" "596" "796" >}}
+{{< imagedisplay src="psa-28.png" >}}
 
 ### Relate the cost price list to the organizational unit.
 Associate the cost price list with the organizational unit. You will now be able to set the price (cost) for the organizational unit. Click "Organization Unit" from the menu to open the organization unit you just created.
 <!-- Image= psa-29.png -->
-{{< imagedisplay psa-29 "290" "596" "796" >}}
+{{< imagedisplay src="psa-29.png" >}}
 
 Set up the organizational units of external subcontractors in the same way.
 <!-- Image= psa-30.png -->
-{{< imagedisplay psa-30 "290" "596" "796" >}}
+{{< imagedisplay src="psa-30.png" >}}
 
 ### Associate the sales price list with the companies you do business with.
 The next step is to associate the sales price list with the company you are dealing with. By associating the price list with a company, the price list will be inherited by any business negotiations (sales proposals) that occur from that company. Click on "Customer" in the menu to open an existing customer company.
 <!-- Image= psa-31.png -->
-{{< imagedisplay psa-31 "290" "596" "796" >}}
+{{< imagedisplay src="psa-31.png" >}}
 
 Add the price list (sales) that you created in the "Project Price List" section.
 <!-- Image= psa-32.png -->
-{{< imagedisplay psa-32 "290" "596" "796" >}}
+{{< imagedisplay src="psa-32.png" >}}
 
 The association is now complete.
 
@@ -240,22 +240,22 @@ The types of resources are as follows. You can also create facilities called "eq
 #### Create a resource with a user     
 The first step is to create a resource in the Dynamics 365 user. Click "Resources" from the menu.
 <!-- Image= psa-33.png -->
-{{< imagedisplay psa-33 "290" "596" "796" >}}
+{{< imagedisplay src="psa-33.png" >}}
 
 In Add New, add a user with "Resource Type" as User as shown below. Don't forget to set the time zone, and then save the file.
 <!-- Image= psa-34.png -->
-{{< imagedisplay psa-34 "290" "596" "796" >}}
+{{< imagedisplay src="psa-34.png" >}}
 
 Next, let's set the role of the resource and the skill of the resource respectively.
 <!-- Image= psa-35.png -->
-{{< imagedisplay psa-35 "290" "596" "796" >}}
+{{< imagedisplay src="psa-35.png" >}}
 
 You have now created your internal PM resources.
 
 #### Create resources with staff
 Let's also add staff from external subcontractors. Open a new window as above. Set the "Resource Type" to "Staff" and set the time zone. The important thing here is to set the "Organization Unit" at the bottom of the screen to External Partner.
 <!-- Image= psa-36.png -->
-{{< imagedisplay psa-36 "290" "596" "796" >}}
+{{< imagedisplay src="psa-36.png" >}}
 
 Now you can also create resources for external subcontractors.
 

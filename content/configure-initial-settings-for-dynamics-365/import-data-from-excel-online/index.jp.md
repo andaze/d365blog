@@ -22,31 +22,31 @@ Excel Online で動的にデータをインポートしたいエンティティ�
 
 ビューはシステムビューと個人用ビューの2種類がありますが、柔軟性を考慮して、個人用ビューを作成します。画面右上の「高度な検索」をクリックします。
 <!-- Image= speakerpic_test.jpg -->
-{{< imagedisplay speakerpic_test "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test.jpg" >}}
 
 「新規」ボタンをクリックして新しいビューを作成しましょう。
 <!-- Image- speakerpic_test1.jpg -->
-{{< imagedisplay speakerpic_test1 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test1.jpg" >}}
 
 
 フィルター条件を設定します。ここでは、以下のような条件としました。
 <!-- Image= speakerpic_test2.jpg -->
-{{< imagedisplay speakerpic_test2 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test2.jpg" >}}
 
 
 次に、「列の編集」をクリックして、表示させる列を選択します。選択された列が Excel Online でのインポートで値を編集、追加できるフィールドになるので、必要な列を選択します。必要な列にチェックを入れたら、「OK」をクリックします。
 <!-- Image= speakerpic_test3.jpg -->
-{{< imagedisplay speakerpic_test3 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test3.jpg" >}}
 
 
 表示させる列の順番を変更したら、ここでも「OK」をクリックします。
 <!-- Image= speakerpic_test4.jpg -->
-{{< imagedisplay speakerpic_test4 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test4.jpg" >}}
 
 
 「上書き保存」をクリックして、ビューの名前を設定後「上書き保存」をクリックします。
 <!-- Image= speakerpic_test5.jpg -->
-{{< imagedisplay speakerpic_test5 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test5.jpg" >}}
 
 
 これで個人用ビューが作成されました。
@@ -56,17 +56,17 @@ Excel Online で動的にデータをインポートしたいエンティティ�
 
 ビュー一覧を開くと、「自分のビュー」に先ほど作成したビューが表示されていることがわかります。そのビューをクリックします。
 <!-- Image= speakerpic_test6.jpg -->
-{{< imagedisplay speakerpic_test6 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test6.jpg" >}}
 
 
 すると結果がフィルター条件に合わせて絞られました。早速、Excel Online で編集します。メニューから「EXCEL にエクスポート」の ▼ をクリックして、「Excel Online で開く」をクリックします。
 <!-- Image= speakerpic_test7.jpg -->
-{{< imagedisplay speakerpic_test7 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test7.jpg" >}}
 
 
 Excel 編集画面になりました。各列に必要な値を入力していきます。さらに新しい企業も追加します。
 <!-- Image= speakerpic_test8.jpg -->
-{{< imagedisplay speakerpic_test8 "290" "596" "796" >}}     
+{{< imagedisplay src="speakerpic_test8.jpg" >}}     
 
 &nbsp;
 
@@ -78,16 +78,16 @@ Excel 編集画面になりました。各列に必要な値を入力してい�
 
 すべての編集と追加が完了したら、「変更を DYNAMICS365 に保存」をクリックしてデータをインポートします。
 <!-- Image= speakerpic_test9.jpg -->
-{{< imagedisplay speakerpic_test9 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test9.jpg" >}}
 
 インポート用にデータが送信されるので、インポート処理の状態を確認して完了したら結果を確認します。
 <!-- Image= speakerpic_test10.jpg -->
-{{< imagedisplay speakerpic_test10 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test10.jpg" >}}
 
 
 以下のようにレコードが更新されています。
 <!-- Image= speakerpic_test11.jpg -->
-{{< imagedisplay speakerpic_test11 "290" "596" "796" >}}
+{{< imagedisplay src="speakerpic_test11.jpg" >}}
 
 
 このように、Excel でデータを管理するように、Dynamcis 365 ではレコードの追加や更新を行うことができます。

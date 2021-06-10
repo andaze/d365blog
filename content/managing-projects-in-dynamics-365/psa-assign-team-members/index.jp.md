@@ -17,7 +17,7 @@ Dynamics 365 for Project Service Automation でプロジェクトを作成して
 ## リソースの”割り当て方法”
 プロジェクトのチームメンバーとしてリソースを割り当てる際、「割り当て方法」というフィールドに選択肢があります。
 <!-- Image= psa-assign01.png -->
-{{< imagedisplay psa-assign01 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign01.png" >}}
 
 公式ページを確認すると下記のような意味であることがわかります。
 
@@ -33,7 +33,7 @@ Dynamics 365 for Project Service Automation でプロジェクトを作成して
 
 上記の説明だけでは少しわかりづらいので、図で表現してみました。
 <!-- Image= psa-assign02.png -->
-{{< imagedisplay psa-assign02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign02.png" >}}
 
 上図は、2019/02/07 – 02/08 の 2日間 ( 8時間 x 2 = 16 時間）リソースをそれぞれの割り当て方法で予約したものです。※この8時間という時間は[作業テンプレート]()にて設定しています。
 
@@ -50,34 +50,34 @@ Dynamics 365 for Project Service Automation でプロジェクトを作成して
 ## WBS の出荷単位について
 上記のようにプロジェクトのメンバーとしてある一定の時間を予約したら、その時間を WBS でタスクに割り当てていきます。その際に、下図のような「出荷単位」という項目があります。
 <!-- Image= psa-assign03.png -->
-{{< imagedisplay psa-assign03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign03.png" >}}
 
 この「出荷単位」は、WBSの「工数」と「期間」と連動しています。例えば、下図のような「工数」が 40時間、「期間」が 5日で「出荷単位」が100% の開発タスクがあるとします。
 <!-- Image= psa-assign04.png -->
-{{< imagedisplay psa-assign04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign04.png" >}}
 
 この開発タスクに2名の別会社からのプログラマーをアサインする場合、「追加」ボタンで2名のプログラマを「出荷単位」100％で追加すると、「工数」が50％毎に割り当てられます。
 <!-- Image= psa-assign05.png -->
-{{< imagedisplay psa-assign05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign05.png" >}}
 
 もし2名のプログラマの作業負担が、80:20 の場合はどうするのでしょうか？「出荷単位」の％を変更します。
 <!-- Image= psa-assign06.png -->
-{{< imagedisplay psa-assign06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign06.png" >}}
 
 このように割り当ててられているタスクに複数のリソースがアサインされているのであれば、「出荷単位」で各リソースの割り当て時間を調整できます。
 
 ### 50% のみ割り当てられているリソースの出荷単位について
 1つのプロジェクトに100％のリソースを割り当てることが基本かと思いますが、PM のように複数のプロジェクトを兼任している場合は、リソースの割り当て率を分配する必要があります。例えば、下図のような PMで「割合」が 50% のリソースを WBS のタスクに割り当てるとします。
 <!-- Image= psa-assign07.png -->
-{{< imagedisplay psa-assign07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign07.png" >}}
 
 WBS の「フィット＆ギャップ」タスクの「工数」は40時間で、「出荷単位」を100％でアサインすると、本来 40時間が割り当てられるはずです。
 <!-- Image= psa-assign08.png -->
-{{< imagedisplay psa-assign08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign08.png" >}}
 
 ただ、ここは Dynamics 365 for Project Service Automation のいいところで、プロジェクトのチームを確認すると「割り当てられた時間」は20時間 (40時間 x 50% ) と自動で計算されています。
 <!-- Image= psa-assign09.png -->
-{{< imagedisplay psa-assign09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign09.png" >}}
 
 リソースのプロジェクト参画割合を気にすることなく、タスクにアサインできます。これは個人的によくできた機能だなと思っています。
 

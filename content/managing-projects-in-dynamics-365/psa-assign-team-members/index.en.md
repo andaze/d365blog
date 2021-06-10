@@ -17,7 +17,7 @@ When you create a project in Dynamics 365 for Project Service Automation and ass
 ## Resource "allocation method".
 When you assign resources as a team member of a project, you have a choice in the field called "Assignment Method".
 <!-- Image= psa-assign01.png -->
-{{< imagedisplay psa-assign01 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign01.png" >}}
 
 If you check the official page, you will see that it means the following.
 
@@ -33,7 +33,7 @@ Quote: [How do I assign resources to a task?](https://docs.microsoft.com/ja-jp/d
 
 The above explanation is a little difficult to understand, so I tried to represent it with a diagram.
 <!-- Image= psa-assign02.png -->
-{{< imagedisplay psa-assign02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign02.png" >}}
 
 The above figure shows the resources reserved for two days (8 hours x 2 = 16 hours) on 02/07/2019 - 02/08/2019, using the respective allocation methods. This 8-hour period is set in the [work template]().
 
@@ -50,34 +50,34 @@ As you can see, the time reserved for a resource differs depending on the settin
 ## About WBS shipping units
 Once you have reserved a certain amount of time as a member of a project as described above, you can assign that time to a task in the WBS. At that time, there is an item called "Shipping Unit" as shown in the figure below.
 <!-- Image= psa-assign03.png -->
-{{< imagedisplay psa-assign03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign03.png" >}}
 
 This "shipping unit" is linked to the "man-hour" and "period" of the WBS. For example, let's assume that we have a development task with a "Man-hour" of 40 hours, a "Duration" of 5 days, and a "Shipping Unit" of 100%, as shown below.
 <!-- Image= psa-assign04.png -->
-{{< imagedisplay psa-assign04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign04.png" >}}
 
 If you want to assign two programmers from different companies to this development task, you can use the "Add" button to add two programmers with a "Shipping Unit" of 100%, and the "Man-hours" will be assigned every 50%.
 <!-- Image= psa-assign05.png -->
-{{< imagedisplay psa-assign05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign05.png" >}}
 
 What if the workload of the two programmers is 80:20? Change the "Shipping Unit" percentage.
 <!-- Image= psa-assign06.png -->
-{{< imagedisplay psa-assign06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign06.png" >}}
 
 If multiple resources are assigned to a task that is allocated in this way, you can adjust the allocation time for each resource in the "shipping unit".
 
 ### For shipping units of resources that are only 50% allocated
 The basic idea is to allocate 100% of resources to a single project, but when you are concurrently working on multiple projects like a PM, you need to distribute the resource allocation rate. For example, let's say you are a PM as shown in the figure below, and you allocate 50% of the resources to the tasks in the WBS.
 <!-- Image= psa-assign07.png -->
-{{< imagedisplay psa-assign07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign07.png" >}}
 
 The "man-hours" for the "Fit & Gap" task in the WBS is 40 hours, and if we assign "Shipping Units" at 100%, 40 hours should originally be allocated.
 <!-- Image= psa-assign08.png -->
-{{< imagedisplay psa-assign08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign08.png" >}}
 
 But here's the nice thing about Dynamics 365 for Project Service Automation: when you check the team for the project, the "Allocated Time" is automatically calculated as 20 hours (40 hours x 50%).
 <!-- Image= psa-assign09.png -->
-{{< imagedisplay psa-assign09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-assign09.png" >}}
 
 You can assign tasks without worrying about the percentage of resources participating in the project. I personally think this is a well-designed feature.
 

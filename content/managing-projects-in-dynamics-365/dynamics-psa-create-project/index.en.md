@@ -14,7 +14,7 @@ linkdin: ""
 <!-- Intro  -->
 This is a continuation of the previous article, where we[ created a sales case from a lead]() in Dynamics 365 for Project Service Automation (Project Service), and now we are going to create a project.
 <!-- Image= psa-3rd-01.png -->
-{{< imagedisplay psa-3rd-01 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-01.png" >}}
 
 
 ## Create estimates from sales projects
@@ -23,22 +23,22 @@ After a series of negotiations with prospective customers, we have entered the l
 ### Create an estimate
 Open the sales project and add a new one from "Estimate" by clicking the + button. It may take some time for the dialog to appear, but please wait.
 <!-- Image= psa-3rd-02.png -->
-{{< imagedisplay psa-3rd-02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-02.png" >}}
 
 An estimate will be created. Again, if you need to add a service, you can do so using the + button. For example, if you want to add maintenance services, you can add them here.
 <!-- Image= psa-3rd-03.png -->
-{{< imagedisplay psa-3rd-03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-03.png" >}}
 
 ### Download Quotation
 Once the quote is created, it can be downloaded as a quote for the customer, which in version 2 of Project Service Automation is downloaded using a Word template.
 
 From the menu..., click "Word Templates" and then "Print Customer Quote".
 <!-- Image= psa-3rd-04.png -->
-{{< imagedisplay psa-3rd-04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-04.png" >}}
 
 This will download a Word document, open it and you will see a quote using the default Dynamics 365 template, which you can edit as needed and submit to your customer.
 <!-- Image= psa-3rd-05.png -->
-{{< imagedisplay psa-3rd-05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-05.png" >}}
 
 *If you want to use a Word template that matches your own formatting, you will need to work with a Word 2016 or higher client environment. For more information, please refer to [Creating a Word template to fit your company's]() needs.
 
@@ -48,24 +48,24 @@ Once the quote is created, the order is placed. At this point, Project Service A
 ### Make an estimate as an order
 First, click on "Close as Order" for the quote you just created.
 <!-- Image= psa-3rd-06.png -->
-{{< imagedisplay psa-3rd-06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-06.png" >}}
 
 Click "OK" when the dialog box appears. Then what was an estimate will be changed to a project contract. You can see this by opening the "Project Contract" menu, where a project contract is created from the estimate you just made and displayed in the list.
 <!-- Image= psa-3rd-07.png -->
-{{< imagedisplay psa-3rd-07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-07.png" >}}
 
 ### Creating a project
 To associate a project with a project contract, let's create a project from the project contract. Open the top menu and you will find "Projects".
 <!-- Image= psa-3rd-08.png -->
-{{< imagedisplay psa-3rd-08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-08.png" >}}
 
 Now click "+Add New Project".
 <!-- Image= psa-3rd-09.png -->
-{{< imagedisplay psa-3rd-09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-09.png" >}}
 
 After entering the project details, save the file.
 <!-- Image= psa-3rd-10.png -->
-{{< imagedisplay psa-3rd-10 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-10.png" >}}
 
 This completes the creation of the project. In most cases, project management will start here, so please refer to [Planning a Project with Project Service]() to get started.
 
@@ -77,24 +77,24 @@ You create an invoice from the project contract and send the invoice to the cust
 ### Contract confirmation process
 Once the customer has confirmed the project contract, it should be marked as "confirmed".
 <!-- Image= psa-3rd-11.png -->
-{{< imagedisplay psa-3rd-11 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-11.png" >}}
 
 This will help you know when the customer has properly understood the contract. If necessary, it is also important to prepare a printout of the contract summary using a Word template.
 <!-- Image= psa-3rd-12.png -->
-{{< imagedisplay psa-3rd-12 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-12.png" >}}
 
 ### Create and print invoices
 To create an invoice, click "Create Invoice" in the project contract.
 <!-- Image= psa-3rd-13.png -->
-{{< imagedisplay psa-3rd-13 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-13.png" >}}
 
 The invoice has been created. Now, let's print the invoice again using the Word template. From the menu, click on "Invoice" under "Word Template...".
 <!-- Image= psa-3rd-14.png -->
-{{< imagedisplay psa-3rd-14 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-14.png" >}}
 
 A little manual editing was required, but the necessary information is included. You can also customize the invoice Word template as needed.
 <!-- Image= psa-3rd-15.png -->
-{{< imagedisplay psa-3rd-15 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-15.png" >}}
 
 *The "Total Amount" of the invoice does not reflect the value of the project-based statement line, but only the product total. We have confirmed that this is the same behavior even if the billing method for the statement line is "Fixed Amount".
 
@@ -102,11 +102,11 @@ We are currently **inquiring with Microsoft** about this total amount. It may be
 
 After printing the invoice, click "Confirm" in the menu to mark the invoice as confirmed internally.
 <!-- Image= psa-3rd-16.png -->
-{{< imagedisplay psa-3rd-16 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-16.png" >}}
 
 If we receive payment from a customer, we will "mark the invoice as paid".
 <!-- Image= psa-3rd-17.png -->
-{{< imagedisplay psa-3rd-17 "290" "596" "796" >}}
+{{< imagedisplay src="psa-3rd-17.png" >}}
 
 *Many projects will be paid after the deliverables are inspected, so this process will be after the project management is completed.
 

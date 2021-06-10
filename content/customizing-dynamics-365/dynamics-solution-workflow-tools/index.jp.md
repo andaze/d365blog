@@ -69,40 +69,40 @@ Dynamics 365 Workflow Tools の機能一覧になります。
 ## Dynamics 365 Workflow Tools のインポート
 Dynamics 365 Workflow Tools をインポートします。Dynamics 365 Workflow Tools は、App Store で検索すると表示されますが、ここから「今すぐ入手する」をクリックしても、うまくインポートできません。
 <!-- Image= wftool01.png -->
-{{< imagedisplay wftool01 "290" "596" "796" >}}
+{{< imagedisplay src="wftool01.png" >}}
 
 そのため、Dynamics 365 Workflow Tools の .zip ファイルがある GitHub へアクセスします。
 <!-- Image= wftool02.png -->
-{{< imagedisplay wftool02 "290" "596" "796" >}}
+{{< imagedisplay src="wftool02.png" >}}
 
 URL はこちら： https://github.com/demianrasko/Dynamics-365-Workflow-Tools
 
 まずは、バージョンですが、左側の 「Branch:master」を展開して、「Tags」より 1.0.54.1 をチェックします。
 <!-- Image= wftool03.png -->
-{{< imagedisplay wftool03 "290" "596" "796" >}}
+{{< imagedisplay src="wftool03.png" >}}
 
 そして右側にある「Clone or download」で「Download ZIP」をクリックします。
 <!-- Image= wftool04.png -->
-{{< imagedisplay wftool04 "290" "596" "796" >}}
+{{< imagedisplay src="wftool04.png" >}}
 
 Dynamics 365 のソリューションで「インポート」からダウンロードした .zip ファイルをアップロードします。
 <!-- Image= wftool06.png -->
-{{< imagedisplay wftool06 "290" "596" "796" >}}
+{{< imagedisplay src="wftool06.png" >}}
 
 ファイルが正しければ、以下のような画面になるので「インポート」をクリックします。
 <!-- Image= wftool07.png -->
-{{< imagedisplay wftool07 "290" "596" "796" >}}
+{{< imagedisplay src="wftool07.png" >}}
 
 正常に完了すれば、ソリューション一覧に Dynamics 365 Workflow Tools が表示されているはずです。
 <!-- Image= wftool08.png -->
-{{< imagedisplay wftool08 "290" "596" "796" >}}
+{{< imagedisplay src="wftool08.png" >}}
 
 これでソリューションがインポートされました。
 
 ## Workflow Tools の利用
 それでは、ワークフローを作成して、Dynamics 365 Workflow Tools を実際に使ってみます。「設定」の「プロセス」から新規にワークフローを作成します。そして「ステップの追加」を開くと、下図のように Workflow Tools がインポートされて利用できる状態になっていることがわかります。
 <!-- Image= wftool09.png -->
-{{< imagedisplay wftool09 "290" "596" "796" >}}
+{{< imagedisplay src="wftool09.png" >}}
 
 それでは、以下のワークフローを作成してみます。
 
@@ -113,25 +113,25 @@ Dynamics 365 のソリューションで「インポート」からダウンロ�
 
 まずは「ステップの追加」で、所有ユーザーの部署が “営業部” なら という条件を設定して、さらに追加して、「msdyncrm Workflow Tools」の「Share Record With Team」を追加します。これでチームに対してレコードを共有するという設定ができます。
 <!-- Image= wftool10.png -->
-{{< imagedisplay wftool10 "290" "596" "796" >}}
+{{< imagedisplay src="wftool10.png" >}}
 
 「プロパティの設定」をクリックします。
 <!-- Image= wftool11.png -->
-{{< imagedisplay wftool11 "290" "596" "796" >}}
+{{< imagedisplay src="wftool11.png" >}}
 
 「Sharing Record URL」は対象のレコードですが、これは “レコード URL（動的）” を設定します。これでワークフローが実行されたレコードに対して共有を行うことができます。「Team」では共有したチームを選択して、Permission で必要な共有設定を行います。設定が完了したら保存して閉じます。
 <!-- Image= wftool12.png -->
-{{< imagedisplay wftool12 "290" "596" "796" >}}
+{{< imagedisplay src="wftool12.png" >}}
 
 **共有解除**
 
 共有解除を行う場合は「Unshare Record With Team」を使います。（ユーザーの場合は「Unshare Record With User」）
 <!-- Image= wftool13.png -->
-{{< imagedisplay wftool13 "290" "596" "796" >}}
+{{< imagedisplay src="wftool13.png" >}}
 
 共有解除では、「Sharing Record URL」と「Team」のみを設定します。これで対象のレコードから共有解除ができます。
 <!-- Image= wftool05.png -->
-{{< imagedisplay wftool05 "290" "596" "796" >}}
+{{< imagedisplay src="wftool05.png" >}}
 
 共有設定と解除は、1ステップで1チームもしくは1ユーザーなので、レコードに共有されているすべてのチームを解除してから共有設定を行う場合は、解除したいチーム数分、ステップを定義する必要があります。
 
@@ -142,50 +142,50 @@ Dynamics 365 のソリューションで「インポート」からダウンロ�
 
 Dynamics 365 Workflow Tools も古いバージョンだとなかったようですが、1.0.54.1 では「Get Record ID」でレコードの ID を取得できるようになりました。
 <!-- Image= wftool14.png -->
-{{< imagedisplay wftool14 "290" "596" "796" >}}
+{{< imagedisplay src="wftool14.png" >}}
 
 「プロパティの設定」をクリックして、「Record URL」に  “レコード URL（動的）”  を設定します。
 <!-- Image= wftool15.png -->
-{{< imagedisplay wftool15 "290" "596" "796" >}}
+{{< imagedisplay src="wftool15.png" >}}
 
 「Get Record ID」でレコードのURLからIDを取得して、それを別のフィールドにセットする場合は、「レコードの更新」を後のステップに追加します。右パネルの「検索」を展開すると、「ローカル値」に「Get Record ID」のステップ名が表示されています。
 <!-- Image= wftool16.png -->
-{{< imagedisplay wftool16 "290" "596" "796" >}}
+{{< imagedisplay src="wftool16.png" >}}
 
 「Record ID」として「追加」から「OK」をクリックすれば、フィールドに設定できます。
 <!-- Image= wftool17.png -->
-{{< imagedisplay wftool17 "290" "596" "796" >}}
+{{< imagedisplay src="wftool17.png" >}}
 
 これでレコードのIDをフィールドに、レコードの ID をワークフローで取得できるようになりました。ワークフローを動作させてみると、下図のように ID をテキストでセットしています。
 <!-- Image= wftool18.png -->
-{{< imagedisplay wftool18 "290" "596" "796" >}}
+{{< imagedisplay src="wftool18.png" >}}
 
 レコード作成時に動作するワークフローとして作成して利用するといいと思います。
 
 ### 数値フィールドの四則演算
 10進数のフィールド A と B を計算する「Numeric Functions」をステップとして追加します。
 <!-- Image= wftool19.png -->
-{{< imagedisplay wftool19 "290" "596" "796" >}}
+{{< imagedisplay src="wftool19.png" >}}
 
 「プロパティの設定」をクリックすると、下図のように「Number 1」と 「Number 2」 の数値フィールドをセットできるようになっています。今回は、時価総額の計算として、株価 と 発行済株式数 をそれぞれセットしました。
 <!-- Image= wftool20.png -->
-{{< imagedisplay wftool20 "290" "596" "796" >}}
+{{< imagedisplay src="wftool20.png" >}}
 
 先ほどと同じように、「Number 1」と 「Number 2」 の掛け算をして、その結果を「時価総額」というフィールドに入力するので、「レコードの更新」をステップに追加します。右パネルの「検索」を展開すると、「ローカル値」に「株価 と 発行済株式数 をセット」のステップ名が表示されています。
 <!-- Image= wftool21.png -->
-{{< imagedisplay wftool21 "290" "596" "796" >}}
+{{< imagedisplay src="wftool21.png" >}}
 
 四則演算を選択できるので、”Multiply” を選択します。
 <!-- Image= wftool22.png -->
-{{< imagedisplay wftool22 "290" "596" "796" >}}
+{{< imagedisplay src="wftool22.png" >}}
 
 「時価総額」のフィールドに追加します。
 <!-- Image= wftool23.png -->
-{{< imagedisplay wftool23 "290" "596" "796" >}}
+{{< imagedisplay src="wftool23.png" >}}
 
 これでOKです。ワークフローをアクティブ化して実行すると、以下のように「時価総額」が計算されました。
 <!-- Image= wftool24.png -->
-{{< imagedisplay wftool24 "290" "596" "796" >}}
+{{< imagedisplay src="wftool24.png" >}}
 
 ## その他の機能も
 Dynamics 365 Workflow Tools の一部の機能のみをご紹介しました。その他もかなりの機能が用意されているのでお時間がある際にお試しください。

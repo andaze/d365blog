@@ -31,47 +31,47 @@ Dynamics 365 のアプリケーションは、30日の無料試用版が提供�
 ## Dynamics 365 無料試用版を作成
 まずは、[Dynamics 365 の無料試用版](https://trials.dynamics.com/Dynamics365/Signup/)へアクセスします。すると利用できるアプリケーションが一覧で表示されていると思います。ここでは、開発を目的としているので「こちらからサインアップしてください」をクリックします。
 <!-- Image =  d-setup-01.png-->
-{{< imagedisplay d-setup-01 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-01.png" >}}
 
 
 ダイアログが表示されますので、「いいえ、サインアップを続行します」をクリックします。
 <!-- Image =  d-setup-02.png-->
-{{< imagedisplay d-setup-02 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-02.png" >}}
 
 
 個人情報を入力する画面になりますので、情報を入力してください。メールアドレスは法人のアドレスを入力します。
 <!-- Image =  d-setup-03.png-->
-{{< imagedisplay d-setup-03 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-03.png" >}}
 
 
 ここでテナント情報とDynamics管理者のメールアドレスとパスワードを設定します。すでに使用済みだと設定できないのでユニークに設定しましょう。「Create My Account」で作成が開始されます。
 <!-- Image =  d-setup-04.png-->
-{{< imagedisplay d-setup-04 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-04.png" >}}
 
 
 ここでロボットでないことの確認のために携帯電話の番号を入力します。日本なので (+81) で設定して SMS でテキストメッセージを送りましょう。
 <!-- Image =  d-setup-05.png-->
-{{< imagedisplay d-setup-05 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-05.png" >}}
 
 
 6桁の数字が送られてくるので入力してください。
 <!-- image= d-setup-06.png -->
-{{< imagedisplay d-setup-06 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-06.png" >}}
 
 
 するとテナント作成が始まります。有効期限は30日なので作成日を覚えておいてくださいね。「Set Up」をクリックしたOKです。
 <!-- image= d-setup-07.png -->
-{{< imagedisplay d-setup-07 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-07.png" >}}
 
 
 サインインのダイアログでログインをしてください。
 <!-- image= d-setup-08.png -->
-{{< imagedisplay d-setup-08 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-08.png" >}}
 
 
 セットアップ画面になります。言語を “日本語” にして、今回は “営業” のみを選択します。（すべてがいい場合は右端のすべてにチェック）「セットアップの完了」で無料試用版のセットアップが完了しました。
 <!-- image= d-setup-09.png -->
-{{< imagedisplay d-setup-09 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-09.png" >}}
 
 
 Dynamics 365 の無料試用版にアクセスできるようになりました。これで利用開始ができます。

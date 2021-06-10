@@ -25,23 +25,23 @@ Dynamics 365 バージョン 8 で慣れ親しんだ メニューは Web イン�
 <!-- Center -->
 **Webインターフェイス**
 <!-- Image= psa-trouble01.png -->
-{{< imagedisplay psa-trouble01 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble01.png" >}}
 
 **統一インターフェイス**
 <!-- Image= psa-trouble02.png -->
-{{< imagedisplay psa-trouble02 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble02.png" >}}
 
 
 ※バージョン9 へアップデートされた方は、アプリメニューに「顧客サービス ハブ」や「営業ハブ」というアプリが追加されていると思いますが、これらは統一インターフェイスで構成されたアプリです。
 <!-- Image= psa-trouble03.png -->
-{{< imagedisplay psa-trouble03 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble03.png" >}}
 
 
  [Dynamics 365 Community](https://community.dynamics.com/crm/b/bringyourcode2life/posts/dynamics-365-app-designer-web-interface-is-going-to-be-already-deprecated)の情報によると、アプリを新規に作成する際、バージョン 9.0.2.2279 までは Web か 統一インターフェイスを選択できたようですが、マイナーアップデート後のバージョン 9.1.0.33 移行は、**統一インターフェイス のみ**の選択肢になりました。
 
 ※ Web か 統一インターフェイスかは、「設定」の「マイアプリ」から確認可能です。
 <!-- Image= psa-trouble04.png -->
-{{< imagedisplay psa-trouble04 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble04.png" >}}
 
 
 これにより、新しくユーザー向けに作成したアプリ（統一インターフェイス）において以下のトラブルシュートを行いました。
@@ -49,13 +49,13 @@ Dynamics 365 バージョン 8 で慣れ親しんだ メニューは Web イン�
 ## 現象：スケジュールボードが表示されない
 アプリを新しく作成する際、サイトマップデザイナーで表示させるエンティティ （サブエリア）を選択します。リソースの空きを把握するために必要な「スケジュール ボード」は、Web リソース (ScheduleBoard.html) であるため、サブエリアの 「URL」に値を入力して保存・公開します。
 <!-- Image= psa-trouble05.png -->
-{{< imagedisplay psa-trouble05 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble05.png" >}}
 
 
 しかし統一インターフェイスのメニューに「スケジュール ボード」が表示されることはなぜかありません。
 メニューを開いても表示されていないことがわかります。これはシステム管理者で確認しても同じ結果でした。
 <!-- Image= psa-trouble06.png -->
-{{< imagedisplay psa-trouble06 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble06.png" >}}
 
 
 ## 対策：ダッシュボードでスケジュールボードを利用する
@@ -65,48 +65,48 @@ Dynamics 365 バージョン 8 で慣れ親しんだ メニューは Web イン�
 ### システムダッシュボードの作成
 まず「設定」の「カスタマイズ」から「システムのカスタマイズ」を開き、「ダッシュボード」から「新規」をクリックします。
 <!-- Image= psa-trouble07.png -->
-{{< imagedisplay psa-trouble07 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble07.png" >}}
 
 
 ダッシュボードのタイプなどは任意として、セクションに Web リソースを追加します。
 <!-- Image= psa-trouble08.png -->
-{{< imagedisplay psa-trouble08 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble08.png" >}}
 
 
 リソースを ***ScheduleBoard.html** で検索してみます。msdn で始まる Webリソースがあるので、選択します。
 <!-- Image= psa-trouble09.png -->
-{{< imagedisplay psa-trouble09 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble09.png" >}}
 
 
 名前やラベルは任意で、「OK」をクリックします。
 <!-- Image= psa-trouble10.png -->
-{{< imagedisplay psa-trouble10 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble10.png" >}}
 
 
 必要に応じて、メニューの「・・・」より幅や高さを拡大させてください。
 <!-- Image= psa-trouble11.png -->
-{{< imagedisplay psa-trouble11 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble11.png" >}}
 
 
 「上書き保存」で保存してから「閉じる」でダッシュボード編集を完了します。あとはカスタマイズを公開してください。
 <!-- Image= psa-trouble12.png -->
-{{< imagedisplay psa-trouble12 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble12.png" >}}
 
 
 ### サイトマップにダッシュボードを追加する
 次に作成したダッシュボードをサイトマップエディターでメニューに追加しましょう。先ほど開いていたサイトマップエディターのサブエリアで、「種類」を “ダッシュボード”、「既定のダッシュボード」を作成したダッシュボードに設定したら、保存して公開します。
 <!-- Image= psa-trouble13.png -->
-{{< imagedisplay psa-trouble13 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble13.png" >}}
 
 
 作成したアプリのメニューを開くと、先ほどは表示されていなかった「スケジュールボード」が表示されています。
 <!-- Image= psa-trouble14.png -->
-{{< imagedisplay psa-trouble14 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble14.png" >}}
 
 
 クリックして表示をすると、ダッシュボード上でスケジュールボードが表示されていると思います。もし表示されていない場合は、ダッシュボード一覧から選択してください。
 <!-- Image= psa-trouble15.png -->
-{{< imagedisplay psa-trouble15 "290" "596" "796" >}}
+{{< imagedisplay src="psa-trouble15.png" >}}
 
 
 別途、WBS が統一インターフェイスだと表示されない現象は、バージョンアップで解消するとマイクロソフトサポートより回答いただいたので、さっそくそちらも検証してみようと思います。

@@ -77,7 +77,7 @@ Here are the current license names and costs.
 
 If you look at the [Dynamics 365 Pricing](https://dynamics.microsoft.com/ja-jp/pricing/ ) page, you will find the prices.
 <!-- Image= d-price-1.png  -->
-{{< imagedisplay d-price-1 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-1.png" >}}
 
 
 Quote from: [Dynamics 365 Pricing](https://dynamics.microsoft.com/ja-jp/pricing/) 
@@ -130,12 +130,12 @@ It is possible to purchase individual applications like this, but since there is
 There are no prices listed for the Unified Operations Plan, which includes HR, Retail, and AX functions, or the all-inclusive Dynamics 365 Plan, which you will need to contact your Microsoft representative for.
 
 <!-- Image= d-price-2.png -->
-{{< imagedisplay d-price-2 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-2.png" >}}
 
 
 A comparison chart is below.
 <!-- Image d-price-3.png -->
-{{< imagedisplay d-price-3 "290" "596" "796" >}}
+{{< imagedisplay src="d-price-3.png" >}}
 
 
 Quote from: [Dynamics 365 Pricing](https://dynamics.microsoft.com/ja-jp/pricing/) 

@@ -23,39 +23,39 @@ Yammer は簡単に言うと、社内ソーシャルです。アクセス権を�
 ## Dynamics 365 と Yammer を連携させる
 Dynamics で Yammer 連携を設定することはとても簡単です。まず、「設定」 の 「管理」 から、「Yammerの構成」をクリックします。
 <!-- Image= Yammer1.png -->
-{{< imagedisplay Yammer1 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer1.png" >}}
 
 
 Yammer の免責事項画面になるので、「続行」 をクリックします。
 <!-- Image= Yammer2.png -->
-{{< imagedisplay Yammer2 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer2.png" >}}
 
 
 「Microsoft Dynamics 365 Online から Yammer への接続を承認します」 をクリックして構成を進めます。
 <!-- Image= Yammer3.png -->
-{{< imagedisplay Yammer3 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer3.png" >}}
 
 
 Yammer のアカウントでログインして構成を進めると、以下のように Yammer の構成が完了したことを告げる画面になります。Yammer グループ ID や セキュリティ レベルは任意で変更してください。
 <!-- Image= Yammer4.png -->
-{{< imagedisplay Yammer4 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer4.png" >}}
 
 
 ダッシュボードを見てみましょう。Yammer というタブがアクティビティフィードに追加されています。
 
 Yammer にログインすると、Yammer での投稿が表示されるようになりました。
 <!-- Image= Yammer5.png -->
-{{< imagedisplay Yammer5 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer5.png" >}}
 
 
 では、Dynamics 365 から Yammer に投稿してみます。
 <!-- Image= Yammer6.png -->
-{{< imagedisplay Yammer6 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer6.png" >}}
 
 
 すると、Yammer の画面にも投稿されたことがわかります。
 <!-- Image= Yammer7.png -->
-{{< imagedisplay Yammer7 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer7.png" >}}
 
 
 ## Yammer 連携を構成する
@@ -63,17 +63,17 @@ Yammer 連携ができるようになれば、どのエンティティの投稿�
 
 「設定」の「管理」より「Yammer の構成」をクリックします。
 <!-- Image= Yammer8.png -->
-{{< imagedisplay Yammer8 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer8.png" >}}
 
 
 ページ下の「メッセージルールを編集します。」をクリックします。
 <!-- Image= Yammer9.png -->
-{{< imagedisplay Yammer9 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer9.png" >}}
 
 
 ここで、エンティティとその状態が表示されています。Yammer がすでに有効になっている投稿について不要であれば、チェックをいれてから「YAMMER の無効化」をクリックして無効にしてください。
 <!-- Image= Yammer10.png -->
-{{< imagedisplay Yammer10 "290" "596" "796" >}}
+{{< imagedisplay src="Yammer10.png" >}}
 
 
 以上が、Yammer との連携でした。
