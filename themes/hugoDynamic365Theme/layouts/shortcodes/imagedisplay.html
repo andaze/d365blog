@@ -18,7 +18,11 @@
 {{ $Scratch.Set "width" "" }}
     
 {{ $src := (.Get "src") }}
-{{ $srcimg := $.Page.Resources.GetMatch $src }}
+{{ $defaultBackground := "Image Not Available" }}
+{{ $srcimg := $.Page.Resources.GetMatch $src | default $defaultBackground }}
+{{ if eq $srcimg $defaultBackground }}
+    <a href="{{.Page.Permalink}}{{$src}}" target="_blank">Image Not Available</a>
+{{ else }}
 {{ $srcimg_width := $srcimg.Width }}
 {{ $srcimg_height := $srcimg.Height }}
 {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
@@ -57,3 +61,4 @@
 </amp-img>
 <br>
 <br>
+{{ end }}
