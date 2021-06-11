@@ -10,4 +10,6 @@ title = "My New Hugo Site"
 
 [params]
   env = "devlop"  
+  imageratio = "1"
+  imagewidth = "700"
   split = "/"
