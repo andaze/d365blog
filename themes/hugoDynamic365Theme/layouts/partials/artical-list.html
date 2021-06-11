@@ -7,7 +7,7 @@
               <ul class="navigation-list">
                 {{ $getpage:= .File.Dir }}
                 <h1>{{ $getpage }}<br></h1>
-                {{ $type_arr := split $getpage "//" }}
+                {{ $type_arr := split $getpage "/" }}
                 {{ $basedir := index $type_arr 0 }}
                 <h2>{{ $basedir }}<br></h2>
                 {{ $section := site.GetPage $basedir }}
