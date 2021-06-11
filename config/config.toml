@@ -1,5 +1,8 @@
 # baseURL = "http://localhost/dynamic365Imagetesting/"
 
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"

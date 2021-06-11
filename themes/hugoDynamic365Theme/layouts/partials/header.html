@@ -67,35 +67,23 @@
                 </ul>
               </li>
               <li>
-                {{ $Scratch := newScratch}}
-                {{ $Scratch.Set "newUrl" "" }} 
-                  
-                  <select class="border-0 langselector" onchange="location = this.value;">
-                    {{ $new:=  .Permalink }}
-                    
-                    {{ if eq .Lang "en" }}
-                      {{$newPermlink:=  replace $new "en" "jp" }}
-                      {{ $Scratch.Set "newUrl" $newPermlink }} 
-                    {{ else }}
-                      {{$newPermlink:=  replace $new "jp" "en" }}
-                      {{ $Scratch.Set "newUrl" $newPermlink }} 
-                    {{ end }}
-                     
-                    {{ $newUrl := $Scratch.Get "newUrl" }}
-                    {{ $pageLang := .Page.Lang}}
-                    
-                    {{ range $.Site.Home.AllTranslations }}
+                <select class="border-0 langselector" onchange="location = this.value;">
+                  {{ $siteLanguages := site.Languages}}
+                  {{ $pageLang := .Page.Lang}}
+                      {{ range .Page.AllTranslations }}
                       {{ $translation := .}}
-                      {{ if eq $translation.Lang .Lang }}
-                        {{ $selected := false }}
-                      {{ if eq $pageLang .Lang}}
-                          <option value="{{ $newUrl }}" selected>{{ .Language.LanguageName }}</option>
-                      {{ else }}
-                          <option value="{{ $newUrl }}">{{ .Language.LanguageName }}</option>
+                      {{ range $siteLanguages }}
+                          {{ if eq $translation.Lang .Lang }}
+                          {{ $selected := false }}
+                          {{ if eq $pageLang .Lang}}
+                            <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                          {{ else }}
+                            <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                          {{ end }}
+                          {{ end }}
                       {{ end }}
                       {{ end }}
-                    {{ end }}
-                  </select>
+                </select>
               </li>
             </ul>
 
@@ -119,35 +107,23 @@
         </svg>
       </span>
       
-      {{ $Scratch := newScratch}}
-        {{ $Scratch.Set "newUrl" "" }} 
-      
-        <select class="border-0 langselector" onchange="location = this.value;">
-            {{ $new:=  .Permalink }} 
-
-            {{ if eq .Lang "en" }}
-                {{$newPermlink:=  replace $new "en" "jp" }}
-                {{ $Scratch.Set "newUrl" $newPermlink }} 
-            {{ else }}
-                {{$newPermlink:=  replace $new "jp" "en" }}
-                {{ $Scratch.Set "newUrl" $newPermlink }} 
-            {{ end }}
-         
-            {{ $newUrl := $Scratch.Get "newUrl" }}
-            {{ $pageLang := .Page.Lang}}
-        
-            {{ range $.Site.Home.AllTranslations }}
-                {{ $translation := .}}
+      <select class="border-0 langselector" onchange="location = this.value;">
+        {{ $siteLanguages := site.Languages}}
+        {{ $pageLang := .Page.Lang}}
+            {{ range .Page.AllTranslations }}
+            {{ $translation := .}}
+            {{ range $siteLanguages }}
                 {{ if eq $translation.Lang .Lang }}
-                    {{ $selected := false }}
+                {{ $selected := false }}
                 {{ if eq $pageLang .Lang}}
-                    <option value="{{ $newUrl }}" selected>{{ .Language.LanguageName }}</option>
+                  <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
                 {{ else }}
-                    <option value="{{ $newUrl }}">{{ .Language.LanguageName }}</option>
+                  <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
                 {{ end }}
                 {{ end }}
             {{ end }}
-        </select>
+            {{ end }}
+      </select>
         <a class="nav-link" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="22.162" height="18" viewBox="0 0 22.162 18">
             <path id="twitter-brands"
@@ -224,19 +200,50 @@
 
   <!-- FOr Local  -->
   <!-- <select class="border-0 langselector" onchange="location = this.value;">
-                    {{ $siteLanguages := site.Languages}}
-                    {{ $pageLang := .Page.Lang}}
-                        {{ range .Page.AllTranslations }}
-                        {{ $translation := .}}
-                        {{ range $siteLanguages }}
-                            {{ if eq $translation.Lang .Lang }}
-                            {{ $selected := false }}
-                            {{ if eq $pageLang .Lang}}
-                              <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
-                            {{ else }}
-                              <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                            {{ end }}
-                            {{ end }}
-                        {{ end }}
-                        {{ end }}
-                  </select> -->
+        {{ $siteLanguages := site.Languages}}
+        {{ $pageLang := .Page.Lang}}
+            {{ range .Page.AllTranslations }}
+            {{ $translation := .}}
+            {{ range $siteLanguages }}
+                {{ if eq $translation.Lang .Lang }}
+                {{ $selected := false }}
+                {{ if eq $pageLang .Lang}}
+                  <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                {{ else }}
+                  <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ end }}
+      </select> -->
+
+<!-- old code
+{{ $Scratch := newScratch}}
+{{ $Scratch.Set "newUrl" "" }} 
+
+<select class="border-0 langselector" onchange="location = this.value;">
+  {{ $new:=  .Permalink }}
+  
+  {{ if eq .Lang "en" }}
+    {{$newPermlink:=  replace $new "en" "jp" }}
+    {{ $Scratch.Set "newUrl" $newPermlink }} 
+  {{ else }}
+    {{$newPermlink:=  replace $new "jp" "en" }}
+    {{ $Scratch.Set "newUrl" $newPermlink }} 
+  {{ end }}
+    
+  {{ $newUrl := $Scratch.Get "newUrl" }}
+  {{ $pageLang := .Page.Lang}}
+  
+  {{ range $.Site.Home.AllTranslations }}
+    {{ $translation := .}}
+    {{ if eq $translation.Lang .Lang }}
+      {{ $selected := false }}
+    {{ if eq $pageLang .Lang}}
+        <option value="{{ $newUrl }}" selected>{{ .Language.LanguageName }}</option>
+    {{ else }}
+        <option value="{{ $newUrl }}">{{ .Language.LanguageName }}</option>
+    {{ end }}
+    {{ end }}
+  {{ end }}
+</select> -->
