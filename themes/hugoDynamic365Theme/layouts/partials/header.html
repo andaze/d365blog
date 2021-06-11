@@ -189,7 +189,10 @@
       {{ $basedir := index $type_arr 0 }}
       {{ $section := site.GetPage $basedir }}
       {{ range $section.Pages.ByWeight }}  
-      <a href="{{ .URL | absURL }}">1111{{.Title}}</a>
+      <a href="{{ .URL | absURL }}">123</a>
+      <a href="{{ .URL | absURL }}">123</a>
+      <a href="{{ .URL | absURL }}">123</a>
+      <a href="{{ .URL | absURL }}">123</a>
       {{ end }}
       {{ end }}
     </div>
