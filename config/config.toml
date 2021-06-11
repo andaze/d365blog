@@ -1,4 +1,4 @@
-baseURL = "http://localhost/dynamic365Imagetesting/"
+# baseURL = "http://localhost/dynamic365Imagetesting/"
 
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
