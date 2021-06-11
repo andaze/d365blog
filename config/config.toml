@@ -1,5 +1,3 @@
-# baseURL = "http://localhost/dynamic365Build/en/dynamic/"
-# baseURL = "https://amptest.ameio.in/"
 baseURL = "http://localhost/dynamic365Imagetesting/"
 
 languageCode = "en-us"
