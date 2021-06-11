@@ -5,8 +5,18 @@
           <div class="left-page-wrapper">
             <div class="navigation">
               <ul class="navigation-list">
+                {{ $Scratch := newScratch}}
+                {{ $Scratch.Set "type_arr" "" }}
                 {{ $getpage:= .File.Dir }}
-                {{ $type_arr := split $getpage .Site.Params.split }}
+                {{ $Scratch.Set "type_arr" (split $getpage "/") }}
+               
+                {{ if lt (len (split $getpage "/")) (2) }}
+                <!-- {{ $Scratch.Set "slas" "\\" }} -->
+                  {{ $Scratch.Set "type_arr" (split $getpage "\\") }}
+                
+                {{ end }}
+               
+                {{ $type_arr := $Scratch.Get "type_arr" }}
                 {{ $basedir := index $type_arr 0 }}
                 {{ $section := site.GetPage $basedir }}
                 {{ range $section.Pages.ByWeight }}         
