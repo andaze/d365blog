@@ -6,9 +6,10 @@
             <div class="navigation">
               <ul class="navigation-list">
                 {{ $getpage:= .File.Dir }}
-                {{ $type_arr := split $getpage "\\//" }}
+                {{ $type_arr := split $getpage "\\" }}
                 {{ $basedir := index $type_arr 0 }}
                 {{ $section := site.GetPage $basedir }}
+                {{ $section }}
                 {{ range $section.Pages.ByWeight }}         
                 <li>
                   <a href=" {{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{.Title }}</a>
