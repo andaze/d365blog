@@ -5,7 +5,7 @@ status = 404
 
 [build]
 publish = "public"
-command = "hugo --gc --minify --config config/config.toml,config/config_develop.toml"
+command = "hugo  --config config/config.toml,config/config_develop.toml"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
