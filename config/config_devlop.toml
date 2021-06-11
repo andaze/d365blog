@@ -9,4 +9,5 @@ title = "My New Hugo Site"
     startLevel = 2
 
 [params]
-    env = "devlop"  
+  env = "devlop"  
+  split = "/"

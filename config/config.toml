@@ -1,8 +1,7 @@
-# baseURL = "http://localhost/dynamic365Imagetesting/"
+baseURL = "http://localhost/dynamic365Imagetesting/"
 
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
-
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"
@@ -28,7 +27,8 @@ languageCode = "en-en"
     startLevel = 2
 
 [params]
-headerTitle = "Dynamics 365 blog"
-env = "devlop"
-imageratio = "1"
-imagewidth = "700"
+  headerTitle = "Dynamics 365 blog"
+  env = "devlop"
+  imageratio = "1"
+  imagewidth = "700"
+  split = "\\"
