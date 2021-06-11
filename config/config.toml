@@ -11,7 +11,7 @@ timeout = 300000
 [Languages.jp]
 languageName = "JP"
 weight = 1
-languageCode = "jp-jp"
+languageCode = "ja-JP"
 
 ############ 1 - Site en Japanese
 [Languages.en]
