@@ -70,7 +70,8 @@
                 {{ $Scratch := newScratch}}
                 {{ $Scratch.Set "newUrl" "" }} 
                   
-                  <select class="border-0 langselector" onchange="location = this.value;">
+                <label class="select">
+                  <select class="border-0 langselector custom-selector" onchange="location = this.value;">
                     {{ $new:=  .Permalink }}
                     
                     {{ if eq .Lang "en" }}
@@ -96,6 +97,10 @@
                       {{ end }}
                     {{ end }}
                   </select>
+                  <svg class="" viewbox="0 0 10 6">
+                    <polyline points="1 1 5 5 9 1"></polyline>
+                  </svg>
+                </label>
               </li>
             </ul>
 

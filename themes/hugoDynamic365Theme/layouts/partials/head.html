@@ -105,6 +105,9 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
 html, body {
     margin: 0px;
     padding: 0px;
@@ -157,6 +160,9 @@ p {
 .df {
     display: flex;
 }
+.d-block{
+    display: block;
+}
 
 .f-50 {
     flex: 0 0 50%;
@@ -176,6 +182,12 @@ p {
 
 .mt-5 {
     margin-top: 2.75rem;
+}
+.mt-2 {
+    margin-top: 1rem;
+}
+.mb-2 {
+    margin-bottom: 1rem;
 }
 
 .mb-5 {
@@ -231,7 +243,7 @@ p {
 }
 
 .bg-none {
-    background: transparent !important
+    background: transparent;
 }
 
 .container {
@@ -240,6 +252,15 @@ p {
     margin: 0 auto;
     padding: 0 24px;
 }
+
+.main-page-content{
+    height: calc(100vh - 96px);
+    overflow: auto;
+}
+/* main{
+    height: calc(100vh - 96px);
+    overflow: auto;
+} */
 
 header {
     background-color: #fff;
@@ -310,6 +331,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 @media screen and (max-width:1023px) {
@@ -525,6 +547,7 @@ header {
     border-radius: 16px;
     overflow: hidden;
     position: relative;
+    display: block;
 }
 
 .card-media {
@@ -795,6 +818,7 @@ footer .footer-menu {
     list-style: none;
     margin-bottom: 5px;
     font-size: 14px;
+    padding: 3px 0;
 }
 
 footer a {
@@ -855,7 +879,12 @@ a {
     font-weight: 600;
 }
 
-.left-page-wrapper, .right-page-wrapper {
+.left-page-wrapper {
+    flex: 0 0 20%;
+    padding-top: 30px;
+    
+}
+.right-page-wrapper{
     flex: 0 0 20%;
     padding-top: 30px;
 }
@@ -876,6 +905,7 @@ a {
 
 .middle-page-wrapper {
     flex: 0 0 calc(100% - (20% + 260px));
+    flex: 0 0 calc(100% - 40%);
     background: #fff;
     padding: 30px;
 }
@@ -915,6 +945,8 @@ a {
     display: flex;
     align-items: center;
     padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .navigation-list .sub-navigation-list {
@@ -940,11 +972,18 @@ a {
 .right-page-wrapper {
     padding-left: 30px;
     position: sticky;
-    top: 96px;
+    top: 0;
     right: 0;
     width: 290px;
     height: 100%;
+    height: calc(100vh - 96px);
     border-left: 1px solid #ccc;
+}
+
+@media (max-width:1440px) {
+    .right-page-wrapper {
+        padding-left: 0px;
+    }
 }
 
 @media (max-width:992px) {
@@ -967,6 +1006,7 @@ a {
     display: flex;
     align-items: center;
     font-size: 14px;
+    padding: 4px 0;
 }
 
 dd {
@@ -1004,6 +1044,45 @@ dl dt {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.4;
+}
+
+.detail-btn-center{
+    margin: 30px auto;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.detail-btn-center:hover a{
+    color: #fff;
+}
+
+.detail-pagei-img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.author-detail{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+
+.author-img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+}
+.author-detail .author-name{
+    margin-bottom: 6px;
+    color: #858585;
 }
 
 /* --------details page-------------- */
@@ -1046,10 +1125,14 @@ dl dt {
 
 .listing-card .header-text {
     margin-top: 0;
+    color: #000;
 }
 
 .listing-card .header-text a {
     color: #000;
+}
+.listing-card .link-btn {
+   color: var(--primary);
 }
 /* Image size css */
 .fixed-container {
@@ -1062,5 +1145,171 @@ amp-img.contain img {
   }
 
 /* ------ lsiting pages---------------------- */
+
+.new-header-text{
+    border-top: 2px solid var(--primary);
+    display: inline-block;
+    padding: 16px 0;
+}
+
+.popular-listing{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.popular-list{
+    flex: 0 0 33.33%;
+    background: #fff;
+    border: 1px solid #edecec;
+    padding: 12px;
+    display: flex;
+}
+@media screen and (max-width:1023px) {
+    .popular-list{
+        flex: 0 0 50%;
+    }
+}
+@media screen and (max-width:767px) {
+    .popular-list{
+        flex: 0 0 100%;
+    }
+}
+
+.popular-list-img{
+    width: 105px;
+    height: 105px;
+    overflow: hidden;
+    position: relative;
+    flex: 0 0 105px;
+    margin-right: 8px;
+}
+.popular-list-content p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.popular-list-content span{
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    color: #868686;
+    margin-bottom: 8px;
+}
+.popular-list-content a{
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    color: #868686;
+}
+/* ----------------------------------- */
+.article-new-listing{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.article-list{
+    flex: 0 0 168px;
+    width: 168px;
+    background: #fff;
+    border: 1px solid #edecec;
+    padding: 8px;
+}
+@media screen and (max-width:1023px) {
+    .popular-list{
+        flex: 0 0 50%;
+    }
+}
+@media screen and (max-width:767px) {
+    .popular-list{
+        flex: 0 0 100%;
+    }
+}
+
+.article-list-img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    flex: 0 0 105px;
+    display: block;
+}
+.article-list-img img {
+    width: 100%;
+    height: auto;
+}
+.article-list-content{
+    margin-top: 6px;
+    display: block;
+    text-align: center;
+    line-height: normal;
+}
+.article-list-content p{
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.article-list-content:hover p{
+   color: #000;
+}
+
+.custom-selector{
+    border: none;
+    padding: 3px;
+}
+
+#TableOfContents ul li > ul{
+    padding-left: 24px;
+}
+
+/* ----- Select box---------------------- */
+.select {
+  position: relative;
+  min-width: 200px;
+}
+.select svg {
+  position: absolute;
+  right: 12px;
+  top: calc(50% - 3px);
+  width: 10px;
+  height: 6px;
+  stroke-width: 2px;
+  stroke: #9098a9;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.select select {
+  -webkit-appearance: none;
+  padding: 7px 40px 7px 12px;
+  width: 100%;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+}
+.select select:required:invalid {
+  color: #5a667f;
+}
+.select select option {
+  color: #223254;
+}
+.select select option[value=""][disabled] {
+  display: none;
+}
+.select select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(0,119,255,0.2);
+}
+.select select:hover + svg {
+  stroke: var(--primary);;
+}
+
+/* ----- End Select box---------------------- */
+
     </style>
 </head>

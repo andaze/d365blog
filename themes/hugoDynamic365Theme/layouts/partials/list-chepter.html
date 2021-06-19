@@ -27,16 +27,16 @@
                             {{ $getpage:= path.Base $folder}}
                             {{ $section := site.GetPage $getpage }}
                             {{ range $section.Pages.ByWeight }} 
-                            <div class="listing-card">
+                            <a class="listing-card" href="{{ .URL | absURL }}">
                                 <div class="inner-card">
-                                    <h3 class="header-text"><a href="{{ .URL | absURL }}" class="text-primary">{{ .Title }}</a></h3>
+                                    <h3 class="header-text">{{ .Title }}</h3>
                                     <p class="desc">Hugo uses Go’s html/template and text/template libraries as the
                                         basis for
                                         the templating.
                                     </p>
-                                    <a href="{{ .URL | absURL }}" class="link-btn text-primary">Read More</a>
+                                    <span href="{{ .URL | absURL }}" class="link-btn text-primary">Read More</span>
                                 </div>
-                            </div>
+                            </a>
                             {{ end }}
                         </div>
                     </div>

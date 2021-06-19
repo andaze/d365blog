@@ -3,9 +3,9 @@
     {{- partial "head.html" . -}}
     <body [class]="overflow">
         {{- partial "header.html" . -}}
-        <div id="content">
+        <div id="content" class="main-page-content">
         {{- block "main" . }}{{- end }}
-        </div>
         {{- partial "footer.html" . -}}
+        </div>
     </body>
 </html>
