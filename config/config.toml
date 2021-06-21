@@ -12,13 +12,16 @@ timeout = 300000
 languageName = "JA"
 weight = 1
 languageCode = "ja-JP"
+fillposition = "center"
+format= "webp"
 
 ############ 1 - Site en Japanese
 [Languages.en]
 languageName = "EN"
 weight = 2
 languageCode = "en-us"
-
+fillposition = "center"
+format= "webp"
 
 [markup]
   [markup.tableOfContents]
