@@ -8,8 +8,8 @@ theme = "hugoDynamic365Theme"
 timeout = 300000
 [Languages]
 ############ 1 - Site en Japanese
-[Languages.jp]
-languageName = "JP"
+[Languages.ja]
+languageName = "JA"
 weight = 1
 languageCode = "ja-JP"
 
@@ -17,7 +17,7 @@ languageCode = "ja-JP"
 [Languages.en]
 languageName = "EN"
 weight = 2
-languageCode = "en-en"
+languageCode = "en-us"
 
 
 [markup]
