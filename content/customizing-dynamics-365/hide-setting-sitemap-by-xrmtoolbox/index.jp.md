@@ -23,12 +23,12 @@ XRM ToolBox は .exe の実行ファイルで、インストールは不要で�
 XRM ToolBox の公式ページ でダウンロードします。
 
 <!-- Image= xrm-hide01.png -->
-{{< imagedisplay xrm-hide01 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide01.png" >}}
 
 
 その後、.zip ファイルを解凍してください。フォルダ内に「XrmToolBox.exe」があるのでそれをダブルクリックで実行します。
 <!-- Image= xrm-hide02.png -->
-{{< imagedisplay xrm-hide02 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide02.png" >}}
 
 
 ## SiteMap Editor のインストール
@@ -37,42 +37,42 @@ XRM ToolBox を開くと、仕様なのか最初に Plugin Store が開きます
 ### Dynamics 365 環境へ接続
 Dynamics 365 環境にツールからアクセスします。「Connect」ボタンをクリックします。「New connection」をクリックして、アクセスする Dynamics 365 の URL を入力したら「Next」をクリックします。
 <!-- Image= xrm-hide03.png -->
-{{< imagedisplay xrm-hide03 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide03.png" >}}
 
 
 ここでアクセスするアカウント情報（※）を入力します。入力したら「Next」をクリックします。
 <!-- Image= xrm-hide04.png -->
-{{< imagedisplay xrm-hide04 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide04.png" >}}
 
 
 （※）ここで入力するアカウント情報について、Office 365 で多要素認証を設定しているとうまく動作しません。また、利用するアカウントは下図のようなシステム管理者（CAL が “管理”）のユーザーでもアクセス可能です。アクセスモードについては、[CAL情報について]()をご参照ください。
 <!-- Image= xrm-hide05.png -->
-{{< imagedisplay xrm-hide05 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide05.png" >}}
 
 正常に接続ができると下図のようなダイアログが表示されます。接続名を任意で入力して「Finish」をクリックします。
 <!-- Image= xrm-hide06.png -->
-{{< imagedisplay xrm-hide06 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide06.png" >}}
 
 
 ### Site Map Editor をインストール
 「Tools」より「Plugin Store」をクリックします。「SiteMap Editor」を選択して「Install」をクリックします。
 <!-- Image= xrm-hide07.png -->
-{{< imagedisplay xrm-hide07 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide07.png" >}}
 
 
 インストールが完了したら、Plugins を開き、SiteMap で検索をして SiteMap Editor をクリックします。
 <!-- Image= xrm-hide08.png -->
-{{< imagedisplay xrm-hide08 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide08.png" >}}
 
 
 わかりづらいのですが、クリックすると、XRM ToolBox にタブが追加されるので、その SiteMap Editor のタブをダブルクリックします。
 <!-- Image= xrm-hide09.png -->
-{{< imagedisplay xrm-hide09 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide09.png" >}}
 
 
 「Load SiteMap」をクリックして、”Default” のサイトマップを選択して「OK」をクリックします。これで Dynamics 365 のサイトマップを読み込めました。
 <!-- Image= xrm-hide10.png -->
-{{< imagedisplay xrm-hide10 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide10.png" >}}
 
 
 ## エンティティとセキュリティロール
@@ -80,7 +80,7 @@ SiteMap Editor は、セキュリティロールベースでサイトマップ�
 
 例えば、Account Manager というセキュリティ ロールは、「ソリューション」というエンティティへのアクセス権はありません。
 <!-- Image= xrm-hide11.png -->
-{{< imagedisplay xrm-hide11 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide11.png" >}}
 
 
 そこで、SiteMap Editor で「設定」のサイトマップに 「ソリューション」エンティティへのアクセス権がないと表示されないという設定をします。すると、Account Manager  のセキュリティロールを設定されているユーザーは、「設定」のサイトマップが見えなくなる、ということになります。
@@ -94,33 +94,33 @@ SiteMap Editor は、セキュリティロールベースでサイトマップ�
 
 SiteMap Editor に戻り、「Area(Settings)」をサブエリアまで展開します。１つのサブエリアで右クリックして、「Add Privilege」をクリックします。
 <!-- Image= xrm-hide12.png -->
-{{< imagedisplay xrm-hide12 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide12.png" >}}
 
 
 「ソリューション」エンティティ名（solution) を入力して、「Read」にチェックをいれたら「Save」をクリックします。
 <!-- Image= xrm-hide13.png -->
-{{< imagedisplay xrm-hide13 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide13.png" >}}
 
 「Update SiteMap」をクリックすると、カスタマイズが反映されます。
 <!-- Image= xrm-hide14.png -->
-{{< imagedisplay xrm-hide14 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide14.png" >}}
 
 
 Account Manager のロールが設定されているユーザーで確認すると、非表示にした「経営管理」がメニューから消えています。
 <!-- Image= xrm-hide15.png -->
-{{< imagedisplay xrm-hide15 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide15.png" >}}
 
 
 ## 設定のサイトマップを非表示にするには
 上述のように「設定」のサブエリアに対してアクセス権を設定すると非表示にすることが可能です。
 <!-- Image- xrm-hide16.png -->
-{{< imagedisplay xrm-hide16 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide16.png" >}}
 
 
 「設定」そのものを非表示にするには、「設定」にあるすべてのサブエリアに上述の作業を行うことで、メニューが見えなくなります。
 
 <!-- Image= xrm-hide17.png -->
-{{< imagedisplay xrm-hide17 "290" "596" "796" >}}
+{{< imagedisplay src="xrm-hide17.png" >}}
 
 
 作業自体はすごく手間なのですが、この設定を行うことで管理しやすくなるのではないでしょうか。XRM ToolBox はこの操作以外にもいくつか便利なカスタマイズが行えるので、他に使えるプラグインがあればご紹介します。

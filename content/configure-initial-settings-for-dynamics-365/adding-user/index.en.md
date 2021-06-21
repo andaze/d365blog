@@ -21,17 +21,17 @@ First, log in to the [Office 365 (or Microsoft 365 as of January 2019) Managemen
 From the left panel, open "Users", click "Active Users", and then click "+".
 
 <!-- Image= adduser-01.png -->
-{{< imagedisplay adduser-01 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-01.png" >}}
 
 
 Set any name or email address.
 <!-- Image= adduser-02.png -->
-{{< imagedisplay adduser-02 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-02.png" >}}
 
 
 In the "Product Licenses" section, check the Dynamics 365 license, and then click "Add".
 <!-- Image= adduser-03.png -->
-{{< imagedisplay adduser-03 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-03.png" >}}
 
 The user has now been created. This user will be reflected in Dynamics 365 if you wait for some time.
 The official documentation below states that it takes a few minutes.
@@ -46,35 +46,35 @@ Reference: [Creating Users and Assigning Security Roles in Dynamics 365 (online)
 
 If it is still not reflected, the synchronization may not be working properly, so please contact customer support by clicking "Support" in the Office 365 admin center and then "New Inquiry". They should be able to reset the inconsistency of the synchronization.
 <!-- Image= adduser-04.png -->
-{{< imagedisplay adduser-04 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-04.png" >}}
 
 
 ## Identify users in Dynamics 365
 Verify that the user has been added to Dynamics 365. Open "Settings" and click "Security".
 <!-- Image= Settings-1.png -->
-{{< imagedisplay Settings-1 "290" "596" "796" >}}
+{{< imagedisplay src="Settings-1.png" >}}
 
 
 Go to "Users".
 <!-- Image= Users.png -->
-{{< imagedisplay Settings-1 "290" "596" "796" >}}
+{{< imagedisplay src="Settings-1.png" >}}
 
 
 The licensed account will be automatically reflected in the list of "Active Users".
 You will see that the users you just added are reflected.
 <!-- Image= adduser-05.png -->
-{{< imagedisplay adduser-05 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-05.png" >}}
 
 
 Click on the user name. You will see that the name, user name, and email address that you have just set in the Office 365 admin center are set. These items cannot be changed in Dynamics 365, so if you need to change the user name, please do so in the Office 365 Administration Center.
 <!-- Image= adduser-06.png -->
-{{< imagedisplay adduser-06 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-06.png" >}}
 
 
 ## About CAL Information
 If you check the "Client Access License Information" section, you will see that the "Access Mode" is set to **"Read/Write"** by default.
 <!-- Image= adduser-07.png -->
-{{< imagedisplay adduser-07 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-07.png" >}}
 
 
 A user set to this access mode is a regular user of Dynamics 365 who needs a license. Most users will use "read/write" to access Dynamics 365 because this is the default setting, but there are two special access modes.
@@ -84,7 +84,7 @@ Administration mode is a setting that allows you to access the system as an admi
 This will be available when you add a user in the Office 365 admin center by selecting "Custom Administrator" under "Roles" and checking "Dynamics 365 Service Administrator".
 This will be available by selecting "Custom Administrator" under "Roles" and checking the "Dynamics 365 Service Administrator" checkbox.
 <!-- Image= adduser-08.png -->
-{{< imagedisplay adduser-08 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-08.png" >}}
 
 
 Users added in the administration mode can be used as administrators for Dynamics 365.
@@ -102,7 +102,7 @@ Quote: [Global and service administrators can be managed without a license.](htt
 Note that **"Global Administrator"** in the official documentation above means a user who has "General Administrator" checked in the "Roles" section.
 
 <!-- Image= adduser-09.png -->
-{{< imagedisplay adduser-09 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-09.png" >}}
 
 Note that administrative **users can only access Dynamics 365 settings**. Access to sales, marketing, services and other data is controlled, so you can prevent unnecessary access to sales data by assigning them to accounts that only manage the system.
 
@@ -120,19 +120,19 @@ Now, let's switch the user we just licensed and verified to the non-interactive 
 Under "Client Access License Information" in User Information, select "Non-Interactive" and save.
 
 <!-- Image= adduser-10.png -->
-{{< imagedisplay adduser-10 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-10.png" >}}
 
 
 Go back to the **Office 365 admin center** and disable the Dynamics 365 license for the user you just mentioned and click "Save".
 <!-- Image= adduser-11.png -->
-{{< imagedisplay adduser-11 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-11.png" >}}
 
 
 This is OK. If you check the list of "Active Users" in Dynamics 365, you will see that
 The users whose licenses have been deactivated are still listed.
 
 <!-- Image= adduser-12.png -->
-{{< imagedisplay adduser-12 "290" "596" "796" >}}
+{{< imagedisplay src="adduser-12.png" >}}
 
 
 Note that the **maximum number of users that can use the non-interactive mode is 5**.

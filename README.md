@@ -1,9 +1,10 @@
-# How to Run this project
+# Introduction
+## How to Run this project
+hugo server --config config/config.toml
 
-## step-1
 
 
-## How to Run Project 
+## How to Build Your Project 
 create build Of your project
 `hugo --config config/config.toml` 
 

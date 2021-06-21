@@ -31,21 +31,21 @@ Data Export Service のセットアップにあたり以下の準備が必要で
 ### Azure SQL データベース サービス
 Azure ポータルへログインして、SQL データベースを作成します。
 <!-- Image= dbexport01.png -->
-{{< imagedisplay dbexport01 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport01.png" >}}
 
 「データベース名」を入力して「サーバー」を選択したら、「確認および作成」をクリックします。もしサーバーを作成していない場合は、新しいサーバーを作成します。
 
 ここで設定する「サーバー管理者ログイン」と「パスワード」は Azure SQL 接続時に必要は情報なのでメモしておきます。
 <!-- Image= dbexport02.png -->
-{{< imagedisplay dbexport02 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport02.png" >}}
 
 「作成」というボタンをクリックしてSQLデータベースを作成します。作成が完了したら下図のようになります。
 <!-- Image= dbexport03.png -->
-{{< imagedisplay dbexport03 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport03.png" >}}
 
 作成した Azure SQL の「接続文字列」を開き、「ADO.NET」タブを開きます。この文字列をコピーします。
 <!-- Image- dbexport04.png -->
-{{< imagedisplay dbexport04 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport04.png" >}}
 
 メモ帳などに張り付け、以下の部分を上記のSQLサーバー管理者アカウントとパスワードを入力します。
 
@@ -56,19 +56,19 @@ ID={your_username};Password={your_password};
 ### Azure Key Vault サービス
 次に Azure Key Vault  の準備です。「リソースの作成」から “Key Vault” で検索します。
 <!-- Image= dbexport05.png -->
-{{< imagedisplay dbexport05 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport05.png" >}}
 
 Key Vault で「作成」をクリック。
 <!-- Image= dbexport06.png -->
-{{< imagedisplay dbexport06 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport06.png" >}}
 
 キーコンテナ名などを入力して作成します。
 <!-- Image= dbexport07.png -->
-{{< imagedisplay dbexport07 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport07.png" >}}
 
 作成したら「概要」を確認します。
 <!-- Image= dbexport08.png -->
-{{< imagedisplay dbexport08 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport08.png" >}}
 
 ここで記載されている
   * リソースグループ
@@ -80,11 +80,11 @@ Key Vault で「作成」をクリック。
 
 Key Vault を作成したら、「シークレット」を開き「生成/インポート」をクリックします。
 <!-- Image= dbexport09.png -->
-{{< imagedisplay dbexport09 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport09.png" >}}
 
 ここでシークレットの名前と値を入力して保存します。
 <!-- Image= dbexport10.png -->
-{{< imagedisplay dbexport10 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport10.png" >}}
 
 このシークレットの名前も **Key Vault  URL の生成**で必要な情報になります。
 
@@ -119,22 +119,22 @@ $tenantId。 Key Vault サブスクリプションが する Azure Active Direct
   * **$location は 場所**
   * **$tenantId は ディレクトリ ID**
     <!-- Image= dbexport11.png -->
-{{< imagedisplay dbexport11 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport11.png" >}}
 
   * **$secretName は Key Vault で作成したシークレットの名前**
     <!-- Image= dbexport12.png -->
-{{< imagedisplay dbexport12 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport12.png" >}}
 
   この部分は、SQL サーバーの「接続文字列」から取得。
   * **$connectionString は上記の SQL サーバー作成時に確認した「接続文字列」の部分 （SQL サーバーアカウントとパスワード設定済）**
     <!-- Image= dbexport13.png -->
-{{< imagedisplay dbexport13 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport13.png" >}}
 
   ここは Dynamics 365 から取得。
   * **$organizationIdList は エクスポートする Dynamics 365 インスタンス参照情報 の ID**
     Dynamics 365 にアクセスして「設定」の「カスタマイズ」より「開発者リソース」を開き、「インスタンス参照情報」の 「ID」をコピーします。
      <!--Image= dbexport14.png  -->
-{{< imagedisplay dbexport14 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport14.png" >}}
 
   （例）各値が下記の場合
   * サブスクリプションID：0aaaaaaa-9999-ff44-0000-xxxxxxxxTest
@@ -165,7 +165,7 @@ $tenantId。 Key Vault サブスクリプションが する Azure Active Direct
 
 Azure で Power Shell を実行するには、右上の  >_ が Power Shell コマンド起動ボタンなのでクリックします。画面下に、上記で用意したパラメーターと残りのコマンドを張り付けて実行しましょう。
 <!-- Image= dbexport15.png -->
-{{< imagedisplay dbexport15 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport15.png" >}}
 
 コマンドの途中
 
@@ -174,19 +174,19 @@ Azure で Power Shell を実行するには、右上の  >_ が Power Shell コ�
 
 でログインが求められるので、コマンド内の https://microsoft.com/devicelogin にアクセスして、 code を入力します。
 <!-- Image= dbexport16.png -->
-{{< imagedisplay dbexport16 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport16.png" >}}
 
 デバイスのログインページで、コードを入力したら「続行」をクリック。
 <!-- Image= dbexport17.png -->
-{{< imagedisplay dbexport17 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport17.png" >}}
 
 以下の画面になったら、このログイン画面は閉じてOKです。先ほどの Azure Power Shell 画面に戻りましょう。
 <!-- Image= dbexport18.png -->
-{{< imagedisplay dbexport18 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport18.png" >}}
 
 すべて完了したら、下記のような URL が生成されます。
 <!-- Image= dbexport19.png -->
-{{< imagedisplay dbexport19 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport19.png" >}}
 
 この Key Vault URL を後述の Data Export Service セットアップ時に使います。
 
@@ -198,70 +198,70 @@ Dynamics 365 に管理者でログインして、Data Export Service をセッ�
 
 「設定」の「管理」から「システムの管理」を開き、「監査」タブにて「監査の開始」にチェックを入れます。領域については、そのまま共通エンティティのみにチェックで「OK」をクリックします。
 <!-- Image= dbexport20.png -->
-{{< imagedisplay dbexport20 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport20.png" >}}
 
 次に「設定」の「カスタマイズ」から「システムのカスタマイズ」をクリックして、
 
 特定のエンティティの「情報」を開き、「データサービス」の「監査」にチェックをいれて保存してください。
 <!-- Image= dbexport21.png -->
-{{< imagedisplay dbexport21 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport21.png" >}}
 
 ### Data Export Service をインストール
 まず、「設定」の「Microsoft AppSource」をクリックします。
 <!-- Image= dbexport22.png -->
-{{< imagedisplay dbexport22 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport22.png" >}}
 
 Data Export Service を検索して「今すぐ入手する」をクリックします。
 <!-- Image= dbexport23.png -->
-{{< imagedisplay dbexport23 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport23.png" >}}
 
 チェックをいれて、「続行」をクリックします。
 <!-- Image= dbexport24.png -->
-{{< imagedisplay dbexport24 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport24.png" >}}
 
 インストールするインスタンスを選択して、２つにチェックを入れたら「同意する」をクリック
 <!-- Image= dbexport25.png -->
-{{< imagedisplay dbexport25 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport25.png" >}}
 
 インスタンスにインストールが完了したかどうかを確認します。
 <!-- Image= dbexport26.png -->
-{{< imagedisplay dbexport26 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport26.png" >}}
 
 インストールされると、「設定」に「データのエクスポート」が表示されているので開きます。
 <!-- Image= dbexport27.png -->
-{{< imagedisplay dbexport27 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport27.png" >}}
 
 ポップアップブロックがされていると開かないので許可しておきましょう。開いたら「＋NEW」をクリックします。
 
 Create Export Profile のダイアログで、Name は任意、Key Vault URL は上記で取得した URL を設定します。その他はそのままで、「Validate」をクリックします。
 <!-- Image= dbexport28.png -->
-{{< imagedisplay dbexport28 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport28.png" >}}
 
 Validate がうまくいくとダイアログが表示されます。「OK」をクリックします。
 <!-- Image= dbexport29.png -->
-{{< imagedisplay dbexport29 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport29.png" >}}
 
 「Next」をクリックして、エクスポートしたいエンティティを検索してチェックします。（監査が有効になっていないエンティティはグレーアウトしています。）
 
 今回は、取引先企業・担当者・営業案件を選択しました。選択が完了したら「Next」をクリック。
 <!-- Image= dbexport30.png -->
-{{< imagedisplay dbexport30 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport30.png" >}}
 
 Relationship の追加はないので「Next」
 <!-- Image= dbexport31.png -->
-{{< imagedisplay dbexport31 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport31.png" >}}
 
 完了。「Create & Activate」をクリックします。
 <!-- Image= dbexport32.png -->
-{{< imagedisplay dbexport32 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport32.png" >}}
 
 しばらくするとエクスポートが完了です。
 <!-- Image= dbexport33.png -->
-{{< imagedisplay dbexport33 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport33.png" >}}
 
 SSMS 側でも確認してみると、テーブルが増えていることが確認できました。
 <!-- Image= dbexport34.png -->
-{{< imagedisplay dbexport34 "290" "596" "796" >}}
+{{< imagedisplay src="dbexport34.png" >}}
 
 無事にエクスポートできました。これでセットアップは終了です。
 

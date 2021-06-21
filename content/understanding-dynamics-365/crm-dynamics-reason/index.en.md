@@ -24,7 +24,7 @@ Below is a video from Microsoft that briefly explains the Dynamics 365 product.
 
 ## Why Dynamics 365 is so good
 <!-- Image= dynamic365Good.jpg -->
-{{< imagedisplay dynamic365Good "290" "596" "796" >}}
+{{< imagedisplay src="dynamic365Good.jpg" >}}
 
 Let's take a look at why Dynamics 365 is a great business application.
 
@@ -68,7 +68,7 @@ Microsoft also provides customer support in case of failure or to resolve any pr
 
 ## Why it's a great CRM system
 <!-- Image= greatCrm.jpg -->
-{{< imagedisplay greatCrm "290" "596" "796" >}}
+{{< imagedisplay src="greatCrm.jpg" >}}
 
 Now that we understand why Dynamics 365 is a great Microsoft business application, how good is Dynamics 365 for Sales as a CRM system? So, how good is **Dynamics 365 for Sales** as a CRM system? 
 

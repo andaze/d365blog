@@ -19,46 +19,46 @@ Dynamics 365 はライセンス数に応じた記憶域を用意しています�
 ## SharePoint Online のセットアップ
 まずは、保存先であるSharePoint Online 側のセットアップを行いましょう。Office 365 の契約でSharePoint Online が利用できるようになると思いますので、Office 365 のメニューから、SharePoint を開きます。※SharePoint Online の契約がない方は、まずはその準備を行ってください。
 <!-- Image= SharePoint1.png -->
-{{< imagedisplay SharePoint1 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint1.png" >}}
 
 
 SharePoint Online のトップページが開いたら、右上の歯車のマークをクリックして、「サイト コンテンツ」 をクリックします。
 <!-- Image= SharePoint2.png -->
-{{< imagedisplay SharePoint2 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint2.png" >}}
 
 
 「+新規」をクリックして、「サブサイト」をクリックします。
 <!-- Image= SharePoint3.png -->
-{{< imagedisplay SharePoint3 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint3.png" >}}
 
 
 タイトルを入力後、URLを設定します。テンプレートや権限などは既定のままで、「作成」をクリックします。
 <!-- Image= SharePoint4.png -->
-{{< imagedisplay SharePoint4 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint4.png" >}}
 <!-- Image= SharePoint5.png -->
-{{< imagedisplay SharePoint5 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint5.png" >}}
 
 SharePoint Online に、Dynamics 365 のドキュメントを保存するサブサイトを作成しました。このURLは後ほど利用するので、覚えておきましょう。
 
 例）https://<ドメイン名>.sharepoint.com/d365lists
 <!-- Image= SharePoint6.png -->
-{{< imagedisplay SharePoint6 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint6.png" >}}
 
 
 サイトの権限を調整します。右上の歯車マークをクリックして 「サイトの設定」をクリックします。
 <!-- Image= SharePoint7.png -->
-{{< imagedisplay SharePoint7 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint7.png" >}}
 
 
 「サイトの権限」 をクリックします。
 <!-- Image= SharePoint8.png -->
-{{< imagedisplay SharePoint8 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint8.png" >}}
 
 
 今回、Dynamic 365 と SharePoint Online の権限はそれぞれわけて考えて独自に権限設定を行いたいので、「権限の継承を中止」 をクリックします。
 この設定により、SharePoint Online で設定されている権限設定とは別に独自で権限設定を行うことができるようになります。
 <!-- Image= SharePoint9.png -->
-{{< imagedisplay SharePoint9 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint9.png" >}}
 
 
 「このサイトのグループのセットアップ」 については、何も変更せず「OK」をクリックしてください。
@@ -69,12 +69,12 @@ SharePoint Online に、Dynamics 365 のドキュメントを保存するサブ�
 
 「アクセス許可の付与」をクリックして、以下のようにユーザーに対して「投稿」の権限を付与しました。今回はユーザーに対して、SharePoint Online のURLを周知する必要がないので、「電子メール招待状を送信する」 から✔を外しています。
 <!-- Image= SharePoint10.png -->
-{{< imagedisplay SharePoint10 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint10.png" >}}
 
 
 ユーザーが追加されたことを確認できました。それでは不要なユーザーアクセスを削除します。ここでの注意点として、操作を行っている管理ユーザーが所属するチームを削除するとアクセスできなくなってしまうので、操作しているユーザーが所属するチームは残すようにしてください。今回は、「チーム サイト所有者」 以外は削除します。
 <!-- Image= SharePoint11.png -->
-{{< imagedisplay SharePoint11 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint11.png" >}}
 
 
 これでSharePoint Online 側の準備は完了です。
@@ -86,68 +86,68 @@ Dynamics 365 で SharePoint Online を有効化するには、以下の手順で
 ### SharePoint 統合の有効化を行う
 Dynamics 365 を開き、「設定」 から 「ドキュメント管理」 をクリックします。「サーバーベースの SharePoint 統合の有効化」 をクリックします。
 <!-- Image= SharePoint12.png -->
-{{< imagedisplay SharePoint12 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint12.png" >}}
 
 
 ダイアログが表示されると「次へ」をクリックして、「SharePoint サイトの場所を選択してください」 で 「オンライン」 をクリックします。
 <!-- Image= SharePoint13.png -->
-{{< imagedisplay SharePoint13 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint13.png" >}}
 
 
 URL に SharePoint Online のURLを入力（作成したドキュメント ライブラリのURLではないです）して、「次へ」をクリックします。
 <!-- Image= SharePoint14.png -->
-{{< imagedisplay SharePoint14 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint14.png" >}}
 
 
 構成が完了したことを確認して、「完了」 をクリックします。
 <!-- Image=  SharePoint15.png -->
-{{< imagedisplay SharePoint15 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint15.png" >}}
 
 
 ### ドキュメントの管理設定を行う
 エンティティ単位で、SharePoint のドキュメント管理を行う場合に、この設定を行います。「設定」 の 「ドキュメント管理」 から、 「ドキュメント管理設定」 をクリックします。
 <!-- Image= SharePoint16.png -->
-{{< imagedisplay SharePoint16 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint16.png" >}}
 
 
 有効にしたいエンティティを選択して、上述で作成したSharePoint サイトのURL (例：https://<ドメイン名>.sharepoint.com/d365lists ) を追加したら、「次へ」をクリックします。
 <!-- Image= SharePoint17.png -->
-{{< imagedisplay SharePoint17 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint17.png" >}}
 
 
 URLが有効です というメッセージが表示されます。ここでフォルダ構造を設定しますが、「エンティティに基づく」にチェックを入れて、「次へ」 をクリックします。
 <!-- Image= SharePoint18.png -->
-{{< imagedisplay SharePoint18 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint18.png" >}}
 
 
 これで、SharePoint 側に取引先企業と取引先担当者のフォルダがそれぞれ作成されました。もし Dynamics 365 の取引先企業レコードで、ドキュメントをアップロードすると、SharePoint の account というフォルダに作成されることになります。
 <!-- Image= SharePoint19.png -->
-{{< imagedisplay SharePoint19 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint19.png" >}}
 
 
 SharePoint サイトを見ると、フォルダが作成されていることがわかります。
 <!-- Image= SharePoint20.png -->
-{{< imagedisplay SharePoint20 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint20.png" >}}
 
 ### Dynamics 365 でファイルをアップロードする
 取引先企業のレコードより、ドキュメントをアップロードしてみましょう。取引先企業のレコードを開いて、上部のメニュー（ナビゲーション）より 「ドキュメント」 をクリックします。※ もしドキュメントがない場合は、フォームの設定より、ナビゲーションに追加してください。
 <!-- Image= SharePoint21.png -->
-{{< imagedisplay SharePoint21 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint21.png" >}}
 
 
 「アップロード」 をクリックして、添付したいファイルを選択後 「OK」 をクリックします。
 <!-- Image= SharePoint22.png -->
-{{< imagedisplay SharePoint22 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint22.png" >}}
 
 
 アップロードが完了しました。「ドキュメントの場所」 が SharePoint になっていますね。
 <!-- Image= SharePoint23.png -->
-{{< imagedisplay SharePoint23 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint23.png" >}}
 
 
 SharePoint サイトを見ると、取引先企業のフォルダに、新しくフォルダが作成され、添付したらファイルがアップロードされています。
 <!-- Image= SharePoint24.png -->
-{{< imagedisplay SharePoint24 "290" "596" "796" >}}
+{{< imagedisplay src="SharePoint24.png" >}}
 
 
 このように、SharePoint との連携により、Dynamic 365 にファイルを多く格納することができることはとても便利ですね。

@@ -32,7 +32,7 @@ I want you to unlock the potential of Dynamics 365. We want you to experience th
 
 ## 【１】 Clarify the purpose of the introduction.
 <!-- image= plan.jpg -->
-{{< imagedisplay plan "290" "596" "796" >}}
+{{< imagedisplay src="plan.jpg" >}}
 
 The first step is to clarify the purpose of Dynamics 365.　The first step is to clarify the purpose.
 
@@ -49,7 +49,7 @@ In general, most companies that are considering implementing IT do not fully und
 
 ## 【２】 Do your employees understand the implications of their implementation?
 <!-- Image= implications.jpg -->
-{{< imagedisplay implications "290" "596" "796" >}}
+{{< imagedisplay src="implications.jpg" >}}
 
 
 Employees need to understand how implementing Dynamics 365 will benefit their customers, their employees, and the company as a whole.
@@ -60,7 +60,7 @@ If you have already implemented the system without sufficient hearing, you shoul
 
 ## 【３】 Summarize the internal awareness of the implementation.
 <!-- Image= team.jpg -->
-{{< imagedisplay team "290" "596" "796" >}}
+{{< imagedisplay src="team.jpg" >}}
 
 As mentioned in the previous section, "Employees do not understand", business operations are basically carried out in cooperation with other departments. Therefore, it is essential that the necessary information is passed on smoothly between departments. However, companies that fail often have a disjointed sense of cooperation between departments.
 
@@ -70,7 +70,7 @@ Also, Dynamics 365 is a system. Since Dynamics 365 is a system for customer mana
 
 ## 【４】 Maximize devices that can maintain data integrity.
 <!-- Image= devices.jpg -->
-{{< imagedisplay devices "290" "596" "796" >}}
+{{< imagedisplay src="devices.jpg" >}}
 
 After implementing Dynamics 365, when employees in the field import or directly input data, if the current data is incomplete or unused fields are left unused, a very complicated system will be created.
 
@@ -84,7 +84,7 @@ It would be good if we could clarify the appearance, input forms, permission set
 
 ## 【５】 Prepare for post-implementation support system for Dynamics 365
 <!-- Image= post-implementation.jpg -->
-{{< imagedisplay post-implementation "290" "596" "796" >}}
+{{< imagedisplay src="post-implementation.jpg" >}}
 
 After the implementation of Dynamics 365, it is necessary to properly understand who will handle the usage and system errors; if Dynamics 365 is to be used in the field, who in the field will give lectures and incorporate them into the business level; and who will be the pilot users before the system is implemented.
 

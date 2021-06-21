@@ -32,7 +32,7 @@ linkdin: ""
 
 ## 【１】導入目的を明確にしよう
 <!-- image= plan.jpg -->
-{{< imagedisplay plan "290" "596" "796" >}}
+{{< imagedisplay src="plan.jpg" >}}
 
 「なぜ Dynamics 365 を導入したいのか？」　この 目的 を明確にすることが一番最初のステップです。
 
@@ -49,7 +49,7 @@ linkdin: ""
 
 ## 【２】 社員達が導入する意味を理解していますか？
 <!-- Image= implications.jpg -->
-{{< imagedisplay implications "290" "596" "796" >}}
+{{< imagedisplay src="implications.jpg" >}}
 
 
 Dynamics 365 を導入することは、顧客や社員にとって、会社全体にとってどのようなメリットにつながるのかを社員達が把握していないといけません。
@@ -60,7 +60,7 @@ Dynamics 365 を導入することは、顧客や社員にとって、会社全�
 
 ## 【３】導入にあたっての社内意識をまとめていく
 <!-- Image= team.jpg -->
-{{< imagedisplay team "290" "596" "796" >}}
+{{< imagedisplay src="team.jpg" >}}
 
 1つ前の「社員達が理解していない」にも共通していますが、業務というのは基本的に部門同士が連携をとりながら進めていくものです。従って、部門間での必要な情報がスムーズに引き継がれることは必須です。ですが、失敗に終わってしまう企業はこのような部門間の連携意識がバラバラなことが多いのです。
 
@@ -70,7 +70,7 @@ Dynamics 365 を導入することは、顧客や社員にとって、会社全�
 
 ## 【４】データの整合性を保てる工夫を最大限に
 <!-- Image= devices.jpg -->
-{{< imagedisplay devices "290" "596" "796" >}}
+{{< imagedisplay src="devices.jpg" >}}
 
 Dynamics 365 を導入後、現場の社員がデータをインポートしたり、直接入力する際、現在のデータが不完全であったり、すでに使っていない項目がそのままにされていると、とても煩雑なシステムが出来上がります。
 
@@ -84,7 +84,7 @@ Dynamics 365 を導入後、現場の社員がデータをインポートした�
 
 ## 【５】Dynamics 365 導入後のサポート体制を準備する
 <!-- Image= post-implementation.jpg -->
-{{< imagedisplay post-implementation "290" "596" "796" >}}
+{{< imagedisplay src="post-implementation.jpg" >}}
 
 Dynamics 365 導入後、その使用方法やシステムエラーの対応は誰が行うのか、現場でDynamics 365 を利用するのであれば、現場の誰がレクチャーを行い、業務レベルに落としていくのか、システム導入前のパイロットユーザーは誰か、などをきちんと把握する必要があります。
 

@@ -16,7 +16,7 @@ Dynamics 365 は Power Platform と呼ばれる PowerApps、Flow、Power BI と�
 
 現在 Dynamics 365 は Common Data Service を使用してデータを管理しているため、Dynamics 365 で蓄積したデータを、同様にCommon Data Service を利用している PowerApps、Flow、Power BI にシームレスに渡すことができます。
 <!-- Image= cds01.jpg -->
-{{< imagedisplay cds01 "290" "596" "796" >}}
+{{< imagedisplay src="cds01.jpg" >}}
 
 
 引用元： [Common Data Service とは何ですか （マイクロソフト）](https://docs.microsoft.com/ja-jp/powerapps/maker/data-platform/data-platform-intro)
@@ -64,7 +64,7 @@ Azure の VM 構築で対応しました。オンプレミス？ という多少
 
 オンプレミス データ ゲートウェイは、 [、ここからダウンロード](https://powerapps.microsoft.com/ja-jp/downloads/)できます。
 <!-- Image= cds02.jpg -->
-{{< imagedisplay cds02 "290" "596" "796" >}}
+{{< imagedisplay src="cds02.jpg" >}}
 
 
 ### オンプレミス データ ゲートウェイの前提条件
@@ -91,17 +91,17 @@ Azure の VM 構築で対応しました。オンプレミス？ という多少
 
 ここでは、データ ゲートウェイの名前を下図のように設定して構成しました。
 <!-- Image= cds03.png -->
-{{< imagedisplay cds03 "290" "596" "796" >}}
+{{< imagedisplay src="cds03.png" >}}
 
 
 正常に完了したら、下図のようになりました。PowerApps で準備完了となっています。
 <!-- Image= cds04.png -->
-{{< imagedisplay cds04 "290" "596" "796" >}}
+{{< imagedisplay src="cds04.png" >}}
 
 
 PowerApps の「ゲートウェイ」を開くと作成した データ ゲートウェイが表示されていました。
 <!-- Image= cds05.png -->
-{{< imagedisplay cds05 "290" "596" "796" >}}
+{{< imagedisplay src="cds05.png" >}}
 
 
 ## オンプレミス SQL Server からデータを取得
@@ -110,82 +110,82 @@ PowerApps の「ゲートウェイ」を開くと作成した データ ゲー�
 ### SQL Server に接続する
 PowerApps の画面に移動して、右上より Environment を切り替えます。
 <!-- Image= cds06.jpg -->
-{{< imagedisplay cds06 "290" "596" "796" >}}
+{{< imagedisplay src="cds06.jpg" >}}
 
 
 左パネルの「データ」を展開して「データ統合」をクリックします。「データ統合プロジェクトを作成」をクリックします。
 <!-- Image= cds07.png -->
-{{< imagedisplay cds07 "290" "596" "796" >}}
+{{< imagedisplay src="cds07.png" >}}
 
 データソースとして「SQL Server データベース」を選択します。
 <!-- Image= cds08.png -->
-{{< imagedisplay cds08 "290" "596" "796" >}}
+{{< imagedisplay src="cds08.png" >}}
 
 
 接続設定で SQL Server のサーバー名と取得したいデータベース名を入力、オンプレミス データ ゲートウェイに先ほど作成したデータ ゲートウェイを選択して、Windows 認証として認証情報を入力します。そして「次へ」をクリックします。
 
 <!-- Image= cds09.png -->
-{{< imagedisplay cds09 "290" "596" "796" >}}
+{{< imagedisplay src="cds09.png" >}}
 
 
 ### 取得するデータ列を選択する
 データベースのテーブルを選択します。ここでは「SalesPerson」を選択して「次へ」をクリック。
 <!-- Image= cds10.png -->
-{{< imagedisplay cds10 "290" "596" "796" >}}
+{{< imagedisplay src="cds10.png" >}}
 
 クエリの編集画面になります。「列の管理」で「列の選択」をクリックして、必要な列のみ取得するようにします。
 <!-- Image= cds11.png -->
-{{< imagedisplay cds11 "290" "596" "796" >}}
+{{< imagedisplay src="cds11.png" >}}
 
 選択したら「次へ」をクリックします。
 <!-- Image= cds12.png -->
-{{< imagedisplay cds12 "290" "596" "796" >}}
+{{< imagedisplay src="cds12.png" >}}
 
 
 ### 新しいエンティティに読み込む
 テーブルの情報を新しいエンティティに読み込みます。読み込みの設定で「新しいエンティティに読み込む」にチェックをいれて、エンティティ名と表示名を設定します。
 <!-- Image= cds13.png -->
-{{< imagedisplay cds13 "290" "596" "796" >}}
+{{< imagedisplay src="cds13.png" >}}
 
 
 フィールドマッピングでキーフィールドを設定します。ここでは BusinessEntityID という一意のIDフィールドを選択しました。
 <!-- Image= cds14.png -->
-{{< imagedisplay cds14 "290" "596" "796" >}}
+{{< imagedisplay src="cds14.png" >}}
 
 プライマリ名フィールドに LastName を設定しようとしたらエラーが出ました。複数行テキストは設定できないということなので、LastName のフィールド型を「テキスト」に変更しました。
 <!-- Image= cds15.png -->
-{{< imagedisplay cds15 "290" "596" "796" >}}
+{{< imagedisplay src="cds15.png" >}}
 
 
 プライマリ名フィールドを LastName にして、その他のフィールド型も「テキスト」に変更して「次へ」をクリックしました。
 
 ※もし複数行テキストがいい場合は、そのままでもOKです。
 <!-- Image= cds16.png -->
-{{< imagedisplay cds16 "290" "596" "796" >}}
+{{< imagedisplay src="cds16.png" >}}
 
 
 最後に設定の更新ですが、ここでは「手動で更新」としました。自動的に更新する場合は、更新間隔や開始日を設定します。
 <!-- Image= cds17.png -->
-{{< imagedisplay cds17 "290" "596" "796" >}}
+{{< imagedisplay src="cds17.png" >}}
 
 
 「作成」をクリックします。読み込み状態が「完了済み」となればOKです。
 <!-- Image= cds18.png -->
-{{< imagedisplay cds18 "290" "596" "796" >}}
+{{< imagedisplay src="cds18.png" >}}
 
 
 データ統合に新しいプロジェクトが作成されています。
 <!-- Image= cds19.png -->
-{{< imagedisplay cds19 "290" "596" "796" >}}
+{{< imagedisplay src="cds19.png" >}}
 
 
 エンティティをみると、新規作成したエンティティが一覧に表示されています。
 <!-- Image= cds20.png -->
-{{< imagedisplay cds20 "290" "596" "796" >}}
+{{< imagedisplay src="cds20.png" >}}
 
 Dynamics 365 のサイトマップ上に表示させてみました。
 <!-- Image= cds21.png -->
-{{< imagedisplay cds21 "290" "596" "796" >}}
+{{< imagedisplay src="cds21.png" >}}
 
 
 これでオンプレミス SQL Server から Dynamics 365 へのデータの取り込みは完了です。オンプレミスからの移行も CDS を活用することでスムーズに行えそうです。

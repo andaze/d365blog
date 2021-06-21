@@ -28,17 +28,17 @@ Dynamics 365 では、インポート用のテンプレートが各エンティ�
 
 テンプレートは以下のように、各エンティティのリスト一覧からダウンロードできます。
 <!-- Image= templates.jpg -->
-{{< imagedisplay templates "290" "596" "796" >}}
+{{< imagedisplay src="templates.jpg" >}}
 
 
 インポートしたExcelを開くと、D列からエンティティのフィールドがすべて表示されています。なお、AからC列はシステムで必要な列になるため、変更しないように注意してください。
 
 <!-- Image= templates1.jpg -->
-{{< imagedisplay templates1 "290" "596" "796" >}}
+{{< imagedisplay src="templates1.jpg" >}}
 
 各列は、フィールドに設定したデータ型も反映されています。そのため、フィールドの型に合わせてデータを入力する必要があります。
 <!-- Image= templates2.jpg -->
-{{< imagedisplay templates2 "290" "596" "796" >}}
+{{< imagedisplay src="templates2.jpg" >}}
 
 
 
@@ -52,7 +52,7 @@ Dynamics 365 では、インポート用のテンプレートが各エンティ�
 
 例えば、取引先企業 -取引先担当者 – 営業案件 というような上位下位の関係があり、下位のエンティティはもちろん、上位のエンティティを参照しています。もしこの状況で、営業案件からデータをインポートしたらどうなるでしょうか？参照している企業名や担当者名は事前に作成されていないため、インポートエラーになってしまいます。
 <!-- Image= templates3.jpg -->
-{{< imagedisplay templates3 "290" "596" "796" >}}
+{{< imagedisplay src="templates3.jpg" >}}
 
 常にエンティティの上位下位を意識して、上位からのインポートが必須です。
 
@@ -76,55 +76,55 @@ Dynamics 365 では、インポート用のテンプレートが各エンティ�
 
 上述した情報をテンプレートに追加すると以下のようになります。
 <!-- Image= templates4.jpg -->
-{{< imagedisplay templates4 "290" "596" "796" >}}
+{{< imagedisplay src="templates4.jpg" >}}
 
 テンプレートを保存して、さっそくインポートを行います。取引先企業のリスト一覧から、「データのインポート」の▼をクリックして、「データのインポート」をクリックします。
 
 <!-- Image= templates5.jpg -->
-{{< imagedisplay templates5 "290" "596" "796" >}}
+{{< imagedisplay src="templates5.jpg" >}}
 
 インポートダイアログが表示されたら、先ほどのテンプレートファイルをドラッグ＆ドロップします。そして、「次へ」をクリックします。
 <!-- Image= templates6.jpg -->
-{{< imagedisplay templates6 "290" "596" "796" >}}
+{{< imagedisplay src="templates6.jpg" >}}
 
 インポートファイルの列を追加・削除していないので、すぐに設定の確認画面に遷移します。後ほど説明しますが、もしテンプレートに新しい列を追加したり、列名を編集すると、フィールドのマッピング画面が表示されます。
 
 ここでは、「重複の許可」は いいえ として、「インポート済みのレコードの所有者」をシステム管理者 として 「送信」をクリックします。
 <!-- Image= templates7.jpg -->
-{{< imagedisplay templates7 "290" "596" "796" >}}
+{{< imagedisplay src="templates7.jpg" >}}
 
 すると、インポート処理がスタートします。以下のダイアログの「インポート」をクリックすると、インポートエディタが開きます。
 <!-- Image= templates8.jpg -->
-{{< imagedisplay templates8 "290" "596" "796" >}}
+{{< imagedisplay src="templates8.jpg" >}}
 
 
 以下のようにステータスが完了して、成功していればインポートされたことになります。
 <!-- Image= templates9.jpg -->
-{{< imagedisplay templates9 "290" "596" "796" >}}
+{{< imagedisplay src="templates9.jpg" >}}
 
 
 取引先企業にも作成されていることが確認できました。
 <!-- Image= templates14.jpg -->
-{{< imagedisplay templates14 "290" "596" "796" >}}
+{{< imagedisplay src="templates14.jpg" >}}
 
 
 ## インポートする列のマッピングを行う
 それでは、ダウンロードしたテンプレートファイルを少し加工しましょう。FAX列の横に、「ファクシミリ」という列を追加して値を入れます。
 <!-- Image= templates10.jpg -->
-{{< imagedisplay templates10 "290" "596" "796" >}}
+{{< imagedisplay src="templates10.jpg" >}}
 
 このファイルをアップロードします。すると、先ほどファイルをドラッグ＆ドロップした後では表示されなかったダイアログが表示されます。ここでは「次へ」をクリックしましょう。
 <!-- Image= templates11.jpg -->
-{{< imagedisplay templates11 "290" "596" "796" >}}
+{{< imagedisplay src="templates11.jpg" >}}
 
 そして次のダイアログで、マッピングを行います。先ほど追加した「ファクシミリ」が現在どのフィールドともマッピングしていません。
 <!-- Image= templates12.jpg -->
-{{< imagedisplay templates12 "290" "596" "796" >}}
+{{< imagedisplay src="templates12.jpg" >}}
 
 
 そこで、住所１：FAX とマッピングさせましょう。これで「次へ」をクリックします。
 <!-- Image= templates13.jpg -->
-{{< imagedisplay templates13 "290" "596" "796" >}}
+{{< imagedisplay src="templates13.jpg" >}}
 
 
 あとは上述の通りにインポートを行います。これでインポートできました。

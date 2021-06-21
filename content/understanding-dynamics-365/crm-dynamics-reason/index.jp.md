@@ -27,7 +27,7 @@ linkdin: ""
 
 ## Dynamics 365 優れている理由
 <!-- Image= dynamic365Good.jpg -->
-{{< imagedisplay dynamic365Good "290" "596" "796" >}}
+{{< imagedisplay src="dynamic365Good.jpg" >}}
 
 それでは、なぜ Dynamics 365 が優れたビジネスアプリケーションであるかについてご紹介します。
 
@@ -71,7 +71,7 @@ Dynamics 365 は Azure 上に構築され、顧客データはすべてクラウ
 
 ## CRM システムとして優れている理由
 <!-- Image= greatCrm.jpg -->
-{{< imagedisplay greatCrm "290" "596" "796" >}}
+{{< imagedisplay src="greatCrm.jpg" >}}
 
 Dynamics 365 がマイクロソフトのビジネスアプリケーションとして優れている理由については理解はできました。それでは、CRM システムとして **Dynamics 365 for Sales** はどれほど優れているのでしょうか？
 

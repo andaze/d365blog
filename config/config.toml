@@ -1,17 +1,17 @@
-# baseURL = "http://localhost/dynamic365Build/en/dynamic/"
-# baseURL = "https://amptest.ameio.in/"
-baseURL = "http://localhost/dynamic365Imagetesting/"
+# baseURL = "http://localhost/dynamic365Imagetesting/"
 
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"
-
+timeout = 300000
 [Languages]
 ############ 1 - Site en Japanese
 [Languages.jp]
 languageName = "JP"
 weight = 1
-languageCode = "jp-jp"
+languageCode = "ja-JP"
 
 ############ 1 - Site en Japanese
 [Languages.en]
@@ -27,5 +27,7 @@ languageCode = "en-en"
     startLevel = 2
 
 [params]
-headerTitle = "Dynamics 365 blog"
-env = "devlop"
+  headerTitle = "Dynamics 365 blog"
+  env = "devlop"
+  imageratio = "1"
+  imagewidth = "700"

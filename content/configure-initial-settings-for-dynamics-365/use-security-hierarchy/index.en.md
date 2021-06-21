@@ -26,24 +26,24 @@ The administrator hierarchy sets the security scope based on the user's supervis
 
 The following diagram shows a hierarchical structure with the president as the manager, the department manager, the section manager, and the section staff, and the supervisor has the authority to view and edit the data of the subordinates.
 <!-- Image= hierarchisetting.png -->
-{{< imagedisplay hierarchisetting "290" "596" "796" >}}
+{{< imagedisplay src="hierarchisetting.png" >}}
 
 
 If you are talking about a position hierarchy, the following diagram shows the hierarchy of the project manager position, leaders, developers, and so on. In this case, the relationship between supervisor and subordinate is not questioned. (It may be easy to imagine a case where an external vendor is responsible for development in an outsourcing arrangement.
 <!-- Image= hierarchisetting1.png -->
-{{< imagedisplay hierarchisetting1 "290" "596" "796" >}}
+{{< imagedisplay src="hierarchisetting1.png" >}}
 
 
 ## Configure the hierarchical security settings.
 Let's set up hierarchical security. Open "Security" in "Settings" and click "Layered Security".
 <!-- Image= setting.png -->
-{{< imagedisplay setting "290" "596" "796" >}}
+{{< imagedisplay src="setting.png" >}}
 
 
 ### Setting up an administrative hierarchy
 Check the "Enable Hierarchical Model" box to enable hierarchical security. ✔After ticking the box, select the hierarchy model. Let's start with the "Admin Hierarchy".
 <!-- Image= administrative.png -->
-{{< imagedisplay administrative "290" "596" "796" >}}
+{{< imagedisplay src="administrative.png" >}}
 
 
 As for the "depth of hierarchy," as you can see in the diagram above, the first level down from the president is the sales manager or system manager, the second level down is the sales and section manager, and the third level down is the engineer. When considering the depth of this hierarchy, it is better to focus on the hierarchy that requires a certain level of security control, rather than judging the hierarchy that may hold all the authority, such as the president.
@@ -51,36 +51,36 @@ As for the "depth of hierarchy," as you can see in the diagram above, the first 
 If you think about what level of hierarchy a manager or section chief should be able to see, a depth of 2 or 3 would be appropriate, because if it is too deep, the range of visibility would be too wide. In this example, let's say 2.
 
 <!-- Image= level.png -->
-{{< imagedisplay level "290" "596" "796" >}}
+{{< imagedisplay src="level.png" >}}
 
 
 The "Select entities to exclude from hierarchy" option allows you to exclude entities that you do not want to fall under hierarchical security. This allows you to exclude entities that have been assigned certain privileges in a security role in some departments, if any.
 
 We will not make any special settings this time, so just "Save and Close" to complete the security settings for the administrator level.
 <!-- Image= administrative1.png -->
-{{< imagedisplay administrative1 "290" "596" "796" >}}
+{{< imagedisplay src="administrative1.png" >}}
 
 
 
 Then, configure the administrator settings for each user. Go to "Security", "Users", and open the specific user information. Set the name of the user who should be the supervisor in "Supervisor" under "Organization Information" in the user information, and save it. The hierarchy is now complete.
 <!-- Image= administrative2.png -->
-{{< imagedisplay administrative2 "290" "596" "796" >}}
+{{< imagedisplay src="administrative2.png" >}}
 
 
 ## Setting up a position hierarchy
 Let's check the position hierarchy settings in the same way. Go back to the "Hierarchy Security" screen and set "Select Hierarchy Model" to "Custom Position Hierarchy".
 <!-- Image= administrative3.png -->
-{{< imagedisplay administrative3 "290" "596" "796" >}}
+{{< imagedisplay src="administrative3.png" >}}
 
 
 At this point, you have not yet created a position, so click on "Configure". This will take you to the position screen. Click on the "+ New" button to create a new position.
 <!-- Image= administrative4.png -->
-{{< imagedisplay administrative4 "290" "596" "796" >}}
+{{< imagedisplay src="administrative4.png" >}}
 
 
 For example, we set up the following. The Project Manager position is the top one, so we don't set a parent position, but we add a user for the position. If you want to create a development leader under this position, set the parent position to Project Manager.
 <!-- Image= administrative5.png -->
-{{< imagedisplay administrative5 "290" "596" "796" >}}
+{{< imagedisplay src="administrative5.png" >}}
 
 When you have created all of them, go back to the previous hierarchy security settings, save and close them. You have now completed the configuration of the hierarchy by position.
 

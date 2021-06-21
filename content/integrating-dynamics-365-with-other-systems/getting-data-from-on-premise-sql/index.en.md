@@ -16,7 +16,7 @@ Dynamics 365 can be integrated with PowerApps, Flow, and Power BI, called Power 
 
 Currently, Dynamics 365 uses the Common Data Service to manage data, so data stored in Dynamics 365 can be seamlessly passed to PowerApps, Flow, and Power BI, which also use the Common Data Service.
 <!-- Image= cds01.jpg -->
-{{< imagedisplay cds01 "290" "596" "796" >}}
+{{< imagedisplay src="cds01.jpg" >}}
 
 
 Reference: [What is the Common Data Service (Microsoft)](https://docs.microsoft.com/ja-jp/powerapps/maker/data-platform/data-platform-intro)
@@ -62,7 +62,7 @@ Now that we are ready, let's get started. First, install the **On-Premises Data 
 
 The On-Premise Data Gateway can be [downloaded from here](https://powerapps.microsoft.com/ja-jp/downloads/).
 <!-- Image= cds02.jpg -->
-{{< imagedisplay cds02 "290" "596" "796" >}}
+{{< imagedisplay src="cds02.jpg" >}}
 
 
 ### Prerequisites for on-premises data gateways
@@ -89,17 +89,17 @@ Once downloaded, start the installation. Please refer to the technical informati
 
 In this example, we configured the name of the data gateway as shown in the figure below.
 <!-- Image= cds03.png -->
-{{< imagedisplay cds03 "290" "596" "796" >}}
+{{< imagedisplay src="cds03.png" >}}
 
 
 After successfully completing the process, you should now see the following image, which shows that PowerApps is ready.
 <!-- Image= cds04.png -->
-{{< imagedisplay cds04 "290" "596" "796" >}}
+{{< imagedisplay src="cds04.png" >}}
 
 
 When I opened the "Gateways" section of PowerApps, I could see the data gateway I created.
 <!-- Image= cds05.png -->
-{{< imagedisplay cds05 "290" "596" "796" >}}
+{{< imagedisplay src="cds05.png" >}}
 
 
 ## Retrieve data from on-premises SQL Server
@@ -108,81 +108,81 @@ Now that we have completed the configuration of the on-premises data gateway on 
 ### Connect to SQL Server
 Go to the PowerApps screen and switch the Environment from the upper right corner. 
 <!-- Image= cds06.jpg -->
-{{< imagedisplay cds06 "290" "596" "796" >}}
+{{< imagedisplay src="cds06.jpg" >}}
 
 
 Expand "Data" in the left panel and click "Data Integration". Click "Create Data Integration Project".
 <!-- Image= cds07.png -->
-{{< imagedisplay cds07 "290" "596" "796" >}}
+{{< imagedisplay src="cds07.png" >}}
 
 Select "SQL Server Database" as the data source.
 <!-- Image= cds08.png -->
-{{< imagedisplay cds08 "290" "596" "796" >}}
+{{< imagedisplay src="cds08.png" >}}
 
 
 Enter the SQL Server server name and the database name you want to retrieve in the connection settings, select the data gateway you just created as the on-premises data gateway, and enter the credentials as Windows Authentication. Then click "Next".
 <!-- Image= cds09.png -->
-{{< imagedisplay cds09 "290" "596" "796" >}}
+{{< imagedisplay src="cds09.png" >}}
 
 
 ### Select the data column to retrieve.
 Select a table for the database. In this case, select "SalesPerson" and click "Next".
 <!-- Image= cds10.png -->
-{{< imagedisplay cds10 "290" "596" "796" >}}
+{{< imagedisplay src="cds10.png" >}}
 
 This will take you to the edit screen of the query. Under "Column Management", click "Select Columns" to get only the columns you need.
 <!-- Image= cds11.png -->
-{{< imagedisplay cds11 "290" "596" "796" >}}
+{{< imagedisplay src="cds11.png" >}}
 
 After making your selection, click "Next.
 <!-- Image= cds12.png -->
-{{< imagedisplay cds12 "290" "596" "796" >}}
+{{< imagedisplay src="cds12.png" >}}
 
 
 ### Load into a new entity
 Load the information from the table into a new entity. Check the "Load into new entity" checkbox in the loading settings, and set the entity name and display name.
 <!-- Image= cds13.png -->
-{{< imagedisplay cds13 "290" "596" "796" >}}
+{{< imagedisplay src="cds13.png" >}}
 
 
 Set the key field in Field Mapping. Here we have selected a unique ID field called BusinessEntityID.
 <!-- Image= cds14.png -->
-{{< imagedisplay cds14 "290" "596" "796" >}}
+{{< imagedisplay src="cds14.png" >}}
 
 When I tried to set the LastName in the Primary Name field, I got an error. It says that multi-line text cannot be set, so I changed the field type for LastName to "Text".
 <!-- Image= cds15.png -->
-{{< imagedisplay cds15 "290" "596" "796" >}}
+{{< imagedisplay src="cds15.png" >}}
 
 
 I changed the Primary Name field to LastName and the other field types to "Text" and clicked "Next".
 
 *If you prefer multi-line text, you can leave it as is.
 <!-- Image= cds16.png -->
-{{< imagedisplay cds16 "290" "596" "796" >}}
+{{< imagedisplay src="cds16.png" >}}
 
 
 Finally, update the settings. In this case, we set "Update manually". If you want to update automatically, set the update interval and start date.
 <!-- Image= cds17.png -->
-{{< imagedisplay cds17 "290" "596" "796" >}}
+{{< imagedisplay src="cds17.png" >}}
 
 
 Click "Create". When the loading status becomes "Completed", it is OK.
 <!-- Image= cds18.png -->
-{{< imagedisplay cds18 "290" "596" "796" >}}
+{{< imagedisplay src="cds18.png" >}}
 
 
 A new project has been created in Data Integration.
 <!-- Image= cds19.png -->
-{{< imagedisplay cds19 "290" "596" "796" >}}
+{{< imagedisplay src="cds19.png" >}}
 
 
 If you look at the entities, you will see that the newly created entities are listed.
 <!-- Image= cds20.png -->
-{{< imagedisplay cds20 "290" "596" "796" >}}
+{{< imagedisplay src="cds20.png" >}}
 
 I tried to display it on the Dynamics 365 sitemap.
 <!-- Image= cds21.png -->
-{{< imagedisplay cds21 "290" "596" "796" >}}
+{{< imagedisplay src="cds21.png" >}}
 
 
 This completes the import of data from on-premises SQL Server to Dynamics 365. The migration from on-premise to Dynamics 365 will be smooth by using CDS.

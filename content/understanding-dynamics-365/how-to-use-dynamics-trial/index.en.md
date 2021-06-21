@@ -30,46 +30,46 @@ In this case, we want to build an environment on an independent tenant, so we wi
 ## Create a free trial of Dynamics 365
 First, access the [free trial version of Dynamics 365](https://trials.dynamics.com/Dynamics365/Signup/). Then you will see a list of available applications. Since we are here for development purposes, click on "Sign up here".
 <!-- Image =  d-setup-01.png-->
-{{< imagedisplay d-setup-01 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-01.png" >}}
 
 
 A dialog box will appear. Click "No, I want to continue signing up.
 <!-- Image =  d-setup-02.png-->
-{{< imagedisplay d-setup-02 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-02.png" >}}
 
 You will be taken to a screen to enter your personal information, please enter your information. For the e-mail address, enter the address of the corporation.
 <!-- Image =  d-setup-03.png-->.
-{{< imagedisplay d-setup-03 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-03.png" >}}
 
 
 This is where you set the tenant information and the Dynamics administrator's email address and password. If the account is already in use, it cannot be set, so make sure it is unique. Click "Create My Account" to start the creation process.
 <!-- Image =  d-setup-04.png-->
-{{< imagedisplay d-setup-04 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-04.png" >}}
 
 
 Now enter your cell phone number to confirm that you are not a robot. Since you are in Japan, set it to (+81) and send a text message via SMS.
 <!-- Image =  d-setup-05.png-->
-{{< imagedisplay d-setup-05 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-05.png" >}}
 
 
 You will receive a six-digit number that you will need to enter.
 <!-- image= d-setup-06.png -->
-{{< imagedisplay d-setup-06 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-06.png" >}}
 
 
 Then the tenant creation will start. The expiration date is 30 days, so please remember the creation date. Click "Set Up" and you're good to go.
 <!-- image= d-setup-07.png -->
-{{< imagedisplay d-setup-07 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-07.png" >}}
 
 
 Log in at the sign-in dialog.
 <!-- image= d-setup-08.png -->
-{{< imagedisplay d-setup-08 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-08.png" >}}
 
 
 This brings you to the setup screen. Set the language to "Japanese" and select only "Sales" this time. (If you want all, check All on the far right.) "Setup Complete" completes the setup of the free trial version.
 <!-- image= d-setup-09.png -->
-{{< imagedisplay d-setup-09 "290" "596" "796" >}}
+{{< imagedisplay src="d-setup-09.png" >}}
 
 
 You can now access the free trial version of Dynamics 365. You can now start using it.

@@ -23,7 +23,7 @@ In this article, I would like to introduce a scenario that focuses on the use of
 
 ## In what situations do you use Dynamics 365 in sales?
 <!-- Image- money.jpg -->
-{{< imagedisplay money "290" "596" "796" >}}
+{{< imagedisplay src="money.jpg" >}}
 
 In this article, I will describe a scenario where Dynamics 365 is used in sales activities. We will use Dynamics 365 for Sales as the application to be implemented, and we hope you will be able to imagine what kind of sales activities you will be able to achieve by using Dynamics 365 functions in that application.
 

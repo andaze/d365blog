@@ -29,50 +29,50 @@ is included.
 
 When you open the Dynamics 365 menu, you will see the available applications as shown below.
 <!-- Image= menu.png -->
-{{< imagedisplay menu "290" "596" "796" >}}
+{{< imagedisplay src="menu.png" >}}
 
 
 If you want to change the display name of the application, you can do so in "System administration" from "Administration" in "Settings".
 <!-- Image= menu1.png -->
-{{< imagedisplay menu1 "290" "596" "796" >}}
+{{< imagedisplay src="menu1.png" >}}
 
 Open "System Administration".
 <!-- Image= menu2.png -->
-{{< imagedisplay menu2 "290" "596" "796" >}}
+{{< imagedisplay src="menu2.png" >}}
 
 
 You can change it in the "Default app name" in the "General" tab.
 <!-- Image= menu3.png -->
-{{< imagedisplay menu3 "290" "596" "796" >}}
+{{< imagedisplay src="menu3.png" >}}
 
 Each application can be configured in "Customize System".
 <!-- Image= menu4.png -->
-{{< imagedisplay menu4 "290" "596" "796" >}}
+{{< imagedisplay src="menu4.png" >}}
 
 There is an "app" component that allows you to modify existing applications or create new ones.
 <!-- Image= menu5.png -->
-{{< imagedisplay menu5 "290" "596" "796" >}}
+{{< imagedisplay src="menu5.png" >}}
 
 
 Let's check the "Sales" application.
 <!-- Image= menu6.png -->
-{{< imagedisplay menu6 "290" "596" "796" >}}
+{{< imagedisplay src="menu6.png" >}}
 
 
 Double-click to open the App Designer. This is where you will configure the sitemap, dashboard, and entity settings.
 
 The application's sitemap can be configured from the following sections. We have already described the site map in the previous section, so we will skip it.
 <!-- Image= menu7.png -->
-{{< imagedisplay menu7 "290" "596" "796" >}}
+{{< imagedisplay src="menu7.png" >}}
 
 
 If you drill down to "Details" under Dashboards on the bottom left, you will see a list of dashboards that you can use. You can configure whether or not to use them in your sales application in the "Components" section on the right side pane.
 <!-- Image= menu8.png -->
-{{< imagedisplay menu8 "290" "596" "796" >}}
+{{< imagedisplay src="menu8.png" >}}
 
 The same is true for business processes.
 <!-- Image= menu9.png -->
-{{< imagedisplay menu9 "290" "596" "796" >}}
+{{< imagedisplay src="menu9.png" >}}
 
 Let's back up a bit here.
 
@@ -86,11 +86,11 @@ Now let's go back to the app designer.
 
 Entities shows the entities that are used in the current application. To add a new entity, click the + (Add) button in the upper left corner, or click "Entities" from "Components" in the right pane to open the Add Entity screen.
 <!-- Image= menu10.png -->
-{{< imagedisplay menu10 "290" "596" "796" >}}
+{{< imagedisplay src="menu10.png" >}}
 
 The basic idea is to add a new entity to the sales application from an already created entity, or to create a new entity.
 <!-- Image= menu11.png -->
-{{< imagedisplay menu11 "290" "596" "796" >}}
+{{< imagedisplay src="menu11.png" >}}
 
 The same process applies to views and graphs.
 The following information is very helpful, so please refer to it as well.

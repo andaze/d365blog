@@ -46,13 +46,13 @@ The Marketing app uses the Dynamics 365 portal to publish events, marketing page
 Dynamics 365 for Marketing のライセンスについては、参考情報の通りになります。
 
 <!-- Image= ma_1.png  -->
-{{< imagedisplay ma_1 "290" "596" "796" >}}
+{{< imagedisplay src="ma_1.png" >}}
 
 引用元: [価格について](https://dynamics.microsoft.com/ja-jp/marketing/overview/#pricing)
 
 なお、現在 **Dynamics 365 Customer Engagement Plan を 10 ライセンス以上**利用中であれば、Dynamics 365  for Marketing を今すぐにでも利用することが可能です。
 <!-- Image= ma_2.png -->
-{{< imagedisplay ma_2 "290" "596" "796" >}}
+{{< imagedisplay src="ma_2.png" >}}
 
 
 そのため、本記事では、Dynamics 365 Customer Engagement Plan をすでに 10 ライセンス以上利用中であるという前提で、for Marketing のセットアップについてご紹介します。
@@ -83,52 +83,52 @@ Dynamics 365 for Marketing をセットアップする前に、以下の前提�
 ## Dynamics 365 for Marketing の機能を有効にする
 まずは、Dynamics 365 管理センターへアクセスします。インスタンスを選択して「ソリューション」のボタンをクリックします。
 <!-- Image= ma_3.png -->
-{{< imagedisplay ma_3 "290" "596" "796" >}}
+{{< imagedisplay src="ma_3.png" >}}
 
 
 Dynamics 365 for Marketing を選択して、「インストール」をクリックします。
 <!-- Image= ma_4.png -->
-{{< imagedisplay ma_4 "290" "596" "796" >}}
+{{< imagedisplay src="ma_4.png" >}}
 
 
 「要求されているアクセス許可」において「承諾」をクリックします。
 <!-- Image= ma_5.png -->
-{{< imagedisplay ma_5 "290" "596" "796" >}}
+{{< imagedisplay src="ma_5.png" >}}
 
 
 接続先の組織名と Dynamics 365 for Marketing で利用する Web ポータルの URL を追加後
 
 「続行」をクリックします。Web ポータルの URL は自由に設定します。
 <!-- Image= ma_6.png -->
-{{< imagedisplay ma_6 "290" "596" "796" >}}
+{{< imagedisplay src="ma_6.png" >}}
 
 
 チェック項目にチェックをいれ、Dynamics 365 for Marketing を利用する住所を入力したら「セットアップ」をクリックしてください。これでアプリケーションのセットアップが開始されます。セットアップは70分ほどかかりますので気長にお待ちください。
 <!-- Image= ma_7.png -->
-{{< imagedisplay ma_7 "290" "596" "796" >}}
+{{< imagedisplay src="ma_7.png" >}}
 
 
 インストールが完了したことを確認しましょう。
 <!-- Image= ma_8.png -->
-{{< imagedisplay ma_8 "290" "596" "796" >}}
+{{< imagedisplay src="ma_8.png" >}}
 
 
 ## Dynamics 365 for Marketing にアクセスする
 通常通り、Dynamics 365 のインスタンスにアクセスをします。アプリ一覧を開くと
 「マーケティング」が表示されているのでクリックします。
 <!-- Image= ma_9.png -->
-{{< imagedisplay ma_9 "290" "596" "796" >}}
+{{< imagedisplay src="ma_9.png" >}}
 
 
 Dynamics for Marketing のトップ画面です。
 <!-- Image= ma_10.png -->
-{{< imagedisplay ma_10 "290" "596" "796" >}}
+{{< imagedisplay src="ma_10.png" >}}
 
 
 左パネルを開くと、Dynamics for Marketing の機能が表示されています。
 
 <!-- Image= ma_11.png -->
-{{< imagedisplay ma_11 "290" "596" "796" >}}
+{{< imagedisplay src="ma_11.png" >}}
 
 
 それぞれについては、1つずつ触れていこうと思いますが、

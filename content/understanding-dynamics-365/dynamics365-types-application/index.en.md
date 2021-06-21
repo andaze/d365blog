@@ -34,7 +34,7 @@ Dynamics 365 for Sales provides the following features.
 Recently, AI for Sales, a sales support tool that utilizes artificial intelligence, has also been released.
 
 <!-- Image= aiSales.png -->
-{{< imagedisplay aiSales "290" "596" "796" >}}
+{{< imagedisplay src="aiSales.png" >}}
 
 Quotes from [AI for Sales](https://dynamics.microsoft.com/ja-jp/sales/overview/)
 
@@ -42,7 +42,7 @@ Quotes from [AI for Sales](https://dynamics.microsoft.com/ja-jp/sales/overview/)
 On Microsoft's official page, four companies are listed as case studies.
 
 <!-- image=dynamicsales.png -->
-{{< imagedisplay dynamicsales "290" "596" "796" >}}
+{{< imagedisplay src="dynamicsales.png" >}}
 
 Reference: [Overview of Dynamics 365 for Sales](https://dynamics.microsoft.com/ja-jp/sales/overview/)
 
@@ -63,7 +63,7 @@ It also makes it easy to analyze the current status of the support department an
 The HP case study shows how to improve customer response, share information smoothly from automated AI-based responses to support teams, and use dashboards to analyze customer feedback and unresolved inquiries. HP's case study shows how AI can be used to improve customer response, share information smoothly from automated responses to the support team, and analyze customer feedback and unresolved inquiries through dashboards.
 
 <!-- image=customer.jpg -->
-{{< imagedisplay customer "290" "596" "796" >}}
+{{< imagedisplay src="customer.jpg" >}}
 
 
 Reference: [Dynamics 365 for Customer Service Overview](https://dynamics.microsoft.com/ja-jp/customer-service/overview/)
@@ -86,7 +86,7 @@ In conjunction with IoT, it will be possible to know exactly when the products p
 Sodexo uses Dynamics 365 for Field Service in natural gas, oil and natural resources, healthcare and education. Sodexo uses Dynamics 365 in natural gas, oil and gas exploration, healthcare, education, etc. Technicians working in the vast fields follow daily work orders and record them in Dynamics 365 for Field Service on a daily basis in an effort to improve work efficiency.
 
 <!-- Image= fieldService.png -->
-{{< imagedisplay fieldService "290" "596" "796" >}}
+{{< imagedisplay src="fieldService.png" >}}
 
 Reference: [Dynamics 365 for Field Service Overview](https://dynamics.microsoft.com/ja-jp/field-service/overview/)
 
@@ -108,7 +108,7 @@ In addition to your own members, you can also add external subcontractors as res
 Project Service Automation is used by companies such as
 
 <!-- Image= ServiceAutomation.png -->
-{{< imagedisplay ServiceAutomation "290" "596" "796" >}}
+{{< imagedisplay src="ServiceAutomation.png" >}}
 
 Reference: [Dynamics 365 for Project Service Automation Overview](https://dynamics.microsoft.com/ja-jp/project-service-automation/overview/)
 

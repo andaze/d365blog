@@ -17,7 +17,7 @@ In the previous article, we have shown you how to import data using Excel templa
 
 ## When do I get an error?
 <!-- Image= error.jpg -->
-{{< imagedisplay error "290" "596" "796" >}}
+{{< imagedisplay src="error.jpg" >}}
 
 First of all, the most common error in the template is due to duplicate data, as you can see in the Excel template, the value of the reference field is entered based on the display name.
 
@@ -37,36 +37,36 @@ Name of client company: Test Co.
 
 This "Test Corporation" is a completely different company. Normally, in a case like this, you should be able to determine the internal ID of the company you are referring to, etc., but since you only look at the normal display name, you will get the following error when importing.
 <!-- Image= error1.jpg -->
-{{< imagedisplay error1 "290" "596" "796" >}}
+{{< imagedisplay src="error1.jpg" >}}
 
 How can we deal with this case?
 
 ### 1. Use the mapping function on import to deal with the problem.
 The easiest way to do this is to change the field to be associated with the import to a different field instead of the company name. For example, if you want to use the stock code of the company, enter the stock code of each stock in the Excel template file instead of the company name.
 <!-- Image= error2.jpg -->
-{{< imagedisplay error2 "290" "596" "796" >}}
+{{< imagedisplay src="error2.jpg" >}}
 
 
 Then, let the Excel template file be imported again. At this point, we need to display the field mapping editor, so we will add the appropriate columns to the Excel template beforehand. (See the previous article)
 
 In the Mapping Editor, search for "Company Name", which was showing a duplicate error this time, and click the magnifying glass button.
 <!-- Image= error3.jpg -->
-{{< imagedisplay error3 "290" "596" "796" >}}
+{{< imagedisplay src="error3.jpg" >}}
 
 
 
 Then you can add the references to be mapped. In this case, check the new "Stock Code" checkbox, and click "OK".
 <!-- Image= error4.jpg -->
-{{< imagedisplay error4 "290" "596" "796" >}}
+{{< imagedisplay src="error4.jpg" >}}
 
 Now, complete the import process to the end. Then, the part that gave us an error earlier was successful this time.
 <!-- Image= error5.jpg -->
-{{< imagedisplay error5 "290" "596" "796" >}}
+{{< imagedisplay src="error5.jpg" >}}
 
 
 You have created the data correctly.
 <!-- Image= error6.jpg -->
-{{< imagedisplay error6 "290" "596" "796" >}}
+{{< imagedisplay src="error6.jpg" >}}
 
 
 ### 2. Get the ID of the record and import it.
@@ -74,18 +74,18 @@ While method 1 above is very effective, it can be implemented without using the 
 
 Check the list of companies that have duplicate errors this time. Then click on "Email link" from the menu.
 <!-- Image= error7.jpg -->
-{{< imagedisplay error7 "290" "596" "796" >}}
+{{< imagedisplay src="error7.jpg" >}}
 
 The URL for each record should then be displayed in the body of the mailer's compose screen.
 Here, the URL from id= becomes the ID of the record. (Ignore the leading %7b).
 
 <!-- Image= error8.jpg -->
-{{< imagedisplay error8 "290" "596" "796" >}}
+{{< imagedisplay src="error8.jpg" >}}
 
 
 Now, enter the ID in the "Company Name" field of the Excel template, and then import the file as usual.
 <!-- Image= error9.jpg -->
-{{< imagedisplay error9 "290" "596" "796" >}}
+{{< imagedisplay src="error9.jpg" >}}
 
 This method is very convenient because it does not require a mapping editor, so there is no need to add custom columns to the template beforehand.
 

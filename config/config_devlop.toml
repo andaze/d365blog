@@ -1,4 +1,4 @@
-baseURL = "http://localhost/dynamic365Imagetesting/"
+baseURL = "https://focused-mirzakhani-4d90fa.netlify.app/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -9,4 +9,6 @@ title = "My New Hugo Site"
     startLevel = 2
 
 [params]
-    env = "devlop"  
+  env = "devlop"  
+  imageratio = "1"
+  imagewidth = "700"

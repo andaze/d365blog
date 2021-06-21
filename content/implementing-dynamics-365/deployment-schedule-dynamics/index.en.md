@@ -50,7 +50,7 @@ In fact, when we implemented Dynamics 365 in a short period of time, we used Tea
 
 Example of Kanban in TFS
 <!-- image= tfs.png -->
-{{< imagedisplay tfs "290" "596" "796" >}}
+{{< imagedisplay src="tfs.png" >}}
 
 Nowadays, the free version of Visual Studio Community (*) is available, so we can manage the project with TFS, iterate at short intervals such as two weeks, and discuss the requirements with the customer based on the developed output. I think the agile methodology is a good fit for Dynamics 365 development.
 
