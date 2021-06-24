@@ -6,6 +6,8 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"
 timeout = 300000
+googleAnalytics = "UA-144087233-8" # your analitics ID
+
 [Languages]
 ############ 1 - Site en Japanese
 [Languages.ja]
