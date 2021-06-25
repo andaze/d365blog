@@ -1,7 +1,7 @@
 ---
 title:  "Style Guid"
 date:   2020-08-05T15:53:27+06:00
-draft: true
+draft: false
 weight: 
 showinhome: false
 showinaccordian: false
@@ -12,7 +12,6 @@ Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com 
 
 ## Headers
 ---
-
 # This is an H1 tag
 ## This is an H2 tag
 ### This is an H3 tag
