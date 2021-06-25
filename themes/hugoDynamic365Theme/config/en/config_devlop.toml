@@ -1,6 +1,0 @@
-baseURL = "http://localhost/dynamic365Build/en/dynamic/"
-DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-
-[params]
-    oppositeUrl = "http://localhost/dynamic365Build/jp/dynamic/"
