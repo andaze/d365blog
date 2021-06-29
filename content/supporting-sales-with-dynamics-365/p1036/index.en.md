@@ -1,70 +1,80 @@
 ---
-title:  "p1036"
-date:   2020-08-05T15:53:27+06:00
+title:  "Use Dynamics 365 activities to conduct business meetings."
 draft: false
-datetitle: "2017.08.23 | Dynamics 365 for Sales /"
-pageHeading: "Use Dynamics 365 activities to conduct business meetings."
-image: "images/artical5/artical5.jpg"
+weight: 5
+datetitle: "2017.08.23 | "
+image: "artical5.jpg"
 Author: "Takafumi Noguchi"
-authorimage: "images/authorimage.jpg"
+authorimage: "authorimage.jpg"
+showinhome: true
+showinaccordian: false
+rightMenu: "artical"
 linkdin: ""
 ---
 <!-- Intro  -->
-In the previous article, we created a sales case from a lead, and we need to keep track of the progress of the negotiation in the sales case. In this case, we can use an entity called activity.
-
-<!-- Table of Content  -->
-
-* Type of activity entity
-* Create a new activity
-* How to create a new activity entity
+In the [previous article](#), we created a sales case from a lead, and we need to keep track of the progress of the negotiation in the sales case. In this case, we can use an entity called **activity**.
 
 ## Type of activity entity
-First, in Dynamics 365, there is an entity called Activity (Activity Pointer). These activities are associated with various entities such as client companies, contacts, sales projects, leads, support projects, etc., and can be used as activity data for each entity.
+First, in Dynamics 365, there is an entity called **Activity (Activity Pointer).** These activities are associated with various entities such as client companies, contacts, sales projects, leads, support projects, etc., and can be used as activity data for each entity.
 
 First, open "Activities" from the menu.
 <!-- Image= activities.png -->
+{{< imagedisplay src="activities.png" >}}
 
-When you do so, you will see that the Activities menu is prepared with Tasks, Emails, Appointments, Phone Calls, Letters, and other activities.　
+When you do so, you will see that the Activities menu is prepared with **Tasks, Emails, Appointments, Phone Calls, Letters,** and other activities.　
 <!-- Image= activities1.png -->
+{{< imagedisplay src="activities1.png" >}}
 
 This is a structure in which entities such as tasks, e-mails, phone calls, etc. exist below the entity called activity, and are classified according to the type of each activity. To make it easier to understand, the positional relationship is as shown in the diagram below.
 
 *There are more entities tied to the activity than the figure below, but it is just an example.
 <!-- Image= activities2.png -->
+{{< imagedisplay src="activities2.png" >}}
 
 ## Create a new activity
 Let's take an example of a sales activity called phone call in a business meeting. Let's say you create a new phone call activity by clicking on the "Phone" activity.
 <!-- Image= activities3.png -->
+{{< imagedisplay src="activities3.png" >}}
 
 In the phone activity entry form below, enter the "Subject" first. Then, enter the name of the company or individual that is associated with the "Calling Party". What you enter in this field will determine which entity this activity will be associated with.
 <!-- Image= activities4.png -->
+{{< imagedisplay src="activities4.png" >}}
 
 Let's search for other records to determine the "calling party".
 <!-- Image= activities5.png -->
+{{< imagedisplay src="activities5.png" >}}
 
 Then the record search dialog will appear, and if you check the search destination, you will be able to select the business partner, business partner person, user, etc. as shown below.
 <!-- Image= activities6.png -->
+{{< imagedisplay src="activities6.png" >}}
 
 In this case, the recipient of the call is a company, so select the company you are dealing with and select the record. When you are done, click "Add".
 <!-- Image= activities7.png -->
+{{< imagedisplay src="activities7.png" >}}
 
 Then the company name will be entered in the "Call to" field. Enter other information and save it.
 <!-- Image= activities8.png -->
+{{< imagedisplay src="activities8.png" >}}
 
 When you check the activity in the data of the client company, you will see that the phone activity created earlier is associated with the list as shown below.
 <!-- Image= activities9.png -->
+{{< imagedisplay src="activities9.png" >}}
 
-In the above figure, the activity is opened from the navigation menu of the client company. In this case, if there is no value in the "Due Date" field of the activity, the activity may not be displayed if the filter is set to "Within the next 30 days", which is the default setting. If the activity is not displayed in the list, please try switching the filter condition to "All".
+In the above figure, the activity is opened from the navigation menu of the client company. In this case, if there is no value in the "Due Date" field of the activity, the activity may not be displayed if **the filter is set** to "Within the next 30 days", which is the default setting. If the activity is not displayed in the list, please try switching the filter condition to "All".
 <!-- Image= activities10.png -->
+{{< imagedisplay src="activities10.png" >}}
 
 Otherwise, you can also create a new one from the entities that it is related to. For example, if you want to create an activity that is related to a sales project, click "Activity" from the menu.
 <!-- Image= activities11.png -->
+{{< imagedisplay src="activities11.png" >}}
 
 Click on "Add new activity" and then "Phone".
 <!-- Image= activities12.png -->
+{{< imagedisplay src="activities12.png" >}}
 
 In the previous creation method, you searched for and entered the "Calling Party", but if you create it directly from a sales proposal, the data is automatically entered in the "Calling Party". Enter the subject and other information, save, and you are done creating.
 <!-- Image= activities13.png -->
+{{< imagedisplay src="activities13.png" >}}
 
 ## How to create a new activity entity
 Activity entities can be created anew.
@@ -79,5 +89,6 @@ Therefore, it is recommended that entity creation be planned and implemented.
 
 To set it as an activity entity, open the entity from "Settings" - "Customize System". Then, in the entity menu, there is a check mark "Define as activity entity. In the entity menu, there is a check box "Define as activity entity.
 <!-- Image= activities14.png -->
+{{< imagedisplay src="activities14.png" >}}
 
 In this article, we have introduced the use of entities for activities. In the next article, we will discuss business partners and competitors.
