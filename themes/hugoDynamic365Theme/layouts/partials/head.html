@@ -126,7 +126,7 @@ a, a:hover {
     text-decoration: none;
 }
 
-h1 {
+/* h1 {
     font-size: 1.75rem;
 }
 
@@ -148,6 +148,24 @@ h5 {
 
 h6 {
     font-size: 1rem;
+} */
+
+table {
+  border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #aaaaaa;
+    padding: 4px 10px;
+    text-align: left;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
 }
 
 p {
@@ -979,6 +997,15 @@ a {
     height: 100%;
     height: calc(100vh - 96px);
     border-left: 1px solid #ccc;
+    overflow: auto;
+}
+
+.right-page-wrapper::-webkit-scrollbar {
+display: none;
+}
+.right-page-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 @media (max-width:1440px) {
@@ -1045,6 +1072,34 @@ dl dt {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.4;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.btn-secondary{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-secondary.prev-btn svg{
+    margin-right: 16px;
+}
+
+.btn-secondary.next-btn svg{
+    margin-left: 16px;
+}
+
+.btn-secondary:hover a{
+    color: #fff;
 }
 
 .detail-btn-center{
@@ -1157,6 +1212,7 @@ amp-img.contain img {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    justify-content: center;
 }
 .popular-list{
     flex: 0 0 33.33%;
@@ -1206,6 +1262,7 @@ amp-img.contain img {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    justify-content: center;
 }
 .article-list{
     flex: 0 0 168px;
