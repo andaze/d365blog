@@ -8,10 +8,10 @@
             </div>
             <div class="footer-item">
                 <h2>Discover</h2>
-                <ul>
+                <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" >
                     {{ with .Site.GetPage "/"}}
                     {{ range .Sections }}
-                    <li><a href="{{.URL | absURL }}">{{ .Title }}</a></li>
+                    <li itemprop="name"><a itemprop="url" href="{{.URL | absURL }}">{{ .Title }}</a></li>
                     {{ end }}
                     {{ end }}
                 </ul>
