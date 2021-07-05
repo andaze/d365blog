@@ -11,7 +11,7 @@
                 <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" >
                     {{ with .Site.GetPage "/"}}
                     {{ range .Sections }}
-                    <li itemprop="name"><a itemprop="url" href="{{.URL | absLangURL }}">{{ .Title }}</a></li>
+                    <li itemprop="name"><a itemprop="url" href="{{.URL | absLangURL }}">{{ .Params.Heading }}</a></li>
                     {{ end }}
                     {{ end }}
                 </ul>
