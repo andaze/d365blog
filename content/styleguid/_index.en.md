@@ -62,7 +62,7 @@ _You **can** combine them_
 
 ## Images
 ---
-![GitHub Logo](../images/contactus.svg)
+![GitHub Logo](../../images/contactus.svg)
 
 ## Links
 ---
@@ -120,7 +120,7 @@ Blockquotes can contain multiple paragraphs. Add a > on the blank lines between 
 **The rendered output looks like this:** (note: output get same as below image)
 ---
 
-![block Quate Image](blockquate.png)
+![block Quate Image](../../images/blockquate.png)
 
 ---
 
