@@ -1,7 +1,7 @@
 ---
 title:  "Style Guid"
 date:   2020-08-05T15:53:27+06:00
-draft: true
+draft: false
 weight: 
 showinhome: false
 showinaccordian: false
@@ -12,7 +12,6 @@ Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com 
 
 ## Headers
 ---
-
 # This is an H1 tag
 ## This is an H2 tag
 ### This is an H3 tag
@@ -63,7 +62,7 @@ _You **can** combine them_
 
 ## Images
 ---
-![GitHub Logo](../images/contactus.svg)
+![GitHub Logo](../../images/contactus.svg)
 
 ## Links
 ---
@@ -121,7 +120,7 @@ Blockquotes can contain multiple paragraphs. Add a > on the blank lines between 
 **The rendered output looks like this:** (note: output get same as below image)
 ---
 
-![block Quate Image](blockquate.png)
+![block Quate Image](../../images/blockquate.png)
 
 ---
 

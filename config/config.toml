@@ -1,4 +1,4 @@
-# baseURL = "http://localhost/dynamic365Imagetesting/"
+baseURL = "https://focused-mirzakhani-4d90fa.netlify.app/"
 
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
@@ -6,19 +6,24 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugoDynamic365Theme"
 timeout = 300000
+googleAnalytics = "UA-144087233-8" # your analitics ID
+
 [Languages]
 ############ 1 - Site en Japanese
-[Languages.jp]
-languageName = "JP"
+[Languages.ja]
+languageName = "JA"
 weight = 1
 languageCode = "ja-JP"
+fillposition = "center"
+format= "webp"
 
 ############ 1 - Site en Japanese
 [Languages.en]
 languageName = "EN"
 weight = 2
-languageCode = "en-en"
-
+languageCode = "en-us"
+fillposition = "center"
+format= "webp"
 
 [markup]
   [markup.tableOfContents]
@@ -29,5 +34,5 @@ languageCode = "en-en"
 [params]
   headerTitle = "Dynamics 365 blog"
   env = "devlop"
-  imageratio = "1"
+  imageratio = "1 1.5 2 3"
   imagewidth = "700"
