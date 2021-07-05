@@ -55,6 +55,7 @@ Here, we will enter the usual javascript code, but the control to set read-only 
 This time, I did the following.
 
 <!-- Background Box -->
+```javascript
 function LockFaxNumber()
 { 
    var Phone = Xrm.Page.getAttribute("telephone1").getValue(); //phone
@@ -68,6 +69,7 @@ function LockFaxNumber()
    }    
   console.log("filed lock is done");
 }
+```
 
 Now that the script settings are complete, click "OK".
 <!-- Image= javascript8.png -->
