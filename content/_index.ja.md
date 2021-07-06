@@ -5,6 +5,7 @@ draft: false
 heading: "Dynamics 365 'マニュアル' として使えるブログ"
 intro: ""
 rightMenu: false
+backgroundImage: "step.jpg"
 ---
 
 <!-- Intro -->

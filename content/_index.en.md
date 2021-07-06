@@ -5,6 +5,7 @@ draft: false
 heading: "A Blog that can be used as a Dynamics 365 'manual'."
 intro: ""
 rightMenu: false
+backgroundImage: "step.jpg"
 ---
 
 <!-- Intro -->

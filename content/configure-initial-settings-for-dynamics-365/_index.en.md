@@ -6,6 +6,7 @@ heading: "Configure initial settings for Dynamics 365"
 intro: ""
 step: "STEP.03"
 rightMenu: "chepter"
+backgroundImage: "step3.jpg"
 ---
 
 <!-- Intro -->

@@ -6,6 +6,7 @@ heading: "Dynamics 365ドキュメント SharePoint に保存する"
 intro: ""
 step: "STEP.06"
 rightMenu: "chepter"
+backgroundImage: "step6.jpg"
 ---
 
 <!-- Intro -->

@@ -6,6 +6,7 @@ heading: "Dynamics 365 で営業を支援する"
 intro: ""
 step: "STEP.04"
 rightMenu: "chepter"
+backgroundImage: "step4.jpg"
 ---
 
 <!-- Intro -->

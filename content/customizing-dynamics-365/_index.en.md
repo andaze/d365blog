@@ -6,6 +6,7 @@ heading: "Customizing Dynamics 365"
 intro: ""
 step: "STEP.07"
 rightMenu: "chepter"
+backgroundImage: "step7.jpg"
 ---
 
 

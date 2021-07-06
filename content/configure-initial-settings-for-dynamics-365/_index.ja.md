@@ -6,6 +6,7 @@ heading: "Dynamics 365 の初期設定を行う"
 intro: ""
 step: "STEP.03"
 rightMenu: "chepter"
+backgroundImage: "step3.jpg"
 ---
 
 <!-- Intro -->

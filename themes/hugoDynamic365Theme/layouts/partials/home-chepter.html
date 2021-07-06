@@ -7,7 +7,7 @@
                 <div class="banner-section df">
                     <div class="banner-left f-50">
                         <amp-img layout="fill"
-                            src="https://dynamics365.andaze.com/wp-content/uploads/2018/12/520229161-e1545899884689.jpg"
+                            src="{{ .Params.backgroundImage }}"
                             alt="Welcome"></amp-img>
                     </div>
                     <div class="banner-right f-50">
@@ -27,7 +27,7 @@
             <div class="card">
                 <a class="card-media d-block" href="{{.URL | absURL }}">
                     <amp-img layout="fill"
-                        src="https://dynamics365.andaze.com/wp-content/uploads/2018/12/1093424588-e1545883122695.jpg">
+                        src="{{ .Params.backgroundImage }}">
                     </amp-img>
                     <!-- <a href="{{.URL | absURL }}"> -->
                     <span class="step-box df aic jcc text-primary">{{.Params.Step}}</span>

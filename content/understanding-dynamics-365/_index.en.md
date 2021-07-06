@@ -6,6 +6,7 @@ heading: "Understanding Dynamics 365"
 intro: ""
 step: "STEP.01"
 rightMenu: "chepter"
+backgroundImage: "step1.jpg"
 ---
 
 <!-- Intro -->

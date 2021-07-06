@@ -6,6 +6,7 @@ heading: "Supporting Sales with Dynamics 365"
 intro: ""
 step: "STEP.04"
 rightMenu: "chepter"
+backgroundImage: "step4.jpg"
 ---
 
 <!-- Intro -->

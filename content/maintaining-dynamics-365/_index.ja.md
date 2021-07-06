@@ -6,6 +6,7 @@ heading: "Dynamics 365 をメンテナンスする"
 intro: ""
 step: "STEP.05"
 rightMenu: "chepter"
+backgroundImage: "step5.jpg"
 ---
 
 <!-- Intro -->

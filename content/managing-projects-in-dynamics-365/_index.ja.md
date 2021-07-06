@@ -6,6 +6,7 @@ heading: "Dynamics 365 でプロジェクトを管理する"
 intro: ""
 step: "STEP.08"
 rightMenu: "chepter"
+backgroundImage: "step8.jpg"
 ---
 
 <!-- Intro -->

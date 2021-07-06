@@ -6,6 +6,7 @@ heading: "Dynamics 365 をカスタマイズする"
 intro: ""
 step: "STEP.07"
 rightMenu: "chepter"
+backgroundImage: "step7.jpg"
 ---
 
 <!-- Intro -->
