@@ -21,12 +21,15 @@
                 <div class="list-page-wrapper">
                     <div class="inner-wrapper-page">
                         <h1>{{.Params.Heading}}</h1>
-                        <p>{{ .Content }}</p>
+                        <!-- <p>{{ .Content }}</p> -->
+                        {{ $file := $.Site.GetPage "content" }}
+                        {{ $file.Content }}
                         <div class="listing-container mb-5">
                             {{ $folder:= .Permalink }}
                             {{ $getpage:= path.Base $folder}}
                             {{ $section := site.GetPage $getpage }}
                             {{ range $section.Pages.ByWeight }} 
+                            {{ if .Params.showinhome }}
                             <a class="listing-card" href="{{ .URL | absURL }}">
                                 <div class="inner-card">
                                     <h3 class="header-text">{{ .Title }}</h3>
@@ -37,6 +40,7 @@
                                     <span href="{{ .URL | absURL }}" class="link-btn text-primary">Read More</span>
                                 </div>
                             </a>
+                            {{ end }}
                             {{ end }}
                         </div>
                     </div>

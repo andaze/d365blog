@@ -20,21 +20,18 @@
 
     </section>
     {{ with .Site.GetPage "/" }}
-    {{ range .Sections }}
+    {{ range first 1 .Sections }}
     <section>
-        <!-- <a href="{{.URL | absURL }}"> -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="card">
                 <a class="card-media d-block" href="{{.URL | absURL }}">
                     <amp-img layout="fill"
                         src="{{ .Params.backgroundImage }}">
-                    </amp-img>
-                    <!-- <a href="{{.URL | absURL }}"> -->
+                    </amp-img> 
                     <span class="step-box df aic jcc text-primary">{{.Params.Step}}</span>
-                    <!-- </a> -->
                 </a>
                 <div class="card-content">
-                    <h2>{{ .Params.Heading }}</h2>
+                    <h2>{{ .Params.Heading }}</h2>-->
                     {{ .Content }}
 
                     {{ $folder:= .Permalink }}
