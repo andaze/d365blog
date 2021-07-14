@@ -6,10 +6,10 @@ heading: "Configure initial settings for Dynamics 365"
 intro: ""
 step: "STEP.03"
 rightMenu: "chepter"
-backgroundImage: "step3.jpg"
 ---
 
-<!-- Intro -->
+{{< homebackgroundimage src="step3.jpg" >}}
+
 Once you have installed Dynamics 365, you will need to perform the following initial settings to ensure a pleasant experience.
 
 * System administration

@@ -6,10 +6,10 @@ heading: "Dynamics 365 の初期設定を行う"
 intro: ""
 step: "STEP.03"
 rightMenu: "chepter"
-backgroundImage: "step3.jpg"
 ---
 
-<!-- Intro -->
+{{< homebackgroundimage src="step3.jpg" >}}
+
 Dynamics 365 を導入したら、快適な利用のために以下のような初期設定を行います。.
 
 * システムの管理

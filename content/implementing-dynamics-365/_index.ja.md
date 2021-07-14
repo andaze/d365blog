@@ -6,10 +6,10 @@ heading: "Dynamics 365 を導入する"
 intro: ""
 step: "STEP.02"
 rightMenu: "chepter"
-backgroundImage: "step2.jpg"
 ---
 
-<!-- Intro -->
+{{< homebackgroundimage src="step2.jpg" >}}
+
 Dynamics 365 を導入する上で、プランニングは重要です。コスト・スケジュール・スコープの観点でどのように Dynamics 365 を導入すればいいのでしょうか？
 
 Dynamics 365 は、必要な機能に応じたサブスクリプションモデルのライセンスをユーザー単位で購入する必要があります。"必要な機能" は、導入プロジェクトのスコープで明確になるでしょう。

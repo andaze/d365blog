@@ -6,10 +6,10 @@ heading: "Implementing Dynamics 365"
 intro: ""
 step: "STEP.02"
 rightMenu: "chepter"
-backgroundImage: "step2.jpg"
 ---
 
-<!-- Intro -->
+{{< homebackgroundimage src="step2.jpg" >}}
+
 Planning is an important part of implementing Dynamics 365. How should we implement Dynamics 365 in terms of cost, schedule and scope?
 
 Dynamics 365 requires the purchase of subscription model licenses on a per-user basis, based on the functionality required." The "required functionality" will become clear in the scope of the deployment project.

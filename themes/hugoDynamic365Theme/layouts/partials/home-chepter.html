@@ -1,6 +1,6 @@
 <main>
     <section>
-        <div class="container">
+        <!-- <div class="container">
             <h2 class="text-primary df jcc main-heading">{{.Title}}</h2>
             <div class="banner">
                 <h1>{{ .Params.Heading }}</h1>
@@ -9,8 +9,8 @@
                         <amp-img layout="fill"
                             src="{{ .Params.backgroundImage }}"
                             alt="Welcome"></amp-img>
-                    </div>
-                    <div class="banner-right f-50">
+                    </div> 
+                    <div class="banner-right f-50">-->
                         <p>{{ .Content }}</p>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
 
     </section>
     {{ with .Site.GetPage "/" }}
-    {{ range first 1 .Sections }}
+    {{ range .Sections }}
     <section>
         <!-- <div class="container">
             <div class="card">

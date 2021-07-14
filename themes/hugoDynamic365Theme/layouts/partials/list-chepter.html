@@ -22,8 +22,6 @@
                     <div class="inner-wrapper-page">
                         <h1>{{.Params.Heading}}</h1>
                         <!-- <p>{{ .Content }}</p> -->
-                        {{ $file := $.Site.GetPage "content" }}
-                        {{ $file.Content }}
                         <div class="listing-container mb-5">
                             {{ $folder:= .Permalink }}
                             {{ $getpage:= path.Base $folder}}
