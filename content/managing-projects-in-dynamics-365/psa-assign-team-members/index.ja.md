@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation でプロジェクトを作成して、チームメンバーをアサインする際に、アサインされたメンバーの割り当て時間の計算が少し複雑なので、その動作についてご紹介します。

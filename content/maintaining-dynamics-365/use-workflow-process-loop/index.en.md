@@ -9,6 +9,18 @@ authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 The workflow process in Dynamics 365 is a useful feature that allows you to do many things without coding, from updating, creating and deleting data to assigning and sending emails. In addition to the default workflow processes, you can import third-party workflow solutions such as those found in [Workflow Heroes](https://www.crminnovation.com/blog/workflow-heroes/), which allow you to create workflow processes for many of your users' needs, such as record sharing, date and decimal arithmetic, and more. You can import third-party workflow solutions such as those found in

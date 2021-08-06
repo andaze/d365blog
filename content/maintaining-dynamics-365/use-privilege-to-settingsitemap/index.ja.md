@@ -9,6 +9,18 @@ authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 Dynamics 365 のアプリを作成すると、現在は Power Apps との統合もあり、統一インターフェイス （モバイル駆動アプリ）として作成されます。ここで、詳細設定を一般ユーザーも開くことができるのですが、この「設定」について細かな調整ができることがわかったので記載しておきます。

@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 Dynamics 365 の無償版利用手順についてはご紹介しました。以前はこの 無償版の一覧に Marketing が表示されていましたが、現在表示されていません。マイクロソフトにお問い合わせをしたところ、Marketing においては別の URL で無償版を提供しているようなので、その手順をご紹介します。

@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation (PSA) でプロジェクトを計画した際に少し触れましたが、インターフェイスやバージョンの差異により、Project Service の動作が異なるようで、今回は、統一インターフェイスでスケジュールボードが正しく表示できない事象を確認しました。

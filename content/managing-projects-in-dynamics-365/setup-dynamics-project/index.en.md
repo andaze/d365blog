@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 In this article, we will learn about Dynamics 365 for Project Service Automation (Project Service), an application that can be used like Sales and Customer Service if you have purchased a Dynamics 365 Customer Engagement Plan license. If you have purchased a Dynamics 365 Customer Engagement Plan license, you can use this application in the same way as Sales and Customer Service, but Project Service is not as popular as Sales.

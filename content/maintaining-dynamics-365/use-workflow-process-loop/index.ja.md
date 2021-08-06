@@ -9,6 +9,18 @@ authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 Dynamics 365 のワークフロー プロセスはコーディングなしでもデータの更新や作成・削除から割り当て、メール送信など多くのことを実行できる便利な機能です。既定のワークフロー プロセスだけでなく、[Workflow Heroes](https://www.crminnovation.com/blog/workflow-heroes/)にあるようなサードパーティー製のワークフローソリューションをインポートすれば、レコードの共有設定や日付・10進数の四則演算など、ユーザーの多くの要望をワークフロー プロセスで実現できるようになります。

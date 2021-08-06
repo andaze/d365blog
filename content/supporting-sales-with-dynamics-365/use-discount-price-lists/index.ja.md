@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 ---
 <!-- Intro  -->
 [前回まで](#)に作成した製品ファミリを利用すれば、営業案件のレコードをより効率的に管理できるようになりました。さて、商談が進む上で最終的な価格の調節が必要になる場面が訪れるとします。その際利用する機能が**値引き表**です。
