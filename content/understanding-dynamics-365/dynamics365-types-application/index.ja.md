@@ -3,13 +3,9 @@ title:  "Features of the Dynamics 365 application"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 --- 
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro -->
 これまで、CRM システムとして [Dynamics 365 はなぜおすすめ]()かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。
 

@@ -3,13 +3,9 @@ title:  "Dynamics 365 を導入する前に重要な５つの決め事"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 --- 
-
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 [Dynamics 365 の提供するアプリケーションを理解する]()にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。
 

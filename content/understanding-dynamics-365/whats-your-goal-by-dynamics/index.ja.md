@@ -3,13 +3,9 @@ title:  "Dynamics 365 導入の目的・達成したい目標は何か？"
 draft: false
 weight: 5
 datetitle: "2017.08.23 | "
-image: "artical5.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 --- 
-
+{{< detailTopImage src="artical5.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 以前の記事にて、Dynamics 365 を導入する前に決めてほしい５つのポイントについてご紹介しました。今回は、その中で　「導入する目的」 について具体的に触れていきます。できる限り、この「目的を決める」というステップは入念に行なってください。　
 

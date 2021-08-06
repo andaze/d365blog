@@ -3,13 +3,9 @@ title:  "なぜ Dynamics 365 を選ぶべきか？"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 --- 
-
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回 [CRM システムについて理解する]()では、CRM についての概要や必要な理由、そして情報を一元化することの価値について学んできました。もし CRM システムを導入することを検討しているのであれば、マイクロソフトが提供する Dynamics 365 をここではおすすめしています。それでは、なぜ Dynamics 365 を選ぶべきなのか？についてご紹介します。
 

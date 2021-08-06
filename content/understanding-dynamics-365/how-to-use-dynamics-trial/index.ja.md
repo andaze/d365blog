@@ -3,13 +3,9 @@ title:  "Dynamics 365 無料試用版利用手順【2018年時点】"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 --- 
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の用途や魅力について今まで様々な記事でご紹介してきましたが、まだ導入を検討されている方は、**無料試用版**で実際に検証をしてみて、使い勝手や動作について理解を深めてみることをお勧めします。特に、Dynamics 365 ブログでは、Dynamics 365 のアプリケーション毎の機能や用途、セットアップ手順などを細かく記載していますので、実際にご自分の手で触れてみることは理解を深める上でも重要なステップです。
 

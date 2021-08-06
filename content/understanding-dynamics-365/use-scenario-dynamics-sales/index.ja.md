@@ -3,13 +3,9 @@ title:  "Dynamics 365 を営業で活用するシナリオ"
 draft: false
 weight: 7
 datetitle: "2017.08.23 | "
-image: "artical7.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 --- 
+{{< detailTopImage src="artical7.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365を導入する目的が明確になり、各部署の協力を得て、導入後のフォロー体制まである程度イメージできるようになりました。
 さて、Dynamics 365 を導入することが社内で決定事項になり、メインで利用する営業メンバーに、Dynamics 365 を利用し始めたイメージを伝える必要があります。

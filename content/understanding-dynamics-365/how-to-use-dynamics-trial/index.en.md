@@ -3,13 +3,9 @@ title:  "Instructions for using the Dynamics 365 free trial version [as of 2018]
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 --- 
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 If you are still considering to introduce Dynamics 365, I recommend you to try the **free trial version** to get a better understanding of the usability and operation. In particular, the Dynamics 365 blog provides detailed information about the functions, uses, and setup procedures of each Dynamics 365 application, so it is an important step to deepen your understanding by actually touching it with your own hands.
 

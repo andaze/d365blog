@@ -3,13 +3,9 @@ title:  "Features of the Dynamics 365 application"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 --- 
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro -->
 In the previous article, I have explained [why I recommend Dynamics 365 as a CRM system](). In that article, I mentioned some of the applications available in Dynamics 365. In this section, I will introduce each application, starting from the sales support system to marketing, support services, project management, and human resources.
 
