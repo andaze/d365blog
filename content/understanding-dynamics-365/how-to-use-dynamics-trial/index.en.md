@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 --- 
 <!-- Intro  -->
 If you are still considering to introduce Dynamics 365, I recommend you to try the **free trial version** to get a better understanding of the usability and operation. In particular, the Dynamics 365 blog provides detailed information about the functions, uses, and setup procedures of each Dynamics 365 application, so it is an important step to deepen your understanding by actually touching it with your own hands.

@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 --- 
 <!-- Intro  -->
 In the [scenario of using Dynamics 365 in sales](), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing? Nowadays, more than sales activities, how to effectively conduct marketing activities to increase the number of potential customers is becoming an indispensable part of a company's survival strategy.

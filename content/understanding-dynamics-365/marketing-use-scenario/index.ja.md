@@ -10,6 +10,18 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 linkdin: ""
+jsonld: {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "dateModified": "2015-02-05T09:20:00+08:00"
+    }
 --- 
 <!-- Intro  -->
 [Dynamics 365 を営業で活用するシナリオ]()では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？今では、営業活動以上に、マーケティング活動をどのように効果的に行って、見込み顧客を増やしていくかは企業の生き残り戦略に欠かせないものになってきています。
