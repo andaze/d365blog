@@ -1,0 +1,103 @@
+{{/* 
+    < authorImage  src="Capture.webp" name"Takafumi Noguchi" linkdin="www.linkdin.com" width="" height="" fillposition="" format="" ratio="" layout=""  >
+  
+    Attribute:
+    ----------
+    src (Require) => need to pass image name with extenstion if not pass then we get demo image for author
+    name (optional) => need to pass name of the author-detail
+    linkdin (optional) => need to pass link for author linkdin account
+    width (optional) => need to pass image width if you not pass then it will take default using Image.Width function
+    height (optional) => need to pass image height if you not pass then it will take defaukt using multiplication of width and ration. 
+    fillposition (optional) => need to pass image fill position  if you not pass then it will take default center position using config parameters
+    format (optional) => need to pass image format if you not pass then it will take default webp format using config parameters
+    ratio (optional) => need to pass image ration if you not pass then it will take default using width and height multiplication  
+    layout (optional) => need to pass image layout 
+    
+    Example: 
+    --------
+    {{< authorImage  src="sample.png" name="Takafumi Noguchi" linkdin="www.linkdin.com"  >}}
+    
+*/}}
+
+    {{ $Scratch := newScratch}}
+    {{ $Scratch.Set "width" "" }}
+    {{ $Scratch.Set "height" "" }}
+    {{ $Scratch.Set "src" "" }}
+    {{ $Scratch.Set "srcset" "" }}
+    
+    {{ if eq (.Get "src") ("")}}
+        {{ $Scratch.Set "src" "demo.png" }}
+    {{ else }}
+        {{ $Scratch.Set "src" (.Get "src") }}
+    {{ end }}   
+    {{ $src := $Scratch.Get "src" }}
+    
+    {{ $defaultBackground := "Image Not Available" }}
+    {{ if eq $src "demo.png"}}
+        {{ $uploads := (.Site.GetPage "/").Resources }}
+        {{ $srcimg :=  $uploads.GetMatch $src | default $defaultBackground }}
+        {{ $Scratch.Set "srcset" $srcimg }}
+    {{ else }}
+        {{ $srcimg := $.Page.Resources.GetMatch $src | default $defaultBackground }}
+        {{ $Scratch.Set "srcset" $srcimg }}
+    {{ end }}
+    {{ $srcimg := $Scratch.Get "srcset" }}
+
+    {{ if eq $srcimg $defaultBackground }}
+        <a href="{{.Page.Permalink}}{{$src}}" target="_blank"> <h3 style="color: red;">{{$defaultBackground}}</h3></a>
+    {{ else }}
+        {{ $srcimg_width := $srcimg.Width }}
+        {{ $srcimg_height := $srcimg.Height }}
+        {{ $srcimg_ratio := div (float $srcimg_height) (float $srcimg_width) }} 
+
+        {{ if gt $srcimg.Width .Site.Params.Imagewidth }}
+            {{ $getwidth := int (default .Site.Params.Imagewidth (.Get "width")) }}
+            {{ $Scratch.Set "width" $getwidth }}
+        {{ else }}
+            {{ $getwidth := int (default $srcimg_width (.Get "width")) }}
+            {{ $Scratch.Set "width" $getwidth }}
+        {{ end }}
+        {{ $width := $Scratch.Get "width" }}
+
+        {{ $ratio := float (default $srcimg_ratio (.Get "ratio")) }}
+        {{ $layout := .Get "layout" }}
+
+        {{ if .Get "height" }}
+            {{ $getheight:= int (.Get "height") }}
+            {{ $Scratch.Set "height" $getheight }}
+        {{ else }}
+            {{ $getheight := int (mul $width $ratio) }}
+            {{ $Scratch.Set "height" $getheight }}
+        {{ end }}
+        {{ $height := $Scratch.Get "height" }}
+
+        {{ $getdata:= split .Site.Params.Imageratio " " }}
+
+        {{ $array := $getdata }}
+        {{ $dict := dict }}
+
+        {{$fillposition:= string (default .Site.Params.fillposition (.Get "fillposition")) }}
+        {{$format:= string (default .Site.Params.format (.Get "format")) }}
+        {{ $positionFormat:= print " " $fillposition " " $format }}
+        {{ range $array }}
+            {{$imgratio:= float .}}
+            {{ $crop_prm := printf "%dx%d %s" (int (mul $width $imgratio)) (int (mul $height $imgratio)) ($positionFormat) }}
+            {{ $cropsize:= print $crop_prm}}
+            {{/* {{ $cropsize:= print $crop_prm " webp"}} */}}
+            {{ $crop_img := $srcimg.Fill $cropsize }}
+            {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
+        {{ end }}
+            <div class="author-detail">
+                <div class="author-img mt-2">
+                    <amp-img alt="Image Not Available" src="" width="{{ $width }}"  height="{{$height}}" layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
+                </div>
+                <div class="">
+                    {{if (.Get "name") }}
+                        <p class="author-name">Author:{{.Get "name"}}</p>
+                    {{ end }}
+                    {{ if (.Get "linkdin") }}
+                        <a href='{{.Get "linkdin" }}' class="author-link" target="_blank"> linkedIn</a>
+                    {{ end }}
+                </div>
+            </div>
+    {{ end }}

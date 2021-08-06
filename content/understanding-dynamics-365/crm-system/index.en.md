@@ -35,6 +35,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Have you ever heard of Dynamics 365 provided by Microsoft? Microsoft Dynamics 365 is a business application that integrates and utilizes data from various departments such as sales, marketing, accounting, general affairs, and human resources into a single application.
 
