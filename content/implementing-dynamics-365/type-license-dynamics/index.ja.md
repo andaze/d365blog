@@ -3,13 +3,9 @@ title:  "Dynamics 365 のライセンスコストについて"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 ---
-
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前章では、Dynamics 365 の用途・機能・利用シナリオについて述べてきました。高機能かつ、これまでのマイクロソフト製品とのシームレスな連携が魅力の製品です。そして、**Dynamics 365 の魅力は決して機能だけではありません。**
 
