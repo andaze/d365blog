@@ -3,13 +3,9 @@ title:  "Dynamics 365 ポータルアドオンの利用"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 Customer Engagement Plan アプリケーションには標準で、１つのポータルアドオンが提供されています。
 

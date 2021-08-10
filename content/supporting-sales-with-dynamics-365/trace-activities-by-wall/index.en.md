@@ -3,13 +3,9 @@ title:  "Track the latest activity on your Dynamics 365 wall"
 draft: false
 weight: 19
 datetitle: "2017.08.23 | "
-image: "artical19.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical19.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 When I introduced the Dynamics 365 dashboard, I mentioned the wall.
 

@@ -3,13 +3,9 @@ title:  "Dynamics 365 フィールドセキュリティを設定"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 セキュリティについて、今までロールや部署、チームなどについて触れてきました。ここまでの知識で社内のセキュリティ設定は十分といってもいいのではないでしょうか。
 

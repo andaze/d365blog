@@ -3,13 +3,9 @@ title:  "Dynamics 365 のウォールで最新の活動を追跡する"
 draft: false
 weight: 19
 datetitle: "2017.08.23 | "
-image: "artical19.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical19.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のダッシュボードについてご紹介した際に、ウォールについて触れました。
 今回は、そのウォールに投稿を行ってみたいと思います。Dynamics 365 のトップページを開くと既定のダッシュボードページに遷移すると思いますが、ウォールでは各エンティティでの状況が投稿され、アクティブな活動を追跡できるようになっています。

@@ -3,13 +3,9 @@ title:  "Create Dynamics 365 product families and bundles"
 draft: false
 weight: 9
 datetitle: "2017.08.23 | "
-image: "artical9.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical9.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the [previous article](#), we created a single product and even a discount table. In this article, we will configure a product family and associate a product to the family. We will now discuss how to use **product families**.
 

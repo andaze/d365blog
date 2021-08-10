@@ -3,12 +3,8 @@ title:  "メジャーアップデート適用方法の変更【2019.08】"
 draft: false
 weight: 14
 datetitle: "2017.08.23 | "
-image: "artical14.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical14.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 正直に言うと、Dynamics 365 メジャーアップデートは運用・保守部門泣かせなアップデートだと思っています。
 

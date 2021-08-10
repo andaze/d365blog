@@ -3,13 +3,9 @@ title:  "Dynamics 365 階層セキュリティ設定について"
 draft: false
 weight: 5
 datetitle: "2017.08.23 | "
-image: "artical5.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical5.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 には、エンティティ単位でのセキュリティを制御するセキュリティ ロール、フィールド単位の フィールド セキュリティ、ユーザーの所属を管理する 部署やチーム以外に、階層セキュリティ という発展したセキュリティ概念を持っています。
 

@@ -3,13 +3,9 @@ title:  "Dynamics 365 の取引先企業と取引先担当者を活用する"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 営業案件と関連する活動についてお伝えしましたが、親エンティティである**取引先企業および取引先担当者**について触れていきます。
 

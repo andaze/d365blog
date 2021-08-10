@@ -3,13 +3,9 @@ title:  "Let's take advantage of the sales functions of Dynamics 365."
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 So far, I have explained the features for administrators, but now I would like to introduce the features for sales and marketing.
 

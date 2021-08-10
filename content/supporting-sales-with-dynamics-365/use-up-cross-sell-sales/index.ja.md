@@ -3,13 +3,9 @@ title:  "Dynamics 365 製品のクロスセル・アップセルを活用する"
 draft: false
 weight: 12
 datetitle: "2017.08.23 | "
-image: "artical12.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical12.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 営業活動においては、顧客収益性を上げるために必要な活動としてアップセル、およびクロスセルがあります。
 

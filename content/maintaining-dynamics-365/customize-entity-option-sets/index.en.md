@@ -3,12 +3,8 @@ title:  "Customization of Dynamics 365 entities and option sets"
 draft: false
 weight: 10
 datetitle: "2017.08.23 | "
-image: "artical10.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical10.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 From the Dynamics 365 menu, click on Settings - Customize System to open the **Solution Explorer** as shown below.
 

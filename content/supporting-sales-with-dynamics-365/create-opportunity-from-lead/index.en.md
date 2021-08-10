@@ -3,13 +3,9 @@ title:  "Creating a Sales Case from a Lead in Dynamics 365"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the [previous article](#), we talked about Leads in Dynamics 365. When a Lead becomes a Prospect, we will explain how to create a Client Company, a Client Representative, and a Sales Case from the Lead.
 

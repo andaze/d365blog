@@ -3,13 +3,9 @@ title:  "Use Dynamics 365 activities to conduct business meetings."
 draft: false
 weight: 5
 datetitle: "2017.08.23 | "
-image: "artical5.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical5.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the [previous article](#), we created a sales case from a lead, and we need to keep track of the progress of the negotiation in the sales case. In this case, we can use an entity called **activity**.
 

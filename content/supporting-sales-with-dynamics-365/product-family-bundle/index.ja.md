@@ -3,13 +3,9 @@ title:  "Dynamics 365 の製品ファミリとバンドルを作成する"
 draft: false
 weight: 9
 datetitle: "2017.08.23 | "
-image: "artical9.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical9.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 [前回の記事](#)で、単一の製品と値引き表まで作成しました。今回は製品ファミリを構成して、ファミリに製品を関連させてみます。それでは、**製品ファミリ**の利用方法について述べていきます。
 

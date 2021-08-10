@@ -3,13 +3,9 @@ title:  "Using the Dynamics 365 Portal Add-on"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 The Dynamics 365 Customer Engagement Plan application comes standard with one portal add-on.
 

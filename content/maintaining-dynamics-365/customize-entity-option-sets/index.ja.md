@@ -3,12 +3,8 @@ title:  "Dynamics 365 エンティティやオプションセットのカスタ�
 draft: false
 weight: 10
 datetitle: "2017.08.23 | "
-image: "artical10.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical10.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 メニューの「設定」-「システムのカスタマイズ」をクリックすると、下記の **ソリューションエクスプローラー** が開きます。
 

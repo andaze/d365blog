@@ -3,13 +3,9 @@ title:  "Dynamics 365 をアップデートしよう"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: ""
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,7 @@ jsonld: {
        }
     }
 ---
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 2017年7月に Dynamcis 365 version 9 (July 2017 update)  がリリースされてしばらく経ちました。すでに試用版の Dynamcis 365 は version 9 になっており、version 8 を利用されている方は少数派？になってきているのではないかと思います。
 

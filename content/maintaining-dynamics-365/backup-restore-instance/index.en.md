@@ -3,13 +3,9 @@ title:  "Backup and Restore of Dynamics 365 Instances"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 This article is the last one about Dynamics instances. In this article, we will show you how to backup and restore an instance.
 

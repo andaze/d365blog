@@ -3,13 +3,9 @@ title:  "Using Graphs in Dynamics 365"
 draft: false
 weight: 14
 datetitle: "2017.08.23 | "
-image: "artical14.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical14.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 By using Dynamics 365 and continuing to effectively manage your sales activities, you will accumulate enough data in Dynamics 365 to consider your sales strategy.
 

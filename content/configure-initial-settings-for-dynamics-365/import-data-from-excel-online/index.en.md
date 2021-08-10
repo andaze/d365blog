@@ -3,13 +3,9 @@ title:  "Data import in Dynamics 365 Excel Online"
 draft: false
 weight: 9
 datetitle: "2017.08.23 | "
-image: "artical9.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical9.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous article, we introduced the process of importing data using an import template. This method can be very useful when importing initial data. In this article, I will describe how to import data dynamically in Excel Online based on the view you have created instead of using a template.
 

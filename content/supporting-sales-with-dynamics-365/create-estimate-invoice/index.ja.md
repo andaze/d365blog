@@ -3,13 +3,9 @@ title:  "Dynamics 365 で見積もりから請求書まで管理する"
 draft: false
 weight: 13
 datetitle: "2017.08.23 | "
-image: "artical13.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,9 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical13.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
+
 <!-- Intro  -->
 これまで、営業案件と製品について詳しく説明をしてきました。商談が順調に進むと、顧客に向けた見積もりを作成します。その見積もりをもとに商談が受注となると、営業案件を “受注” という状態にして、請求書を作成し、顧客へ提出します。
 

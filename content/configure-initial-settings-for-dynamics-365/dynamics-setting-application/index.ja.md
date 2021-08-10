@@ -3,13 +3,9 @@ title:  "Dynamics 365 アプリの設定"
 draft: false
 weight: 7
 datetitle: "2017.08.23 | "
-image: "artical7.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical7.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 ここでは、Dynamics 365 のアプリケーションについてすこし触れていきます。
 

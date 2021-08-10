@@ -3,12 +3,8 @@ title:  "Recommended third-party solutions"
 draft: false
 weight: 12
 datetitle: "2017.08.23 | "
-image: "artical12.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical12.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 The beauty of Dynamics 365 is that there are many solutions available to assist and augment its functionality, but what solutions can further extend the capabilities of Dynamics 365?
 

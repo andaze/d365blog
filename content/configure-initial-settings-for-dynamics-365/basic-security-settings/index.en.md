@@ -3,13 +3,9 @@ title:  "Dynamics 365 Security Basic Settings"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 ---
-
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Now that we have added a user in Dynamics 365, let's understand the basic security structure and settings.    
 Dynamics 365 has the following security structure.

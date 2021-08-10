@@ -3,13 +3,9 @@ title:  "Importing data into Dynamics 365"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Once you have Dynamics 365 set up, it is time to import data. There are several ways to import data, but this article will discuss how to prepare the imported data and perform the import process.
 

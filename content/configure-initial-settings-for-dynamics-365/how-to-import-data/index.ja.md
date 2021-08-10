@@ -3,13 +3,9 @@ title:  "Dynamics 365 にデータをインポートする"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のセットアップができたら、いよいよデータのインポートになります。インポートする方法はいくつかありますが、本記事では、インポートデータをどのように準備して、インポート処理を行うかについて触れていきます。
 

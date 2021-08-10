@@ -3,13 +3,9 @@ title:  "Use the email tracking feature"
 draft: false
 weight: 7
 datetitle: "2017.08.23 | "
-image: "artical7.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical7.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Sales includes the ability to track opens, link clicks, and attachments to emails sent to customers, which is great because Salesforce requires you to purchase Pardot separately, but it's available at no extra cost!
 

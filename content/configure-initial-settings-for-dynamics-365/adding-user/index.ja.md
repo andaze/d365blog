@@ -3,13 +3,9 @@ title:  "Dynamics 365 ユーザーを追加する"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のテナント・インスタンスの作成が完了したら、Dynamics 365 にユーザーを追加する手順をご紹介します。
 Dynamics 365 は **Office 365 のユーザー情報を同期**しているため、基本的には Office 365 でユーザー情報を更新することになります。

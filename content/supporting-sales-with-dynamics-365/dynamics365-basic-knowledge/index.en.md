@@ -3,13 +3,9 @@ title:  "Let's learn about the basics of Dynamics 365."
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the last issue, we wrote an article about accessing Dynamics 365 from the admin center.
 

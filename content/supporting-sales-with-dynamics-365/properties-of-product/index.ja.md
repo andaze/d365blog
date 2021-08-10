@@ -3,13 +3,9 @@ title:  "Dynamics 製品のプロパティを管理する"
 draft: false
 weight: 10
 datetitle: "2017.08.23 | "
-image: "artical10.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical10.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 製品のプロパティについて、[前回](#)の記事に続きご紹介をしていきます。
 

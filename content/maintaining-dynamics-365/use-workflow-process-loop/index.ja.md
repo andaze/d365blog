@@ -3,12 +3,8 @@ title:  "ワークフロープロセスの無限ループ対策"
 draft: false
 weight: 13
 datetitle: "2017.08.23 | "
-image: "artical13.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical13.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のワークフロー プロセスはコーディングなしでもデータの更新や作成・削除から割り当て、メール送信など多くのことを実行できる便利な機能です。既定のワークフロー プロセスだけでなく、[Workflow Heroes](https://www.crminnovation.com/blog/workflow-heroes/)にあるようなサードパーティー製のワークフローソリューションをインポートすれば、レコードの共有設定や日付・10進数の四則演算など、ユーザーの多くの要望をワークフロー プロセスで実現できるようになります。
 

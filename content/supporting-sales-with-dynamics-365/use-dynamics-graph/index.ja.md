@@ -3,13 +3,9 @@ title:  "Dynamics 365 でグラフを使ってみる"
 draft: false
 weight: 14
 datetitle: "2017.08.23 | "
-image: "artical14.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical14.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 を活用し、自社の営業活動で効率的な管理を継続することで、Dynamics 365 にて営業戦略を考慮するに十分なデータが蓄積されていきます。
 

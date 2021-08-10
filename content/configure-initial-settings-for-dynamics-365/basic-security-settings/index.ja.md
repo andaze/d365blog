@@ -3,13 +3,9 @@ title:  "Dynamics 365 セキュリティ基本設定"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 ---
-
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回 Dynamics 365 でユーザーを追加しましたが、ここではセキュリティの基本的な構造と設定について理解をしていきましょう。
 

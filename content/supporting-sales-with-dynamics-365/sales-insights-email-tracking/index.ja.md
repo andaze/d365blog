@@ -3,13 +3,9 @@ title:  "電子メールトラッキング機能を使う"
 draft: false
 weight: 7
 datetitle: "2017.08.23 | "
-image: "artical7.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical7.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Sales には、顧客へ送付したメールの開封・リンククリック・添付開封を追跡する機能がついています。Salesforce では Pardot を別途購入して利用する必要がある機能が、追加費用なしで利用できるのは素晴らしいことです！
 

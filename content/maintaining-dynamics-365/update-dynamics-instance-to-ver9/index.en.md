@@ -3,13 +3,9 @@ title:  "Update your Dynamics 365!"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: ""
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,7 @@ jsonld: {
        }
     }
 ---
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 It has been a while since Dynamcis 365 version 9 (July 2017 update) was released in July 2017. The trial version of Dynamcis 365 is now version 9, and those who are using version 8 may be in the minority. I think the number of people using version 8 is getting smaller.
 

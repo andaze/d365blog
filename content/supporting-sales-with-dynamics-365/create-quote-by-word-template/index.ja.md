@@ -3,13 +3,9 @@ title:  "Wordテンプレートで見積書を作成"
 draft: false
 weight: 20
 datetitle: "2017.08.23 | "
-image: "artical20.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical20.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Word テンプレートを使い、自社の見積書を作成する手順をこちらにまとめます。
 

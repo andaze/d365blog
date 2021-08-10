@@ -3,13 +3,9 @@ title:  "Dynamics 365 で目標を管理する"
 draft: false
 weight: 16
 datetitle: "2017.08.23 | "
-image: "artical16.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical16.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 今回は、Dynamics 365 の目標についてです。目標を管理することで、営業活動、マーケティングやサーポート・サービスなどの向上につなげていくことが可能となります。Dynamics 365 では、目標指標を定義して、目標の管理を行うことができます。
 

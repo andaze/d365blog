@@ -3,13 +3,9 @@ title:  "Dynamics 365 ダッシュボードで情報の可視化を行う"
 draft: false
 weight: 17
 datetitle: "2017.08.23 | "
-image: "artical17.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical17.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の営業機能についてお知らせしてきました。グラフやファネル、目標管理などを理解したので、次はダッシュボードについて触れていきます。 
 

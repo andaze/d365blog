@@ -3,13 +3,9 @@ title:  "Dynamics 365 のレポート機能でデータ分析を行う"
 draft: false
 weight: 18
 datetitle: "2017.08.23 | "
-image: "artical18.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,9 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical18.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
+
 <!-- Intro  -->
 Dynamics 365 では、レポート ウィザードを使って、フェッチベースのレポートを生成することができます。ユーザーが簡易にデータを収集して分析する際に利用できる機能です。
 

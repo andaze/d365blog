@@ -3,13 +3,9 @@ title:  "Get the upper hand in negotiations with a Dynamics 365 discount table"
 draft: false
 weight: 11
 datetitle: "2017.08.23 | "
-image: "artical11.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical11.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 With the product families we have created [previously](#), we can now manage our sales case records more efficiently. Now, there will come a time when you need to adjust the final price of the deal. This is where the **discount table** comes into play.
 

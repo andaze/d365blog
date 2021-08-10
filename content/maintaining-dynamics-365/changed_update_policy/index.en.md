@@ -3,12 +3,8 @@ title:  "Changes to the method of applying major updates [2019.08]"
 draft: false
 weight: 14
 datetitle: "2017.08.23 | "
-image: "artical14.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical14.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 To be honest, I think the major update of Dynamics 365 is an update that makes the operation and maintenance department cry.
 

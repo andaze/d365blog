@@ -3,12 +3,8 @@ title:  "設定のサイトマップを調整する"
 draft: false
 weight: 15
 datetitle: "2017.08.23 | "
-image: "artical15.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -34,6 +30,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical15.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のアプリを作成すると、現在は Power Apps との統合もあり、統一インターフェイス （モバイル駆動アプリ）として作成されます。ここで、詳細設定を一般ユーザーも開くことができるのですが、この「設定」について細かな調整ができることがわかったので記載しておきます。
 

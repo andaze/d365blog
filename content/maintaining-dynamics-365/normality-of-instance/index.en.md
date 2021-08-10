@@ -3,13 +3,9 @@ title:  "Dynamics 365 Instance NORMALITY"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 We have been managing instances of Dynamics 365 by operating the Management Center. Now we will introduce how to manage the instances to make sure they are working properly.
 

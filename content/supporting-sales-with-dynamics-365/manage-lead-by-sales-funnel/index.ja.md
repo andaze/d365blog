@@ -3,13 +3,9 @@ title:  "Dynamics 365 でセールス ファネルを利用したリードの管
 draft: false
 weight: 15
 datetitle: "2017.08.23 | "
-image: "artical15.png"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical15.png" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 今回は、[Dynamics 365 でグラフを使ってみる](#)　のグラフの利用でも触れた「セールス ファネル」についてです。
 

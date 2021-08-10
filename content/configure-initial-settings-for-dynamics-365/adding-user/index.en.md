@@ -3,13 +3,9 @@ title:  "Add a Dynamics 365 user"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,7 +31,8 @@ jsonld: {
        }
     }
 ---
-
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Once you have created a tenant instance of Dynamics 365, here are the steps to add users to Dynamics 365.
 Since Dynamics 365 **synchronizes user information with Office 365**, you will basically be updating user information in Office 365.

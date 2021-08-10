@@ -3,13 +3,9 @@ title:  "Visualize information in the Dynamics 365 dashboard"
 draft: false
 weight: 17
 datetitle: "2017.08.23 | "
-image: "artical17.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical17.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 I have been informing you about the sales features of Dynamics 365. Now that you understand graphs, funnels, and goal management, let's touch on dashboards. 
 

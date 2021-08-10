@@ -3,13 +3,9 @@ title:  "Dynamics 365 計算フィールドの活用"
 draft: false
 weight: 8
 datetitle: "2017.08.23 | "
-image: "artical8.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical8.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 今回は、Dynamics 365 の計算フィールドについて簡単にご紹介していきます。
 

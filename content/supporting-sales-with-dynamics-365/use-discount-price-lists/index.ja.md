@@ -3,13 +3,9 @@ title:  "Dynamics 365 の値引き表で商談を有利に運ぶ"
 draft: false
 weight: 11
 datetitle: "2017.08.23 | "
-image: "artical11.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical11.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 [前回まで](#)に作成した製品ファミリを利用すれば、営業案件のレコードをより効率的に管理できるようになりました。さて、商談が進む上で最終的な価格の調節が必要になる場面が訪れるとします。その際利用する機能が**値引き表**です。
 
