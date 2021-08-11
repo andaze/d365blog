@@ -3,13 +3,9 @@ title:  "Dynamics 365 と Yammer を連携してインタラクティブに情�
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の外部システム連携の機能として、Yammer との連携があります。Yammer を社内で利用しているのであれば、Dynamics 365 と連携することで、顧客や商談の情報交換を社内でアクティブに行うことができるようになります。
 

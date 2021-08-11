@@ -3,13 +3,9 @@ title:  "Dynamics 365ドキュメント SharePoint に保存する"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 はライセンス数に応じた記憶域を用意しています。試用版のDynamics 365 を利用すると５GB程度の記憶域しかないため、添付ファイルを取引先企業のレコードにアップロードするような運用を行うとあっという間にストレージが不足してしまいます。
 そのため、Dynamics 365 では、SharePoint Online と連携することで、実ファイルの保存先を、Dynamics 365 から SharePoint Online に変更することができるようなります。これは少人数でDynamics 365 を運用する上ではなくてはならない外部システムの連携機能なので、ぜひ活用してください。

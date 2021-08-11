@@ -3,13 +3,9 @@ title:  "オンプレミスの SQL Server からデータを取得する"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 は Power Platform と呼ばれる PowerApps、Flow、Power BI と連携することで、その価値をさらに高めることができます。Dynamics 365 Customer Engagement Plan のライセンスを利用している場合は、ぜひとも活用したいアプリケーションです。
 
