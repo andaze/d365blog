@@ -3,13 +3,9 @@ title:  "Plan your project with Project Service"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Now that we have completed the [creation of the previous project](), let's fill in the contents of the project.    
 When a project starts, a project plan is generally prepared with the following structure.

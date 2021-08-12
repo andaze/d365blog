@@ -3,13 +3,9 @@ title:  "Project Service Manage and close projects"
 draft: false
 weight: 5
 datetitle: "2017.08.23 | "
-image: "artical5.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical5.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In this article, you will learn how to plan a project in Dynamics 365 for Project Service Automation. Once the plan is made, the project will be started. In this section, we will introduce the steps to manage a project.
 

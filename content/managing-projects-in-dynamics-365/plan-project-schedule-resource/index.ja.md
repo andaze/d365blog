@@ -3,13 +3,9 @@ title:  "Project Service でプロジェクトを計画"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回[プロジェクトの作成]()が完了したので、今度はプロジェクトの中身を埋めていきましょう。
 プロジェクトが始まると、一般的に以下のような構成でプロジェクト計画書を作成します。

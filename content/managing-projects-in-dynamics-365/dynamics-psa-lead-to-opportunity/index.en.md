@@ -3,13 +3,9 @@ title:  "Create sales proposals from leads in Project Service"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Now that we have [completed the structure and configuration]() of Dynamics 365 for Project Service Automation (PSA), let's create a project and start managing it.
 

@@ -3,13 +3,9 @@ title:  "Create a project in the Project Service"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 This is a continuation of the previous article, where we[ created a sales case from a lead]() in Dynamics 365 for Project Service Automation (Project Service), and now we are going to create a project.
 <!-- Image= psa-3rd-01.png -->

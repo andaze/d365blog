@@ -3,13 +3,9 @@ title:  "Project Service resource allocation and shipping units"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 When you create a project in Dynamics 365 for Project Service Automation and assign team members, the calculation of the assigned time for the assigned members is a bit complicated, so I will show you how it works.
 

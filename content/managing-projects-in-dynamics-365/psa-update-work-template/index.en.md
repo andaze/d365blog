@@ -3,13 +3,9 @@ title:  "Update the Project Service working template"
 draft: false
 weight: 9
 datetitle: "2017.08.23 | "
-image: "artical9.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical9.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 This section provides instructions on how to update a work template in Dynamics 365 for Project Service Automation.In the previous section, "[Planning a Project with Project Service]()", we showed you how to create a work template, but this is the procedure to follow if you want to change the holidays, operating hours, etc. of a work template that has already been set up.
 

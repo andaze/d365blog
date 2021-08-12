@@ -3,13 +3,9 @@ title:  "Project Service リソースの割り当てと出荷単位"
 draft: false
 weight: 6
 datetitle: "2017.08.23 | "
-image: "artical6.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical6.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation でプロジェクトを作成して、チームメンバーをアサインする際に、アサインされたメンバーの割り当て時間の計算が少し複雑なので、その動作についてご紹介します。
 

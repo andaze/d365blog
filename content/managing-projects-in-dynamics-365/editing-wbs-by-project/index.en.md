@@ -3,13 +3,9 @@ title:  "Editing WBS in Project Service and Microsoft Project"
 draft: false
 weight: 8
 datetitle: "2017.08.23 | "
-image: "artical8.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical8.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 By integrating Dynamics 365 for Project Service Automation with Microsoft Project, you can edit WBS on a client terminal. In this article, we will show you how to integrate them.
 

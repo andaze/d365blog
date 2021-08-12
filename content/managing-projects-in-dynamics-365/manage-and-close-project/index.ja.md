@@ -3,13 +3,9 @@ title:  "Project Service プロジェクトの管理とクローズ"
 draft: false
 weight: 5
 datetitle: "2017.08.23 | "
-image: "artical5.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical5.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation でプロジェクトの計画を立てる手順を Project Service でプロジェクトを計画 でご紹介しました。計画を立てたらプロジェクトが開始されます。ここでは、プロジェクトを管理する手順をご紹介します。
 

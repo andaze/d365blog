@@ -3,13 +3,9 @@ title:  "Project Service でリードから営業案件を作成"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回、Dynamics 365 for Project Service Automation (PSA) の[構造と設定まで完了]() させましたので、ここからプロジェクトを作成して管理をはじましょう。
 
