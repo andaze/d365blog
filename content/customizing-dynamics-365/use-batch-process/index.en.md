@@ -3,13 +3,9 @@ title:  "Launching a Process in a Dynamics 365 Batch"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
-image: "artical3.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical3.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In this case, we're using a solution from Microsoft Labs.
 This section describes how to execute Dynamics 365 workflows in batch processing at a specified time.

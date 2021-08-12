@@ -3,13 +3,9 @@ title:  "Dynamics 365 Extensions - Workflow Tools"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?]()
 

@@ -3,13 +3,9 @@ title:  "Dynamics 365 に Javascript のコードを埋め込んでみる"
 draft: false
 weight: 1
 datetitle: "2017.08.23 | "
-image: "artical1.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical1.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のフォームには、Web リソースを挿入することができます。Webリソースは、HTML、Javascript、画像ファイルや Silverlight アプリケーションを追加できるので、フォームで比較的柔軟にカスタマイズを行うことが可能です。
 

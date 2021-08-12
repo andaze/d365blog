@@ -3,13 +3,9 @@ title:  "Dynamics 365 機能拡張 – Workflow Tools"
 draft: false
 weight: 4
 datetitle: "2017.08.23 | "
-image: "artical4.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical4.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か]() でおススメしたソリューションの利用方法になります。
 
