@@ -3,13 +3,9 @@ title:  "Dynamics 365 for Marketing 無償版のセットアップ【2019.04】"
 draft: false
 weight: 2
 datetitle: "2017.08.23 | "
-image: "artical2.jpg"
-Author: "Takafumi Noguchi"
-authorimage: "authorimage.jpg"
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
-linkdin: ""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -35,6 +31,8 @@ jsonld: {
        }
     }
 ---
+{{< detailTopImage src="artical2.jpg" >}}
+{{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の無償版利用手順についてはご紹介しました。以前はこの 無償版の一覧に Marketing が表示されていましたが、現在表示されていません。マイクロソフトにお問い合わせをしたところ、Marketing においては別の URL で無償版を提供しているようなので、その手順をご紹介します。
 
