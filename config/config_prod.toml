@@ -1,4 +1,4 @@
-baseURL = "https://d356.ameio.in/en/dynamic/"
+baseURL = "https://www.andaze.com/en/dynamic365/"
 languageCode = "en-us"
 
 DefaultContentLanguage = "en"
@@ -11,5 +11,5 @@ defaultContentLanguageInSubdir = false
     startLevel = 2
 
 [params]
-    oppositeUrl = "https://d356.ameio.in/jp/dynamic/"
+    oppositeUrl = "https://www.andaze.com/jp/dynamic365/"
     env = "prod"  

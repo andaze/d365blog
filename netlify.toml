@@ -1,3 +1,43 @@
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+## Cache Control
+# Paste the below in https://play.netlify.com/headers to test
+# Set max-age to 1 year (31536000 seconds) for stuff not expected to
+# update any time soon.
+[[headers]]
+   for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+   for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    
+[[headers]]
+   for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    
+[[headers]]
+   for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    
+[[headers]]
+   for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    
+[[headers]]
+   for = "/*.gif"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
 [[redirects]]
 from = "/*"
 to = "/404.html/"
@@ -5,7 +45,7 @@ status = 404
 
 [build]
 publish = "public"
-command = "hugo --gc --minify --config config/config.toml,config/config_develop.toml"
+command = "hugo --gc --minify --config config/config.toml,config/config_prod.toml"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
