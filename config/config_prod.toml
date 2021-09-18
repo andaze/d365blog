@@ -11,5 +11,5 @@ defaultContentLanguageInSubdir = false
     startLevel = 2
 
 [params]
-    oppositeUrl = "https://www.andaze.com/jp/dynamic365/"
+    oppositeUrl = "https://www.andaze.com/ja/dynamic365/"
     env = "prod"  
