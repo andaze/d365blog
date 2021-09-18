@@ -1,8 +1,6 @@
 baseURL = "https://www.andaze.com/en/dynamic365/"
 languageCode = "en-us"
-
-DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+title = "My New Hugo Site"
 
 [markup]
   [markup.tableOfContents]
@@ -11,5 +9,6 @@ defaultContentLanguageInSubdir = false
     startLevel = 2
 
 [params]
-    oppositeUrl = "https://www.andaze.com/ja/dynamic365/"
-    env = "prod"  
+  env = "devlop"  
+  imageratio = "1"
+  imagewidth = "700"
