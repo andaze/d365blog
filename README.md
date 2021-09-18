@@ -6,7 +6,7 @@ hugo server --config config/config.toml
 
 ## How to Build Your Project 
 create build Of your project
-`hugo --config config/config.toml` 
+`hugo --gc --minify --config config/config.toml,config/config_prod.toml` 
 
 Run The Below Command for converting images into webp
 1. jpg to webp
