@@ -21,16 +21,9 @@
                 {{ $section := site.GetPage $basedir }}
                 {{ range $section.Pages.ByWeight }}         
                 <li>
-                  <a href=" {{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{.Title }}</a>
-                  <!-- <ul class="sub-navigation-list" id="aboutMenu" hidden>
-                    <li><a href="#">Overview</a></li>
-                    <li><a href="#">Hugo's Security Model</a></li>
-                    <li><a href="#">Hugo and GDPR</a></li>
-                    <li><a href="#">What is Hugo</a></li>
-                    <li><a href="#">Hugo Features</a></li>
-                    <li><a href="#">The Benefits of Static</a></li>
-                    <li><a href="#">License</a></li>
-                  </ul> -->
+                  {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "on" "tap:aboutMenu.toggleVisibility")}}
+                  {{.Title }}</a>
+
                 </li>
                 {{ end }}
               </ul>
@@ -39,7 +32,7 @@
           <div class="middle-page-wrapper">
             <div class="inner-wrapper">
               <div class="top-header">
-                {{.Params.Datetitle}}   {{ with site.GetPage $basedir }} <a href="{{ .URL | absURL }}" class="title">{{$basedir}}</a>/ {{ end }}
+                {{.Params.Datetitle}}   {{ with site.GetPage $basedir }} {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "class" "title")}} {{$basedir}}</a>/ {{ end }}
                 {{ if .Title }}
                 <h1 class="main-title">{{ .Title }}</h1>
                 {{ end }}
@@ -82,13 +75,17 @@
               </div>
             </div>
                   {{if .NextInSection}}
-                  <button class="btn btn-success detail-btn-center"><a href="{{.NextInSection.Permalink}}"> {{.NextInSection.Title}} </a> </button>
+                  <button class="btn btn-success detail-btn-center">{{ partial "language_url_change.html" (dict "path" (.NextInSection.Permalink)) }}{{.NextInSection.Title}} </a> </button>
                   {{end}}
                   {{if .PrevInSection}}
-                  <button class="btn btn-success detail-btn-center"><a href="{{.PrevInSection.Permalink}}"> {{.PrevInSection.Title}} </a> </button>
+                  <button class="btn btn-success detail-btn-center">{{ partial "language_url_change.html" (dict "path" (.PrevInSection.Permalink)) }} {{.PrevInSection.Title}} </a> </button>
                   {{end}}
-                      {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-                      {{ with site.GetPage $basedir }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{$basedir}}{{ end }}  </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ path.Base .Page.Permalink }}</a>
+                      {{ with .Site.GetPage }}
+                        {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "style" "color:darkgray" ) }}{{ .Title }}
+                        </a>{{ end }}/
+                      {{ with site.GetPage $basedir }}
+                      {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "style" "color:darkgray" ) }} 
+                       {{$basedir}}{{ end }}  </a>/<a style="list-style-type: none; color: darkgray;" href="javascript:;">{{ path.Base .Page.Permalink }}</a>
 
 
                       <div class="mt-5">
