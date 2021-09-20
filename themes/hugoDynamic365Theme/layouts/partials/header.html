@@ -72,26 +72,25 @@
                   {{ $siteLanguages := site.Languages}}
                   {{ $pageLang := .Page.Lang}}
                       {{ range .Page.AllTranslations }}
-                      {{ $translation := .}}
+                        {{ $translation := .}}
+                        
+                        {{ $Scratch.Set "changeurl" "" }}
+                        {{ if eq (print site.Language) ("en") }}
+                          {{$changeurl:= replace $translation.Permalink "/dynamic365/ja/" "/ja/dynamic365/" }}
+                          {{ $Scratch.Set "changeurl" $changeurl }}
+                        {{ else }}
+                          {{$changeurl:= replace $translation.Permalink "/dynamic365/en/" "/en/dynamic365/" }}
+                          {{ $Scratch.Set "changeurl" $changeurl }}
+                        {{ end }}
+                        {{ $langurl := $Scratch.Get "changeurl" }}
                       
                       {{ range $siteLanguages }}  
                         {{ if eq $translation.Lang .Lang }}
                           {{ if eq $pageLang .Lang}}
                           {{ $selected := false }}
-                          {{ $Scratch := newScratch}}
-                        {{ $Scratch.Set "url" "" }}
-                        {{ $lang:= print site.Language }}
-                        {{ if eq ($lang) ("en")}}
-                            {{$seturl:= replace ($translation.Permalink)  "/dynamic365/en" "/en/dynamic365" }}
-                            {{ $Scratch.Set "url" $seturl }}
-                        {{ else }}
-                            {{$seturl:= replace ($translation.Permalink)  "/dynamic365/ja" "/ja/dynamic365" }}
-                            {{ $Scratch.Set "url" $seturl }}
-                        {{ end }}
-                        {{ $url := $Scratch.Get "url" }}
-                            <option value="{{ $url }}" selected>{{ .LanguageName }}</option>
+                            <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
                           {{ else }}
-                            <option value="{{ $url }}">{{ .LanguageName }}</option>
+                            <option value="{{ $langurl }}">{{ .LanguageName }}</option>
                           {{ end }}
                           {{ end }}
                       {{ end }}
