@@ -1,6 +1,6 @@
 baseURL = "https://wonderful-austin-506e6a.netlify.app/"
 
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "My New Hugo Site"
