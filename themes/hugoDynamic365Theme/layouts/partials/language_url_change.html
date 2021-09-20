@@ -10,9 +10,10 @@
 {{ end }}
 {{ $url := $Scratch.Get "url" }}
 <a 
+    {{ if .itemprop}} itemprop="{{.itemprop}}"{{ end }}
     href="{{$url}}" 
     {{if .class}} class="{{.class}}" {{ end }} 
     {{if .target}} target="{{.target}}"{{ end }} 
     {{if .on}} on={{.on}} {{ end }}
     {{ if .style }} style="{{.style}}"{{ end }}
-    >
+>

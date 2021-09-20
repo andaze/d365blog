@@ -3,7 +3,8 @@
         <div class="footer-menu">
             <div class="footer-item-logo">
                 <div class="footer-logo">
-                    <a class="logo-link" href="{{.Site.BaseURL}}">{{.Site.Params.HeaderTitle}}</a>
+                    {{ partial "language_url_change.html" (dict "path" (.Site.BaseURL | relLangURL ) "class" "logo-link")}}
+                    {{.Site.Params.HeaderTitle}}</a>
                 </div>
             </div>
             <div class="footer-item">
@@ -11,7 +12,9 @@
                 <ul itemscope itemtype= "http://www.schema.org/SiteNavigationElement" >
                     {{ with .Site.GetPage "/"}}
                     {{ range .Sections }}
-                    <li itemprop="name"><a itemprop="url" href="{{.URL | absLangURL }}">{{ .Params.Heading }}</a></li>
+                    <li itemprop="name">
+                        {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "itemprop" "url")}}
+                        {{ .Params.Heading }}</a></li>
                     {{ end }}
                     {{ end }}
                 </ul>
