@@ -14,18 +14,8 @@
               </g>
             </svg>
           </a>
-          {{ $Scratch := newScratch}}
-          {{ $Scratch.Set "url" "" }}
-          {{ $lang:= print site.Language }}
-          {{ if eq ($lang) ("en")}}
-              {{$seturl:= replace (.Page.Permalink)  "/dynamic365/en" "/en/dynamic365" }}
-              {{ $Scratch.Set "url" $seturl }}
-          {{ else }}
-              {{$seturl:= replace (.Page.Permalink)  "/dynamic365/ja" "/ja/dynamic365" }}
-              {{ $Scratch.Set "url" $seturl }}
-          {{ end }}
-          {{ $url := $Scratch.Get "url" }}
-          <a class="logo-link" href="{{ $url | relLangURL }}">{{.Site.Params.HeaderTitle}}</a>
+          {{ partial "language_url_change.html" (dict "path" (.Site.BaseURL | relLangURL) "class" "logo-link")}}
+          {{.Site.Params.HeaderTitle}}</a>
           <a class="nav-link" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="22.162" height="18" viewBox="0 0 22.162 18">
               <path id="twitter-brands"
@@ -67,39 +57,7 @@
           <div class="navbar-menu">
             <ul class="main-menu-dropdown">
               <li>
-                <label class="select">
-                <select class="border-0 langselector custom-selector" onchange="location = this.value;">
-                  {{ $siteLanguages := site.Languages}}
-                  {{ $pageLang := .Page.Lang}}
-                      {{ range .Page.AllTranslations }}
-                        {{ $translation := .}}
-                        
-                        {{ $Scratch.Set "changeurl" "" }}
-                        {{ if eq (print site.Language) ("en") }}
-                          {{$changeurl:= replace $translation.Permalink "/dynamic365/ja/" "/ja/dynamic365/" }}
-                          {{ $Scratch.Set "changeurl" $changeurl }}
-                        {{ else }}
-                          {{$changeurl:= replace $translation.Permalink "/dynamic365/en/" "/en/dynamic365/" }}
-                          {{ $Scratch.Set "changeurl" $changeurl }}
-                        {{ end }}
-                        {{ $langurl := $Scratch.Get "changeurl" }}
-                      
-                      {{ range $siteLanguages }}  
-                        {{ if eq $translation.Lang .Lang }}
-                          {{ if eq $pageLang .Lang}}
-                          {{ $selected := false }}
-                            <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
-                          {{ else }}
-                            <option value="{{ $langurl }}">{{ .LanguageName }}</option>
-                          {{ end }}
-                          {{ end }}
-                      {{ end }}
-                      {{ end }}
-                  </select>
-                  <svg class="" viewbox="0 0 10 6">
-                    <polyline points="1 1 5 5 9 1"></polyline>
-                  </svg>
-                </label>
+                {{ partial "language_option.html" . }}
               </li>
             </ul>
 
@@ -122,28 +80,7 @@
             stroke="#fff" stroke-width="2" />
         </svg>
       </span>
-      <label class="select">
-      <select class="border-0 langselector custom-selector" onchange="location = this.value;">
-        {{ $siteLanguages := site.Languages}}
-        {{ $pageLang := .Page.Lang}}
-            {{ range .Page.AllTranslations }}
-            {{ $translation := .}}
-            {{ range $siteLanguages }}
-                {{ if eq $translation.Lang .Lang }}
-                {{ $selected := false }}
-                {{ if eq $pageLang .Lang}}
-                  <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
-                {{ else }}
-                  <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                {{ end }}
-                {{ end }}
-            {{ end }}
-            {{ end }}
-          </select>
-          <svg class="" viewbox="0 0 10 6">
-            <polyline points="1 1 5 5 9 1"></polyline>
-          </svg>
-        </label>
+      {{ partial "language_option.html" . }}
         <a class="nav-link" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="22.162" height="18" viewBox="0 0 22.162 18">
             <path id="twitter-brands"
@@ -174,7 +111,8 @@
       {{ if eq .Params.RightMenu "chepter" }}
         {{ with .Site.GetPage "/" }}
           {{ range .Sections }}
-            <a href="{{ .URL | absURL }}">{{ .Params.Heading }}</a>
+            {{ partial "language_url_change.html" (dict "path" (.URL | absURL) )}}
+              {{ .Params.Heading }}</a>
           {{ end }}
         {{ end }}
       {{ end }}
@@ -192,8 +130,8 @@
 
         {{ $basedir := index $type_arr 0 }}
         {{ $section := site.GetPage $basedir }}
-        {{ range $section.Pages.ByWeight }}  
-          <a href="{{ .URL | absURL }}">{{.Title}}</a>
+        {{ range $section.Pages.ByWeight }} 
+          {{ partial "language_url_change.html" (dict "path" (.URL | absURL) )}} {{.Title}}</a>
         {{ end }}
       {{ end }}
     </div>

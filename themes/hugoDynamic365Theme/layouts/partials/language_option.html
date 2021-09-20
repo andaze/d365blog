@@ -1,0 +1,34 @@
+<label class="select">
+<select class="border-0 langselector custom-selector" onchange="location = this.value;">
+    {{ $siteLanguages := site.Languages}}
+    {{ $pageLang := .Page.Lang}}
+        {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          
+          {{ $Scratch := newScratch}}
+          {{ $Scratch.Set "changeurl" "" }}
+          {{ if eq (print site.Language) ("en") }}
+            {{$changeurl:= replace $translation.Permalink "/dynamic365/ja/" "/ja/dynamic365/" }}
+            {{ $Scratch.Set "changeurl" $changeurl }}
+          {{ else }}
+            {{$changeurl:= replace $translation.Permalink "/dynamic365/en/" "/en/dynamic365/" }}
+            {{ $Scratch.Set "changeurl" $changeurl }}
+          {{ end }}
+          {{ $langurl := $Scratch.Get "changeurl" }}
+        
+        {{ range $siteLanguages }}  
+          {{ if eq $translation.Lang .Lang }}
+            {{ if eq $pageLang .Lang}}
+            {{ $selected := false }}
+              <option value="{{ $langurl }}" selected>{{ .LanguageName }}</option>
+            {{ else }}
+              <option value="{{ $langurl }}">{{ .LanguageName }}</option>
+            {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ end }}
+    </select>
+    <svg class="" viewbox="0 0 10 6">
+        <polyline points="1 1 5 5 9 1"></polyline>
+      </svg>
+    </label>

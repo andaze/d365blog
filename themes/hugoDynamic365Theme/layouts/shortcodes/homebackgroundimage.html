@@ -1,18 +1,7 @@
 
     <div class="container">
         <div class="card">
-            {{ $Scratch := newScratch}}
-            {{ $Scratch.Set "url" "" }}
-            {{ $lang:= print site.Language }}
-            {{ if eq ($lang) ("en")}}
-                {{$seturl:= replace (.Page.Permalink)  "/dynamic365/en" "/en/dynamic365" }}
-                {{ $Scratch.Set "url" $seturl }}
-            {{ else }}
-                {{$seturl:= replace (.Page.Permalink)  "/dynamic365/ja" "/ja/dynamic365" }}
-                {{ $Scratch.Set "url" $seturl }}
-            {{ end }}
-            {{ $url := $Scratch.Get "url" }}
-            <a class="card-media d-block" href="{{ $url | absURL }}">
+                {{ partial "language_url_change.html" (dict "path" (.Page.Permalink) "class" "card-media d-block" ) }}
                     
                 {{ $Scratch := newScratch}}
                 {{ $Scratch.Set "width" "" }}
@@ -22,7 +11,9 @@
                 {{ $defaultBackground := "Image Not Available" }}
                 {{ $srcimg := $.Page.Resources.GetMatch $src | default $defaultBackground }}
                 {{ if eq $srcimg $defaultBackground }}
-                    <a href="{{$url}}{{$src}}" target="_blank"> <h3 style="color: red;">{{$defaultBackground}}</h3></a>
+                {{ $path:= print .Page.Permalink "" ($src)}}
+                {{ partial "language_url_change.html" (dict "path" $path "target" "_blank") }}
+                    <h3 style="color: red;">{{$defaultBackground}}</h3></a>
                 {{ else }}
                 {{ $srcimg_width := $srcimg.Width }}
                 {{ $srcimg_height := $srcimg.Height }}
