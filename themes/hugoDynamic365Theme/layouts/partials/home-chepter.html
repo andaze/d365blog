@@ -41,7 +41,18 @@
                         {{ range $section.Pages}}
                         {{ if and  (.Params.Showinhome) (not (.Params.Showinaccordian)) }} 
                         <div class="col">
-                            <a href="{{.URL | absURL }}" class="btn df aic">
+                            {{ $Scratch := newScratch}}
+                            {{ $Scratch.Set "url" "" }}
+                            {{ $lang:= print site.Language }}
+                            {{ if eq ($lang) ("en")}}
+                                {{$seturl:= replace (.URL | absURL )  "/dynamic365/en" "/en/dynamic365" }}
+                                {{ $Scratch.Set "url" $seturl }}
+                            {{ else }}
+                                {{$seturl:= replace (.URL | absURL )  "/dynamic365/ja" "/ja/dynamic365" }}
+                                {{ $Scratch.Set "url" $seturl }}
+                            {{ end }}
+                            {{ $url := $Scratch.Get "url" }}
+                            <a href="{{ $url | absURL }}" class="btn df aic">
                                 {{ .Title }}
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95" height="15.546"
                                         viewBox="0 0 15.95 15.546">
@@ -72,7 +83,18 @@
                                     {{ range $section.Pages}}
                                     {{ if and  (.Params.Showinhome) (.Params.Showinaccordian) }} 
                                     <div class="col">
-                                        <a href="{{.URL | absURL }}" class="btn df aic">
+                                        {{ $Scratch := newScratch}}
+                                        {{ $Scratch.Set "url" "" }}
+                                        {{ $lang:= print site.Language }}
+                                        {{ if eq ($lang) ("en")}}
+                                            {{$seturl:= replace (.URL | absURL )  "/dynamic365/en" "/en/dynamic365" }}
+                                            {{ $Scratch.Set "url" $seturl }}
+                                        {{ else }}
+                                            {{$seturl:= replace (.URL | absURL )  "/dynamic365/ja" "/ja/dynamic365" }}
+                                            {{ $Scratch.Set "url" $seturl }}
+                                        {{ end }}
+                                        {{ $url := $Scratch.Get "url" }}
+                                        <a href="{{ $url  | absURL }}" class="btn df aic">
                                             {{ .Title }}
                                             <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95"
                                                     height="15.546" viewBox="0 0 15.95 15.546">
