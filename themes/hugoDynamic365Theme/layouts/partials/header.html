@@ -14,7 +14,18 @@
               </g>
             </svg>
           </a>
-          <a class="logo-link" href="{{ .Site.BaseURL | relLangURL }}">{{.Site.Params.HeaderTitle}}</a>
+          {{ $Scratch := newScratch}}
+          {{ $Scratch.Set "url" "" }}
+          {{ $lang:= print site.Language }}
+          {{ if eq ($lang) ("en")}}
+              {{$seturl:= replace (.Page.Permalink)  "/dynamic365/en" "/en/dynamic365" }}
+              {{ $Scratch.Set "url" $seturl }}
+          {{ else }}
+              {{$seturl:= replace (.Page.Permalink)  "/dynamic365/ja" "/ja/dynamic365" }}
+              {{ $Scratch.Set "url" $seturl }}
+          {{ end }}
+          {{ $url := $Scratch.Get "url" }}
+          <a class="logo-link" href="{{ $url | relLangURL }}">{{.Site.Params.HeaderTitle}}</a>
           <a class="nav-link" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="22.162" height="18" viewBox="0 0 22.162 18">
               <path id="twitter-brands"
@@ -62,13 +73,25 @@
                   {{ $pageLang := .Page.Lang}}
                       {{ range .Page.AllTranslations }}
                       {{ $translation := .}}
-                      {{ range $siteLanguages }}
-                          {{ if eq $translation.Lang .Lang }}
-                          {{ $selected := false }}
+                      
+                      {{ range $siteLanguages }}  
+                        {{ if eq $translation.Lang .Lang }}
                           {{ if eq $pageLang .Lang}}
-                            <option value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}</option>
+                          {{ $selected := false }}
+                          {{ $Scratch := newScratch}}
+                        {{ $Scratch.Set "url" "" }}
+                        {{ $lang:= print site.Language }}
+                        {{ if eq ($lang) ("en")}}
+                            {{$seturl:= replace ($translation.Permalink)  "/dynamic365/en" "/en/dynamic365" }}
+                            {{ $Scratch.Set "url" $seturl }}
+                        {{ else }}
+                            {{$seturl:= replace ($translation.Permalink)  "/dynamic365/ja" "/ja/dynamic365" }}
+                            {{ $Scratch.Set "url" $seturl }}
+                        {{ end }}
+                        {{ $url := $Scratch.Get "url" }}
+                            <option value="{{ $url }}" selected>{{ .LanguageName }}</option>
                           {{ else }}
-                            <option value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                            <option value="{{ $url }}">{{ .LanguageName }}</option>
                           {{ end }}
                           {{ end }}
                       {{ end }}
