@@ -78,4 +78,5 @@ HUGO_ENABLEGITINFO = "true"
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['master','devlop']
-  customDomain = "https://www.andaze.com/ja/dynamic365/"
+  pathPrefix = "/ja/dynamic365"
+  customDomain = "andaze.com"
