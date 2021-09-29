@@ -78,3 +78,4 @@ HUGO_ENABLEGITINFO = "true"
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ["*"]
+  template = "hierarchical"
