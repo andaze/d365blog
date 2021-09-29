@@ -77,4 +77,5 @@ HUGO_ENABLEGITINFO = "true"
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ['devlop']
+  branches = ['master','devlop']
+  customDomain = "https://www.andaze.com/ja/dynamic365/"
