@@ -41,7 +41,7 @@
                         {{ range $section.Pages}}
                         {{ if and  (.Params.Showinhome) (not (.Params.Showinaccordian)) }} 
                         <div class="col">
-                            {{ partial "language_url_change.html" (dict "path" (.URL | absURL ) "class" "btn df aic") }}
+                            {{ partial "language_url_change.html" (dict "path" (.URL | relURL ) "class" "btn df aic") }}
                             
                                 {{ .Title }}
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95" height="15.546"
@@ -73,7 +73,7 @@
                                     {{ range $section.Pages}}
                                     {{ if and  (.Params.Showinhome) (.Params.Showinaccordian) }} 
                                     <div class="col">
-                                        {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "class" "btn df aic" ) }}
+                                        {{ partial "language_url_change.html" (dict "path" (.URL | relURL) "class" "btn df aic" ) }}
                                             {{ .Title }}
                                             <span><svg xmlns="http://www.w3.org/2000/svg" width="15.95"
                                                     height="15.546" viewBox="0 0 15.95 15.546">
