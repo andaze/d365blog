@@ -74,4 +74,7 @@ HUGO_VERSION = "0.83.1"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ["*"]
