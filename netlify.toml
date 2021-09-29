@@ -77,4 +77,4 @@ HUGO_ENABLEGITINFO = "true"
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ['devlop']
+  branches = ['master','devlop']
