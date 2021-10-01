@@ -80,3 +80,4 @@ package = "@algolia/netlify-plugin-crawler"
   branches = ["*"]
   pathPrefix = "/ja/dynamic365"
   customDomain = "andaze.com"
+  renderJavaScript = true
