@@ -5,7 +5,18 @@
 {{- range .Site.AllPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
     {{ $url:= .URL | absURL }}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "url" $url)}}
+    {{ $Scratch := newScratch}}
+    {{ $Scratch.Set "url" "" }}
+    {{ $lang:= print site.Language }}
+    {{ if eq ($lang) ("en")}}
+        {{$seturl:= replace ($url)  "/dynamic365/en" "/en/dynamic365" }}
+        {{ $Scratch.Set "url" $seturl }}
+    {{ else }}
+        {{$seturl:= replace ($url)  "/dynamic365/ja" "/ja/dynamic365" }}
+        {{ $Scratch.Set "url" $seturl }}
+    {{ end }}
+    {{ $pageurl := $Scratch.Get "url" }}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "url" $pageurl)}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
