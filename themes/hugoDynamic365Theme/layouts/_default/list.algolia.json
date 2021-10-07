@@ -4,7 +4,8 @@
 {{- $section := $.Site.GetPage "section" .Section }}
 {{- range .Site.AllPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title)}}
+    {{ $url:= .URL | absURL }}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "url" $url "content" .Content )}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
