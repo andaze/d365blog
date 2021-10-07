@@ -7,11 +7,12 @@
     {{ $url:= .URL | absURL }}
     {{ $Scratch := newScratch}}
     {{ $Scratch.Set "url" "" }}
-    {{ $lang:= print site.Language }}
-    {{ if eq ($lang) ("en")}}
+
+    {{ if in ($url) ("en") }}
         {{$seturl:= replace ($url)  "/dynamic365/en" "/en/dynamic365" }}
         {{ $Scratch.Set "url" $seturl }}
-    {{ else }}
+    {{ end }}
+    {{ if in ($url) ("ja") }}
         {{$seturl:= replace ($url)  "/dynamic365/ja" "/ja/dynamic365" }}
         {{ $Scratch.Set "url" $seturl }}
     {{ end }}
