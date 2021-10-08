@@ -17,7 +17,7 @@
         {{ $Scratch.Set "url" $seturl }}
     {{ end }}
     {{ $pageurl := $Scratch.Get "url" }}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title "url" $pageurl)}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" $pageurl "weight" .Weight "wordcount" .WordCount "section" .Section "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors)}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
