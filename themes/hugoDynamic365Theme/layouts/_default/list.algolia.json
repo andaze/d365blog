@@ -17,7 +17,7 @@
         {{ $Scratch.Set "url" $seturl }}
     {{ end }}
     {{ $pageurl := $Scratch.Get "url" }}
-    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary "title" .Title  "url" $pageurl  "wordcount" .WordCount "section" .Section )}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
