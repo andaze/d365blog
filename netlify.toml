@@ -81,4 +81,3 @@ package = "@algolia/netlify-plugin-crawler"
   pathPrefix = "/ja/dynamic365"
   customDomain = "andaze.com"
   renderJavaScript = true
-  template = "hierarchical"
