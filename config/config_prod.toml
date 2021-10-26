@@ -1,4 +1,4 @@
-baseURL = "https://www.andaze.com/dynamic365/"
+baseURL = "https://www.andaze.com/dynamics365/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
