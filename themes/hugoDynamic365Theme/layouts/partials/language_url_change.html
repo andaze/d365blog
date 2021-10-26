@@ -2,10 +2,10 @@
 {{ $Scratch.Set "url" "" }}
 {{ $lang:= print site.Language }}
 {{ if eq ($lang) ("en")}}
-    {{$seturl:= replace (.path)  "/dynamic365/en" "/en/dynamic365" }}
+    {{$seturl:= replace (.path)  "/dynamics365/en" "/en/dynamics365" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ else }}
-    {{$seturl:= replace (.path)  "/dynamic365/ja" "/ja/dynamic365" }}
+    {{$seturl:= replace (.path)  "/dynamics365/ja" "/ja/dynamics365" }}
     {{ $Scratch.Set "url" $seturl }}
 {{ end }}
 {{ $url := $Scratch.Get "url" }}
