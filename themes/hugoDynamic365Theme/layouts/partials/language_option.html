@@ -8,10 +8,10 @@
           {{ $Scratch := newScratch}}
           {{ $Scratch.Set "changeurl" "" }}
           {{ if eq (print site.Language) ("en") }}
-            {{$changeurl:= replace $translation.Permalink "/dynamic365/ja/" "/ja/dynamic365/" }}
+            {{$changeurl:= replace $translation.Permalink "/dynamics365/ja/" "/ja/dynamics365/" }}
             {{ $Scratch.Set "changeurl" $changeurl }}
           {{ else }}
-            {{$changeurl:= replace $translation.Permalink "/dynamic365/en/" "/en/dynamic365/" }}
+            {{$changeurl:= replace $translation.Permalink "/dynamics365/en/" "/en/dynamics365/" }}
             {{ $Scratch.Set "changeurl" $changeurl }}
           {{ end }}
           {{ $langurl := $Scratch.Get "changeurl" }}
