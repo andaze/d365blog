@@ -1,7 +1,7 @@
 ---
 title:  "Style Guid"
 date:   2020-08-05T15:53:27+06:00
-draft: false
+draft: true
 weight: 
 showinhome: false
 showinaccordian: false
