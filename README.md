@@ -1,5 +1,5 @@
 # Introduction
-## How to Run this project
+## How to Run this project locally
 hugo server --config config/config.toml
 
 
