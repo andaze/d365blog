@@ -17,6 +17,8 @@
     <script type="application/ld+json">
         {{.Params.jsonld}}
     </script>
+    {{ else }}
+        {{ partial "json-ld.html" . }}
     {{ end }}
     <!-- <script type="application/ld+json">
       {

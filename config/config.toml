@@ -3,7 +3,7 @@ baseURL = "https://dynamics365andaze.netlify.app/"
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = ""
 theme = "hugoDynamic365Theme"
 timeout = 300000
 googleAnalytics = "UA-144087233-8" # your analitics ID
@@ -28,6 +28,16 @@ weight = 1
 languageCode = "ja-JP"
 fillposition = "center"
 format= "webp"
+CompanyName = "アンダーズ株式会社"
+description = ""
+addressCountry = "JP"
+postalCode ="102-0083"
+addressRegion = "東京都"
+addressLocality = "千代田区"
+streetAddress = "麹町2-10-3 エキスパートオフィス1F"
+email = "contact-us@andaze.com"
+telephone = "03-3230-0401"
+hoursAvailable = "Mo-Fr 9:00-18:00"
 
 ############ 1 - Site en Japanese
 [Languages.en]
@@ -36,6 +46,16 @@ weight = 2
 languageCode = "en-us"
 fillposition = "center"
 format= "webp"
+CompanyName = "Andaze Ltd."
+description = ""
+addressCountry = "JP"
+postalCode ="102-0083"
+addressRegion = "Tokyo"
+addressLocality = "Chiyoda-ku"
+streetAddress = "Expert Office 1F, 2-10-3 Kojimachi"
+email = "contact-us@andaze.com"
+telephone = "03-3230-0401"
+hoursAvailable = "Mo-Fr 9:00-18:00"
 
 [markup]
   [markup.tableOfContents]
