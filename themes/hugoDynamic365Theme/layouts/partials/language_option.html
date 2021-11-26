@@ -1,5 +1,5 @@
 <label class="select">
-<select class="border-0 langselector custom-selector" onchange="location = this.value;">
+<select class="border-0 langselector custom-selector" on="change:AMP.navigateTo(url= event.value);">
     {{ $siteLanguages := site.Languages}}
     {{ $pageLang := .Page.Lang}}
         {{ range .Page.AllTranslations }}

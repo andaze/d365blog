@@ -55,7 +55,7 @@
                     {{ $crop_img := $srcimg.Fill $cropsize }}
                     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
                 {{ end }}
-                    <amp-img alt="Image Not Available" src=""  layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></amp-img>
+                    <amp-img alt="Image Not Available" src="#"  layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></amp-img>
                 {{ end }}
                     <span class="step-box df aic jcc text-primary">{{.Page.Params.Step}}</span>
             </a>

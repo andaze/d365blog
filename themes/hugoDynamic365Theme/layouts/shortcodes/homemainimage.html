@@ -55,7 +55,7 @@
                     {{ $crop_img := $srcimg.Fill $cropsize }}
                     {{ $dict = merge $dict (dict (string .) $crop_img.RelPermalink) }}
                 {{ end }}
-                    <amp-img alt="Welcome" src=""  layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></amp-img>
+                    <amp-img alt="Welcome" src="#"  layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'></amp-img>
                 {{ end }}
             </div>
             <div class="banner-right f-50">

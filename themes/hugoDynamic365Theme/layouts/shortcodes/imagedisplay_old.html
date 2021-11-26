@@ -26,7 +26,7 @@
     {{ $largewebp := print $srcbase ".webp" }}
     
     {{if eq .Site.Params.Env "prod" }}
-    <amp-img alt="Image Not Available" src="" width="1.33"  height="1" layout="responsive" srcset="{{ $largewebp }} 1024w, {{ $mediumwebp }} 640w, {{ $smallwebp  }} 320w" sizes="(max-width: 375px) $size1,
+    <amp-img alt="Image Not Available" src="#" width="1.33"  height="1" layout="responsive" srcset="{{ $largewebp }} 1024w, {{ $mediumwebp }} 640w, {{ $smallwebp  }} 320w" sizes="(max-width: 375px) $size1,
       (max-width: 768px) $size2,
       $size3">
     </amp-img>

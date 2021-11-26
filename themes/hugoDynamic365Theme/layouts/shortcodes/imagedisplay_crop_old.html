@@ -57,7 +57,7 @@
 {{ end }}
 <br>
 <br>
-<amp-img alt="Image Not Available" src="" width="{{ $width }}"  height="{{$height}}" layout="responsive" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
+<amp-img alt="Image Not Available" src="#" width="{{ $width }}"  height="{{$height}}" layout="responsive" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
 </amp-img>
 <br>
 <br>

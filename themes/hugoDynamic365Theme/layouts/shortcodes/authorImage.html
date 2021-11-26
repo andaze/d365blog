@@ -93,7 +93,7 @@
             {{ end }}
             <div class="author-detail">
                 <div class="author-img mt-2">
-                    <amp-img alt="Image Not Available" src="" width="{{ $width }}"  height="{{$height}}" layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
+                    <amp-img alt="Image Not Available" src="#" width="{{ $width }}"  height="{{$height}}" layout="fill" srcset='{{ range $array }}{{ printf "\n%s" (index $dict (string .)) }}{{ printf " %sx," (string .)}}{{ end }}'>
                 </div>
                 <div class="">
                     {{if (.Get "name") }}

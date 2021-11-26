@@ -85,7 +85,7 @@
                         </a>{{ end }}/
                       {{ with site.GetPage $basedir }}
                       {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "style" "color:darkgray" ) }} 
-                       {{$basedir}}{{ end }}  </a>/<a style="list-style-type: none; color: darkgray;" href="javascript:;">{{ path.Base .Page.Permalink }}</a>
+                       {{$basedir}}{{ end }}  </a>/<a style="list-style-type: none; color: darkgray;" href="#">{{ path.Base .Page.Permalink }}</a>
 
 
                       <div class="mt-5">
