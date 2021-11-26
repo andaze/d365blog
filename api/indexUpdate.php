@@ -8,9 +8,20 @@ $client = \Algolia\AlgoliaSearch\SearchClient::create(
  );
 
 
-$index = $client->initIndex('netlify_23ba4425-f265-49c0-b287-cb888a5f951c_devlop_all');
+$index_en = $client->initIndex('d365_english_content');
+$index_ja = $client->initIndex('d365_japanese_content');
 $records = json_decode(file_get_contents('https://www.andaze.com/ja/dynamics365/algolia.json'), true);
 
+foreach ($records as $value) {
+  if($value['lang'] == "en")
+  {
+    $index_en->saveObjects($value, ['autoGenerateObjectIDIfNotExist' => true]);
+  }
+  if($value['lang'] == "ja")
+  {
+    $index_ja->saveObjects($value, ['autoGenerateObjectIDIfNotExist' => true]);
+  }
+}
 // Batching is done automatically by the API client
-$index->saveObjects($records, ['autoGenerateObjectIDIfNotExist' => true]);
+// $index->saveObjects($records, ['autoGenerateObjectIDIfNotExist' => true]);
 ?>
