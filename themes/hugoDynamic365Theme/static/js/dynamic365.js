@@ -35,7 +35,7 @@ async function showList() {
                             <p>${title}</p>
                         </a>
                 </div>`;
-    document.getElementById("releted").insertAdjacentHTML("afterbegin", list);
+    document.getElementById("releted").innerHTML =  list;
   });
 }
 
