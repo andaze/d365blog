@@ -24,10 +24,11 @@ async function showList() {
   });
   const store = await responseData.json();
   const results = store.results[0].hits;
+  let list ="";
   results.forEach((result) => {
     let title = result.title;
     let url = result.url;
-    let list = `<div class="article-list">
+    list = list + `<div class="article-list">
                         <a href="${url}" class="article-list-img">
                             <amp-img src="https://dynamics365.andaze.com/wp-content/uploads/2017/09/420233158-150x150.jpg"  layout="fill" alt="" ></amp-img>
                         </a>
@@ -35,8 +36,9 @@ async function showList() {
                             <p>${title}</p>
                         </a>
                 </div>`;
-    document.getElementById("releted").innerHTML =  list;
+   
   });
+  document.getElementById("releted").innerHTML =  list;
 }
 
 showList();
