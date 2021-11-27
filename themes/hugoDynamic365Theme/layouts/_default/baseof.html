@@ -1,6 +1,10 @@
 <!doctype html>
 <html amp lang="en">
-    {{- partial "head.html" . -}}
+    <head>
+        {{- partial "head.html" . -}}
+        {{- block "js" . }}
+        {{- end }}
+    </head>
     <body [class]="overflow">
         {{ partial "google_analytics.html" . }}
         {{- partial "header.html" . -}}
