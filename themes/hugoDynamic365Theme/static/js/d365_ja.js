@@ -10,7 +10,7 @@ async function showList() {
   const data = {
     requests: [
       {
-        indexName: "netlify_23ba4425-f265-49c0-b287-cb888a5f951c_devlop_all",
+        indexName: "d365_japanese_content",
         params:
           "attributes=title,url,dir&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
       },
