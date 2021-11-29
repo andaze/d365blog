@@ -158,8 +158,18 @@
                         <div class="text-center">
                             <h3 class="new-header-text">Popular articles</h3>
                         </div>
-                        <div class="popular-listing">
-                            <div class="popular-list">
+                        {{ if eq (print .Lang) ("en")}}
+                          <amp-script src="{{`js/popular_d365_en.js` | absURL }}" width="auto" height="500">
+                            <div class="popular-listing" id="popular"></div>
+                          </amp-script>
+                        {{ end }}
+                        {{ if eq (print .Lang) ("ja")}}
+                          <amp-script src="{{`js/popular_d365_ja.js` | absURL }}" width="auto" height="400">
+                            <div class="popular-listing" id="popular"></div>
+                          </amp-script>
+                        {{ end }}
+                        <!-- <div class="popular-listing" id="popular"> -->
+                            <!-- <div class="popular-list">
                                 <div class="popular-list-img">
                                     <amp-img src="https://dynamics365.andaze.com/wp-content/uploads/wordpress-popular-posts/2584-featured-105x105.jpg" width="105" height="105" layout="fill" alt="" ></amp-img>
                                 </div>
@@ -218,8 +228,8 @@
                                     <span>2019.08.20</span>
                                     <a href="#">Understand Dynamic 365</a>
                                 </div>
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div> -->
                     </div>
           </div>         
           <div class="right-page-wrapper">
