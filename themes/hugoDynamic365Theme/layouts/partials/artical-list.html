@@ -93,12 +93,12 @@
                           <h3 class="new-header-text">Those who read this article have read other articles like this.</h3>
                         </div>
                         {{ if eq (print .Lang) ("en")}}
-                          <amp-script src="{{`js/d365_en.js` | absURL }}" width="auto" height="500">
+                          <amp-script src="{{`js/releted_d365_en.js` | absURL }}" width="auto" height="500">
                             <div class="article-new-listing" id="releted"></div>
                           </amp-script>
                         {{ end }}
                         {{ if eq (print .Lang) ("ja")}}
-                          <amp-script src="{{`js/d365_ja.js` | absURL }}" width="auto" height="500">
+                          <amp-script src="{{`js/releted_d365_ja.js` | absURL }}" width="auto" height="500">
                             <div class="article-new-listing" id="releted"></div>
                           </amp-script>
                         {{ end }}
