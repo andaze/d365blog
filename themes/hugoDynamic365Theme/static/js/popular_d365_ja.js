@@ -1,4 +1,4 @@
-const query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?x-algolia-agent=Algolia%20for%20JavaScript%20(4.11.0)%3B%20Browser%3B%20instantsearch.js%20(4.33.2)&hitsPerPage=6";
+const query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?hitsPerPage=6";
 
 async function showList() {
   const headers = {
