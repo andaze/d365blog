@@ -24,16 +24,13 @@
             </svg>
 
           </a>
-          <div id="search">
-            <div id="searchBig"></div>
-          </div>
-          <!-- <a class="nav-link" href="#" on="tap:searchBox.show, AMP.setState({overflow: 'hidden'})">
+          <a class="nav-link" href="#" on="tap:searchBox.show, AMP.setState({overflow: 'hidden'})">
             <svg xmlns="http://www.w3.org/2000/svg" width="17.997" height="18" viewBox="0 0 17.997 18">
               <path id="search-solid"
                 d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
             </svg>
 
-          </a> -->
+          </a>
           {{ if or (eq .Params.RightMenu "chepter") (eq .Params.RightMenu "artical")  }}
           <a class="right-mobile-menu" on="tap:mobileDocMenu.toggleClass(class='open')" aria-label="Responsive Menu Button">
             <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21">
@@ -92,12 +89,12 @@
           </svg>
   
         </a>
-        <!-- <a class="nav-link" href="#" on="tap:searchBox.show, AMP.setState({overflow: 'hidden'})">
+        <a class="nav-link" href="#" on="tap:searchBox.show, AMP.setState({overflow: 'hidden'})">
           <svg xmlns="http://www.w3.org/2000/svg" width="17.997" height="18" viewBox="0 0 17.997 18">
             <path id="search-solid"
               d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
           </svg>
-        </a> -->
+        </a>
       </div>
   </div>
 
@@ -140,7 +137,7 @@
     </div>
   </div>
 
-  <!-- <div id="searchBox" class="search-container" hidden>
+  <div id="searchBox" class="search-container" hidden>
     <div class="inner-search-wrap">
       <form class="sample-form" method="post" action-xhr="/documentation/examples/api/submit-form-input-text-xhr"
         target="_top">
@@ -158,12 +155,14 @@
             <path id="search-solid"
               d="M17.752,15.562l-3.5-3.5a.843.843,0,0,0-.6-.246h-.573a7.308,7.308,0,1,0-1.266,1.266v.573a.843.843,0,0,0,.246.6l3.5,3.5a.84.84,0,0,0,1.192,0l.995-.995A.848.848,0,0,0,17.752,15.562ZM7.312,11.811a4.5,4.5,0,1,1,4.5-4.5A4.5,4.5,0,0,1,7.312,11.811Z" />
           </svg>
-          <input type="text" id="search21" name="name" placeholder="Search..." />
-          <input type="text" id="" name="name" placeholder="Search..." />
+          <input type="text" id="search-input" name="name" placeholder="Search..." />
         </div>
+        <amp-script src="{{`js/search_d365_en.js` | absURL }}" width="auto" height="200">
+          <ul style="list-style: none; margin-top: 50px; background: beige; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
+        </amp-script>
       </form>
     </div>
-  </div> -->
+  </div>
 
 
 
