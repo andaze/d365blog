@@ -1,4 +1,5 @@
-{{/* Generates a valid Algolia search index */}}
+{{/* Generates a valid Algolia search index 
+  Only Detail Page Index Genrate */}}
 
 {{- $.Scratch.Add "index" slice -}}
 {{- $section := $.Site.GetPage "section" .Section }}
@@ -8,6 +9,7 @@
       {{ $url:= .URL | absURL }}
       {{ $Scratch := newScratch}}
       {{ $Scratch.Set "url" "" }}
+      {{ $Scratch.Set "indexImg" "" }}
 
       {{ if in ($url) ("en") }}
         {{$seturl:= replace ($url)  "/dynamics365/en" "/en/dynamics365" }}
@@ -18,7 +20,17 @@
         {{ $Scratch.Set "url" $seturl }}
       {{ end }}
       {{ $pageurl := $Scratch.Get "url" }}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+      {{ if eq (print .Kind) ("page")}}
+        {{ if .Page.Params.indexImg }}
+          {{ $path := print ($pageurl) (.Page.Params.indexImg) }}
+          {{ $Scratch.Set "indexImg" ($path) }}
+        {{ else }}
+          {{ $Scratch.Set "indexImg" (`images/demo.png` | absURL) }}
+        {{ end }}
+        {{ $indexImg := $Scratch.Get "indexImg" }}
+        
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
+      {{ end }}
     {{- end -}}
   {{- end -}}
 
@@ -37,7 +49,16 @@
           {{ $Scratch.Set "url" $seturl }}
       {{ end }}
       {{ $pageurl := $Scratch.Get "url" }}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section )}}
+      {{ if eq (print .Kind) ("page")}}
+        {{ if .Page.Params.indexImg }}
+            {{ $path := print ($pageurl) (.Page.Params.indexImg) }}
+            {{ $Scratch.Set "indexImg" ($path) }}
+        {{ else }}
+          {{ $Scratch.Set "indexImg" (`images/demo.png` | absURL) }}
+        {{ end }}
+        {{ $indexImg := $Scratch.Get "indexImg" }}
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
+      {{ end }}
     {{- end -}}
   {{- end -}}
 

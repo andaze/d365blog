@@ -6,6 +6,7 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Microsoft が提供している Dynamics 365 をご存知でしょうか？ Microsoft Dynamics 365 は、営業・マーケティング・経理・総務・人事などの各部署のデータを1つに統合して活用することができるビジネスアプリケーションです。
