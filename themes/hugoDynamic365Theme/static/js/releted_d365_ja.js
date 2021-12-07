@@ -12,7 +12,7 @@ async function showList() {
       {
         indexName: "d365_japanese_content",
         params:
-          "attributes=title,url,dir&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
+          "attributes=title,url,indexImg&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
       },
     ],
   };
