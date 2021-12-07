@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical6.jpg"
+description: "Dynamics 365 には**業務ルール**という機能があります。通常フォーム上でフィールドの非表示や条件に合わせた操作を行う場合は、Javascript の実装が必要になります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical6.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 には**業務ルール**という機能があります。通常フォーム上でフィールドの非表示や条件に合わせた操作を行う場合は、Javascript の実装が必要になります。しかしこの機能を使用することで、スクリプト実装が不要となり、ユーザーが業務で必要なルールを簡易に設定できるようになります。

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical5.jpg"
+description: "Dynamics 365 には、エンティティ単位でのセキュリティを制御するセキュリティ ロール、フィールド単位の フィールド セキュリティ、ユーザーの所属を管理する 部署やチーム以外に、階層セキュリティ という発展したセキュリティ概念を持っています。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical5.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 には、エンティティ単位でのセキュリティを制御するセキュリティ ロール、フィールド単位の フィールド セキュリティ、ユーザーの所属を管理する 部署やチーム以外に、階層セキュリティ という発展したセキュリティ概念を持っています。

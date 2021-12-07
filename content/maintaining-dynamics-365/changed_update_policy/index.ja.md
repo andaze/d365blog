@@ -5,6 +5,8 @@ weight: 14
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical14.jpg" 
+description: "正直に言うと、Dynamics 365 メジャーアップデートは運用・保守部門泣かせなアップデートだと思っています。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical14.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 正直に言うと、Dynamics 365 メジャーアップデートは運用・保守部門泣かせなアップデートだと思っています。

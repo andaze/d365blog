@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: "CRM および Dynamics 365 の導入目的が明確になれば、次はどのくらいのスケジュールで導入していくかが検討しやすくなります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 CRM および Dynamics 365 の導入目的が明確になれば、次はどのくらいのスケジュールで導入していくかが検討しやすくなります。

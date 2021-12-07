@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical5.jpg"
+description: "In the previous article, \"[Creating a Process in Dynamics 365](#)\", we have discussed the steps to create a workflow for a process."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical5.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous article, "[Creating a Process in Dynamics 365](#)", we have discussed the steps to create a workflow for a process.

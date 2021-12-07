@@ -5,6 +5,8 @@ weight: 12
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical12.jpg"
+description: "Dynamics 365 には、機能を補助・補強するようなソリューションが多く提供されていることが魅力ですが、どのようなソリューションが Dynamics 365 の機能をさらに拡張してくれるのでしょうか。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical12.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 には、機能を補助・補強するようなソリューションが多く提供されていることが魅力ですが、どのようなソリューションが Dynamics 365 の機能をさらに拡張してくれるのでしょうか。

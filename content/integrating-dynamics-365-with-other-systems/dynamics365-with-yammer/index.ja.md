@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: "Dynamics 365 の外部システム連携の機能として、Yammer との連携があります。Yammer を社内で利用しているのであれば、Dynamics 365 と連携することで、顧客や商談の情報交換を社内でアクティブに行うことができるようになります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の外部システム連携の機能として、Yammer との連携があります。Yammer を社内で利用しているのであれば、Dynamics 365 と連携することで、顧客や商談の情報交換を社内でアクティブに行うことができるようになります。

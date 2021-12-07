@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical3.jpg"
+description: "Once you have Dynamics 365 set up, it is time to import data. There are several ways to import data, but this article will discuss how to prepare the imported data and perform the import process."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical3.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Once you have Dynamics 365 set up, it is time to import data. There are several ways to import data, but this article will discuss how to prepare the imported data and perform the import process.

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical9.jpg"
+description: "Dynamics 365 for Project Service Automation の作業テンプレートを更新する手順をご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical9.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation の作業テンプレートを更新する手順をご紹介します。[Project Service でプロジェクトを計画]() で作業テンプレートの作成手順をご紹介しましたが、これはすでに設定済みの作業テンプレートの休日や稼働時間などを変更したい場合の手順です。

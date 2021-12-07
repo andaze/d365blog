@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical7.jpg"
+description: "As I mentioned when I planned a project in Dynamics 365 for Project Service Automation (PSA), Project Service seems to behave differently depending on the interface and version differences."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical7.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 As I mentioned when I planned a project in Dynamics 365 for Project Service Automation (PSA), Project Service seems to behave differently depending on the interface and version differences.

@@ -5,6 +5,8 @@ weight: 11
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical11.jpg"
+description: "In the previous article, we talked about \"entities\" and \"option sets\" rather than system customization. What other customizations can be done?"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical11.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous article, we talked about "entities" and "option sets" rather than system customization. What other customizations can be done?

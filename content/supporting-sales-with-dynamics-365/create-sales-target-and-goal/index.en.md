@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical16.jpg"
+description: "In this article, we will talk about goals in Dynamics 365. In Dynamics 365, you can define goal indicators to manage your goals."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical16.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In this article, we will talk about goals in Dynamics 365. In Dynamics 365, you can define goal indicators to manage your goals.

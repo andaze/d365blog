@@ -5,6 +5,8 @@ weight: 11
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical11.jpg"
+description: "前回の記事では、システムのカスタマイズより「エンティティ」や「オプションセット」についてふれてきました。その他のカスタマイズはどのようなことができるのでしょうか？"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical11.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回の記事では、システムのカスタマイズより「エンティティ」や「オプションセット」についてふれてきました。その他のカスタマイズはどのようなことができるのでしょうか？

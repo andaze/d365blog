@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
+description: "Dynamics 365 はライセンス数に応じた記憶域を用意しています。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 はライセンス数に応じた記憶域を用意しています。試用版のDynamics 365 を利用すると５GB程度の記憶域しかないため、添付ファイルを取引先企業のレコードにアップロードするような運用を行うとあっという間にストレージが不足してしまいます。

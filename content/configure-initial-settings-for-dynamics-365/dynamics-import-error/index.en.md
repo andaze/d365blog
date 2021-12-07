@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical8.jpg"
+description: "In the previous article, we have shown you how to import data using Excel template, but if an error occurs during data import, what should you do?"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical8.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous article, we have shown you how to import data using Excel template, but if an error occurs during data import, what should you do?

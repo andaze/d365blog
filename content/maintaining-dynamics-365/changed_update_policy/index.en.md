@@ -5,6 +5,8 @@ weight: 14
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical14.jpg" 
+description: "To be honest, I think the major update of Dynamics 365 is an update that makes the operation and maintenance department cry."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical14.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 To be honest, I think the major update of Dynamics 365 is an update that makes the operation and maintenance department cry.

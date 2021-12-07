@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical7.jpg"
+description: "Dynamics 365を導入する目的が明確になり、各部署の協力を得て、導入後のフォロー体制まである程度イメージできるようになりました。さて、Dynamics 365 を導入することが社内で決定事項になり、メインで利用する営業メンバーに、Dynamics 365 を利用し始めたイメージを伝える必要があります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical7.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365を導入する目的が明確になり、各部署の協力を得て、導入後のフォロー体制まである程度イメージできるようになりました。

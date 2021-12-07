@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
+description: "今回は Dynamics 365 for Project Service Automation (Project Service) について理解をしていきたいと思います。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 今回は Dynamics 365 for Project Service Automation (Project Service) について理解をしていきたいと思います。Dynamics 365 Customer Engagement Plan のライセンスを購入していると、Sales や Customer Service と同様に利用することができるアプリケーションですが、Project Service は Sales と比較するとあまりポピュラーではないという印象です。

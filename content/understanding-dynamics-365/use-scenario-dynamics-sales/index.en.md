@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical7.jpg"
+description: "The purpose of implementing Dynamics 365 has become clearer, and with the cooperation of each department, we are now able to visualize to some extent the follow-up system after implementation."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical7.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 The purpose of implementing Dynamics 365 has become clearer, and with the cooperation of each department, we are now able to visualize to some extent the follow-up system after implementation.

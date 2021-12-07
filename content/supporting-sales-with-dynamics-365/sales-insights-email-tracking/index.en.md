@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical7.jpg"
+description: "Dynamics 365 for Sales includes the ability to track opens, link clicks, and attachments to emails sent to customers, which is great because Salesforce requires you to purchase Pardot separately, but it's available at no extra cost!"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical7.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Sales includes the ability to track opens, link clicks, and attachments to emails sent to customers, which is great because Salesforce requires you to purchase Pardot separately, but it's available at no extra cost!

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical16.jpg"
+description: "今回は、Dynamics 365 の目標についてです。目標を管理することで、営業活動、マーケティングやサーポート・サービスなどの向上につなげていくことが可能となります。Dynamics 365 では、目標指標を定義して、目標の管理を行うことができます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical16.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 今回は、Dynamics 365 の目標についてです。目標を管理することで、営業活動、マーケティングやサーポート・サービスなどの向上につなげていくことが可能となります。Dynamics 365 では、目標指標を定義して、目標の管理を行うことができます。

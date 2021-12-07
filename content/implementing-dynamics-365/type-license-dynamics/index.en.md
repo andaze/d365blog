@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
+description: "In the previous chapter, we have discussed the uses, functions, and usage scenarios of Dynamics 365. It is a highly functional product with seamless integration with existing Microsoft products."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous chapter, we have discussed the uses, functions, and usage scenarios of Dynamics 365. It is a highly functional product with seamless integration with existing Microsoft products. However, **the appeal of Dynamics 365 is not only in its features.**

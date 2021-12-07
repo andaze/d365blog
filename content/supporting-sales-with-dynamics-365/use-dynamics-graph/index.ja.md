@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical14.png"
+description: "Dynamics 365 を活用し、自社の営業活動で効率的な管理を継続することで、Dynamics 365 にて営業戦略を考慮するに十分なデータが蓄積されていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical14.png" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 を活用し、自社の営業活動で効率的な管理を継続することで、Dynamics 365 にて営業戦略を考慮するに十分なデータが蓄積されていきます。

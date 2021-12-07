@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
+description: "前章では、Dynamics 365 の用途・機能・利用シナリオについて述べてきました。高機能かつ、これまでのマイクロソフト製品とのシームレスな連携が魅力の製品です。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前章では、Dynamics 365 の用途・機能・利用シナリオについて述べてきました。高機能かつ、これまでのマイクロソフト製品とのシームレスな連携が魅力の製品です。そして、**Dynamics 365 の魅力は決して機能だけではありません。**

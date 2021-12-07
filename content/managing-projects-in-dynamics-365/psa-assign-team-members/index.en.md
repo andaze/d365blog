@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical6.jpg"
+description: "When you create a project in Dynamics 365 for Project Service Automation and assign team members, the calculation of the assigned time for the assigned members is a bit complicated, so I will show you how it works."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical6.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 When you create a project in Dynamics 365 for Project Service Automation and assign team members, the calculation of the assigned time for the assigned members is a bit complicated, so I will show you how it works.

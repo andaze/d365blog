@@ -32,10 +32,7 @@
                             {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "class" "listing-card") }}
                                 <div class="inner-card">
                                     <h3 class="header-text">{{ .Title }}</h3>
-                                    <p class="desc">Hugo uses Go’s html/template and text/template libraries as the
-                                        basis for
-                                        the templating.
-                                    </p>
+                                    <p class="desc">{{ .Description }} </p>
                                     <span class="link-btn text-primary">Read More</span>
                                 </div>
                             </a>

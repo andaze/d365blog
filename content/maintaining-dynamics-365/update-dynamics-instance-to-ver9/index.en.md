@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: ""
+description: "It has been a while since Dynamcis 365 version 9 (July 2017 update) was released in July 2017. The trial version of Dynamcis 365 is now version 9, and those who are using version 8 may be in the minority. I think the number of people using version 8 is getting smaller."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

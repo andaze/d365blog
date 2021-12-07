@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: "We have already explained how to use the free version of Dynamics 365. In the past, Marketing was listed in this list of free versions, but now it is not."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 We have already explained how to use the free version of Dynamics 365. In the past, Marketing was listed in this list of free versions, but now it is not. I contacted Microsoft, and they seem to be offering the free version of Marketing at a different URL, so here is the procedure.

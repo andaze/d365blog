@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical1.jpg"
+description: "Dynamics 365 のフォームには、Web リソースを挿入することができます。Webリソースは、HTML、Javascript、画像ファイルや Silverlight アプリケーションを追加できるので、フォームで比較的柔軟にカスタマイズを行うことが可能です。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical1.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のフォームには、Web リソースを挿入することができます。Webリソースは、HTML、Javascript、画像ファイルや Silverlight アプリケーションを追加できるので、フォームで比較的柔軟にカスタマイズを行うことが可能です。

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: "前回 Dynamics 365 でユーザーを追加しましたが、ここではセキュリティの基本的な構造と設定について理解をしていきましょう。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回 Dynamics 365 でユーザーを追加しましたが、ここではセキュリティの基本的な構造と設定について理解をしていきましょう。

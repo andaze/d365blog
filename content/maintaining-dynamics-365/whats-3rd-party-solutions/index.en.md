@@ -5,6 +5,8 @@ weight: 12
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical12.jpg"
+description: "The beauty of Dynamics 365 is that there are many solutions available to assist and augment its functionality, but what solutions can further extend the capabilities of Dynamics 365?"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical12.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 The beauty of Dynamics 365 is that there are many solutions available to assist and augment its functionality, but what solutions can further extend the capabilities of Dynamics 365?

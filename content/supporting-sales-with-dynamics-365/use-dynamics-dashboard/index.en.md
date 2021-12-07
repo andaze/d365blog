@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical17.jpg"
+description: "I have been informing you about the sales features of Dynamics 365. Now that you understand graphs, funnels, and goal management, let's touch on dashboards."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical17.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 I have been informing you about the sales features of Dynamics 365. Now that you understand graphs, funnels, and goal management, let's touch on dashboards. 

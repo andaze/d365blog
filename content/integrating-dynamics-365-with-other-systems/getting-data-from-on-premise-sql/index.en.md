@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical4.jpg"
+description: "Dynamics 365 can be integrated with PowerApps, Flow, and Power BI, called Power Platform, to further enhance its value."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical4.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 can be integrated with PowerApps, Flow, and Power BI, called Power Platform, to further enhance its value. If you have a Dynamics 365 Customer Engagement Plan license, you should definitely take advantage of this application.

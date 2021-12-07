@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical5.jpg"
+description: "前回の記事「[Dynamics 365 プロセスの作成](#)」は、プロセスのワークフローを作成する手順について触れてきましたが、今回はすこし応用編ということで、様々な用途について触れていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical5.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回の記事「[Dynamics 365 プロセスの作成](#)」は、プロセスのワークフローを作成する手順について触れてきましたが、今回はすこし応用編ということで、様々な用途について触れていきます。

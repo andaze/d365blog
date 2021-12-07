@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical4.jpg"
+description: "セキュリティについて、今までロールや部署、チームなどについて触れてきました。ここまでの知識で社内のセキュリティ設定は十分といってもいいのではないでしょうか。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical4.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 セキュリティについて、今までロールや部署、チームなどについて触れてきました。ここまでの知識で社内のセキュリティ設定は十分といってもいいのではないでしょうか。

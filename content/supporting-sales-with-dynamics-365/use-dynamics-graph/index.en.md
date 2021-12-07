@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical14.png"
+description: "By using Dynamics 365 and continuing to effectively manage your sales activities, you will accumulate enough data in Dynamics 365 to consider your sales strategy."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical14.png" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 By using Dynamics 365 and continuing to effectively manage your sales activities, you will accumulate enough data in Dynamics 365 to consider your sales strategy.

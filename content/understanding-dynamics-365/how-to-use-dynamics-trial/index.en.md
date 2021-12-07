@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical6.jpg"
+description: "If you are still considering to introduce Dynamics 365, I recommend you to try the **free trial version** to get a better understanding of the usability and operation."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical6.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 If you are still considering to introduce Dynamics 365, I recommend you to try the **free trial version** to get a better understanding of the usability and operation. In particular, the Dynamics 365 blog provides detailed information about the functions, uses, and setup procedures of each Dynamics 365 application, so it is an important step to deepen your understanding by actually touching it with your own hands.

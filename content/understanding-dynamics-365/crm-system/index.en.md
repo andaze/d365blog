@@ -7,6 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical1.jpg"
+description: "Have you ever heard of Dynamics 365 provided by Microsoft? Microsoft Dynamics 365 is a business application that integrates and utilizes data from various departments such as sales, marketing, accounting, general affairs, and human resources into a single application."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical9.jpg"
+description: "[前回の記事](#)で、単一の製品と値引き表まで作成しました。今回は製品ファミリを構成して、ファミリに製品を関連させてみます。それでは、**製品ファミリ**の利用方法について述べていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical9.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 [前回の記事](#)で、単一の製品と値引き表まで作成しました。今回は製品ファミリを構成して、ファミリに製品を関連させてみます。それでは、**製品ファミリ**の利用方法について述べていきます。

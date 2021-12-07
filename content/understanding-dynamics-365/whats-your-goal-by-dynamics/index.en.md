@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical5.jpg"
+description: "In the previous article, I introduced the five points that you should decide before implementing Dynamics 365. In this article, I would like to focus on the \"purpose\" of the implementation. In this article, we will discuss the \"purpose of the implementation.\""
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical5.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 In the previous article, I introduced the five points that you should decide before implementing Dynamics 365. In this article, I would like to focus on the "purpose" of the implementation. In this article, we will discuss the "purpose of the implementation".　

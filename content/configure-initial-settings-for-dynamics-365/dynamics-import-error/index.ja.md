@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical8.jpg" 
+description: "前回の記事では、Excel テンプレートを使ったデータのインポート方法をお伝えしてきましたが、もしデータインポート時にエラーが発生した場合、どのように対処すればいいでしょうか。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical8.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回の記事では、Excel テンプレートを使ったデータのインポート方法をお伝えしてきましたが、もしデータインポート時にエラーが発生した場合、どのように対処すればいいでしょうか。

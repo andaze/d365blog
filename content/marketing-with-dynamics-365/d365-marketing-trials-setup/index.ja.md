@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: "Dynamics 365 の無償版利用手順についてはご紹介しました。以前はこの 無償版の一覧に Marketing が表示されていましたが、現在表示されていません。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の無償版利用手順についてはご紹介しました。以前はこの 無償版の一覧に Marketing が表示されていましたが、現在表示されていません。マイクロソフトにお問い合わせをしたところ、Marketing においては別の URL で無償版を提供しているようなので、その手順をご紹介します。

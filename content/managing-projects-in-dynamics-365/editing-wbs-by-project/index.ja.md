@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical8.jpg"
+description: "Dynamics 365 for Project Service Automation と Microsoft Project を連携することで、WBS をクライアント端末上で編集できるようになります。今回は連携方法をご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical8.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Project Service Automation と Microsoft Project を連携することで、WBS をクライアント端末上で編集できるようになります。今回は連携方法をご紹介します。

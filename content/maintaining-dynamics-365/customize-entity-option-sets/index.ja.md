@@ -5,6 +5,8 @@ weight: 10
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical10.jpg" 
+description: "Dynamics 365 メニューの「設定」-「システムのカスタマイズ」をクリックすると、下記の **ソリューションエクスプローラー** が開きます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical10.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 メニューの「設定」-「システムのカスタマイズ」をクリックすると、下記の **ソリューションエクスプローラー** が開きます。

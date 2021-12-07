@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical4.jpg"
+description: "Dynamics 365 のリードについては[前回](#)お伝えしましたが、そのリードが「見込みあり」となった場合、リードから取引先企業と取引先担当者、そして営業案件を作成する動作について説明します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical4.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 のリードについては[前回](#)お伝えしましたが、そのリードが「見込みあり」となった場合、リードから取引先企業と取引先担当者、そして営業案件を作成する動作について説明します。

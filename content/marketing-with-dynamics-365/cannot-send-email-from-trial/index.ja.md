@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical3.jpg"
+description: "Dynamics 365 for Marketing 無償版を利用して、マーケティングメールを送信する際、うまく送受信できない現象が確認できたので、そのトラブルシュート方法について記載しておきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical3.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 for Marketing 無償版を利用して、マーケティングメールを送信する際、うまく送受信できない現象が確認できたので、そのトラブルシュート方法について記載しておきます。

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical13.png"
+description: "So far, we have discussed sales projects and products in detail. If the business meeting goes well, we will prepare a quotation for the customer."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical13.png" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 So far, we have discussed sales projects and products in detail. If the business meeting goes well, we will prepare a quotation for the customer. If the quotation is accepted, the sales case is put in the "order" status, and an invoice is prepared and submitted to the customer.

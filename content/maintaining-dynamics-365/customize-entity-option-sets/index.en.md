@@ -5,6 +5,8 @@ weight: 10
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical10.jpg" 
+description: "From the Dynamics 365 menu, click on Settings - Customize System to open the **Solution Explorer** as shown below."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical10.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 From the Dynamics 365 menu, click on Settings - Customize System to open the **Solution Explorer** as shown below.

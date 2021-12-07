@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical4.jpg"
+description: "I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?]()"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical4.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?]()

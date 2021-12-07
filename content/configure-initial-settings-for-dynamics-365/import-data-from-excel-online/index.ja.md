@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical9.jpg"
+description: "前回までの記事では、インポート用のテンプレートを利用してデータをインポートする処理についてご紹介しました。この方法は、初期データをインポートする際にとても便利な機能になります。そして今回は、テンプレートを利用するのでなく、作成したビューをもとに、Excel Online で動的にデータをインポートする方法について記載していきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical9.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回までの記事では、インポート用のテンプレートを利用してデータをインポートする処理についてご紹介しました。この方法は、初期データをインポートする際にとても便利な機能になります。そして今回は、テンプレートを利用するのでなく、作成したビューをもとに、Excel Online で動的にデータをインポートする方法について記載していきます。

@@ -5,6 +5,8 @@ weight: 15
 datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
+indexImg: "artical15.png"
+description: "When you create a Dynamics 365 app, it will be created as a unified interface (mobile-driven app) due to the current integration with Power Apps."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -30,7 +32,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical15.png" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 When you create a Dynamics 365 app, it will be created as a unified interface (mobile-driven app) due to the current integration with Power Apps. This is where the advanced settings can be opened to the general public, but I found out that the settings can be fine-tuned, so I will describe them here.

@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical17.jpg"
+description: "Dynamics 365 の営業機能についてお知らせしてきました。グラフやファネル、目標管理などを理解したので、次はダッシュボードについて触れていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical17.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の営業機能についてお知らせしてきました。グラフやファネル、目標管理などを理解したので、次はダッシュボードについて触れていきます。 

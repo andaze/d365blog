@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical2.jpg"
+description: " 今回は、XRM ToolBox というサードパーティー製のカスタマイズツールを使って、「設定」のサイトマップを管理者権限をもっているユーザーのみに表示する方法をご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical2.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
  今回は、XRM ToolBox というサードパーティー製のカスタマイズツールを使って、「設定」のサイトマップを管理者権限をもっているユーザーのみに表示する方法をご紹介します。

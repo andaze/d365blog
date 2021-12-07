@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical3.jpg"
+description: "前回の続きです。Dynamics 365 for Project Service Automation (Project Service) で[リードから営業案件を作成]()したら、今度はプロジェクトを作成するところまでを行っていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical3.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 前回の続きです。Dynamics 365 for Project Service Automation (Project Service) で[リードから営業案件を作成]()したら、今度はプロジェクトを作成するところまでを行っていきます。

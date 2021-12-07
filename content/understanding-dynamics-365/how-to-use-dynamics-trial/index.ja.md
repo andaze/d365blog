@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical6.jpg"
+description: "Dynamics 365 の用途や魅力について今まで様々な記事でご紹介してきましたが、まだ導入を検討されている方は、**無料試用版**で実際に検証をしてみて、使い勝手や動作について理解を深めてみることをお勧めします。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical6.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 の用途や魅力について今まで様々な記事でご紹介してきましたが、まだ導入を検討されている方は、**無料試用版**で実際に検証をしてみて、使い勝手や動作について理解を深めてみることをお勧めします。特に、Dynamics 365 ブログでは、Dynamics 365 のアプリケーション毎の機能や用途、セットアップ手順などを細かく記載していますので、実際にご自分の手で触れてみることは理解を深める上でも重要なステップです。

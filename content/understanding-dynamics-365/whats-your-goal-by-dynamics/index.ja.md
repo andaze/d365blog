@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical5.jpg"
+description: "以前の記事にて、Dynamics 365 を導入する前に決めてほしい５つのポイントについてご紹介しました。今回は、その中で　「導入する目的」 について具体的に触れていきます。できる限り、この「目的を決める」というステップは入念に行なってください。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 --- 
-{{< detailTopImage src="artical5.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 以前の記事にて、Dynamics 365 を導入する前に決めてほしい５つのポイントについてご紹介しました。今回は、その中で　「導入する目的」 について具体的に触れていきます。できる限り、この「目的を決める」というステップは入念に行なってください。　

@@ -7,6 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical1.jpg"
+description: "Microsoft が提供している Dynamics 365 をご存知でしょうか？ Microsoft Dynamics 365 は、営業・マーケティング・経理・総務・人事などの各部署のデータを1つに統合して活用することができるビジネスアプリケーションです。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

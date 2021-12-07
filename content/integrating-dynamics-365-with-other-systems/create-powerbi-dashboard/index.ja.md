@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: false
 rightMenu: "artical"
+indexImg: "artical3.jpg"
+description: "Dynamics 365 にはダッシュボード機能が既存で存在していますが、Power BI を連携させると、より情報をグラフィカルに確認することができるようになります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical3.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 Dynamics 365 にはダッシュボード機能が既存で存在していますが、Power BI を連携させると、より情報をグラフィカルに確認することができるようになります。

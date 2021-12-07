@@ -6,6 +6,8 @@ datetitle: "2017.08.23 | "
 showinhome: true
 showinaccordian: true
 rightMenu: "artical"
+indexImg: "artical8.jpg"
+description: "By integrating Dynamics 365 for Project Service Automation with Microsoft Project, you can edit WBS on a client terminal. In this article, we will show you how to integrate them."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -31,7 +33,7 @@ jsonld: {
        }
     }
 ---
-{{< detailTopImage src="artical8.jpg" >}}
+{{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
 By integrating Dynamics 365 for Project Service Automation with Microsoft Project, you can edit WBS on a client terminal. In this article, we will show you how to integrate them.
