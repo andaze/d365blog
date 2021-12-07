@@ -28,9 +28,10 @@ async function showList() {
   results.forEach((result) => {
     let title = result.title;
     let url = result.url;
+    let image = result.indexImg;
     list = list + `<div class="article-list">
                         <a href="${url}" class="article-list-img">
-                            <amp-img src="https://dynamics365.andaze.com/wp-content/uploads/2017/09/420233158-150x150.jpg"  layout="fill" alt="" ></amp-img>
+                            <amp-img src="${image}"  layout="fill" alt="" ></amp-img>
                         </a>
                         <a href="${url}" class="article-list-content">
                             <p>${title}</p>
