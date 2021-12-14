@@ -14,6 +14,7 @@
               </g>
             </svg>
           </a>
+          <input type="hidden" id="lang" name="lang" value="{{.Lang}}">
           {{ partial "language_url_change.html" (dict "path" (.Site.BaseURL | relLangURL) "class" "logo-link")}}
           {{.Site.Params.HeaderTitle}}</a>
           <a class="nav-link" href="#" aria-label="twitter-brands">
@@ -157,9 +158,12 @@
           </svg>
           <input type="text" id="search-input" name="name" placeholder="Search..." />
         </div>
-        <amp-script src="{{`js/search_d365_en.js` | absURL }}" width="auto" height="200">
+        <script src="{{`js/search_d365.js` | absURL }}"></script>
+
+        <ul style="list-style: none; margin-top: 50px; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
+        <!-- <amp-script src="{{`js/search_d365.js` | absURL }}" width="auto" height="200">
           <ul style="list-style: none; margin-top: 50px; background: beige; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
-        </amp-script>
+        </amp-script> -->
       </form>
     </div>
   </div>
