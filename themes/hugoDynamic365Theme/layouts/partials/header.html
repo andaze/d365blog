@@ -158,9 +158,13 @@
           </svg>
           <input type="text" id="search-input" name="name" placeholder="Search..." />
         </div>
-        <script src="{{`js/search_d365.js` | absURL }}"></script>
+        <!-- <script src="{{`js/search_d365.js` | absURL }}"></script>
+        <ul style="list-style: none; margin-top: 50px; padding: 10px; border-radius: 5px;"id="searchTitle"></ul> -->
+        
+        <amp-script src="{{`js/search_d365.js` | absURL }}" width="auto" height="500">
+          <ul style="list-style: none; margin-top: 50px; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
+        </amp-script>
 
-        <ul style="list-style: none; margin-top: 50px; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
         <!-- <amp-script src="{{`js/search_d365.js` | absURL }}" width="auto" height="200">
           <ul style="list-style: none; margin-top: 50px; background: beige; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
         </amp-script> -->
