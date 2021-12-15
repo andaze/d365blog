@@ -1,4 +1,4 @@
-const query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/*/queries";
+const releted_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/*/queries";
 
 async function showList() {
   const headers = {
@@ -7,17 +7,28 @@ async function showList() {
     "X-Algolia-API-Key": "2b38225995523c5ee9697817c6a850be",
     "X-Algolia-Application-Id": "9V4M3BO2Z4"
   };
+
+  let algoliaIndex;
+  if(document.getElementById('lang').value == "en")
+  {
+    algoliaIndex = "d365_english_content";
+  }
+  if(document.getElementById('lang').value == 'ja')
+  {
+    algoliaIndex = "d365_japanese_content";
+  }
+
   const data = {
     requests: [
       {
-        indexName: "d365_japanese_content",
+        indexName: algoliaIndex,
         params:
-          "attributes=title,url,dir&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
+          "attributes=title,url,indexImg&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
       },
     ],
   };
 
-  const responseData = await fetch(query_url, {
+  const responseData = await fetch(releted_query_url, {
     method: "POST",
     headers,
     body: JSON.stringify(data),
@@ -28,9 +39,10 @@ async function showList() {
   results.forEach((result) => {
     let title = result.title;
     let url = result.url;
+    let image = result.indexImg;
     list = list + `<div class="article-list">
                         <a href="${url}" class="article-list-img">
-                            <amp-img src="https://dynamics365.andaze.com/wp-content/uploads/2017/09/420233158-150x150.jpg"  layout="fill" alt="" ></amp-img>
+                            <amp-img src="${image}"  layout="fill" alt="" ></amp-img>
                         </a>
                         <a href="${url}" class="article-list-content">
                             <p>${title}</p>
