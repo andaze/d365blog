@@ -24,14 +24,14 @@ async function onInput(event) {
           responseData.forEach(addSearchData);
           function addSearchData(data, index)
           {
-            let anchorTag = document.createElement("a");
+            let anchorTag = document.createElement("li");
             anchorTag.href = data['url'];
-            anchorTag.style.cssText = "color: black;padding: 10px;"
-            let para = document.createElement("li");
+            let para = document.createElement("a");
+            para.style.cssText = "color: black;padding: 10px;display:block"
             let node = document.createTextNode(data['title']);
             para.appendChild(node);
             anchorTag.appendChild(para);
-            element.style.background = "beige";
+            element.style.background = "#e8e8e9";
             element.appendChild(anchorTag);
           }
           
