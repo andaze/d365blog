@@ -490,6 +490,53 @@ header {
     border-color: var(--primary);
 }
 
+.search-menu-container{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.search-menu-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+.search-menu-container ul li{
+    background-color: #f6f6f6;
+}
+.search-menu-container ul li a{
+    min-height: 40px;
+    padding: 4px 12px;  
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.search-menu-container ul li > ul li{
+    padding-left: 20px;
+    position: relative;
+}
+.search-menu-container ul li > ul li a{
+    /* padding-left: 30px; */
+    position: relative;
+}
+.search-menu-container ul li > ul li a:after {
+    content: "";
+    background: #d5c9ff;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    left: -10px;
+    top: 52%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
 .search-close {
     position: absolute;
     top: 30px;

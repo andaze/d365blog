@@ -154,6 +154,25 @@
         </div>
         <script src="{{`js/search_d365.js` | absURL }}"></script>
         <ul style="list-style: none; margin-top: 0; padding: 10px; border-radius: 5px; width: 100%;max-width: 500px;" id="searchTitle"></ul>
+        <div class="search-menu-container">
+          <ul class="search-menu-wrapper">
+            <li class="hasChild"><a href="#">parent items</a> </li>
+            <li class="hasChild"><a href="#">parent items</a> </li>
+            <li class="hasChild">
+              <a href="#">parent items</a> 
+              <ul class="search-menu-wrapper">
+                <li class="hasChild"><a href="#">child items</a> </li>
+                <li class="hasChild">
+                  <a href="#">child items</a>
+                  <ul class="search-menu-wrapper">
+                    <li class="hasChild"><a href="#">child 2 items</a> </li>
+                    <li class="hasChild"><a href="#">child 2 items</a> </li>
+                  </ul> 
+              </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
         
         <!-- <amp-script src="{{`js/search_d365.js` | absURL }}" width="auto" height="500">
           <ul style="list-style: none; margin-top: 50px; padding: 10px; border-radius: 5px;"id="searchTitle"></ul>
