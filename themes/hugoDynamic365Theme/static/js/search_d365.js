@@ -2,10 +2,12 @@ let searchInput = document.querySelector("#search-input");
 searchInput.addEventListener("input",onInput);
 async function onInput(event) {
     let element = document.getElementById("searchTitle");
+    element.classList.add("active");
     if(searchInput.value == '')
     {
       element.innerHTML = '';
       element.style.background = '';
+      element.classList.remove("active");
     }
     if(searchInput.value.length>4){
         const response = await searchResult(searchInput.value);
