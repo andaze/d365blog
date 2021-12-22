@@ -1,4 +1,4 @@
-const searchInput = document.querySelector("#search-input");
+let searchInput = document.querySelector("#search-input");
 searchInput.addEventListener("input",onInput);
 async function onInput(event) {
     let element = document.getElementById("searchTitle");
@@ -8,57 +8,40 @@ async function onInput(event) {
       element.style.background = '';
     }
     if(searchInput.value.length>4){
-        const postData = {};
         const response = await searchResult(searchInput.value);
-        // var script = document.createElement('script');      
-        // script.type ='application/json';
-        // // script.body = response;
-        // // document.getElementsByTagName('amp-autocomplete').appendChild = script;
-        // var a = document.getElementById('demo').appendChild = script;
-        postData['items'] = JSON.stringify(response.hits[0]);
-        // return JSON(postData);
-        
-    //    var result =  JSON.stringify(response);
-          responseData = response.hits;
-          element.innerHTML = "";
-          responseData.forEach(addSearchData);
-          function addSearchData(data, index)
-          {
-            let anchorTag = document.createElement("li");
-            anchorTag.href = data['url'];
-            let para = document.createElement("a");
-            para.style.cssText = "color: black;padding: 10px;display:block"
-            let node = document.createTextNode(data['title']);
-            para.appendChild(node);
-            anchorTag.appendChild(para);
-            element.style.background = "#e8e8e9";
-            element.appendChild(anchorTag);
+        responseData = response.hits;
+        let searchResulthtml = '';
+        element.innerHTML = "";
+        var result = responseData.forEach(addSearchData);
+        function addSearchData(data, index)
+        {
+          let string = data['section'].replaceAll('-',' ');
+          console.log(string)
+          let converString = string.toLowerCase();
+          let dirName = string.charAt(0).toUpperCase() + converString.slice(1);
+          
+            searchResulthtml += ` <div class="search-menu-container">
+            <ul class="search-menu-wrapper">
+              <li class="hasChild" style="padding:5px"><b>${dirName}</b></li>
+              <li class="hasChild">
+                <ul class="search-menu-wrapper">
+                  <li class="hasChild"><a href="${data['url']}">${data['title']}</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>`;
+          return searchResulthtml;
+            // let anchorTag = document.createElement("li");
+            // anchorTag.href = data['url'];
+            // let para = document.createElement("a");
+            // para.style.cssText = "color: black;padding: 10px;display:block"
+            // let node = document.createTextNode(data['title']);
+            // para.appendChild(node);
+            // anchorTag.appendChild(para);
+            // element.style.background = "#e8e8e9";
+            // element.appendChild(anchorTag); 
           }
-          
-          // const anchorTag = document.createElement("a");
-          //   anchorTag.href = item['url'];
-          //   anchorTag.style.cssText = "color: black;padding: 10px;"
-          //   const para = document.createElement("li");
-          //   const node = document.createTextNode(item['title']);
-          //   para.appendChild(node);
-          //   anchorTag.appendChild(para);
-          //   document.getElementById("searchTitle").style.background = "beige";
-          //   const element = document.getElementById("searchTitle");
-          //   element.appendChild(anchorTag);
-          // const title = response.hits[0].title;
-          // const para = document.createElement("li");
-          // const node = document.createTextNode(title);
-          
-          // document.getElementById("searchTitle").style.background = "beige";
-          // para.appendChild(node);
-          // const element = document.getElementById("searchTitle");
-          // element.appendChild(para);
-          
-        // document.getElementById('demo').append(title);
-
-        // const url = response.hits[0].url;
-        // console.log(title);
-       
+          element.innerHTML = `${searchResulthtml}`;
     }
 
    
