@@ -1,4 +1,5 @@
-baseURL = "https://dynamics365andaze.netlify.app/"
+# baseURL = "https://dynamics365andaze.netlify.app/"
+baseURL = "https://localhost/d365"
 
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
