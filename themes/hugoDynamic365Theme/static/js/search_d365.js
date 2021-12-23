@@ -2,7 +2,7 @@ let searchInput = document.querySelector("#search-input");
 searchInput.addEventListener("input",onInput);
 async function onInput(event) {
     let element = document.getElementById("searchTitle");
-    element.classList.add("active");
+    
     if(searchInput.value == '')
     {
       element.innerHTML = '';
@@ -10,6 +10,7 @@ async function onInput(event) {
       element.classList.remove("active");
     }
     if(searchInput.value.length>4){
+        element.classList.add("active");
         const response = await searchResult(searchInput.value);
         responseData = response.hits;
         let searchResulthtml = '';
@@ -18,7 +19,6 @@ async function onInput(event) {
         function addSearchData(data, index)
         {
           let string = data['section'].replaceAll('-',' ');
-          console.log(string)
           let converString = string.toLowerCase();
           let dirName = string.charAt(0).toUpperCase() + converString.slice(1);
           
