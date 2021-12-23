@@ -1,9 +1,10 @@
 let popular_query_url;
-if(document.getElementById('popularLang').value == "en")
+let currentLang = document.getElementById('popularLang').value;
+if(currentLang == "en")
 {
   popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_english_content?hitsPerPage=6";
 }
-if(document.getElementById('popularLang').value == "ja")
+if(currentLang == "ja")
 {
   popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?hitsPerPage=6";
 }

@@ -9,11 +9,13 @@ async function showList() {
   };
 
   let algoliaIndex;
-  if(document.getElementById('reletedLang').value == "en")
+  let currentLang = document.getElementById('reletedLang').value;
+  console.log(typeof currentLang);
+  if(currentLang == "en")
   {
     algoliaIndex = "d365_english_content";
   }
-  if(document.getElementById('reletedLang').value == "ja")
+  if(currentLang == "ja")
   {
     algoliaIndex = "d365_japanese_content";
   }

@@ -52,11 +52,12 @@ async function onInput(event) {
 
 async function searchResult(query) {
   let query_url;
-  if(document.getElementById('searchLang').value == "ja")
+  let currentLang = document.getElementById('searchLang').value;
+  if(currentLang == "ja")
   {
     query_url = `https://9V4M3BO2Z4.algolia.net/1/indexes/d365_japanese_content?hitsPerPage=5&query=${query}`;
   }
-  if(document.getElementById('searchLang').value == "en")
+  if(currentLang == "en")
   {
     query_url = `https://9V4M3BO2Z4.algolia.net/1/indexes/d365_english_content?hitsPerPage=5&query=${query}`;
   }
