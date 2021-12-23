@@ -9,7 +9,7 @@ async function showList() {
   };
 
   let algoliaIndex;
-  if(document.getElementById('lang').value == "en")
+  if(document.getElementById('lang').value == 'en')
   {
     algoliaIndex = "d365_english_content";
   }
