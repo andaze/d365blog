@@ -146,7 +146,7 @@
           </svg>
         </a>
 
-
+        <amp-script src="{{`js/search_d365.js` | absURL }}" width="300" height="500">
         <div class="search-form-field">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 17.997 18">
             <path id="search-solid"
@@ -154,7 +154,7 @@
           </svg>
           <input type="text" id="search-input" name="name" placeholder="Search..." />
         </div>
-        <amp-script src="{{`js/search_d365.js` | absURL }}" width="300" height="500">
+        
           <input type="hidden" id="searchLang" name="searchLang" value="{{.Lang}}">
           <div class="search-menu-container search-menu-container-top" id="searchTitle"></div>
         </amp-script>
