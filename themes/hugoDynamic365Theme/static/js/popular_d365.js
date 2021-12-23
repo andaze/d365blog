@@ -1,9 +1,9 @@
 let popular_query_url;
-if(document.getElementById('lang').value == "en")
+if(document.getElementById('popularLang').value == "en")
 {
   popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_english_content?hitsPerPage=6";
 }
-if(document.getElementById('lang').value == 'ja')
+if(document.getElementById('popularLang').value == "ja")
 {
   popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?hitsPerPage=6";
 }
