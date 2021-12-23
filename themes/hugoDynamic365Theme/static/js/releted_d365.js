@@ -10,7 +10,6 @@ async function showList() {
 
   let algoliaIndex;
   let currentLang = document.getElementById('reletedLang').value;
-  console.log(typeof currentLang);
   if(currentLang == "en")
   {
     algoliaIndex = "d365_english_content";

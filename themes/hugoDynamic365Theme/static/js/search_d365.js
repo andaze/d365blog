@@ -12,7 +12,7 @@ async function onInput(event) {
     if(searchInput.value.length>4){
         element.classList.add("active");
         const response = await searchResult(searchInput.value);
-        responseData = response.hits;
+        let responseData = response.hits;
         let searchResulthtml = '';
         element.innerHTML = "";
         var result = responseData.forEach(addSearchData);
