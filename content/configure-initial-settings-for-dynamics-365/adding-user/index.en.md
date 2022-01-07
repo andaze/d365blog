@@ -80,7 +80,7 @@ Verify that the user has been added to Dynamics 365. Open "Settings" and click "
 
 Go to "Users".
 <!-- Image= Users.png -->
-{{< imagedisplay src="Settings-1.png" >}}
+{{< imagedisplay src="Users.png" >}}
 
 
 The licensed account will be automatically reflected in the list of "Active Users".

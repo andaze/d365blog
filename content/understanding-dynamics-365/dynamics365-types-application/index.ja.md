@@ -1,5 +1,5 @@
 ---
-title:  "Features of the Dynamics 365 application"
+title:  "Dynamics 365アプリケーションの特徴"
 draft: false
 weight: 3
 datetitle: "2017.08.23 | "
