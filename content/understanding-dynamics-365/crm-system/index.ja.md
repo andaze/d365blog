@@ -94,5 +94,5 @@ Excel で顧客情報を管理して、担当者が確認できるように共�
 
 2大 CRM システムとして、Salesforce と Dynamics 365 が挙げられます。そしてここでは Dynamics 365 の魅力について深堀りしたいと思っています。
 
-次は、[なぜ Dynamics 365 を選ぶべきなのか]() について説明していきたいと思います。       
+次は、[なぜ Dynamics 365 を選ぶべきなのか](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/crm-dynamics-reason/) について説明していきたいと思います。       
 &nbsp;

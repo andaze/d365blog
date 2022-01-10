@@ -102,7 +102,7 @@ Before editing the WBS here, click "To PSA Project Document" under "Upload".
 <!-- Image= psa-project11.png -->
 {{< imagedisplay src="psa-project11.png" >}}
 
-*The "Upload" option will not appear unless you have configured[ Dynamics 365 and SharePoint integration in advance]().
+*The "Upload" option will not appear unless you have configured[ Dynamics 365 and SharePoint integration in advance](https://www.andaze.com/ja/dynamics365/integrating-dynamics-365-with-other-systems/use-sharepoint-saving-docs/).
 
 Click "Yes" in the dialog.
 <!-- Image= psa-project12.png -->

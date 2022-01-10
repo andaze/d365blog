@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か]() でおススメしたソリューションの利用方法になります。"
+description: "Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か](https://www.andaze.com/en/dynamics365/maintaining-dynamics-365/whats-3rd-party-solutions/) でおススメしたソリューションの利用方法になります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage src="artical4.jpg" >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か]() でおススメしたソリューションの利用方法になります。
+Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か](https://www.andaze.com/ja/dynamics365/maintaining-dynamics-365/whats-3rd-party-solutions/) でおススメしたソリューションの利用方法になります。
 
 **重要事項：** これからご紹介する Dynamics 365 Workflow Tools はサードパーティー製ソリューションです。もしご自身の環境で利用される場合は、十分な検証を行った上、**自己責任**でご利用ください。また、当サイトに掲載された内容によって生じた損害等の一切の責任を負いかねますので、ご了承ください。
 

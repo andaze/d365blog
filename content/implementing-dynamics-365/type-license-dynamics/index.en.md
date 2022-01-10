@@ -166,7 +166,7 @@ Quote from: [Dynamics 365 Pricing](https://dynamics.microsoft.com/ja-jp/pricing/
 ## How do I purchase a license?
 So far, we have a good understanding of licensing and its associated features. If you are interested in purchasing even a small number of licenses for Dynamics 365, the next step is how to purchase them.
 
-The [license purchase procedure]() will be described in the next issue.
+The [license purchase procedure](https://www.andaze.com/ja/dynamics365/implementing-dynamics-365/purchase-license-dynamics/) will be described in the next issue.
 
 So that's it for licensing.    
 &nbsp;

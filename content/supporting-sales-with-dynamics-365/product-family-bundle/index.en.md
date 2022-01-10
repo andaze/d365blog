@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-In the [previous article](#), we created a single product and even a discount table. In this article, we will configure a product family and associate a product to the family. We will now discuss how to use **product families**.
+In the [previous article](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-catalog-for-sales/), we created a single product and even a discount table. In this article, we will configure a product family and associate a product to the family. We will now discuss how to use **product families**.
 
 
 ## Create a product family
@@ -127,4 +127,4 @@ For more information about the product family, please refer to the technical inf
 
 [https://docs.microsoft.com/ja-jp/dynamics365/customer-engagement/sales-enterprise/create-product-bundles-sell-multiple-items-together](https://docs.microsoft.com/ja-jp/dynamics365/customer-engagement/sales-enterprise/create-product-bundles-sell-multiple-items-together)
 
-[Next time](#), use the discount table you are creating.
+[Next time](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-discount-price-lists/), use the discount table you are creating.

@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "前回[プロジェクトの作成]()が完了したので、今度はプロジェクトの中身を埋めていきましょう。"
+description: "前回[プロジェクトの作成](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/)が完了したので、今度はプロジェクトの中身を埋めていきましょう。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-前回[プロジェクトの作成]()が完了したので、今度はプロジェクトの中身を埋めていきましょう。
+前回[プロジェクトの作成](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/)が完了したので、今度はプロジェクトの中身を埋めていきましょう。
 プロジェクトが始まると、一般的に以下のような構成でプロジェクト計画書を作成します。
 
   * プロジェクトの目的とゴール

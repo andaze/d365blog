@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?]()"
+description: "I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?](https://www.andaze.com/en/dynamics365/maintaining-dynamics-365/whats-3rd-party-solutions/)"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?]()
+I would like to introduce you to Dynamics 365 Workflow Tools, which greatly extends the functionality of Dynamics 365 Workflow. This is a great way to use the solution that I previously[ recommended in What is the best third party solution?](https://www.andaze.com/ja/dynamics365/maintaining-dynamics-365/whats-3rd-party-solutions/)
 
 **Important note:** Dynamics 365 Workflow Tools is a third party solution. If you wish to use them in your own environment, please verify them thoroughly and use them at **your own risk**. Please note that we are not responsible for any damages caused by the contents of this website.
 

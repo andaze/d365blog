@@ -68,7 +68,7 @@ Enter the account information (*) you wish to access here. After entering the in
 {{< imagedisplay src="xrm-hide04.png" >}}
 
 
-(*) For the account information to be entered here, it will not work properly if multi-factor authentication has been set in Office 365. Also, the account to be used can be accessed by the system administrator (CAL is "Administration") user as shown in the figure below. For more information about access mode, please refer to [About CAL information]().
+(*) For the account information to be entered here, it will not work properly if multi-factor authentication has been set in Office 365. Also, the account to be used can be accessed by the system administrator (CAL is "Administration") user as shown in the figure below. For more information about access mode, please refer to [About CAL information](https://www.andaze.com/ja/dynamics365/configure-initial-settings-for-dynamics-365/adding-user/#CAL).
 <!-- Image= xrm-hide05.png -->
 {{< imagedisplay src="xrm-hide05.png" >}}
 

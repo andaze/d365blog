@@ -44,7 +44,7 @@ Dynamics 365 for Project Service Automation は プロジェクト発足に必�
 
 さらに、Microsoft Project クライアントに[Project Service Automation  アドイン](https://www.microsoft.com/ja-JP/download/details.aspx?id=54299) をインストールすると、Dynamics 365 for Project Service Automation で作成したプロジェクトの WBS を、ローカル Project で管理できるようになります。これは結構便利機能です。
 
-※ Dynamics 365 の [アプリケーション]()については以前の記事もご参考ください。
+※ Dynamics 365 の [アプリケーション](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/dynamics365-types-application/)については以前の記事もご参考ください。
 
 ## Project Service Automation の構造
 インストールを行う前に、Project Service Automation を構成する主なエンティティについて理解をします。Dynamics 365 for Sales では、リードがあり、そこから取引先企業と担当者、営業案件とつながっていました。Project Service Automation は、営業案件から見積もりが作成され、その見積もりが採用されると、プロジェクト契約が作られます。そのプロジェクト契約にプロジェクトを追加することでプロジェクト管理が開始されます。
@@ -155,7 +155,7 @@ C# と プロジェクトマネジメントスキルをそれぞれ新規作成�
 これで組織単位はOKです。価格表を作成する際に、この組織単位やロールを設定することになります。
 
 ### 価格表を作成する
-組織単位の次は価格表を設定します。価格表については、[Dynamics 365 の製品カタログ ]()でも触れましたが、商材の原価と営業価格を定義します。プロジェクトでは、基本的の人の**単価**を表すと思ってください。（例えば、マネージャーであれば、原価は xxx 円で、定価は ooo円 というような価格）
+組織単位の次は価格表を設定します。価格表については、[Dynamics 365 の製品カタログ ](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-catalog-for-sales/)でも触れましたが、商材の原価と営業価格を定義します。プロジェクトでは、基本的の人の**単価**を表すと思ってください。（例えば、マネージャーであれば、原価は xxx 円で、定価は ooo円 というような価格）
 
 #### コストと営業の違い      
 価格表では、コンテキストというフィールドで「営業」と「コスト」を選択する必要があります。これらは以下のような違いがあります。
@@ -284,7 +284,7 @@ Time の上部メニューから「出荷単位」をクリックします。
 これで外部協力会社のリソースも作成できました。
 
 ## プロジェクトを管理する準備はOK
-長くなりましたが、これでプロジェクト管理を始める準備は整いました。Dynamics Project Service Automation を理解するために、まずは流れに沿った形でプロジェクトを作成していこうと思います。次回は、Project Service Automation における[リードから営業案件の作成手順]()をご紹介します。
+長くなりましたが、これでプロジェクト管理を始める準備は整いました。Dynamics Project Service Automation を理解するために、まずは流れに沿った形でプロジェクトを作成していこうと思います。次回は、Project Service Automation における[リードから営業案件の作成手順](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-lead-to-opportunity/)をご紹介します。
 
 それでは今回はここまで。   
 &nbsp;

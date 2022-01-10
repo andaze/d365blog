@@ -69,7 +69,7 @@ Dynamics 365 環境にツールからアクセスします。「Connect」ボタ
 {{< imagedisplay src="xrm-hide04.png" >}}
 
 
-（※）ここで入力するアカウント情報について、Office 365 で多要素認証を設定しているとうまく動作しません。また、利用するアカウントは下図のようなシステム管理者（CAL が “管理”）のユーザーでもアクセス可能です。アクセスモードについては、[CAL情報について]()をご参照ください。
+（※）ここで入力するアカウント情報について、Office 365 で多要素認証を設定しているとうまく動作しません。また、利用するアカウントは下図のようなシステム管理者（CAL が “管理”）のユーザーでもアクセス可能です。アクセスモードについては、[CAL情報について](https://www.andaze.com/ja/dynamics365/configure-initial-settings-for-dynamics-365/adding-user/#CAL)をご参照ください。
 <!-- Image= xrm-hide05.png -->
 {{< imagedisplay src="xrm-hide05.png" >}}
 

@@ -136,4 +136,4 @@ CRM 2015 SP1 より後では、< Area > (SiteMap) のアイコンは、不透明
 
  
 
-さて、[次回](#)は Web リソースについて触れていきます。
+さて、[次回](https://www.andaze.com/ja/dynamics365/maintaining-dynamics-365/customize-web-resource-process/)は Web リソースについて触れていきます。

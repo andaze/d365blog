@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical2.jpg"
-description: "前回、Dynamics 365 for Project Service Automation (PSA) の[構造と設定まで完了]() させましたので、ここからプロジェクトを作成して管理をはじましょう。"
+description: "前回、Dynamics 365 for Project Service Automation (PSA) の[構造と設定まで完了](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/setup-dynamics-project/) させましたので、ここからプロジェクトを作成して管理をはじましょう。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-前回、Dynamics 365 for Project Service Automation (PSA) の[構造と設定まで完了]() させましたので、ここからプロジェクトを作成して管理をはじましょう。
+前回、Dynamics 365 for Project Service Automation (PSA) の[構造と設定まで完了](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/setup-dynamics-project/) させましたので、ここからプロジェクトを作成して管理をはじましょう。
 
 
 ## プロジェクト作成までの流れ

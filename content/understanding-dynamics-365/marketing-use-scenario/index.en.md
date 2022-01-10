@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 indexImg: "artical8.jpg"
-description: "In the [scenario of using Dynamics 365 in sales](), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing?"
+description: "In the [scenario of using Dynamics 365 in sales](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing?"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-In the [scenario of using Dynamics 365 in sales](), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing? Nowadays, more than sales activities, how to effectively conduct marketing activities to increase the number of potential customers is becoming an indispensable part of a company's survival strategy.
+In the [scenario of using Dynamics 365 in sales](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing? Nowadays, more than sales activities, how to effectively conduct marketing activities to increase the number of potential customers is becoming an indispensable part of a company's survival strategy.
 
 In this scenario, let's take a look at a scenario in which two applications, Dynamics 365 for Sales and Dynamics 365 for Marketing, are used to perform marketing activities.
 

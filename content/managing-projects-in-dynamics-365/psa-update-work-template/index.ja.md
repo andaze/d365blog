@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-Dynamics 365 for Project Service Automation の作業テンプレートを更新する手順をご紹介します。[Project Service でプロジェクトを計画]() で作業テンプレートの作成手順をご紹介しましたが、これはすでに設定済みの作業テンプレートの休日や稼働時間などを変更したい場合の手順です。
+Dynamics 365 for Project Service Automation の作業テンプレートを更新する手順をご紹介します。[Project Service でプロジェクトを計画](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/plan-project-schedule-resource/) で作業テンプレートの作成手順をご紹介しましたが、これはすでに設定済みの作業テンプレートの休日や稼働時間などを変更したい場合の手順です。
 
 ## 作業テンプレートの更新方法
 すでに作成した作業テンプレートをリソースやプロジェクトに設定後、様々な要因で休日を追加したり、稼働時間を変更するなどの更新が必要かと思います。
@@ -53,7 +53,7 @@ Dynamics 365 for Project Service Automation の作業テンプレートを更新
 
 上部メニューから「作業時間」を選択します。必要な休暇を1日追加しましょう。
 
-※細かい手順は、[祝日の設定]() を参照してください。
+※細かい手順は、[祝日の設定](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/plan-project-schedule-resource/#i-3) を参照してください。
 <!-- Image= tips03.jpg -->
 {{< imagedisplay src="tips03.jpg" >}}
 

@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-This section provides instructions on how to update a work template in Dynamics 365 for Project Service Automation.In the previous section, "[Planning a Project with Project Service]()", we showed you how to create a work template, but this is the procedure to follow if you want to change the holidays, operating hours, etc. of a work template that has already been set up.
+This section provides instructions on how to update a work template in Dynamics 365 for Project Service Automation.In the previous section, "[Planning a Project with Project Service](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/plan-project-schedule-resource/)", we showed you how to create a work template, but this is the procedure to follow if you want to change the holidays, operating hours, etc. of a work template that has already been set up.
 
 ## How to update the working template
 After setting up the work templates you have already created for your resources and projects, you may need to update them by adding holidays or changing the operating hours due to various factors.
@@ -52,7 +52,7 @@ First, we will change the resource side. Select one resource other than the one 
 {{< imagedisplay src="tips02.jpg" >}}
 
 Select "Work Hours" from the top menu. Add the one day of vacation you need.
-*For detailed instructions, please refer to [Setting Holidays]().
+*For detailed instructions, please refer to [Setting Holidays](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/plan-project-schedule-resource/#i-3).
 <!-- Image= tips03.jpg -->
 {{< imagedisplay src="tips03.jpg" >}}
 

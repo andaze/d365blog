@@ -135,4 +135,4 @@ You should now see the newly created test service in the menu.
 
 As you can see, you can customize the sitemap in various ways, such as displaying custom-created entities, or setting a URL and having the user be redirected to the desired site just by clicking on this sub-area. Of course, you can also remove unnecessary entities from the menu. Please make use of it.
 
-Now, in the [next article](#), we will discuss web resources.
+Now, in the [next article](https://www.andaze.com/ja/dynamics365/maintaining-dynamics-365/customize-web-resource-process/), we will discuss web resources.

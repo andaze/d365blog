@@ -44,7 +44,7 @@ Dynamics 365 for Project Service Automation is an application for managing all p
 
 In addition, if you install the [Project Service Automation add-in](https://www.microsoft.com/ja-JP/download/details.aspx?id=54299) to your Microsoft Project client, you can manage the WBS of projects created with Dynamics 365 for Project Service Automation in your local Project Service Automation. This is quite a useful feature.
 
-*For more information about Dynamics 365 [applications](), please refer to the previous article.
+*For more information about Dynamics 365 [applications](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/dynamics365-types-application/), please refer to the previous article.
 
 ## Structure of Project Service Automation
 Before we install it, let's understand the main entities that make up Project Service Automation: In Dynamics 365 for Sales, we had leads, and from there we had business partners and representatives, and sales deals. In Service Automation, a quote is created from a sales case, and once that quote is accepted, a project contract is created. When a quote is accepted, a project contract is created, and project management is initiated by adding the project to the project contract.

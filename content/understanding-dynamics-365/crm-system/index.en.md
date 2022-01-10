@@ -93,5 +93,5 @@ Now that we understand the role of CRM systems in managing relationships between
 
 The two major CRM systems are Salesforce and Dynamics 365. And here I would like to take a deep dive into the appeal of Dynamics 365.
 
-In the next section, I will explain [why you should choose Dynamics 365]().
+In the next section, I will explain [why you should choose Dynamics 365](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/crm-dynamics-reason/).
 &nbsp;

@@ -100,7 +100,7 @@ Dynamics 365 のワークフロー プロセスはコーディングなしでも
 14回実行されたらプロセスを停止するような条件文を追加しておけば、「失敗」が記録されることはないでしょう。
 
 ### Batch Process を仕込む
-以前の記事  [Dynamics 365 バッチでプロセスを起動させる](#) で触れた「**Change Tracking Solution**」の Batch Process を使って、15回目以降の処理は、バッチで時間を空けて処理します。
+以前の記事  [Dynamics 365 バッチでプロセスを起動させる](https://www.andaze.com/ja/dynamics365/customizing-dynamics-365/use-batch-process/) で触れた「**Change Tracking Solution**」の Batch Process を使って、15回目以降の処理は、バッチで時間を空けて処理します。
 
 上記で設定した条件文のところで、「もし14回目になったら、バッチプロセスを作成するプロセスを実行する」のようなステップにしておきます。下図のように、「レコードの作成」で「Batch Process」を作成するエンティティとして設定します。
 

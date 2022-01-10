@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-In this article, I would like to talk about the "Sales Funnel", which I mentioned in the section ["Using Graphs in Dynamics 365"](#).
+In this article, I would like to talk about the "Sales Funnel", which I mentioned in the section ["Using Graphs in Dynamics 365"](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-dynamics-graph/).
 
 Let's start by understanding what a sales funnel is, and then let's actually create a sales funnel based on the data of potential customers called leads.
 

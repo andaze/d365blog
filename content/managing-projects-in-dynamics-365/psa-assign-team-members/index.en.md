@@ -59,7 +59,7 @@ The above explanation is a little difficult to understand, so I tried to represe
 <!-- Image= psa-assign02.png -->
 {{< imagedisplay src="psa-assign02.png" >}}
 
-The above figure shows the resources reserved for two days (8 hours x 2 = 16 hours) on 02/07/2019 - 02/08/2019, using the respective allocation methods. This 8-hour period is set in the [work template]().
+The above figure shows the resources reserved for two days (8 hours x 2 = 16 hours) on 02/07/2019 - 02/08/2019, using the respective allocation methods. This 8-hour period is set in the [work template](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/plan-project-schedule-resource/#i-4).
 
 This 16-hour period affects the "total capacity" and the "percentage of capacity".
   * In the case of "full capacity," you would be booking 100% of the time, so **8 hours over two days**, each for a single project.

@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical3.jpg"
-description: "これまで、CRM システムとして [Dynamics 365 はなぜおすすめ]()かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。"
+description: "これまで、CRM システムとして [Dynamics 365 はなぜおすすめ](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/crm-dynamics-reason/)かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro -->
-これまで、CRM システムとして [Dynamics 365 はなぜおすすめ]()かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。
+これまで、CRM システムとして [Dynamics 365 はなぜおすすめ](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/crm-dynamics-reason/)かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。
 
 ## Dynamics 365 for Sales で営業支援
 **Dynamics 365 for Sales** というアプリケーションは、Dynamics 365 で一番人気のアプリケーションです。Sales Force Automation（営業活動の自動化）のアプリケーションになり、営業の活動データを蓄積して、最適なネクストアクションを促すアプリケーションです。そして、営業が生み出す組織の利益を最大化するために活用します。

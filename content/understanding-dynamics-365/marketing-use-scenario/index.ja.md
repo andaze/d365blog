@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 indexImg: "artical8.jpg"
-description: "[Dynamics 365 を営業で活用するシナリオ]()では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？"
+description: "[Dynamics 365 を営業で活用するシナリオ](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/)では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-[Dynamics 365 を営業で活用するシナリオ]()では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？今では、営業活動以上に、マーケティング活動をどのように効果的に行って、見込み顧客を増やしていくかは企業の生き残り戦略に欠かせないものになってきています。
+[Dynamics 365 を営業で活用するシナリオ](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/)では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？今では、営業活動以上に、マーケティング活動をどのように効果的に行って、見込み顧客を増やしていくかは企業の生き残り戦略に欠かせないものになってきています。
 
 
 このシナリオでは、Dynamics 365 for Sales と Dynamics 365 for Marketing の２つアプリケーションを駆使して、マーケティング活動を行った場合のシナリオについてご紹介しましょう。

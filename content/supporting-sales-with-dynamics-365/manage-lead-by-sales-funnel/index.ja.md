@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-今回は、[Dynamics 365 でグラフを使ってみる](#)　のグラフの利用でも触れた「セールス ファネル」についてです。
+今回は、[Dynamics 365 でグラフを使ってみる](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-dynamics-graph/)　のグラフの利用でも触れた「セールス ファネル」についてです。
 
 そもそもセールス ファネルとは何か、を理解することをはじめ、実際にリードという潜在顧客のデータをもとに、セールス ファネルを作成してみましょう。
 

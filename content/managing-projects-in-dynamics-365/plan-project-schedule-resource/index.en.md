@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "Now that we have completed the [creation of the previous project](), let's fill in the contents of the project. "
+description: "Now that we have completed the [creation of the previous project](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/), let's fill in the contents of the project. "
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-Now that we have completed the [creation of the previous project](), let's fill in the contents of the project.    
+Now that we have completed the [creation of the previous project](https://www.andaze.com/ja/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/), let's fill in the contents of the project.    
 When a project starts, a project plan is generally prepared with the following structure.
 
   * Project Objectives and Goals

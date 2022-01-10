@@ -103,7 +103,7 @@ Project に Dynamics 365 プロジェクトの WBS を読み込みます。メ�
 <!-- Image= psa-project11.png -->
 {{< imagedisplay src="psa-project11.png" >}}
 
-※ 「アップロード」は事前に Dynamics 365 と SharePoint の連携を設定していないと表示されません。SharePoint との連携手順は、[Dynamics 365ドキュメント SharePoint に保存する]() をご参照ください。
+※ 「アップロード」は事前に Dynamics 365 と SharePoint の連携を設定していないと表示されません。SharePoint との連携手順は、[Dynamics 365ドキュメント SharePoint に保存する](https://www.andaze.com/ja/dynamics365/integrating-dynamics-365-with-other-systems/use-sharepoint-saving-docs/) をご参照ください。
 
 ダイアログで「はい」をクリックします。
 <!-- Image= psa-project12.png -->

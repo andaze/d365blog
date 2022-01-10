@@ -112,7 +112,7 @@ The function of posting is very useful, and if you want to take advantage of it 
 
 Now, hypothetically, I will tell you how to create a new process if you want to automatically post to the wall when the field "Representative Phone" of a company you do business with is updated.
 
-First, go to the New Process screen as usual, and configure as follows. The target entity is "Client Company". (*For details on how to create a process, please refer to "[Using Dynamics 365 Processes (Workflow)](#)")
+First, go to the New Process screen as usual, and configure as follows. The target entity is "Client Company". (*For details on how to create a process, please refer to "[Using Dynamics 365 Processes (Workflow)](https://www.andaze.com/ja/dynamics365/maintaining-dynamics-365/dynamics-365-process-use/)")
 <!-- Image= wall11.png -->
 {{< imagedisplay src="wall11.png" >}}
 

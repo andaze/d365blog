@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-[前回の記事](#)で、単一の製品と値引き表まで作成しました。今回は製品ファミリを構成して、ファミリに製品を関連させてみます。それでは、**製品ファミリ**の利用方法について述べていきます。
+[前回の記事](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-catalog-for-sales/)で、単一の製品と値引き表まで作成しました。今回は製品ファミリを構成して、ファミリに製品を関連させてみます。それでは、**製品ファミリ**の利用方法について述べていきます。
 
 
 ## 製品ファミリを作成する
@@ -127,4 +127,4 @@ jsonld: {
 
 [https://docs.microsoft.com/ja-jp/dynamics365/customer-engagement/sales-enterprise/create-product-bundles-sell-multiple-items-together](https://docs.microsoft.com/ja-jp/dynamics365/customer-engagement/sales-enterprise/create-product-bundles-sell-multiple-items-together)
 
-[次回](#)は作成している値引き表を利用してみましょう。
+[次回](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/use-discount-price-lists/)は作成している値引き表を利用してみましょう。

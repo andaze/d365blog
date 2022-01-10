@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical2.jpg"
-description: "In the previous[ Understanding CRM Systems]() article, you learned about CRM, why you need it, and the value of centralizing your information. If you are considering implementing a CRM system, I recommend Dynamics 365 from Microsoft. So why should you choose Dynamics 365? Let's take a look at why you should choose Dynamics 365."
+description: "In the previous[ Understanding CRM Systems](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/crm-system/) article, you learned about CRM, why you need it, and the value of centralizing your information. If you are considering implementing a CRM system, I recommend Dynamics 365 from Microsoft. So why should you choose Dynamics 365? Let's take a look at why you should choose Dynamics 365."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-In the previous[ Understanding CRM Systems]() article, you learned about CRM, why you need it, and the value of centralizing your information. If you are considering implementing a CRM system, I recommend Dynamics 365 from Microsoft. So why should you choose Dynamics 365? Let's take a look at why you should choose Dynamics 365.
+In the previous[ Understanding CRM Systems](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/crm-system/) article, you learned about CRM, why you need it, and the value of centralizing your information. If you are considering implementing a CRM system, I recommend Dynamics 365 from Microsoft. So why should you choose Dynamics 365? Let's take a look at why you should choose Dynamics 365.
 
 
 ## What is Dynamics 365?

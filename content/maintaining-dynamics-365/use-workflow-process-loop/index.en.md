@@ -101,7 +101,7 @@ Figure out the maximum number of times the process you want to loop can be execu
 If you add a conditional statement that stops the process after 14 executions, you will never see a "failure" recorded.
 
 ### Embed the Batch Process
-Using the Batch Process of the "**Change Tracking Solution**" mentioned in the previous article on [launching processes in Dynamics 365 batches](#), the 15th and subsequent processes will be processed in batches with a time interval.
+Using the Batch Process of the "**Change Tracking Solution**" mentioned in the previous article on [launching processes in Dynamics 365 batches](https://www.andaze.com/ja/dynamics365/customizing-dynamics-365/use-batch-process/), the 15th and subsequent processes will be processed in batches with a time interval.
 
 In the conditional statement set above, make it a step like "If it is the 14th time, execute the process to create the batch process. Set "Batch Process" as the entity to be created in "Create Record" as shown in the figure below.
 <!-- Image= loop07.jpg -->

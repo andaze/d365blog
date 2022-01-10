@@ -97,4 +97,4 @@ Now click on the "Update" button to update the business process flow. After that
 
 You can create a business process flow tailored to your company to more accurately understand the status of business negotiations.
 
-In the [next article](#), I will let you know how to link activities to sales projects to further promote business negotiations.
+In the [next article](https://www.andaze.com/ja/dynamics365/supporting-sales-with-dynamics-365/p1036/), I will let you know how to link activities to sales projects to further promote business negotiations.

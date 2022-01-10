@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "[Dynamics 365 の提供するアプリケーションを理解する]()にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。"
+description: "[Dynamics 365 の提供するアプリケーションを理解する](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/dynamics365-types-application/)にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
@@ -36,7 +36,7 @@ jsonld: {
 {{< detailTopImage >}}
 {{< authorImage src="authorimage.jpg" name="Takafumi Noguchi" linkdin="https://www.linkedin.com/in/tnoguchi1123531" >}}
 <!-- Intro  -->
-[Dynamics 365 の提供するアプリケーションを理解する]()にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。
+[Dynamics 365 の提供するアプリケーションを理解する](https://www.andaze.com/ja/dynamics365/understanding-dynamics-365/dynamics365-types-application/)にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。
 
 ただ、今回の記事では、Dynamics 365 を導入する前に、必ず意識してほしいことをお伝えします。それは**Dynamics 365 を導入することがゴールではない**ということです。なぜ、今更そういったことをお伝えしているかというと、「システム導入がゴール」 になっているプロジェクトは、意外と多く存在しています。
 
