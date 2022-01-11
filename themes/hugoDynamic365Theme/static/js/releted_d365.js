@@ -1,4 +1,4 @@
-const query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/*/queries";
+const releted_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/*/queries";
 
 async function showList() {
   const headers = {
@@ -7,17 +7,29 @@ async function showList() {
     "X-Algolia-API-Key": "2b38225995523c5ee9697817c6a850be",
     "X-Algolia-Application-Id": "9V4M3BO2Z4"
   };
+
+  let algoliaIndex;
+  let currentLang = document.getElementById('reletedLang').value;
+  if(currentLang == "en")
+  {
+    algoliaIndex = "d365_english_content";
+  }
+  if(currentLang == "ja")
+  {
+    algoliaIndex = "d365_japanese_content";
+  }
+
   const data = {
     requests: [
       {
-        indexName: "d365_english_content",
+        indexName: algoliaIndex,
         params:
           "attributes=title,url,indexImg&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
       },
     ],
   };
 
-  const responseData = await fetch(query_url, {
+  const responseData = await fetch(releted_query_url, {
     method: "POST",
     headers,
     body: JSON.stringify(data),

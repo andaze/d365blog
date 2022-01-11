@@ -92,16 +92,13 @@
                         <div class="text-center">
                           <h3 class="new-header-text">Those who read this article have read other articles like this.</h3>
                         </div>
-                        {{ if eq (print .Lang) ("en")}}
-                          <amp-script src="{{`js/releted_d365_en.js` | absURL }}" width="auto" height="500">
-                            <div class="article-new-listing" id="releted"></div>
-                          </amp-script>
-                        {{ end }}
-                        {{ if eq (print .Lang) ("ja")}}
-                          <amp-script src="{{`js/releted_d365_ja.js` | absURL }}" width="auto" height="500">
-                            <div class="article-new-listing" id="releted"></div>
-                          </amp-script>
-                        {{ end }}
+                        <!-- <script src="{{`js/releted_d365.js` | absURL }}"></script>
+                        <div class="article-new-listing" id="releted"></div> -->
+                        <amp-script layout="fill" src="{{`js/releted_d365.js` | absURL }}" class="pos-relative">
+                          <input type="hidden" id="reletedLang" name="reletedLang" value="{{.Lang}}">
+                          <div class="article-new-listing" id="releted"></div>
+                        </amp-script>
+
                         <!-- <div class="article-new-listing"> -->
                           <!-- <div class="article-list">
                             <a href="#" class="article-list-img">
@@ -158,16 +155,13 @@
                         <div class="text-center">
                             <h3 class="new-header-text">Popular articles</h3>
                         </div>
-                        {{ if eq (print .Lang) ("en")}}
-                          <amp-script src="{{`js/popular_d365_en.js` | absURL }}" width="auto" height="500">
+                        <!-- <script src="{{`js/popular_d365.js` | absURL }}"></script>
+                        <div class="popular-listing" id="popular"></div> -->
+                        <amp-script layout="fill" src="{{`js/popular_d365.js` | absURL }}" class="pos-relative">
+                            <input type="hidden" id="popularLang" name="popularLang" value="{{.Lang}}">
                             <div class="popular-listing" id="popular"></div>
-                          </amp-script>
-                        {{ end }}
-                        {{ if eq (print .Lang) ("ja")}}
-                          <amp-script src="{{`js/popular_d365_ja.js` | absURL }}" width="auto" height="300">
-                            <div class="popular-listing" id="popular"></div>
-                          </amp-script>
-                        {{ end }}
+                        </amp-script>
+                        
                         <!-- <div class="popular-listing" id="popular"> -->
                             <!-- <div class="popular-list">
                                 <div class="popular-list-img">

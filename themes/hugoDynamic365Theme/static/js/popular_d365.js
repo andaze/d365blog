@@ -1,4 +1,14 @@
-const query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?hitsPerPage=6";
+let popular_query_url;
+let currentLang = document.getElementById('popularLang').value;
+if(currentLang == "en")
+{
+  popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_english_content?hitsPerPage=6";
+}
+if(currentLang == "ja")
+{
+  popular_query_url = "https://9V4M3BO2Z4-1.algolianet.com/1/indexes/d365_japanese_content?hitsPerPage=6";
+}
+
 
 async function showList() {
   const headers = {
@@ -10,14 +20,14 @@ async function showList() {
   // const data = {
   //   requests: [
   //     {
-  //       indexName: "d365_japanese_content",
+  //       indexName: "d365_english_content",
   //       params:
   //         "attributes=title,url,dir&hitsPerPage=6&query=&sumOrFiltersScores=true&highlightPreTag=__ais-highlight__&highlightPostTag=__%2Fais-highlight__&facets=%5B%5D&tagFilters=",
   //     },
   //   ],
   // };
 
-  const responseData = await fetch(query_url, {
+  const responseData = await fetch(popular_query_url, {
     method: "GET",
     headers,
     // body: JSON.stringify(data),

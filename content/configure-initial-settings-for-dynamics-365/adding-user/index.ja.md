@@ -81,7 +81,7 @@ Dynamics 365 にユーザーが追加されたかどうかを確認します。�
 
 「ユーザー」 にアクセスします。
 <!-- Image= Users.png -->
-{{< imagedisplay src="Settings-1.png" >}}
+{{< imagedisplay src="Users.png" >}}
 
 
 ライセンスを付与されたアカウントが 「有効なユーザー」の一覧に自動で反映されます。
