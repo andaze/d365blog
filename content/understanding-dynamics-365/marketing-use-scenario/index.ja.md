@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 indexImg: "artical8.jpg"
-description: "[Dynamics 365 を営業で活用するシナリオ](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/)では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？"
+description: "Dynamics 365 を営業で活用するシナリオ では、営業が Dynamics 365を活用した場合のシナリオについてご紹介しました。それでは、マーケティングにおいて Dynamics 365 を活用したらどうなるでしょうか？"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

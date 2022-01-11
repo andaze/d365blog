@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical2.jpg"
-description: "Now that we have [completed the structure and configuration](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/setup-dynamics-project/) of Dynamics 365 for Project Service Automation (PSA), let's create a project and start managing it."
+description: "Now that we have completed the structure and configuration of Dynamics 365 for Project Service Automation (PSA), let's create a project and start managing it."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

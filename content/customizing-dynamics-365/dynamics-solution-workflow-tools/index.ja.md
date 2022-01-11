@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、[サードパーティ製のおすすめソリューションは何か](https://www.andaze.com/en/dynamics365/maintaining-dynamics-365/whats-3rd-party-solutions/) でおススメしたソリューションの利用方法になります。"
+description: "Dynamics 365 ワークフローの機能を大きく拡張する Dynamics 365 Workflow Tools をご紹介します。以前、 サードパーティ製のおすすめソリューションは何か でおススメしたソリューションの利用方法になります。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

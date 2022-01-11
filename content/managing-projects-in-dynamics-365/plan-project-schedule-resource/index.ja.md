@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "前回[プロジェクトの作成](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/)が完了したので、今度はプロジェクトの中身を埋めていきましょう。"
+description: "前回 プロジェクトの作成 が完了したので、今度はプロジェクトの中身を埋めていきましょう。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

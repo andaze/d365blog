@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical2.jpg"
-description: "前回 [CRM システムについて理解する](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/crm-system/)では、CRM についての概要や必要な理由、そして情報を一元化することの価値について学んできました。もし CRM システムを導入することを検討しているのであれば、マイクロソフトが提供する Dynamics 365 をここではおすすめしています。それでは、なぜ Dynamics 365 を選ぶべきなのか？についてご紹介します。"
+description: "前回 CRM システムについて理解する では、CRM についての概要や必要な理由、そして情報を一元化することの価値について学んできました。もし CRM システムを導入することを検討しているのであれば、マイクロソフトが提供する Dynamics 365 をここではおすすめしています。それでは、なぜ Dynamics 365 を選ぶべきなのか？についてご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "[Dynamics 365 の提供するアプリケーションを理解する](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/dynamics365-types-application/)にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。"
+description: "Dynamics 365 の提供するアプリケーションを理解する にて、Dynamics 365 で提供する様々なアプリケーションを理解できたと思います。Dynamics 365 はアプリケーションを駆使することで、SFAだけの領域にとどまらず、人事や経理、マーケティングやプロジェクトマネージメントまで、幅広く活用できます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

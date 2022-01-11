@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical3.jpg"
-description: "これまで、CRM システムとして [Dynamics 365 はなぜおすすめ](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/crm-dynamics-reason/)かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。"
+description: "これまで、CRM システムとして Dynamics 365 はなぜおすすめ かをご紹介してきましたが、その際に、Dynamics 365 で提供されているアプリケーションについてすこし触れました。ここではその各アプリケーションをご紹介します。Dynamics 365 は営業支援のシステムからはじまり、マーケティングやサポートサービス、プロジェクト管理や人事と様々な特徴についてご紹介します。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

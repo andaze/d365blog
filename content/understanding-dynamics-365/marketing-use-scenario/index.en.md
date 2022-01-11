@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: true
 rightMenu: "artical"
 indexImg: "artical8.jpg"
-description: "In the [scenario of using Dynamics 365 in sales](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/use-scenario-dynamics-sales/), we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing?"
+description: "In the scenario of using Dynamics 365 in sales, we introduced a scenario of using Dynamics 365 in sales. Now, what would happen if Dynamics 365 is used in marketing?"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

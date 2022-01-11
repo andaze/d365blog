@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical3.jpg"
-description: "In the previous article, I have explained [why I recommend Dynamics 365 as a CRM system](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/crm-dynamics-reason/). In that article, I mentioned some of the applications available in Dynamics 365. In this section, I will introduce each application, starting from the sales support system to marketing, support services, project management, and human resources."
+description: "In the previous article, I have explained why I recommend Dynamics 365 as a CRM system. In that article, I mentioned some of the applications available in Dynamics 365. In this section, I will introduce each application, starting from the sales support system to marketing, support services, project management, and human resources."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

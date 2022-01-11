@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "Now that you[ understand the various applications provided by Dynamics 365](https://www.andaze.com/en/dynamics365/understanding-dynamics-365/dynamics365-types-application/), you can use Dynamics 365 not only for SFA but also for HR, accounting, marketing and project management. Dynamics 365 can be used not only for SFA but also for HR, accounting, marketing and project management."
+description: "Now that you understand the various applications provided by Dynamics 365, you can use Dynamics 365 not only for SFA but also for HR, accounting, marketing and project management. Dynamics 365 can be used not only for SFA but also for HR, accounting, marketing and project management."
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

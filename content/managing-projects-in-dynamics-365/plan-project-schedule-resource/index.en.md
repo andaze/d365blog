@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical4.jpg"
-description: "Now that we have completed the [creation of the previous project](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-create-project/), let's fill in the contents of the project. "
+description: "Now that we have completed the creation of the previous project, let's fill in the contents of the project. "
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",

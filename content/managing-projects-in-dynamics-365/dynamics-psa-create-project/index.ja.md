@@ -7,7 +7,7 @@ showinhome: true
 showinaccordian: false
 rightMenu: "artical"
 indexImg: "artical3.jpg"
-description: "前回の続きです。Dynamics 365 for Project Service Automation (Project Service) で[リードから営業案件を作成](https://www.andaze.com/en/dynamics365/managing-projects-in-dynamics-365/dynamics-psa-lead-to-opportunity/)したら、今度はプロジェクトを作成するところまでを行っていきます。"
+description: "前回の続きです。Dynamics 365 for Project Service Automation (Project Service) でリードから営業案件を作成したら、今度はプロジェクトを作成するところまでを行っていきます。"
 jsonld: {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
