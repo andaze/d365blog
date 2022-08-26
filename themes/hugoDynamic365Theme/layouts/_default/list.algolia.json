@@ -29,7 +29,7 @@
         {{ end }}
         {{ $indexImg := $Scratch.Get "indexImg" }}
         
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
       {{ end }}
     {{- end -}}
   {{- end -}}
@@ -57,7 +57,7 @@
           {{ $Scratch.Set "indexImg" (`images/demo.png` | absURL) }}
         {{ end }}
         {{ $indexImg := $Scratch.Get "indexImg" }}
-        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
+        {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Title  "url" $pageurl  "description" .Description "dir" .File.Dir "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "readingtime" .ReadingTime  "summary" .Summary  "wordcount" .WordCount "section" .Section "indexImg" $indexImg )}}
       {{ end }}
     {{- end -}}
   {{- end -}}
