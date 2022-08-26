@@ -21,7 +21,7 @@
                 {{ $section := site.GetPage $basedir }}
                 {{ range $section.Pages.ByWeight }}         
                 <li>
-                  {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "on" "tap:aboutMenu.toggleVisibility")}}
+                  {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "on" "tap:aboutMenu.toggleVisibility")}}
                   {{.Title }}</a>
 
                 </li>
@@ -32,7 +32,7 @@
           <div class="middle-page-wrapper">
             <div class="inner-wrapper">
               <div class="top-header">
-                {{.Params.Datetitle}}   {{ with site.GetPage $basedir }} {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "class" "title")}} {{$basedir}}</a>/ {{ end }}
+                {{.Params.Datetitle}}   {{ with site.GetPage $basedir }} {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "class" "title")}} {{$basedir}}</a>/ {{ end }}
                 {{ if .Title }}
                 <h1 class="main-title">{{ .Title }}</h1>
                 {{ end }}
@@ -81,10 +81,10 @@
                   <button class="btn btn-success detail-btn-center">{{ partial "language_url_change.html" (dict "path" (.PrevInSection.Permalink)) }} {{.PrevInSection.Title}} </a> </button>
                   {{end}}
                       {{ with .Site.GetPage }}
-                        {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "style" "color:darkgray" ) }}{{ .Title }}
+                        {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "style" "color:darkgray" ) }}{{ .Title }}
                         </a>{{ end }}/
                       {{ with site.GetPage $basedir }}
-                      {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "style" "color:darkgray" ) }} 
+                      {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "style" "color:darkgray" ) }} 
                        {{$basedir}}{{ end }}  </a>/<a style="list-style-type: none; color: darkgray;" href="#">{{ path.Base .Page.Permalink }}</a>
 
 

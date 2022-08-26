@@ -180,7 +180,7 @@
       </span>
       {{ with .Site.GetPage "/" }}
       {{ range .Sections }}
-      <a href="{{ .URL | absURL }}">{{ .Params.Heading }}</a>
+      <a href="{{ .Permalink | absURL }}">{{ .Params.Heading }}</a>
       {{ end }}
       {{ end }}
     </div>

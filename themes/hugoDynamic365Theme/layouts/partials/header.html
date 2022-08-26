@@ -108,7 +108,7 @@
       {{ if eq .Params.RightMenu "chepter" }}
         {{ with .Site.GetPage "/" }}
           {{ range .Sections }}
-            {{ partial "language_url_change.html" (dict "path" (.URL | absURL) )}}
+            {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) )}}
               {{ .Params.Heading }}</a>
           {{ end }}
         {{ end }}
@@ -128,7 +128,7 @@
         {{ $basedir := index $type_arr 0 }}
         {{ $section := site.GetPage $basedir }}
         {{ range $section.Pages.ByWeight }} 
-          {{ partial "language_url_change.html" (dict "path" (.URL | absURL) )}} {{.Title}}</a>
+          {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) )}} {{.Title}}</a>
         {{ end }}
       {{ end }}
     </div>

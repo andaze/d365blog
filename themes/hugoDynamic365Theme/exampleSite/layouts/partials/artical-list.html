@@ -5,14 +5,14 @@
             {{ $getpage:= .File.Dir }}
             {{ $section := site.GetPage (trim $getpage "\\") }}
             {{ range $section.Pages.ByWeight }} 
-                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .URL | absURL }}">{{ .Title }}</a></li>
+                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .Permalink | absURL }}">{{ .Title }}</a></li>
         {{ end }}
         </ul>   
     </div>
     <div class="col-6">
         <div class="row">
             <div class="col">                
-                <h5 style="color: darkgray;">{{.Params.Datetitle}} {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/</h5>
+                <h5 style="color: darkgray;">{{.Params.Datetitle}} {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .Permalink | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/</h5>
                 {{ if .Params.Heading }}
                 <h3 style=" font-size:30px;font-weight: 900;">{{.Params.Heading}}</h3>
                 {{ end }}
@@ -70,8 +70,8 @@
 <hr>
 <div class="row">
     <div class="col">
-            {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-            {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
+            {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.Permalink | absURL }}">{{ .Title }}</a>{{ end }}/
+            {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .Permalink | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
 
     </div>
 </div> -->
@@ -88,7 +88,7 @@
                 {{ $section := site.GetPage (trim $getpage "\\") }}
                 {{ range $section.Pages.ByWeight }}         
                 <li>
-                  <a href=" {{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{.Title }}</a>
+                  <a href=" {{ .Permalink | absURL }}" on="tap:aboutMenu.toggleVisibility">{{.Title }}</a>
                   <!-- <ul class="sub-navigation-list" id="aboutMenu" hidden>
                     <li><a href="#">Overview</a></li>
                     <li><a href="#">Hugo's Security Model</a></li>
@@ -106,7 +106,7 @@
           <div class="middle-page-wrapper">
             <div class="inner-wrapper">
               <div class="top-header">
-                {{.Params.Datetitle}}  {{ with .Site.GetPage (trim $getpage "\\") }}<a href="{{ .URL | absURL }}" class="title">{{.Title}}</a>{{ end }}/ 
+                {{.Params.Datetitle}}  {{ with .Site.GetPage (trim $getpage "\\") }}<a href="{{ .Permalink | absURL }}" class="title">{{.Title}}</a>{{ end }}/ 
                 {{ if .Params.Heading }}
                 <h1 class="main-title">{{.Params.Heading}}</h1>
                 {{ end }}
@@ -141,8 +141,8 @@
                   {{if .PrevInSection}}
                   <button class="btn btn-success "><a href="{{.PrevInSection.Permalink}}"> {{.PrevInSection.Title}} </a> </button>
                   {{end}}
-                      {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.URL | absURL }}">{{ .Title }}</a>{{ end }}/
-                      {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .URL | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
+                      {{ with .Site.GetPage }}<a style="list-style-type: none; color: darkgray;" href="{{.Permalink | absURL }}">{{ .Title }}</a>{{ end }}/
+                      {{ with .Site.GetPage (trim $getpage "\\") }} <a style="list-style-type: none; color: darkgray;" href="{{ .Permalink | absURL }}"> {{ end }} {{ trim $getpage "\\" }} </a>/ <a style="list-style-type: none; color: darkgray;" href="">{{ .Title }}</a>
           </div>
           
           <div class="right-page-wrapper">

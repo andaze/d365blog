@@ -22,7 +22,7 @@
                     {{ with .Site.GetPage "/"}}
                     {{ range .Sections }}
                     <li itemprop="name">
-                        {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "itemprop" "url")}}
+                        {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "itemprop" "url")}}
                         {{ .Params.Heading }}</a></li>
                     {{ end }}
                     {{ end }}

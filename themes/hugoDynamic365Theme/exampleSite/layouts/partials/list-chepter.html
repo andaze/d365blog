@@ -9,7 +9,7 @@
             <!-- show Chepter Code in SideBar -->
             <!-- {{ with .Site.GetPage "/" }}
             {{ range .Sections }}
-                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .URL | absURL }}">{{ .Params.Heading }}</a></li>
+                <li class="p-2" style="font-weight: 500;"><a style="color:black;" href="{{ .Permalink | absURL }}">{{ .Params.Heading }}</a></li>
             {{ end }}
             {{ end }}
         </ul>                
@@ -31,7 +31,7 @@
                             {{ range $section.Pages.ByWeight }} 
                             <div class="col-6 p-2">
                                 <div class="card">
-                                    <div class="card-body"><a style="list-style-type: none;" href="{{ .URL | absURL }}">{{ .Title }}</a></a></div>
+                                    <div class="card-body"><a style="list-style-type: none;" href="{{ .Permalink | absURL }}">{{ .Title }}</a></a></div>
                                 </div>
                             </div>
                             {{ end }}
@@ -64,7 +64,7 @@
                             {{ with .Site.GetPage "/" }}
                             {{ range .Sections }}
                             <li>
-                                <a href= "{{ .URL | absURL }}" on="tap:aboutMenu.toggleVisibility">{{ .Params.Heading }}</a>
+                                <a href= "{{ .Permalink | absURL }}" on="tap:aboutMenu.toggleVisibility">{{ .Params.Heading }}</a>
                                 <!-- <ul class="sub-navigation-list" id="aboutMenu" hidden>
                                     <li><a href="#">Overview</a></li>
                                 </ul> -->
@@ -85,12 +85,12 @@
                             {{ range $section.Pages.ByWeight }} 
                             <div class="listing-card">
                                 <div class="inner-card">
-                                    <h3 class="header-text"><a href="{{ .URL | absURL }}" class="text-primary">{{ .Title }}</a></h3>
+                                    <h3 class="header-text"><a href="{{ .Permalink | absURL }}" class="text-primary">{{ .Title }}</a></h3>
                                     <p class="desc">Hugo uses Go’s html/template and text/template libraries as the
                                         basis for
                                         the templating.
                                     </p>
-                                    <a href="{{ .URL | absURL }}" class="link-btn text-primary">Read More</a>
+                                    <a href="{{ .Permalink | absURL }}" class="link-btn text-primary">Read More</a>
                                 </div>
                             </div>
                             {{ end }}

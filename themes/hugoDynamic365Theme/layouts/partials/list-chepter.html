@@ -8,7 +8,7 @@
                             {{ with .Site.GetPage "/" }}
                             {{ range .Sections }}
                             <li>
-                                {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "on" "tap:aboutMenu.toggleVisibility" )}}
+                                {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "on" "tap:aboutMenu.toggleVisibility" )}}
                                 {{ .Params.Heading }}</a>
                                 <!-- <ul class="sub-navigation-list" id="aboutMenu" hidden>
                                     <li><a href="#">Overview</a></li>
@@ -29,7 +29,7 @@
                             {{ $section := site.GetPage $getpage }}
                             {{ range $section.Pages.ByWeight }} 
                             {{ if .Params.showinhome }}
-                            {{ partial "language_url_change.html" (dict "path" (.URL | absURL) "class" "listing-card") }}
+                            {{ partial "language_url_change.html" (dict "path" (.Permalink | absURL) "class" "listing-card") }}
                                 <div class="inner-card">
                                     <h3 class="header-text">{{ .Title }}</h3>
                                     <p class="desc">{{ .Description }} </p>
