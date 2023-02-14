@@ -1,7 +1,7 @@
 baseURL = "https://dynamics365andaze.netlify.app/"
 
 defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ja"
 languageCode = "en-us"
 title = ""
 theme = "hugoDynamic365Theme"
